@@ -72,7 +72,7 @@ SELECTED {
   "public_score": null
 }
 origin                       2025-07-01  2025-08-01  2025-09-01  2025-10-01
-model                                                                      
+model
 incumbent_v8                   0.812593    0.888256    0.905714    0.912164
 new_consistency_raw            0.852798    0.847983    0.902377    0.912726
 new_consistency_seed_mean      0.852798    0.847983    0.902377    0.912726
