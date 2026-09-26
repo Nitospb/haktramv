@@ -1,0 +1,225 @@
+{
+  "base_sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+  "base_public_score": 0.89214,
+  "rows_per_file": 14640,
+  "hypotheses": [
+    {
+      "name": "01_level_down3",
+      "hypothesis": "V8 total level multiplied by 0.97.",
+      "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
+      "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3",
+      "prediction_total": 12151066,
+      "changed_rows": 10640,
+      "public_score": null
+    },
+    {
+      "name": "02_level_up3",
+      "hypothesis": "V8 total level multiplied by 1.03.",
+      "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+      "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+      "prediction_total": 12902502,
+      "changed_rows": 10640,
+      "public_score": null
+    },
+    {
+      "name": "03_month_tilt",
+      "hypothesis": "First month +3%, offset by second month reduction; exact two-month total per route preserved.",
+      "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
+      "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d",
+      "prediction_total": 12526784,
+      "changed_rows": 10628,
+      "public_score": null
+    },
+    {
+      "name": "04_weekends_up6",
+      "hypothesis": "Non-working days +6%, offset by working days; exact monthly total per route preserved.",
+      "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
+      "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec",
+      "prediction_total": 12526784,
+      "changed_rows": 10609,
+      "public_score": null
+    },
+    {
+      "name": "05_weekly_shape",
+      "hypothesis": "Pure v16 weekly-network shape, rescaled to exact V8 monthly totals per route.",
+      "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
+      "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b",
+      "prediction_total": 12526784,
+      "changed_rows": 12317,
+      "public_score": null
+    }
+  ],
+  "development_metrics": [
+    {
+      "origin": "2025-07-01",
+      "model": "v8_rounded",
+      "score": 0.8125934583787979,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "01_level_down3",
+      "score": 0.8301096619252537,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "02_level_up3",
+      "score": 0.7911550144710204,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "03_month_tilt",
+      "score": 0.8104890121243277,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "04_weekends_up6",
+      "score": 0.816016655680224,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "05_weekly_shape",
+      "score": 0.8092241146449864,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "v8_rounded",
+      "score": 0.8882704870824096,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "01_level_down3",
+      "score": 0.8858226074042447,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "02_level_up3",
+      "score": 0.8842128561729518,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "03_month_tilt",
+      "score": 0.8849118638508646,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "04_weekends_up6",
+      "score": 0.8895325236690772,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "05_weekly_shape",
+      "score": 0.8694296598322644,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "v8_rounded",
+      "score": 0.9057263874555146,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "01_level_down3",
+      "score": 0.9056739353016403,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "02_level_up3",
+      "score": 0.8988592322964768,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "03_month_tilt",
+      "score": 0.8986013621408822,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "04_weekends_up6",
+      "score": 0.9060464318383477,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "05_weekly_shape",
+      "score": 0.892708060798397,
+      "days": 61,
+      "applicable": true
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "v8_rounded",
+      "score": 0.9121769780076155,
+      "days": 31,
+      "applicable": true
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "01_level_down3",
+      "score": 0.9048576864972339,
+      "days": 31,
+      "applicable": true
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "02_level_up3",
+      "score": 0.9125903408116532,
+      "days": 31,
+      "applicable": true
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "03_month_tilt",
+      "score": 0.9121769780076155,
+      "days": 31,
+      "applicable": false
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "04_weekends_up6",
+      "score": 0.9115022173410464,
+      "days": 31,
+      "applicable": true
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "05_weekly_shape",
+      "score": 0.9067728382949231,
+      "days": 31,
+      "applicable": true
+    }
+  ],
+  "purpose": "User requested five free submission probes before reset; no training, no hidden labels.",
+  "caveat": "Diagnostic probes, not validated improvements. Existing development windows overlap and were previously explored. Month-tilt is inapplicable to October-only validation.",
+  "best_submission_unchanged": true
+}

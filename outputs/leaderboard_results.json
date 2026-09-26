@@ -109,5 +109,50 @@
     "decision": "rejected as replacement; v8 public-best remains 0.89214",
     "submitted_at": "2026-09-26 23:33 +03:00",
     "file_mapping": "Assumed latest delivered submission_weekly_logratio_v17.csv; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
+    "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3",
+    "score": null,
+    "status": "diagnostic_probe_created; upload_not_confirmed",
+    "source": "User requested five free submission hypotheses before reset",
+    "hypothesis": "V8 total level multiplied by 0.97.",
+    "decision": "do not replace v8 without a better user-reported score"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+    "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+    "score": null,
+    "status": "diagnostic_probe_created; upload_not_confirmed",
+    "source": "User requested five free submission hypotheses before reset",
+    "hypothesis": "V8 total level multiplied by 1.03.",
+    "decision": "do not replace v8 without a better user-reported score"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
+    "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d",
+    "score": null,
+    "status": "diagnostic_probe_created; upload_not_confirmed",
+    "source": "User requested five free submission hypotheses before reset",
+    "hypothesis": "First month +3%, offset by second month reduction; exact two-month total per route preserved.",
+    "decision": "do not replace v8 without a better user-reported score"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
+    "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec",
+    "score": null,
+    "status": "diagnostic_probe_created; upload_not_confirmed",
+    "source": "User requested five free submission hypotheses before reset",
+    "hypothesis": "Non-working days +6%, offset by working days; exact monthly total per route preserved.",
+    "decision": "do not replace v8 without a better user-reported score"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
+    "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b",
+    "score": null,
+    "status": "diagnostic_probe_created; upload_not_confirmed",
+    "source": "User requested five free submission hypotheses before reset",
+    "hypothesis": "Pure v16 weekly-network shape, rescaled to exact V8 monthly totals per route.",
+    "decision": "do not replace v8 without a better user-reported score"
   }
 ]

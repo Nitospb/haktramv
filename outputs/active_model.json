@@ -5,7 +5,7 @@
   "user_reported_score": 0.89214,
   "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
   "previous_best_score": 0.88882,
-  "next_step": "Retain v8 public best 0.89214. v17 user-reported score 0.85599 confirms regression; do not promote this candidate.",
+  "next_step": "Collect individually labelled public scores for the five diagnostic probes; keep v8 best until improvement is confirmed.",
   "latest_experiment": "v17: 20 controlled weekly-target CatBoost fits; log-ratio improves the absolute recursive control on four windows but does not consistently improve v8",
   "candidate": {
     "submission": "submission_weekly_logratio_v17.csv",
@@ -38,5 +38,27 @@
       "submitted_at": "2026-09-26 23:06 +03:00"
     }
   ],
-  "latest_experiment_report": "studio/v17_weekly_targets/report.json"
+  "latest_experiment_report": "studio/v17_weekly_targets/report.json",
+  "pending_submission_probes": [
+    {
+      "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
+      "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+      "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
+      "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
+      "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
+      "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b"
+    }
+  ]
 }
