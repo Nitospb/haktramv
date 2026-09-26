@@ -50,5 +50,14 @@
     "status": "Успешно",
     "decision": "rejected; restore v8 public-best 0.89214",
     "file_mapping": "assumed latest provided v10_spring candidate; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/submission_consistency_c5.csv",
+    "sha256": "85146c703c97d950e065deb728f6cdbcc61b0b64b6ecc2916a34ba5c56612f5e",
+    "score": null,
+    "status": "candidate_created; upload_not_confirmed",
+    "source": "User explicitly requested the strong-consistency model despite weaker development accuracy",
+    "model": "consistent7_c5_tail2",
+    "forecast_path": "recursive7"
   }
 ]

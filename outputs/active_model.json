@@ -5,6 +5,14 @@
   "user_reported_score": 0.89214,
   "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
   "previous_best_score": 0.88882,
-  "next_step": "Retain v8 with public score 0.89214; no new candidate proposed",
-  "latest_experiment": "v12_multistream: 22 short-rollout schemes of full v8; learned ensemble improved early windows but not Sep-Oct/October; no replacement proposed"
+  "next_step": "User-requested strong-consistency candidate ready for competition upload; await actual score",
+  "latest_experiment": "v11_consistency_submission: final fit of consistent7_c5_tail2, 60 epochs, on Studio; public score unknown",
+  "candidate": {
+    "submission": "submission_consistency_c5.csv",
+    "model": "consistent7_c5_tail2",
+    "path": "recursive7",
+    "sha256": "85146c703c97d950e065deb728f6cdbcc61b0b64b6ecc2916a34ba5c56612f5e",
+    "public_score": null,
+    "user_requested": true
+  }
 }
