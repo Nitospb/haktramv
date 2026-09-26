@@ -1,0 +1,1597 @@
+{
+  "selections": {
+    "all": {
+      "profile": {
+        "name": "profile_all_h7_eligible_median_s3",
+        "config": {
+          "family": "profile",
+          "scope": "all",
+          "half": 7,
+          "clock": "eligible",
+          "kind": "median",
+          "shrink": 3
+        },
+        "selection_mean": 0.8973376184137202,
+        "scores": [
+          {
+            "origin": "2025-05-01",
+            "horizon": 61,
+            "history_days": 120,
+            "scope": "all",
+            "model": "profile_all_h7_eligible_median_s3",
+            "family": "profile",
+            "score": 0.8591730326091356,
+            "prediction_total": 12487979.235740662,
+            "true_total": 11555908.0
+          },
+          {
+            "origin": "2025-09-01",
+            "horizon": 61,
+            "history_days": 243,
+            "scope": "all",
+            "model": "profile_all_h7_eligible_median_s3",
+            "family": "profile",
+            "score": 0.8311096952762561,
+            "prediction_total": 11268884.700181514,
+            "true_total": 12754481.0
+          },
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 257,
+            "scope": "all",
+            "model": "profile_all_h7_eligible_median_s3",
+            "family": "profile",
+            "score": 0.8960153327006053,
+            "prediction_total": 9655442.99629696,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 273,
+            "scope": "all",
+            "model": "profile_all_h7_eligible_median_s3",
+            "family": "profile",
+            "score": 0.898659904126835,
+            "prediction_total": 6387973.557509687,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 287,
+            "scope": "all",
+            "model": "profile_all_h7_eligible_median_s3",
+            "family": "profile",
+            "score": 0.9123239568579855,
+            "prediction_total": 3669915.0499760304,
+            "true_total": 3663709.0
+          }
+        ]
+      },
+      "cat": {
+        "name": "cat_all_h28_calendar",
+        "config": {
+          "family": "cat",
+          "scope": "all",
+          "half": 28,
+          "clock": "calendar"
+        },
+        "selection_mean": 0.8900518201280783,
+        "scores": [
+          {
+            "origin": "2025-05-01",
+            "horizon": 61,
+            "history_days": 120,
+            "scope": "all",
+            "model": "cat_all_h28_calendar",
+            "family": "cat",
+            "score": 0.8489967201563307,
+            "prediction_total": 12016644.124780806,
+            "true_total": 11555908.0
+          },
+          {
+            "origin": "2025-09-01",
+            "horizon": 61,
+            "history_days": 243,
+            "scope": "all",
+            "model": "cat_all_h28_calendar",
+            "family": "cat",
+            "score": 0.8867386241853494,
+            "prediction_total": 12752810.685220035,
+            "true_total": 12754481.0
+          },
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 257,
+            "scope": "all",
+            "model": "cat_all_h28_calendar",
+            "family": "cat",
+            "score": 0.889262634509103,
+            "prediction_total": 9791807.844518568,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 273,
+            "scope": "all",
+            "model": "cat_all_h28_calendar",
+            "family": "cat",
+            "score": 0.8908410057470535,
+            "prediction_total": 6320862.074428145,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 287,
+            "scope": "all",
+            "model": "cat_all_h28_calendar",
+            "family": "cat",
+            "score": 0.8989111132728025,
+            "prediction_total": 3619609.406996876,
+            "true_total": 3663709.0
+          }
+        ]
+      }
+    },
+    "spring_autumn": {
+      "profile": {
+        "name": "profile_spring_autumn_h56_calendar_median_s3",
+        "config": {
+          "family": "profile",
+          "scope": "spring_autumn",
+          "half": 56,
+          "clock": "calendar",
+          "kind": "median",
+          "shrink": 3
+        },
+        "selection_mean": 0.9060674632521419,
+        "scores": [
+          {
+            "origin": "2025-05-01",
+            "horizon": 61,
+            "history_days": 61,
+            "scope": "spring_autumn",
+            "model": "profile_spring_autumn_h56_calendar_median_s3",
+            "family": "profile",
+            "score": 0.8544822595397374,
+            "prediction_total": 12672050.833133854,
+            "true_total": 11555908.0
+          },
+          {
+            "origin": "2025-09-01",
+            "horizon": 61,
+            "history_days": 92,
+            "scope": "spring_autumn",
+            "model": "profile_spring_autumn_h56_calendar_median_s3",
+            "family": "profile",
+            "score": 0.8962000672042418,
+            "prediction_total": 13131466.719698926,
+            "true_total": 12754481.0
+          },
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 106,
+            "scope": "spring_autumn",
+            "model": "profile_spring_autumn_h56_calendar_median_s3",
+            "family": "profile",
+            "score": 0.903961639154335,
+            "prediction_total": 9908428.987061275,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 122,
+            "scope": "spring_autumn",
+            "model": "profile_spring_autumn_h56_calendar_median_s3",
+            "family": "profile",
+            "score": 0.908173287349949,
+            "prediction_total": 6465452.826998233,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 136,
+            "scope": "spring_autumn",
+            "model": "profile_spring_autumn_h56_calendar_median_s3",
+            "family": "profile",
+            "score": 0.9135441786676775,
+            "prediction_total": 3607562.530680194,
+            "true_total": 3663709.0
+          }
+        ]
+      },
+      "cat": {
+        "name": "cat_spring_autumn_h56_eligible",
+        "config": {
+          "family": "cat",
+          "scope": "spring_autumn",
+          "half": 56,
+          "clock": "eligible"
+        },
+        "selection_mean": 0.8925301619792394,
+        "scores": [
+          {
+            "origin": "2025-05-01",
+            "horizon": 61,
+            "history_days": 61,
+            "scope": "spring_autumn",
+            "model": "cat_spring_autumn_h56_eligible",
+            "family": "cat",
+            "score": 0.817925998348815,
+            "prediction_total": 12487650.191425964,
+            "true_total": 11555908.0
+          },
+          {
+            "origin": "2025-09-01",
+            "horizon": 61,
+            "history_days": 92,
+            "scope": "spring_autumn",
+            "model": "cat_spring_autumn_h56_eligible",
+            "family": "cat",
+            "score": 0.8714529624462308,
+            "prediction_total": 13337741.855183518,
+            "true_total": 12754481.0
+          },
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 106,
+            "scope": "spring_autumn",
+            "model": "cat_spring_autumn_h56_eligible",
+            "family": "cat",
+            "score": 0.8930782751562031,
+            "prediction_total": 9792951.871923896,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 122,
+            "scope": "spring_autumn",
+            "model": "cat_spring_autumn_h56_eligible",
+            "family": "cat",
+            "score": 0.8919820488022758,
+            "prediction_total": 6344460.350710239,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 136,
+            "scope": "spring_autumn",
+            "model": "cat_spring_autumn_h56_eligible",
+            "family": "cat",
+            "score": 0.9054225133912512,
+            "prediction_total": 3661936.3338746526,
+            "true_total": 3663709.0
+          }
+        ]
+      }
+    },
+    "autumn": {
+      "profile": {
+        "name": "profile_autumn_h14_eligible_mean_s3",
+        "config": {
+          "family": "profile",
+          "scope": "autumn",
+          "half": 14,
+          "clock": "eligible",
+          "kind": "mean",
+          "shrink": 3
+        },
+        "selection_mean": 0.9031699225576768,
+        "scores": [
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 14,
+            "scope": "autumn",
+            "model": "profile_autumn_h14_eligible_mean_s3",
+            "family": "profile",
+            "score": 0.9021400765683908,
+            "prediction_total": 9717989.312522728,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 30,
+            "scope": "autumn",
+            "model": "profile_autumn_h14_eligible_mean_s3",
+            "family": "profile",
+            "score": 0.9041997685469629,
+            "prediction_total": 6377440.249819469,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 44,
+            "scope": "autumn",
+            "model": "profile_autumn_h14_eligible_mean_s3",
+            "family": "profile",
+            "score": 0.9159351079560206,
+            "prediction_total": 3615662.9373559086,
+            "true_total": 3663709.0
+          }
+        ]
+      },
+      "cat": {
+        "name": "cat_autumn_h28_calendar",
+        "config": {
+          "family": "cat",
+          "scope": "autumn",
+          "half": 28,
+          "clock": "calendar"
+        },
+        "selection_mean": 0.8667726672806448,
+        "scores": [
+          {
+            "origin": "2025-09-15",
+            "horizon": 47,
+            "history_days": 14,
+            "scope": "autumn",
+            "model": "cat_autumn_h28_calendar",
+            "family": "cat",
+            "score": 0.8481949832905098,
+            "prediction_total": 9250412.30066883,
+            "true_total": 9907009.0
+          },
+          {
+            "origin": "2025-10-01",
+            "horizon": 31,
+            "history_days": 30,
+            "scope": "autumn",
+            "model": "cat_autumn_h28_calendar",
+            "family": "cat",
+            "score": 0.88535035127078,
+            "prediction_total": 6242140.249924382,
+            "true_total": 6606787.0
+          },
+          {
+            "origin": "2025-10-15",
+            "horizon": 17,
+            "history_days": 44,
+            "scope": "autumn",
+            "model": "cat_autumn_h28_calendar",
+            "family": "cat",
+            "score": 0.9019988727585433,
+            "prediction_total": 3595672.7566033807,
+            "true_total": 3663709.0
+          }
+        ]
+      }
+    }
+  },
+  "missing_scopes": [
+    {
+      "origin": "2025-05-01",
+      "scope": "autumn",
+      "history_days": 0,
+      "reason": "Fewer than 14 eligible days; no fallback to excluded months"
+    },
+    {
+      "origin": "2025-09-01",
+      "scope": "autumn",
+      "history_days": 0,
+      "reason": "Fewer than 14 eligible days; no fallback to excluded months"
+    }
+  ],
+  "configs": {
+    "profile_all_h7_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h7_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h7_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h7_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h7_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h7_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h7_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h7_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h14_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h14_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h14_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h14_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h14_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h14_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h14_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h14_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h28_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h28_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h28_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h28_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h28_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h28_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h28_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h28_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h56_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h56_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h56_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h56_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h56_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h56_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h56_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h56_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h112_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h112_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h112_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h112_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h112_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h112_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h112_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h112_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h1000000000_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h1000000000_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h1000000000_calendar_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h1000000000_calendar_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_all_h1000000000_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_all_h1000000000_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_all_h1000000000_eligible_median_s0": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_all_h1000000000_eligible_median_s3": {
+      "family": "profile",
+      "scope": "all",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "cat_all_h28_calendar": {
+      "family": "cat",
+      "scope": "all",
+      "half": 28,
+      "clock": "calendar"
+    },
+    "cat_all_h56_eligible": {
+      "family": "cat",
+      "scope": "all",
+      "half": 56,
+      "clock": "eligible"
+    },
+    "profile_spring_autumn_h7_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h7_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h7_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h7_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h7_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h7_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h7_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h7_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h14_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h14_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h14_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h14_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h14_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h14_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h14_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h14_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h28_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h28_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h28_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h28_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h28_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h28_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h28_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h28_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h56_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h56_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h56_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h56_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h56_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h56_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h56_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h56_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h112_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h112_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h112_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h112_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h112_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h112_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h112_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h112_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h1000000000_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h1000000000_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h1000000000_calendar_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h1000000000_calendar_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h1000000000_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h1000000000_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_spring_autumn_h1000000000_eligible_median_s0": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_spring_autumn_h1000000000_eligible_median_s3": {
+      "family": "profile",
+      "scope": "spring_autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "cat_spring_autumn_h28_calendar": {
+      "family": "cat",
+      "scope": "spring_autumn",
+      "half": 28,
+      "clock": "calendar"
+    },
+    "cat_spring_autumn_h56_eligible": {
+      "family": "cat",
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible"
+    },
+    "profile_autumn_h7_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h7_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h7_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h7_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h7_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h7_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h7_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h7_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 7,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h14_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h14_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h14_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h14_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h14_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h14_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h14_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h14_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h28_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h28_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h28_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h28_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h28_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h28_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h28_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h28_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h56_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h56_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h56_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h56_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h56_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h56_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h56_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h56_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h112_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h112_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h112_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h112_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h112_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h112_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h112_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h112_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 112,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h1000000000_calendar_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h1000000000_calendar_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h1000000000_calendar_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h1000000000_calendar_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "profile_autumn_h1000000000_eligible_mean_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 0
+    },
+    "profile_autumn_h1000000000_eligible_mean_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "profile_autumn_h1000000000_eligible_median_s0": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 0
+    },
+    "profile_autumn_h1000000000_eligible_median_s3": {
+      "family": "profile",
+      "scope": "autumn",
+      "half": 1000000000,
+      "clock": "eligible",
+      "kind": "median",
+      "shrink": 3
+    },
+    "cat_autumn_h28_calendar": {
+      "family": "cat",
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar"
+    },
+    "cat_autumn_h56_eligible": {
+      "family": "cat",
+      "scope": "autumn",
+      "half": 56,
+      "clock": "eligible"
+    }
+  },
+  "selection_origins": [
+    "2025-09-15",
+    "2025-10-01"
+  ],
+  "public_best_score": 0.89402,
+  "full_horizon_days": 61,
+  "autumn_only_full_61_day_validation_available": false,
+  "notes": [
+    "Previously explored overlapping development windows; no independent holdout.",
+    "May and September controls have 61 days; Sep15 47, Oct1 31, Oct15 17.",
+    "Autumn-only before Sep1 has no eligible observations and is skipped.",
+    "All label-derived profiles and CatBoost fitting exclude months outside their scope.",
+    "Supplied retrospective weather and service covariates; not an operational as-of weather forecast.",
+    "No global +3% scaling or v8 predictions enter the new standalone models."
+  ],
+  "source_sha256": {
+    "seasonal_recency_study.py": "88ec2ec4dd20322ec87fb96216e65345e7f38d26c86993c959b2ebc7c17d1bdd",
+    "verify_seasonal_recency.py": "bc3e132cccd306f8065ea3ed37c56a8898781b7a5986f61e61b7bddaf9d53f94"
+  }
+}

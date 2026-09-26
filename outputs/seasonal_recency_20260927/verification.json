@@ -1,0 +1,38 @@
+{
+  "verified_exports": [
+    {
+      "model": "profile_autumn_h14_eligible_mean_s3",
+      "rows": 14640,
+      "training_days": 61,
+      "submission_sha256": "c89d2862b08d44059a31f1c5324ae2de5963faa4315d120c44f70f8f9b9e2f2a",
+      "check": "All excluded past months AND all future labels changed; prediction identical",
+      "byte_exact_replay": true
+    },
+    {
+      "model": "cat_autumn_h28_calendar",
+      "rows": 14640,
+      "training_days": 61,
+      "submission_sha256": "4ac03c11525fb0331e5a2dcfab918d0db780ed9f4d283156ee78cc04ab4c760f",
+      "check": "Training-month and chronological audits; no target-derived CatBoost input features",
+      "byte_exact_replay": true
+    },
+    {
+      "model": "profile_spring_autumn_h56_calendar_median_s3",
+      "rows": 14640,
+      "training_days": 153,
+      "submission_sha256": "2559ce039858dde90904827fc7be1a92edf456a4f084bef615b3071be9535fca",
+      "check": "All excluded past months AND all future labels changed; prediction identical",
+      "byte_exact_replay": true
+    },
+    {
+      "model": "cat_spring_autumn_h56_eligible",
+      "rows": 14640,
+      "training_days": 153,
+      "submission_sha256": "fa74046d8dbacba6af46ac36fe8c009ad90951ed8395ec06217051f29f46a0f0",
+      "check": "Training-month and chronological audits; no target-derived CatBoost input features",
+      "byte_exact_replay": true
+    }
+  ],
+  "chronological_catboost_audits": 28,
+  "validation_note": "Autumn-only has no eligible history on Sep1, so its 61-day autumn backtest is unavailable."
+}

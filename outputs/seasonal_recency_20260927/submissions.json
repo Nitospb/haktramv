@@ -1,0 +1,88 @@
+[
+  {
+    "submission": "outputs/seasonal_recency_20260927/submission_autumn_profile.csv",
+    "selected_model": "profile_autumn_h14_eligible_mean_s3",
+    "config": {
+      "scope": "autumn",
+      "half": 14,
+      "clock": "eligible",
+      "kind": "mean",
+      "shrink": 3
+    },
+    "training_months": [
+      9,
+      10
+    ],
+    "training_days": 61,
+    "rows": 14640,
+    "prediction_total": 12312644,
+    "sha256": "c89d2862b08d44059a31f1c5324ae2de5963faa4315d120c44f70f8f9b9e2f2a",
+    "public_score": null,
+    "future_label_perturbation_max_diff": 0.0
+  },
+  {
+    "submission": "outputs/seasonal_recency_20260927/submission_autumn_cat.csv",
+    "selected_model": "cat_autumn_h28_calendar",
+    "config": {
+      "scope": "autumn",
+      "half": 28,
+      "clock": "calendar"
+    },
+    "training_months": [
+      9,
+      10
+    ],
+    "training_days": 61,
+    "rows": 14640,
+    "prediction_total": 12605000,
+    "sha256": "4ac03c11525fb0331e5a2dcfab918d0db780ed9f4d283156ee78cc04ab4c760f",
+    "public_score": null,
+    "future_label_perturbation_max_diff": 0.0
+  },
+  {
+    "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_profile.csv",
+    "selected_model": "profile_spring_autumn_h56_calendar_median_s3",
+    "config": {
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "calendar",
+      "kind": "median",
+      "shrink": 3
+    },
+    "training_months": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "training_days": 153,
+    "rows": 14640,
+    "prediction_total": 12467995,
+    "sha256": "2559ce039858dde90904827fc7be1a92edf456a4f084bef615b3071be9535fca",
+    "public_score": null,
+    "future_label_perturbation_max_diff": 0.0
+  },
+  {
+    "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_cat.csv",
+    "selected_model": "cat_spring_autumn_h56_eligible",
+    "config": {
+      "scope": "spring_autumn",
+      "half": 56,
+      "clock": "eligible"
+    },
+    "training_months": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "training_days": 153,
+    "rows": 14640,
+    "prediction_total": 12631604,
+    "sha256": "fa74046d8dbacba6af46ac36fe8c009ad90951ed8395ec06217051f29f46a0f0",
+    "public_score": null,
+    "future_label_perturbation_max_diff": 0.0
+  }
+]
