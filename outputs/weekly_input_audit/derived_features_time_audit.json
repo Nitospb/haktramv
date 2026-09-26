@@ -1,0 +1,115 @@
+[
+  {
+    "file": "data/features/07_transaction_derived/offline_accumulation/offline_hourly.parquet",
+    "rows": 57594,
+    "time_column": "event_hour",
+    "min": "2025-01-01 04:00:00",
+    "max": "2025-10-31 23:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "transactions_seen",
+      "successful_delayed_30m_seen",
+      "successful_delay_share_30m"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/operational_asof_hourly.parquet",
+    "rows": 57594,
+    "time_column": "event_hour",
+    "min": "2025-01-01 04:00:00",
+    "max": "2025-10-31 23:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "transactions_seen",
+      "successful_seen"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/operational_features.csv",
+    "rows": 57606,
+    "time_column": "date",
+    "min": "2025-01-01 00:00:00",
+    "max": "2025-11-01 00:00:00",
+    "rows_on_or_after_nov1": 12,
+    "target_like_columns": [
+      "raw_transactions",
+      "successful_transactions",
+      "failed_transactions",
+      "type_52_transactions",
+      "boardings_per_vehicle",
+      "boardings_per_device"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/operational_features_v2.csv",
+    "rows": 57606,
+    "time_column": "date",
+    "min": "2025-01-01 00:00:00",
+    "max": "2025-11-01 00:00:00",
+    "rows_on_or_after_nov1": 12,
+    "target_like_columns": [
+      "raw_transactions",
+      "successful_transactions",
+      "failed_transactions",
+      "type_52_transactions",
+      "boardings_per_vehicle",
+      "boardings_per_device"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/ticket_groups/ticket_month_route.csv",
+    "rows": 7404,
+    "time_column": "month",
+    "min": "2025-01-01",
+    "max": "2025-10-01",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [],
+    "calendar_year": "2025, as specified by the supplied feature bundle; source has month number only"
+  },
+  {
+    "file": "data/features/07_transaction_derived/validator_daily_asof.parquet",
+    "rows": 301291,
+    "time_column": "date",
+    "min": "2025-01-01 00:00:00",
+    "max": "2025-10-31 00:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "transactions",
+      "successful"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/validator_peers/route_peer_daily.parquet",
+    "rows": 2729,
+    "time_column": "date",
+    "min": "2025-01-01 00:00:00",
+    "max": "2025-10-31 00:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "route_transactions"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/validator_peers/vehicle_device_hour.parquet",
+    "rows": 3994491,
+    "time_column": "event_hour",
+    "min": "2025-01-01 04:00:00",
+    "max": "2025-10-31 23:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "transactions",
+      "successful"
+    ]
+  },
+  {
+    "file": "data/features/07_transaction_derived/validator_peers/vehicle_peer_daily.parquet",
+    "rows": 44398,
+    "time_column": "date",
+    "min": "2025-01-01 00:00:00",
+    "max": "2025-10-31 00:00:00",
+    "rows_on_or_after_nov1": 0,
+    "target_like_columns": [
+      "transactions"
+    ]
+  }
+]

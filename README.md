@@ -114,5 +114,10 @@ python reconcile_forecasts.py
 - [FEATURE_RESEARCH.md](FEATURE_RESEARCH.md) — признаки, проверки и ограничения.
 - [REGRESSION_REVIEW.md](REGRESSION_REVIEW.md) — разбор просадки до 0,87200.
 - [SPRING_RESEARCH.md](SPRING_RESEARCH.md) — весенние аналоги и отклонённый v10.
+- [WEEKLY_RECURSION_RESEARCH.md](WEEKLY_RECURSION_RESEARCH.md) — недельные
+  базовые прогнозы и обучение всей рекурсивной цепочки, v11.
+- [MULTISTREAM_RESEARCH.md](MULTISTREAM_RESEARCH.md) — короткие перекрывающиеся
+  траектории полного движка v8 и их согласование, v12. Устойчивого прироста
+  на исторических проверках не получено.
 - [docs/EXPERIMENT_HISTORY.md](docs/EXPERIMENT_HISTORY.md) — хронология разработки;
   рекомендации внутри старых разделов относятся к соответствующим этапам.

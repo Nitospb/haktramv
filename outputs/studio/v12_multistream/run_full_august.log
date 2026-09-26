@@ -1,0 +1,29 @@
+FIT 2025-08-01 cat_full_6_1_MAE 14.9 seconds
+FIT 2025-08-01 cat_full_8_1_MAE 21.3 seconds
+FIT 2025-08-01 cat_full_8_1_RMSE 18.7 seconds
+full 2025-08-01 s1_f1_w28_remaining 0.87992
+full 2025-08-01 s3_f1_w28_remaining 0.879823
+full 2025-08-01 s3_f2_w28_remaining 0.880396
+full 2025-08-01 s3_f3_w28_remaining 0.880046
+full 2025-08-01 s7_f1_w28_remaining 0.877094
+full 2025-08-01 s7_f4_w28_remaining 0.881952
+full 2025-08-01 s7_f7_w28_remaining 0.877903
+full 2025-08-01 s14_f1_w28_remaining 0.882296
+full 2025-08-01 s14_f7_w28_remaining 0.880432
+full 2025-08-01 s14_f14_w28_remaining 0.882489
+full 2025-08-01 s28_f1_w28_remaining 0.888363
+full 2025-08-01 s28_f14_w28_remaining 0.883205
+full 2025-08-01 s28_f28_w28_remaining 0.889708
+full 2025-08-01 s1_f1_w14_remaining 0.880811
+full 2025-08-01 s7_f7_w14_remaining 0.878008
+full 2025-08-01 s1_f1_w56_remaining 0.884908
+full 2025-08-01 s7_f7_w56_remaining 0.884085
+full 2025-08-01 s1_f1_w28_block 0.885396
+full 2025-08-01 s3_f3_w28_block 0.882912
+full 2025-08-01 s7_f7_w28_block 0.883615
+full 2025-08-01 s14_f14_w28_block 0.886784
+full 2025-08-01 s28_f28_w28_block 0.890776
+full 2025-08-01 synchronized_mean_anchor0 0.882795
+full 2025-08-01 synchronized_median_anchor0 0.880195
+full 2025-08-01 synchronized_mean_anchor50 0.888804
+DONE full 2025-08-01 154.7 seconds

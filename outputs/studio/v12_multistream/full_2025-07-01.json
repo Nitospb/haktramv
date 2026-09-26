@@ -1,0 +1,149 @@
+{
+  "mode": "full",
+  "origin": "2025-07-01",
+  "real_labels_through": "2025-06-30",
+  "future_label_column_removed": true,
+  "catboost_weights_fixed_during_rollout": true,
+  "control_crop_difference_max": 5.5553386955316455,
+  "direct_vs_saved_max": 5.5553386955316455,
+  "streams": [
+    {
+      "step": 1,
+      "first": 1,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 3,
+      "first": 1,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 3,
+      "first": 2,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 3,
+      "first": 3,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 7,
+      "first": 1,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 7,
+      "first": 4,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 7,
+      "first": 7,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 14,
+      "first": 1,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 14,
+      "first": 7,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 14,
+      "first": 14,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 28,
+      "first": 1,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 28,
+      "first": 14,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 28,
+      "first": 28,
+      "window": 28,
+      "scope": "remaining"
+    },
+    {
+      "step": 1,
+      "first": 1,
+      "window": 14,
+      "scope": "remaining"
+    },
+    {
+      "step": 7,
+      "first": 7,
+      "window": 14,
+      "scope": "remaining"
+    },
+    {
+      "step": 1,
+      "first": 1,
+      "window": 56,
+      "scope": "remaining"
+    },
+    {
+      "step": 7,
+      "first": 7,
+      "window": 56,
+      "scope": "remaining"
+    },
+    {
+      "step": 1,
+      "first": 1,
+      "window": 28,
+      "scope": "block"
+    },
+    {
+      "step": 3,
+      "first": 3,
+      "window": 28,
+      "scope": "block"
+    },
+    {
+      "step": 7,
+      "first": 7,
+      "window": 28,
+      "scope": "block"
+    },
+    {
+      "step": 14,
+      "first": 14,
+      "window": 28,
+      "scope": "block"
+    },
+    {
+      "step": 28,
+      "first": 28,
+      "window": 28,
+      "scope": "block"
+    }
+  ],
+  "streams_count": 22,
+  "days": 61,
+  "runtime_seconds": 173.54024804197252,
+  "source_sha256": "9583a09e2477e937f818037782ecb52242ad05ee0e4637dddbfa36ce765ab4bd",
+  "evaluation": "Overlapping development windows, not independent validation. Retrospective supplied weather/service calendars; no future boarding labels.",
+  "public_score": null
+}

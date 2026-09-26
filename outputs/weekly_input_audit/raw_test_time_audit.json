@@ -1,0 +1,12 @@
+{
+  "file": "test.csv",
+  "scan": "full file, actual validation timestamps only",
+  "rows": 13391571,
+  "min_event_time": "2025-09-01 04:20:19",
+  "max_event_time": "2025-11-01 01:37:43",
+  "rows_on_or_after_nov1": 615,
+  "successful_rows_on_or_after_nov1": 562,
+  "dates_on_or_after_nov1": [
+    "2025-11-01"
+  ]
+}

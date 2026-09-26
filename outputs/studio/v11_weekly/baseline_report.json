@@ -1,0 +1,148 @@
+{
+  "origins": 23,
+  "origins_overlap": true,
+  "target_perturbation_test": "passed",
+  "fixed_origin_horizon_days": 61,
+  "short_october_diagnostic_days": 31,
+  "known_public_incumbent": 0.89214,
+  "mean_development_scores": {
+    "adaptive_v2": 0.8485659369335988,
+    "incumbent_v8": 0.8688540819778208,
+    "lag_14_recursive": 0.7812928450042662,
+    "lag_1_recursive": 0.6563068317507424,
+    "lag_7_recursive": 0.7876751862681569,
+    "mean_4weeks_frozen": 0.8089299589374178,
+    "mean_4weeks_recursive": 0.8079941241225412,
+    "median_4weeks_frozen": 0.8068436310317469,
+    "observed_weekly_updates_DIAGNOSTIC": 0.8470277288264239
+  },
+  "correlations": [
+    {
+      "origin": "2025-03-01",
+      "actual_lag7_correlation": 0.956513990870153,
+      "fixed_origin_weekly_correlation": 0.9649436848810804
+    },
+    {
+      "origin": "2025-03-11",
+      "actual_lag7_correlation": 0.9364605933450739,
+      "fixed_origin_weekly_correlation": 0.935365145868758
+    },
+    {
+      "origin": "2025-03-20",
+      "actual_lag7_correlation": 0.9207166624521437,
+      "fixed_origin_weekly_correlation": 0.9364154515420007
+    },
+    {
+      "origin": "2025-03-30",
+      "actual_lag7_correlation": 0.919970019883598,
+      "fixed_origin_weekly_correlation": 0.9375316060463366
+    },
+    {
+      "origin": "2025-04-09",
+      "actual_lag7_correlation": 0.9361945623211351,
+      "fixed_origin_weekly_correlation": 0.8834351747826743
+    },
+    {
+      "origin": "2025-04-18",
+      "actual_lag7_correlation": 0.9315808628986636,
+      "fixed_origin_weekly_correlation": 0.91760526614906
+    },
+    {
+      "origin": "2025-04-28",
+      "actual_lag7_correlation": 0.9329596899427024,
+      "fixed_origin_weekly_correlation": 0.9085584127451185
+    },
+    {
+      "origin": "2025-05-08",
+      "actual_lag7_correlation": 0.9515034915642763,
+      "fixed_origin_weekly_correlation": 0.895403577354849
+    },
+    {
+      "origin": "2025-05-17",
+      "actual_lag7_correlation": 0.9619422441152221,
+      "fixed_origin_weekly_correlation": 0.9616842397608788
+    },
+    {
+      "origin": "2025-05-27",
+      "actual_lag7_correlation": 0.9601225057234724,
+      "fixed_origin_weekly_correlation": 0.9620244359883023
+    },
+    {
+      "origin": "2025-06-06",
+      "actual_lag7_correlation": 0.9567013343933111,
+      "fixed_origin_weekly_correlation": 0.9582075881538712
+    },
+    {
+      "origin": "2025-06-16",
+      "actual_lag7_correlation": 0.9675344993767951,
+      "fixed_origin_weekly_correlation": 0.8852007380923417
+    },
+    {
+      "origin": "2025-06-25",
+      "actual_lag7_correlation": 0.9767146459202661,
+      "fixed_origin_weekly_correlation": 0.9663248008095016
+    },
+    {
+      "origin": "2025-07-01",
+      "actual_lag7_correlation": 0.9764761578238828,
+      "fixed_origin_weekly_correlation": 0.9623170942618688
+    },
+    {
+      "origin": "2025-07-05",
+      "actual_lag7_correlation": 0.9757429849170232,
+      "fixed_origin_weekly_correlation": 0.9673376388739553
+    },
+    {
+      "origin": "2025-07-15",
+      "actual_lag7_correlation": 0.9785554159128061,
+      "fixed_origin_weekly_correlation": 0.9600157083945986
+    },
+    {
+      "origin": "2025-07-24",
+      "actual_lag7_correlation": 0.9821857433759195,
+      "fixed_origin_weekly_correlation": 0.9495166743754768
+    },
+    {
+      "origin": "2025-08-01",
+      "actual_lag7_correlation": 0.9822821247283661,
+      "fixed_origin_weekly_correlation": 0.946417088461968
+    },
+    {
+      "origin": "2025-08-03",
+      "actual_lag7_correlation": 0.9816431530494301,
+      "fixed_origin_weekly_correlation": 0.9465798471183355
+    },
+    {
+      "origin": "2025-08-13",
+      "actual_lag7_correlation": 0.9824647994801016,
+      "fixed_origin_weekly_correlation": 0.9523024469172227
+    },
+    {
+      "origin": "2025-08-22",
+      "actual_lag7_correlation": 0.9845647567589579,
+      "fixed_origin_weekly_correlation": 0.9738212206772653
+    },
+    {
+      "origin": "2025-09-01",
+      "actual_lag7_correlation": 0.9848255939274989,
+      "fixed_origin_weekly_correlation": 0.9723597510123888
+    },
+    {
+      "origin": "2025-10-01",
+      "actual_lag7_correlation": 0.9861940915682024,
+      "fixed_origin_weekly_correlation": 0.9836069568447846
+    }
+  ],
+  "note": "Overlapping development windows. v8 available at selected origins only, so all-origin mean scores cannot be compared across models with different origin counts. Observed-updates diagnostic is ineligible for fixed-origin prediction.",
+  "mean_development_score_origin_counts": {
+    "adaptive_v2": 22,
+    "incumbent_v8": 3,
+    "lag_14_recursive": 22,
+    "lag_1_recursive": 22,
+    "lag_7_recursive": 22,
+    "mean_4weeks_frozen": 22,
+    "mean_4weeks_recursive": 22,
+    "median_4weeks_frozen": 22,
+    "observed_weekly_updates_DIAGNOSTIC": 22
+  }
+}

@@ -1,0 +1,3 @@
+# Optional differentiable rollout experiment on Mac Studio / PyTorch MPS.
+-r requirements.txt
+torch==2.14.0

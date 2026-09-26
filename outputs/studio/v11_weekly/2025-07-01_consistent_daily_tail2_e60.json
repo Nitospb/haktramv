@@ -1,0 +1,16 @@
+{
+  "training_origins": 18,
+  "max_training_label_day": 180,
+  "forecast_origin_day": 181,
+  "seconds": 12.240522582549602,
+  "epochs": 60,
+  "target_perturbation_max_abs_change": 0.0,
+  "last_to_first_block_gradient_norm": 1.6518412828445435,
+  "mode": "consistent_daily_tail2",
+  "origin": "2025-07-01",
+  "device": "mps",
+  "torch_version": "2.14.0",
+  "log_ratio_pseudocount": 30,
+  "reset_recursive_age": false,
+  "rollout_step_training": 1
+}
