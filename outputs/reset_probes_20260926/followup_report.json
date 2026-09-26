@@ -1,0 +1,63 @@
+{
+  "previous_results": [
+    {
+      "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
+      "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3",
+      "score": 0.884,
+      "submitted_at": "2026-09-26 23:55 +03:00",
+      "source": "User explicitly identified each submitted probe and reported competition score"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+      "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+      "score": 0.89402,
+      "submitted_at": "2026-09-26 23:54 +03:00",
+      "source": "User explicitly identified each submitted probe and reported competition score"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
+      "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d",
+      "score": 0.88975,
+      "submitted_at": "2026-09-26 23:55 +03:00",
+      "source": "User explicitly identified each submitted probe and reported competition score"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
+      "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec",
+      "score": 0.88905,
+      "submitted_at": "2026-09-26 23:54 +03:00",
+      "source": "User explicitly identified each submitted probe and reported competition score"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
+      "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b",
+      "score": 0.88643,
+      "submitted_at": "2026-09-26 23:56 +03:00",
+      "source": "User explicitly identified each submitted probe and reported competition score"
+    }
+  ],
+  "confirmed_best_score": 0.89402,
+  "confirmed_best_submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+  "new_probes": [
+    {
+      "submission": "outputs/reset_probes_20260926/submission_06_level_up6.csv",
+      "sha256": "199793c664446ddfa62097c8445b432a4b1039e12a1ebeb7067b1be6b533cec2",
+      "rows": 14640,
+      "total": 13278318,
+      "public_score": 0.88851,
+      "submitted_at": "2026-09-26 23:58 +03:00"
+    },
+    {
+      "submission": "outputs/reset_probes_20260926/submission_07_winner_december_up.csv",
+      "sha256": "7acdf9e22e8e89da159ca2c6486ee8cf8383b7eb9f02e1ef8bf1a0f7dd4ba933",
+      "rows": 14640,
+      "total": 12902502,
+      "public_score": null
+    }
+  ],
+  "hypotheses": {
+    "06": "V8 +6% total: test beyond confirmed +3% winner.",
+    "07": "Confirmed +3% winner; November -3% relative to winner and compensated December increase; exact winner total per route."
+  },
+  "base_source": "Frozen v8 artifact; live best file may be managed by concurrent experiments."
+}

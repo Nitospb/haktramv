@@ -1,0 +1,27 @@
+{
+  "base": "outputs/studio/v8/submission.csv",
+  "variants": [
+    {
+      "file": "outputs/reset_probes_20260926/submission_06_level_up6.csv",
+      "scale": 1.06,
+      "sha256": "199793c664446ddfa62097c8445b432a4b1039e12a1ebeb7067b1be6b533cec2",
+      "rows": 14640,
+      "public_score": 0.88851,
+      "submitted_at": "2026-09-26 23:58 +03:00"
+    },
+    {
+      "file": "outputs/reset_probes_20260926/submission_08_level_up8.csv",
+      "scale": 1.08,
+      "sha256": "d6cc09fbdc2920ae50cc9f1e3fddf25a78f7c942d146beaef0e4ee45d676b1fd",
+      "rows": 14640
+    },
+    {
+      "file": "outputs/reset_probes_20260926/submission_10_level_up10.csv",
+      "scale": 1.1,
+      "sha256": "5408e6ad4d6c1e50c37ec1e12a042c4055d078f7b8cd43f0e3f1f127b1f2b224",
+      "rows": 14640,
+      "public_score": 0.87177,
+      "submitted_at": "2026-09-26 23:58 +03:00"
+    }
+  ]
+}

@@ -113,46 +113,90 @@
   {
     "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
     "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3",
-    "score": null,
-    "status": "diagnostic_probe_created; upload_not_confirmed",
-    "source": "User requested five free submission hypotheses before reset",
+    "score": 0.884,
+    "status": "Успешно",
+    "source": "User explicitly identified each submitted probe and reported competition score",
     "hypothesis": "V8 total level multiplied by 0.97.",
-    "decision": "do not replace v8 without a better user-reported score"
+    "decision": "does not replace confirmed +3% winner 0.89402",
+    "submitted_at": "2026-09-26 23:55 +03:00",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash"
   },
   {
     "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
     "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
-    "score": null,
-    "status": "diagnostic_probe_created; upload_not_confirmed",
-    "source": "User requested five free submission hypotheses before reset",
+    "score": 0.89402,
+    "status": "Успешно",
+    "source": "User explicitly identified each submitted probe and reported competition score",
     "hypothesis": "V8 total level multiplied by 1.03.",
-    "decision": "do not replace v8 without a better user-reported score"
+    "decision": "promoted: best confirmed score 0.89402",
+    "submitted_at": "2026-09-26 23:54 +03:00",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash"
   },
   {
     "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
     "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d",
-    "score": null,
-    "status": "diagnostic_probe_created; upload_not_confirmed",
-    "source": "User requested five free submission hypotheses before reset",
+    "score": 0.88975,
+    "status": "Успешно",
+    "source": "User explicitly identified each submitted probe and reported competition score",
     "hypothesis": "First month +3%, offset by second month reduction; exact two-month total per route preserved.",
-    "decision": "do not replace v8 without a better user-reported score"
+    "decision": "does not replace confirmed +3% winner 0.89402",
+    "submitted_at": "2026-09-26 23:55 +03:00",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash"
   },
   {
     "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
     "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec",
-    "score": null,
-    "status": "diagnostic_probe_created; upload_not_confirmed",
-    "source": "User requested five free submission hypotheses before reset",
+    "score": 0.88905,
+    "status": "Успешно",
+    "source": "User explicitly identified each submitted probe and reported competition score",
     "hypothesis": "Non-working days +6%, offset by working days; exact monthly total per route preserved.",
-    "decision": "do not replace v8 without a better user-reported score"
+    "decision": "does not replace confirmed +3% winner 0.89402",
+    "submitted_at": "2026-09-26 23:54 +03:00",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash"
   },
   {
     "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
     "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b",
-    "score": null,
-    "status": "diagnostic_probe_created; upload_not_confirmed",
-    "source": "User requested five free submission hypotheses before reset",
+    "score": 0.88643,
+    "status": "Успешно",
+    "source": "User explicitly identified each submitted probe and reported competition score",
     "hypothesis": "Pure v16 weekly-network shape, rescaled to exact V8 monthly totals per route.",
-    "decision": "do not replace v8 without a better user-reported score"
+    "decision": "does not replace confirmed +3% winner 0.89402",
+    "submitted_at": "2026-09-26 23:56 +03:00",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_06_level_up6.csv",
+    "sha256": "199793c664446ddfa62097c8445b432a4b1039e12a1ebeb7067b1be6b533cec2",
+    "score": 0.88851,
+    "submitted_at": "2026-09-26 23:58 +03:00",
+    "source": "User explicitly identified the scaling percentage and reported competition score",
+    "status": "Успешно",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash",
+    "decision": "does not replace confirmed +3% winner 0.89402"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_10_level_up10.csv",
+    "sha256": "5408e6ad4d6c1e50c37ec1e12a042c4055d078f7b8cd43f0e3f1f127b1f2b224",
+    "score": 0.87177,
+    "submitted_at": "2026-09-26 23:58 +03:00",
+    "source": "User explicitly identified the scaling percentage and reported competition score",
+    "status": "Успешно",
+    "file_mapping": "User identified the probe; stored file hash verified locally, competition did not provide a hash",
+    "decision": "does not replace confirmed +3% winner 0.89402"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_07_winner_december_up.csv",
+    "sha256": "7acdf9e22e8e89da159ca2c6486ee8cf8383b7eb9f02e1ef8bf1a0f7dd4ba933",
+    "score": null,
+    "status": "candidate_created; upload_not_confirmed",
+    "source": "User-requested follow-up diagnostic probe"
+  },
+  {
+    "submission": "outputs/reset_probes_20260926/submission_08_level_up8.csv",
+    "sha256": "d6cc09fbdc2920ae50cc9f1e3fddf25a78f7c942d146beaef0e4ee45d676b1fd",
+    "score": null,
+    "status": "candidate_created; upload_not_confirmed",
+    "source": "User-requested follow-up diagnostic probe"
   }
 ]

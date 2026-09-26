@@ -16,7 +16,7 @@ def reproduce():
     outputs = ROOT / 'outputs'
     artifacts = outputs / 'studio' if (outputs / 'studio/v2/submission.csv').exists() else outputs
     active = json.loads((outputs / 'active_model.json').read_text())
-    assert active['active_model'] == 'v8/monthly_reconciliation'
+    assert active['active_model'] in ['v8/monthly_reconciliation', 'v8/level_scale_1.03']
     base = pd.read_csv(artifacts / 'v2/submission.csv', sep=';')
     expert = pd.read_csv(artifacts / 'v5_experts/submission.csv', sep=';')
     template = pd.read_csv(ROOT / 'data/test_submission.csv', sep=';')
@@ -34,6 +34,8 @@ def reproduce():
     prediction = (.25 * x.base.to_numpy() + .75 * adjusted) * (1 - .975 * x.service_cancelled.to_numpy())
     result = base[KEY].copy()
     result['prediction'] = np.maximum(0, np.rint(prediction)).astype(int)
+    if active['active_model'] == 'v8/level_scale_1.03':
+        result['prediction'] = np.rint(result.prediction.to_numpy() * 1.03).astype(int)
     assert len(result) == 14640 and not result.duplicated(KEY).any()
     assert np.isfinite(result.prediction).all() and (result.prediction >= 0).all()
     buffer = io.StringIO(); result.to_csv(buffer, sep=';', index=False, lineterminator='\n')

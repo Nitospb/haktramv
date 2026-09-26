@@ -1,21 +1,18 @@
 {
-  "active_model": "v8/monthly_reconciliation",
+  "active_model": "v8/level_scale_1.03",
   "submission": "submission_best.csv",
-  "source": "studio/v8/submission.csv",
-  "user_reported_score": 0.89214,
-  "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
-  "previous_best_score": 0.88882,
-  "next_step": "Collect individually labelled public scores for the five diagnostic probes; keep v8 best until improvement is confirmed.",
-  "latest_experiment": "v17: 20 controlled weekly-target CatBoost fits; log-ratio improves the absolute recursive control on four windows but does not consistently improve v8",
+  "source": "reset_probes_20260926/submission_02_level_up3.csv",
+  "user_reported_score": 0.89402,
+  "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+  "previous_best_score": 0.89239,
+  "next_step": "Keep confirmed +3% winner 0.89402. +8% score is unknown. Successful-attempt quota was reported as zero; reset is unconfirmed.",
+  "latest_experiment": "Public scaling probes: +3% improves v8 to 0.89402; +6% and +10% regress.",
   "candidate": {
-    "submission": "submission_weekly_logratio_v17.csv",
-    "model": "v17 recursive_logratio",
-    "sha256": "4139aa8e96ee3a0fccc64c772a8088a1b688fc9e2c5a65d716a6488f0567f375",
-    "public_score": 0.85599,
-    "user_requested": true,
-    "experimental_only": true,
-    "validation_decision": "Rejected as replacement after public score 0.85599; v8 remains best.",
-    "submitted_at": "2026-09-26 23:33 +03:00"
+    "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
+    "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+    "score": 0.89402,
+    "submitted_at": "2026-09-26 23:54 +03:00",
+    "source": "User explicitly identified each submitted probe and reported competition score"
   },
   "reported_result_needing_confirmation": {
     "score": 0.8916,
@@ -38,27 +35,35 @@
       "submitted_at": "2026-09-26 23:06 +03:00"
     }
   ],
-  "latest_experiment_report": "studio/v17_weekly_targets/report.json",
+  "latest_experiment_report": "v19_quick_shape/report.json",
   "pending_submission_probes": [
     {
-      "submission": "outputs/reset_probes_20260926/submission_01_level_down3.csv",
-      "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3"
+      "submission": "outputs/reset_probes_20260926/submission_07_winner_december_up.csv",
+      "sha256": "7acdf9e22e8e89da159ca2c6486ee8cf8383b7eb9f02e1ef8bf1a0f7dd4ba933"
     },
     {
-      "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
-      "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425"
+      "submission": "outputs/reset_probes_20260926/submission_08_level_up8.csv",
+      "sha256": "d6cc09fbdc2920ae50cc9f1e3fddf25a78f7c942d146beaef0e4ee45d676b1fd"
+    }
+  ],
+  "previous_best": {
+    "active_model": "v19/hourly_shape",
+    "source": "submission_hourly_shape_v19.csv",
+    "user_reported_score": 0.89239,
+    "sha256": "0468260090b5897c1ca154ff10d8fab37064e4b291c4a2a8c0c3bcbe15d66ae9"
+  },
+  "best_history": [
+    {
+      "active_model": "v8/monthly_reconciliation",
+      "source": "studio/v8/submission.csv",
+      "user_reported_score": 0.89214,
+      "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524"
     },
     {
-      "submission": "outputs/reset_probes_20260926/submission_03_month_tilt.csv",
-      "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d"
-    },
-    {
-      "submission": "outputs/reset_probes_20260926/submission_04_weekends_up6.csv",
-      "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec"
-    },
-    {
-      "submission": "outputs/reset_probes_20260926/submission_05_weekly_shape.csv",
-      "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b"
+      "active_model": "v19/hourly_shape",
+      "source": "submission_hourly_shape_v19.csv",
+      "user_reported_score": 0.89239,
+      "sha256": "0468260090b5897c1ca154ff10d8fab37064e4b291c4a2a8c0c3bcbe15d66ae9"
     }
   ]
 }

@@ -69,11 +69,11 @@ def variants(frame, weekly):
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     cal = pd.read_csv(ROOT / 'outputs/studio/v4/training_matrix.csv', usecols=KEY + ['workday'])
-    base_path = ROOT / 'outputs/submission_best.csv'
+    # Freeze the original experiment anchor even after a probe is promoted.
+    base_path = ROOT / 'outputs/studio/v8/submission.csv'
     base_bytes = base_path.read_bytes()
     base_hash = hashlib.sha256(base_bytes).hexdigest()
-    active = json.loads((ROOT / 'outputs/active_model.json').read_text())
-    assert base_hash == active['sha256']
+    assert base_hash == 'b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524'
     template = pd.read_csv(ROOT / 'data/test_submission.csv', sep=';')
     base = pd.read_csv(base_path, sep=';')
     frame = base.merge(cal, on=KEY, how='left', validate='one_to_one')

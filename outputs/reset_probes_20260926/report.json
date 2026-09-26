@@ -10,7 +10,8 @@
       "sha256": "1864eb39bda8746c89c36d14e4853a7ffc270b96221ad7099f9718e606d69dc3",
       "prediction_total": 12151066,
       "changed_rows": 10640,
-      "public_score": null
+      "public_score": 0.884,
+      "submitted_at": "2026-09-26 23:55 +03:00"
     },
     {
       "name": "02_level_up3",
@@ -19,7 +20,8 @@
       "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
       "prediction_total": 12902502,
       "changed_rows": 10640,
-      "public_score": null
+      "public_score": 0.89402,
+      "submitted_at": "2026-09-26 23:54 +03:00"
     },
     {
       "name": "03_month_tilt",
@@ -28,7 +30,8 @@
       "sha256": "887abaa839a52befb8fcce6abae42172ffa48203b0807d069e2c5ce5ae28e99d",
       "prediction_total": 12526784,
       "changed_rows": 10628,
-      "public_score": null
+      "public_score": 0.88975,
+      "submitted_at": "2026-09-26 23:55 +03:00"
     },
     {
       "name": "04_weekends_up6",
@@ -37,7 +40,8 @@
       "sha256": "829de57dfe5987a678d29ceb2103e7c6dc914c4d9e73c004cbc135b39b6df4ec",
       "prediction_total": 12526784,
       "changed_rows": 10609,
-      "public_score": null
+      "public_score": 0.88905,
+      "submitted_at": "2026-09-26 23:54 +03:00"
     },
     {
       "name": "05_weekly_shape",
@@ -46,7 +50,8 @@
       "sha256": "42add265c931d0b1447f89d323c5c6cf3e0903d5c48338da4f76706e28196c3b",
       "prediction_total": 12526784,
       "changed_rows": 12317,
-      "public_score": null
+      "public_score": 0.88643,
+      "submitted_at": "2026-09-26 23:56 +03:00"
     }
   ],
   "development_metrics": [
