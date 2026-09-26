@@ -52,6 +52,16 @@ def main():
         'promotion_to_public_best': False,
         'development_september_october_score': 0.8630101892505414,
         'decision': 'Experimental submission requested by user; keep v8 public best 0.89214.'}
+    # Re-exporting identical bytes must retain their known competition result.
+    ledger_path = w.ROOT / 'outputs/leaderboard_results.json'
+    if ledger_path.exists():
+        for result in json.loads(ledger_path.read_text()):
+            if (result.get('submission') == report['submission']
+                    and result.get('sha256') == report['sha256']
+                    and result.get('score') is not None):
+                report.update(public_score=result['score'], public_score_source=result.get('source'),
+                              submitted_at=result.get('submitted_at'), file_mapping=result.get('file_mapping'),
+                              decision=result.get('decision', report['decision']))
     (folder / 'submission_report.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
 

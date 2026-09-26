@@ -102,10 +102,12 @@
   {
     "submission": "outputs/submission_weekly_logratio_v17.csv",
     "sha256": "4139aa8e96ee3a0fccc64c772a8088a1b688fc9e2c5a65d716a6488f0567f375",
-    "score": null,
-    "status": "user_requested_candidate_created; upload_not_confirmed",
+    "score": 0.85599,
+    "status": "Успешно",
     "model": "v17 recursive_logratio; one CatBoost; weekly own-prediction updates",
-    "source": "User requested submission after controlled target comparison",
-    "decision": "experimental only; keep v8 public best 0.89214"
+    "source": "user-reported competition result",
+    "decision": "rejected as replacement; v8 public-best remains 0.89214",
+    "submitted_at": "2026-09-26 23:33 +03:00",
+    "file_mapping": "Assumed latest delivered submission_weekly_logratio_v17.csv; user did not supply file hash"
   }
 ]

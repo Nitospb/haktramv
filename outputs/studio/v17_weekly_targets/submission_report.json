@@ -14,9 +14,12 @@
   "checkpoint_replayed": true,
   "template_keys_and_order_verified": true,
   "v8_is_component": false,
-  "public_score": null,
+  "public_score": 0.85599,
   "user_requested": true,
   "promotion_to_public_best": false,
   "development_september_october_score": 0.8630101892505414,
-  "decision": "Experimental submission requested by user; keep v8 public best 0.89214."
+  "decision": "rejected as replacement; v8 public-best remains 0.89214",
+  "public_score_source": "user-reported competition result",
+  "submitted_at": "2026-09-26 23:33 +03:00",
+  "file_mapping": "Assumed latest delivered submission_weekly_logratio_v17.csv; user did not supply file hash"
 }
