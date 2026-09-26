@@ -1,0 +1,392 @@
+{
+  "selected_including_control": "trolley_recent_monthly_p0.5",
+  "best_foreign": "trolley_recent_monthly_p0.5",
+  "ranking": {
+    "trolley_recent_monthly_p0.5": 0.8752326772782496,
+    "trolley_recent_smooth_p1.0": 0.8732032712986285,
+    "trolley_recent_smooth_p0.5": 0.8699385839997298,
+    "trolley_recent_monthly_p0.25": 0.8699085631614173,
+    "tram_recent_monthly_p0.5": 0.8675228398996581,
+    "trolley_recent_monthly_p1.0": 0.8671821472810087,
+    "trolley_recent_smooth_p0.25": 0.8649857967070957,
+    "tram_recent_smooth_p1.0": 0.8644812473899511,
+    "tram_recent_monthly_p0.25": 0.8643065823716913,
+    "tram_recent_monthly_p1.0": 0.8640252005027184,
+    "moscow_road_combined_recent_monthly_p1.0": 0.8631242815723725,
+    "moscow_road_combined_multiyear_monthly_p1.0": 0.8624229325321728,
+    "tram_recent_smooth_p0.5": 0.8621697949483269,
+    "moscow_road_combined_recent_monthly_p0.5": 0.8615710972195583,
+    "moscow_tram_control_multiyear_smooth_p0.5": 0.8608670623092808,
+    "moscow_tram_control_multiyear_monthly_p0.5": 0.860761590663257,
+    "moscow_road_combined_multiyear_monthly_p0.5": 0.8605183407247486,
+    "tram_recent_smooth_p0.25": 0.8603579452400677,
+    "moscow_tram_control_multiyear_monthly_p0.25": 0.8602845736802349,
+    "moscow_road_combined_recent_monthly_p0.25": 0.8601524866372627,
+    "moscow_tram_control_multiyear_smooth_p0.25": 0.8600684979860467,
+    "moscow_tram_control_recent_monthly_p0.25": 0.8597950166940983,
+    "moscow_tram_control_multiyear_smooth_p1.0": 0.8596852303242993,
+    "moscow_road_combined_multiyear_monthly_p0.25": 0.8594556564648436,
+    "moscow_tram_control_recent_monthly_p0.5": 0.8592678379594844,
+    "moscow_road_combined_multiyear_smooth_p0.5": 0.859210769839924,
+    "moscow_road_combined_multiyear_smooth_p0.25": 0.8590159649158725,
+    "moscow_road_combined_recent_smooth_p0.5": 0.8589807304039693,
+    "moscow_tram_control_recent_smooth_p0.25": 0.8589756949382497,
+    "moscow_road_combined_recent_smooth_p0.25": 0.858966706833833,
+    "tram_multiyear_monthly_p0.25": 0.8589083162311358,
+    "tram_multiyear_monthly_p0.5": 0.8588922785677173,
+    "moscow_metro_multiyear_monthly_p0.25": 0.8585076215285529,
+    "moscow_tram_control_multiyear_monthly_p1.0": 0.858468237044027,
+    "moscow_metro_recent_monthly_p0.25": 0.8581685595441582,
+    "moscow_tram_control_recent_smooth_p0.5": 0.858082933789916,
+    "control_no_foreign": 0.8580757009801497,
+    "moscow_road_combined_multiyear_smooth_p1.0": 0.8578722443250046,
+    "moscow_metro_multiyear_smooth_p0.25": 0.8578041205234492,
+    "moscow_metro_multiyear_monthly_p0.5": 0.8576940242745662,
+    "tram_multiyear_monthly_p1.0": 0.857032275838256,
+    "moscow_metro_recent_smooth_p0.25": 0.8570243002848753,
+    "moscow_road_combined_recent_smooth_p1.0": 0.8569974803924737,
+    "moscow_metro_multiyear_smooth_p0.5": 0.8568742278057796,
+    "moscow_metro_recent_monthly_p0.5": 0.8563657106112661,
+    "tram_multiyear_smooth_p0.25": 0.8563370003423653,
+    "moscow_metro_recent_smooth_p0.5": 0.8547139689399424,
+    "moscow_mcc_recent_monthly_p0.25": 0.8545776214469822,
+    "tram_multiyear_smooth_p0.5": 0.8543339593080472,
+    "moscow_tram_control_recent_monthly_p1.0": 0.8537981537262449,
+    "moscow_metro_multiyear_monthly_p1.0": 0.8534758619978969,
+    "moscow_mcc_recent_smooth_p0.25": 0.8534577873504361,
+    "moscow_metro_multiyear_smooth_p1.0": 0.8532586492800714,
+    "moscow_mcc_multiyear_monthly_p0.25": 0.8523107516495552,
+    "moscow_tram_control_recent_smooth_p1.0": 0.8521138021030153,
+    "moscow_mcc_multiyear_smooth_p0.25": 0.8518072187337354,
+    "tram_multiyear_smooth_p1.0": 0.8494632078501198,
+    "moscow_metro_recent_monthly_p1.0": 0.8490815508513433,
+    "moscow_mcc_recent_monthly_p0.5": 0.8487180122682033,
+    "moscow_metro_recent_smooth_p1.0": 0.8471694913606317,
+    "moscow_mcc_recent_smooth_p0.5": 0.846655851001786,
+    "moscow_mcc_multiyear_monthly_p0.5": 0.8430752387747975,
+    "moscow_mcc_multiyear_smooth_p0.5": 0.8422696264341125,
+    "moscow_mcc_recent_monthly_p1.0": 0.8329914472522816,
+    "moscow_mcc_recent_smooth_p1.0": 0.828547527946502,
+    "moscow_mcc_multiyear_monthly_p1.0": 0.8186695608432212,
+    "moscow_mcc_multiyear_smooth_p1.0": 0.8160115409222679
+  },
+  "configs": {
+    "control_no_foreign": {
+      "prior": null,
+      "power": 0
+    },
+    "tram_recent_monthly_p0.25": {
+      "prior": "tram_recent_monthly",
+      "power": 0.25
+    },
+    "tram_recent_monthly_p0.5": {
+      "prior": "tram_recent_monthly",
+      "power": 0.5
+    },
+    "tram_recent_monthly_p1.0": {
+      "prior": "tram_recent_monthly",
+      "power": 1.0
+    },
+    "tram_recent_smooth_p0.25": {
+      "prior": "tram_recent_smooth",
+      "power": 0.25
+    },
+    "tram_recent_smooth_p0.5": {
+      "prior": "tram_recent_smooth",
+      "power": 0.5
+    },
+    "tram_recent_smooth_p1.0": {
+      "prior": "tram_recent_smooth",
+      "power": 1.0
+    },
+    "tram_multiyear_monthly_p0.25": {
+      "prior": "tram_multiyear_monthly",
+      "power": 0.25
+    },
+    "tram_multiyear_monthly_p0.5": {
+      "prior": "tram_multiyear_monthly",
+      "power": 0.5
+    },
+    "tram_multiyear_monthly_p1.0": {
+      "prior": "tram_multiyear_monthly",
+      "power": 1.0
+    },
+    "tram_multiyear_smooth_p0.25": {
+      "prior": "tram_multiyear_smooth",
+      "power": 0.25
+    },
+    "tram_multiyear_smooth_p0.5": {
+      "prior": "tram_multiyear_smooth",
+      "power": 0.5
+    },
+    "tram_multiyear_smooth_p1.0": {
+      "prior": "tram_multiyear_smooth",
+      "power": 1.0
+    },
+    "trolley_recent_monthly_p0.25": {
+      "prior": "trolley_recent_monthly",
+      "power": 0.25
+    },
+    "trolley_recent_monthly_p0.5": {
+      "prior": "trolley_recent_monthly",
+      "power": 0.5
+    },
+    "trolley_recent_monthly_p1.0": {
+      "prior": "trolley_recent_monthly",
+      "power": 1.0
+    },
+    "trolley_recent_smooth_p0.25": {
+      "prior": "trolley_recent_smooth",
+      "power": 0.25
+    },
+    "trolley_recent_smooth_p0.5": {
+      "prior": "trolley_recent_smooth",
+      "power": 0.5
+    },
+    "trolley_recent_smooth_p1.0": {
+      "prior": "trolley_recent_smooth",
+      "power": 1.0
+    },
+    "moscow_metro_recent_monthly_p0.25": {
+      "prior": "moscow_metro_recent_monthly",
+      "power": 0.25
+    },
+    "moscow_metro_recent_monthly_p0.5": {
+      "prior": "moscow_metro_recent_monthly",
+      "power": 0.5
+    },
+    "moscow_metro_recent_monthly_p1.0": {
+      "prior": "moscow_metro_recent_monthly",
+      "power": 1.0
+    },
+    "moscow_metro_recent_smooth_p0.25": {
+      "prior": "moscow_metro_recent_smooth",
+      "power": 0.25
+    },
+    "moscow_metro_recent_smooth_p0.5": {
+      "prior": "moscow_metro_recent_smooth",
+      "power": 0.5
+    },
+    "moscow_metro_recent_smooth_p1.0": {
+      "prior": "moscow_metro_recent_smooth",
+      "power": 1.0
+    },
+    "moscow_metro_multiyear_monthly_p0.25": {
+      "prior": "moscow_metro_multiyear_monthly",
+      "power": 0.25
+    },
+    "moscow_metro_multiyear_monthly_p0.5": {
+      "prior": "moscow_metro_multiyear_monthly",
+      "power": 0.5
+    },
+    "moscow_metro_multiyear_monthly_p1.0": {
+      "prior": "moscow_metro_multiyear_monthly",
+      "power": 1.0
+    },
+    "moscow_metro_multiyear_smooth_p0.25": {
+      "prior": "moscow_metro_multiyear_smooth",
+      "power": 0.25
+    },
+    "moscow_metro_multiyear_smooth_p0.5": {
+      "prior": "moscow_metro_multiyear_smooth",
+      "power": 0.5
+    },
+    "moscow_metro_multiyear_smooth_p1.0": {
+      "prior": "moscow_metro_multiyear_smooth",
+      "power": 1.0
+    },
+    "moscow_mcc_recent_monthly_p0.25": {
+      "prior": "moscow_mcc_recent_monthly",
+      "power": 0.25
+    },
+    "moscow_mcc_recent_monthly_p0.5": {
+      "prior": "moscow_mcc_recent_monthly",
+      "power": 0.5
+    },
+    "moscow_mcc_recent_monthly_p1.0": {
+      "prior": "moscow_mcc_recent_monthly",
+      "power": 1.0
+    },
+    "moscow_mcc_recent_smooth_p0.25": {
+      "prior": "moscow_mcc_recent_smooth",
+      "power": 0.25
+    },
+    "moscow_mcc_recent_smooth_p0.5": {
+      "prior": "moscow_mcc_recent_smooth",
+      "power": 0.5
+    },
+    "moscow_mcc_recent_smooth_p1.0": {
+      "prior": "moscow_mcc_recent_smooth",
+      "power": 1.0
+    },
+    "moscow_mcc_multiyear_monthly_p0.25": {
+      "prior": "moscow_mcc_multiyear_monthly",
+      "power": 0.25
+    },
+    "moscow_mcc_multiyear_monthly_p0.5": {
+      "prior": "moscow_mcc_multiyear_monthly",
+      "power": 0.5
+    },
+    "moscow_mcc_multiyear_monthly_p1.0": {
+      "prior": "moscow_mcc_multiyear_monthly",
+      "power": 1.0
+    },
+    "moscow_mcc_multiyear_smooth_p0.25": {
+      "prior": "moscow_mcc_multiyear_smooth",
+      "power": 0.25
+    },
+    "moscow_mcc_multiyear_smooth_p0.5": {
+      "prior": "moscow_mcc_multiyear_smooth",
+      "power": 0.5
+    },
+    "moscow_mcc_multiyear_smooth_p1.0": {
+      "prior": "moscow_mcc_multiyear_smooth",
+      "power": 1.0
+    },
+    "moscow_road_combined_recent_monthly_p0.25": {
+      "prior": "moscow_road_combined_recent_monthly",
+      "power": 0.25
+    },
+    "moscow_road_combined_recent_monthly_p0.5": {
+      "prior": "moscow_road_combined_recent_monthly",
+      "power": 0.5
+    },
+    "moscow_road_combined_recent_monthly_p1.0": {
+      "prior": "moscow_road_combined_recent_monthly",
+      "power": 1.0
+    },
+    "moscow_road_combined_recent_smooth_p0.25": {
+      "prior": "moscow_road_combined_recent_smooth",
+      "power": 0.25
+    },
+    "moscow_road_combined_recent_smooth_p0.5": {
+      "prior": "moscow_road_combined_recent_smooth",
+      "power": 0.5
+    },
+    "moscow_road_combined_recent_smooth_p1.0": {
+      "prior": "moscow_road_combined_recent_smooth",
+      "power": 1.0
+    },
+    "moscow_road_combined_multiyear_monthly_p0.25": {
+      "prior": "moscow_road_combined_multiyear_monthly",
+      "power": 0.25
+    },
+    "moscow_road_combined_multiyear_monthly_p0.5": {
+      "prior": "moscow_road_combined_multiyear_monthly",
+      "power": 0.5
+    },
+    "moscow_road_combined_multiyear_monthly_p1.0": {
+      "prior": "moscow_road_combined_multiyear_monthly",
+      "power": 1.0
+    },
+    "moscow_road_combined_multiyear_smooth_p0.25": {
+      "prior": "moscow_road_combined_multiyear_smooth",
+      "power": 0.25
+    },
+    "moscow_road_combined_multiyear_smooth_p0.5": {
+      "prior": "moscow_road_combined_multiyear_smooth",
+      "power": 0.5
+    },
+    "moscow_road_combined_multiyear_smooth_p1.0": {
+      "prior": "moscow_road_combined_multiyear_smooth",
+      "power": 1.0
+    },
+    "moscow_tram_control_recent_monthly_p0.25": {
+      "prior": "moscow_tram_control_recent_monthly",
+      "power": 0.25
+    },
+    "moscow_tram_control_recent_monthly_p0.5": {
+      "prior": "moscow_tram_control_recent_monthly",
+      "power": 0.5
+    },
+    "moscow_tram_control_recent_monthly_p1.0": {
+      "prior": "moscow_tram_control_recent_monthly",
+      "power": 1.0
+    },
+    "moscow_tram_control_recent_smooth_p0.25": {
+      "prior": "moscow_tram_control_recent_smooth",
+      "power": 0.25
+    },
+    "moscow_tram_control_recent_smooth_p0.5": {
+      "prior": "moscow_tram_control_recent_smooth",
+      "power": 0.5
+    },
+    "moscow_tram_control_recent_smooth_p1.0": {
+      "prior": "moscow_tram_control_recent_smooth",
+      "power": 1.0
+    },
+    "moscow_tram_control_multiyear_monthly_p0.25": {
+      "prior": "moscow_tram_control_multiyear_monthly",
+      "power": 0.25
+    },
+    "moscow_tram_control_multiyear_monthly_p0.5": {
+      "prior": "moscow_tram_control_multiyear_monthly",
+      "power": 0.5
+    },
+    "moscow_tram_control_multiyear_monthly_p1.0": {
+      "prior": "moscow_tram_control_multiyear_monthly",
+      "power": 1.0
+    },
+    "moscow_tram_control_multiyear_smooth_p0.25": {
+      "prior": "moscow_tram_control_multiyear_smooth",
+      "power": 0.25
+    },
+    "moscow_tram_control_multiyear_smooth_p0.5": {
+      "prior": "moscow_tram_control_multiyear_smooth",
+      "power": 0.5
+    },
+    "moscow_tram_control_multiyear_smooth_p1.0": {
+      "prior": "moscow_tram_control_multiyear_smooth",
+      "power": 1.0
+    }
+  },
+  "artifacts": [
+    {
+      "file": "outputs/foreign_season_transfer_20260927/submission_external_transport.csv",
+      "model": "trolley_recent_monthly_p0.5",
+      "sha256": "53f4227f7c01577494ff4243e2b1c868eb20fe6143b8b75933eb17725adcdd70",
+      "prediction_total": 12666853,
+      "public_score": null,
+      "experimental": true
+    }
+  ],
+  "baseline_audits": [
+    {
+      "origin": "2025-07-01",
+      "baseline_replay_max_diff": 4.547473508864641e-13,
+      "future_label_perturbation_exact": true
+    },
+    {
+      "origin": "2025-08-01",
+      "baseline_replay_max_diff": 4.547473508864641e-13,
+      "future_label_perturbation_exact": true
+    },
+    {
+      "origin": "2025-09-01",
+      "baseline_replay_max_diff": 4.547473508864641e-13,
+      "future_label_perturbation_exact": true
+    },
+    {
+      "origin": "2025-10-01",
+      "baseline_replay_max_diff": 4.547473508864641e-13,
+      "future_label_perturbation_exact": true
+    }
+  ],
+  "selection": "Mean of 3 full 61-day windows; July forecasts cover 62 days for exact incumbent replay, only first 61 are scored. October 31 days is diagnostic. Previously explored windows overlap.",
+  "final_note": "Frozen v8 +3% multiplied by ratio of reconstructed foreign/old forecasts, to preserve original final exported shape. Validation uses the same forecast-ratio and rounding construction.",
+  "source_sha256": "53604d728385e8ad47c38c769bc8e91e7b52edde776a1cb3897861fe1e5e4e74",
+  "notes": [
+    "Kazakhstan and Moscow external data ends in 2024; indices exclude 2020-2022.",
+    "The source workbook is a 2026 vintage, so historical revisions may differ from an as-of-2025 release.",
+    "Foreign monthly seasonality is not a replacement for Russian holidays or Moscow target labels.",
+    "All source counts normalized by days in month and annual mean before transfer.",
+    "Supplied retrospective weather/service covariates and previously public-tuned +3% scale retained."
+  ],
+  "public_best_score": 0.89402,
+  "source_hashes": {
+    "data/external_kazakhstan/priors.json": "53604d728385e8ad47c38c769bc8e91e7b52edde776a1cb3897861fe1e5e4e74",
+    "data/external_moscow_modes/priors.json": "ad0f9d631931ccd5ec3dda6ec63427d2088fd1d7f62ca4fb0cf18a25152907f3",
+    "foreign_season_transfer.py": "0356a151e7f68a8c070f750967888235efcdadd2249126b01820e284216c5f30"
+  },
+  "decision": "Experimental only: improves mean development score mainly on summer, loses September-October. Confirmed public best .89402 retained."
+}

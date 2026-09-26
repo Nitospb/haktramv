@@ -1,0 +1,53 @@
+{
+  "final_submission_byte_exact": true,
+  "final_future_label_perturbation_exact": true,
+  "all_priors_pre_2025": true,
+  "excluded_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "validation_scores_recomputed": [
+    {
+      "origin": "2025-07-01",
+      "model": "control_no_foreign",
+      "score": 0.7911550144710204
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "trolley_recent_monthly_p0.5",
+      "score": 0.8488130059578107
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "control_no_foreign",
+      "score": 0.8842128561729518
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "trolley_recent_monthly_p0.5",
+      "score": 0.882022271367366
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "control_no_foreign",
+      "score": 0.8988592322964768
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "trolley_recent_monthly_p0.5",
+      "score": 0.894862754509572
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "control_no_foreign",
+      "score": 0.9125903408116532
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "trolley_recent_monthly_p0.5",
+      "score": 0.9126790374806998
+    }
+  ],
+  "sha256": "53f4227f7c01577494ff4243e2b1c868eb20fe6143b8b75933eb17725adcdd70"
+}

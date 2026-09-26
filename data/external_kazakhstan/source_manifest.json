@@ -1,0 +1,51 @@
+{
+  "source_url": "https://stat.gov.kz/api/iblock/element/445264/file/ru/",
+  "landing_url": "https://stat.gov.kz/ru/industries/business-statistics/stat-transport/dynamic-tables/?period=month",
+  "retrieved_on": "2026-09-27",
+  "source_sha256": "348fe40eac053e20a84732f6b0a9cdbe8c33f17219100d0de0be4faee196f941",
+  "input_period": [
+    2007,
+    2024
+  ],
+  "model_years": {
+    "tram_recent": [
+      "tram",
+      [
+        2023,
+        2024
+      ]
+    ],
+    "tram_multiyear": [
+      "tram",
+      [
+        2016,
+        2017,
+        2018,
+        2019,
+        2023,
+        2024
+      ]
+    ],
+    "trolley_recent": [
+      "trolleybus",
+      [
+        2023,
+        2024
+      ]
+    ]
+  },
+  "excluded_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "future_external_perturbation_passed": true,
+  "notes": [
+    "Workbook vintage 2026; historical revisions may not match an as-of-2025 snapshot.",
+    "Only pre-2025 rows enter models; raw source workbook retained for provenance.",
+    "National counts, not Moscow-like route labels; transfer normalized seasonality only.",
+    "Monthly series cannot identify holiday-day response. Russian day types remain from Moscow data.",
+    "Source notes a 2023 methodology change for individual road transport operators, and revises 2022. Bus not used as donor.",
+    "Normalized year levels remove absolute network scale, not all route closures or changes."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source_file": "data/features/08_external_seasonality/moscow_monthly_passengers.csv",
+  "source_sha256": "f3dfc35777d418ed326e2ac28cc1711f6daf04c4ab0f40bd15839fc821a43844",
+  "source_repository": "https://github.com/ArtNikVal/Analyseofmoscowtaransportproject",
+  "provenance": "User-provided archived CSV; its repository attributes data to the Moscow open-data portal. This extraction is not a fresh independently verified portal download.",
+  "modes": [
+    "metro",
+    "mcc",
+    "road_combined",
+    "tram_control"
+  ],
+  "excluded_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "future_external_perturbation_passed": true,
+  "notes": [
+    "Bus, electric bus and trolleybus are combined to reduce reclassification effects.",
+    "MCC is not MCD. No MCD series is present in this archive.",
+    "Monthly prior smooths broad seasonality; Russian holiday/daytype handling remains in the Moscow forecasting model.",
+    "2019 versus 2023/2024 may differ due to route openings and network changes. Normalize annual scale; this cannot remove all structural breaks."
+  ]
+}
