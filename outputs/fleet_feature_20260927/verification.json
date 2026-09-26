@@ -1,0 +1,52 @@
+{
+  "final_submissions_replayed_exactly": 2,
+  "recomputed_passenger_scores": [
+    {
+      "origin": 181,
+      "model": "direct_baseline",
+      "score": 0.7891576139921772
+    },
+    {
+      "origin": 181,
+      "model": "forecast_fleet_input",
+      "score": 0.7975643448567056
+    },
+    {
+      "origin": 181,
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.8223205464493162
+    },
+    {
+      "origin": 212,
+      "model": "direct_baseline",
+      "score": 0.8914423358813497
+    },
+    {
+      "origin": 212,
+      "model": "forecast_fleet_input",
+      "score": 0.8880947969268798
+    },
+    {
+      "origin": 212,
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.8974419464642728
+    },
+    {
+      "origin": 243,
+      "model": "direct_baseline",
+      "score": 0.8948934888060126
+    },
+    {
+      "origin": 243,
+      "model": "forecast_fleet_input",
+      "score": 0.8945534514497298
+    },
+    {
+      "origin": 243,
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.9026489161721455
+    }
+  ],
+  "hidden_label_perturbation_passed": true,
+  "active_best_changed": false
+}

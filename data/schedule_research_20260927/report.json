@@ -1,0 +1,31 @@
+{
+  "archived_routes": [
+    1,
+    7,
+    11,
+    12,
+    17,
+    25,
+    26,
+    28,
+    50
+  ],
+  "route5_rows": 26116,
+  "archived_stop_time_rows": 133012,
+  "archived_trip_templates": 4272,
+  "calendar_exceptions_present": false,
+  "hourly_rows": 87600,
+  "supply_definition": "Sum of trip time spent in hour / 60: average scheduled concurrent in-service trips; excludes terminal layover, not observed fleet.",
+  "validity": "Archived community GTFS retrieved June 2026, internal source date May 2025. Not verified as actual service for all dates. calendar_dates absent; holidays and later changes not fully represented.",
+  "route5_validity": "Current aggregator schedule for all seven weekdays and both directions. Effective date absent; do not apply as verified December 2025 schedule.",
+  "route5_launch_date": "2025-12-16",
+  "route5_launch_source": "https://transport.mos.ru/mostrans/all_news/127652",
+  "forecast_asof": "Route-5 launch source is after Oct 31; event is retrospective, not confirmed known at forecast origin.",
+  "checks": [
+    "All 9 archived target routes covered",
+    "All 14 route-5 weekday/direction pages parsed, 16 stops each",
+    "Vehicle-minute conservation",
+    "Unique route-date-hour keys",
+    "Missing day coverage kept separate from zero service"
+  ]
+}

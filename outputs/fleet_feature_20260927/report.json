@@ -1,0 +1,130 @@
+{
+  "metrics": [
+    {
+      "origin": "2025-07-01",
+      "model": "direct_baseline",
+      "score": 0.7891576139921772
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "direct_baseline_known_subset",
+      "score": 0.7891576139921772
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "forecast_fleet_input",
+      "score": 0.7975643448567056
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "forecast_fleet_input_known_subset",
+      "score": 0.7975643448567056
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.8223205464493162
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "fleet_forecast_score",
+      "score": 0.9214895335616264
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.7911453775168158
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "direct_baseline",
+      "score": 0.8914423358813497
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "direct_baseline_known_subset",
+      "score": 0.8914450834057958
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "forecast_fleet_input",
+      "score": 0.8880947969268798
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "forecast_fleet_input_known_subset",
+      "score": 0.8880979767503949
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.8974419464642728
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "fleet_forecast_score",
+      "score": 0.9326625443151604
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.8842099760064677
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "direct_baseline",
+      "score": 0.8948934888060126
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "direct_baseline_known_subset",
+      "score": 0.8949037604520597
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "forecast_fleet_input",
+      "score": 0.8945534514497298
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "forecast_fleet_input_known_subset",
+      "score": 0.8945639567886405
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "score": 0.9026489161721455
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "fleet_forecast_score",
+      "score": 0.9192823889066505
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.8988577426239452
+    }
+  ],
+  "forecast_variant": "Passenger model trained with observed historical fleet, inference uses separately predicted fleet.",
+  "observed_variant": "User reports organizer permission for retrospective/leakage inputs. True future fleet not available; known fleet evaluated only on historical validation.",
+  "active_model_changed": false,
+  "public_score": null,
+  "confirmed_public_best": 0.89402,
+  "route5": "No observed training data: kept zero; current timetable cannot determine passenger demand.",
+  "training_cutoffs": [
+    181,
+    212,
+    243,
+    304
+  ],
+  "paired_rows_and_weights": true,
+  "checkpoint_replay_exact": true,
+  "submission_sha256": "c11d654643102eaecafc74806d810dbbaab3c8294fafd1e2adfb60dbc9322eff",
+  "limitations": [
+    "Observed distinct transaction vehicles is not actual dispatched fleet.",
+    "Teacher forcing: stage 2 sees true historical fleet while inference sees forecast fleet.",
+    "Retrospective weather and service flags retained; previously explored overlapping 61-day windows.",
+    "Known-fleet diagnostics use finite-fleet subset; matched baseline subset reported separately."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bus_observatory_inventory_url": "https://busobservatory-lake.s3.amazonaws.com/?list-type=2&prefix=feeds%2F&delimiter=%2F",
+  "feeds": [
+    "feeds/mbta_all/",
+    "feeds/njtransit_bus/",
+    "feeds/nyct_mta_bus_gtfsrt/",
+    "feeds/nyct_mta_bus_siri/",
+    "feeds/sf_muni/",
+    "feeds/tfnsw_bus/",
+    "feeds/wmata_bus/"
+  ],
+  "retrieved_date": "2026-09-27",
+  "moscow_feed_found": false,
+  "gtfsrt_io_scope": "United States per homepage",
+  "actual_nov_dec_moscow_hourly_fleet_found": false
+}

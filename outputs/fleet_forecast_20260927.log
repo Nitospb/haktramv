@@ -1,0 +1,20 @@
+FIT 181 fleet_l1 48218
+FIT 181 fleet_poisson 48218
+FIT 181 occupancy_l1 42604
+FIT 181 direct_l1 48240
+RESULT [{'origin': '2025-07-01', 'model': 'direct_l1', 'score': 0.8441638369136351}, {'origin': '2025-07-01', 'model': 'fleet_l1_x_occupancy', 'score': 0.8401169775072544}, {'origin': '2025-07-01', 'model': 'fleet_poisson_x_occupancy', 'score': 0.840874990091416}, {'origin': '2025-07-01', 'model': 'fleet_profile_x_occupancy', 'score': 0.8128245563198249}, {'origin': '2025-07-01', 'model': 'factorized_profiles_28_84', 'score': 0.7676512390052509}, {'origin': '2025-07-01', 'model': 'predicted_observed_vehicles_l1', 'score': 0.9082791653765517, 'target': 'transaction-observed vehicles'}, {'origin': '2025-07-01', 'model': 'predicted_observed_vehicles_poisson', 'score': 0.905485913518918, 'target': 'transaction-observed vehicles'}, {'origin': '2025-07-01', 'model': 'observed_vehicles_profile', 'score': 0.9076029161036594, 'target': 'transaction-observed vehicles'}, {'origin': '2025-07-01', 'model': 'confirmed_v8_up3', 'score': 0.7911453775168158}, {'origin': '2025-07-01', 'model': 'oracle_fleet_DIAGNOSTIC_ONLY', 'score': 0.8502874497372397, 'target': 'diagnostic on known-fleet subset; not eligible'}]
+FIT 212 fleet_l1 65498
+FIT 212 fleet_poisson 65498
+FIT 212 occupancy_l1 57791
+FIT 212 direct_l1 65520
+RESULT [{'origin': '2025-08-01', 'model': 'direct_l1', 'score': 0.8497877099106791}, {'origin': '2025-08-01', 'model': 'fleet_l1_x_occupancy', 'score': 0.8794325653093024}, {'origin': '2025-08-01', 'model': 'fleet_poisson_x_occupancy', 'score': 0.8814068757952641}, {'origin': '2025-08-01', 'model': 'fleet_profile_x_occupancy', 'score': 0.8828195538168272}, {'origin': '2025-08-01', 'model': 'factorized_profiles_28_84', 'score': 0.860989811978368}, {'origin': '2025-08-01', 'model': 'predicted_observed_vehicles_l1', 'score': 0.9154256022350198, 'target': 'transaction-observed vehicles'}, {'origin': '2025-08-01', 'model': 'predicted_observed_vehicles_poisson', 'score': 0.9145789464860535, 'target': 'transaction-observed vehicles'}, {'origin': '2025-08-01', 'model': 'observed_vehicles_profile', 'score': 0.9222005135083854, 'target': 'transaction-observed vehicles'}, {'origin': '2025-08-01', 'model': 'confirmed_v8_up3', 'score': 0.8842099760064677}, {'origin': '2025-08-01', 'model': 'oracle_fleet_DIAGNOSTIC_ONLY', 'score': 0.8944463670970196, 'target': 'diagnostic on known-fleet subset; not eligible'}]
+FIT 243 fleet_l1 79970
+FIT 243 fleet_poisson 79970
+FIT 243 occupancy_l1 70463
+FIT 243 direct_l1 79992
+RESULT [{'origin': '2025-09-01', 'model': 'direct_l1', 'score': 0.8249494432584125}, {'origin': '2025-09-01', 'model': 'fleet_l1_x_occupancy', 'score': 0.8605733153704961}, {'origin': '2025-09-01', 'model': 'fleet_poisson_x_occupancy', 'score': 0.8605072993562027}, {'origin': '2025-09-01', 'model': 'fleet_profile_x_occupancy', 'score': 0.8613960850308218}, {'origin': '2025-09-01', 'model': 'factorized_profiles_28_84', 'score': 0.8540025266414212}, {'origin': '2025-09-01', 'model': 'predicted_observed_vehicles_l1', 'score': 0.9212354955423095, 'target': 'transaction-observed vehicles'}, {'origin': '2025-09-01', 'model': 'predicted_observed_vehicles_poisson', 'score': 0.9215863033697713, 'target': 'transaction-observed vehicles'}, {'origin': '2025-09-01', 'model': 'observed_vehicles_profile', 'score': 0.9259321947446203, 'target': 'transaction-observed vehicles'}, {'origin': '2025-09-01', 'model': 'confirmed_v8_up3', 'score': 0.8988577426239452}, {'origin': '2025-09-01', 'model': 'oracle_fleet_DIAGNOSTIC_ONLY', 'score': 0.8742899586273024, 'target': 'diagnostic on known-fleet subset; not eligible'}]
+FIT 304 fleet_l1 107604
+FIT 304 fleet_poisson 107604
+FIT 304 occupancy_l1 94565
+FIT 304 direct_l1 107640
+DONE fleet_poisson_x_occupancy

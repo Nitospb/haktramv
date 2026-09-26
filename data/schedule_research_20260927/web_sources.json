@@ -1,0 +1,128 @@
+[
+  {
+    "file": "raw/route5_A_day1.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=1",
+    "sha256": "33ca0478e1bc865b0e4dbefdebaf63f2e5a63437ecad5e1cec5bd1ab34d73314",
+    "retrieved_at": "2026-09-26T22:18:42.699856+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day2.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=2",
+    "sha256": "507fcaf814838383b77847c3bbc796719f68c64815a414edfa2a501bdbb81719",
+    "retrieved_at": "2026-09-26T22:18:42.701463+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day3.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=3",
+    "sha256": "0d4af6401fae33441aa4b4586f9c3027e081d1be5dc34552805e1eb84d75f494",
+    "retrieved_at": "2026-09-26T22:18:42.693623+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day4.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=4",
+    "sha256": "2029432f7ce98b678022cfdf22a67c73d6fbdac08ef6815ec651580dbfede1eb",
+    "retrieved_at": "2026-09-26T22:18:42.848299+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day5.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=5",
+    "sha256": "35f7217946fe76dd7f7cd6f576d2a7ed77e70c34ef17671eb38253959e635c54",
+    "retrieved_at": "2026-09-26T22:18:42.850589+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day6.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=6",
+    "sha256": "4664b233dc6096e14adb8f3d7c74ab37ef3aedfb18b23a33bf0ed5554b05cd03",
+    "retrieved_at": "2026-09-26T22:18:42.852213+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_A_day0.html",
+    "url": "https://kudikina.ru/msk/tram/5/A?d=0",
+    "sha256": "8b615d74967d66d05cb95f7afd5c0316d5bd4f2ac56427e06c3ac142b66514de",
+    "retrieved_at": "2026-09-26T22:18:42.996258+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day1.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=1",
+    "sha256": "8487209d1e63da7998c2b85c8891334f5c595bbc67a6833ac3da4619750ad5e0",
+    "retrieved_at": "2026-09-26T22:18:43.001648+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day2.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=2",
+    "sha256": "70847471f411bce09be7d35def513c13b244bfd7b84cf35e81b977d0543c294a",
+    "retrieved_at": "2026-09-26T22:18:42.997887+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day3.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=3",
+    "sha256": "93a0bbddf69143f74c3e981d60bfe29575ccc99301049129c9eec1f3cb846aed",
+    "retrieved_at": "2026-09-26T22:18:43.157162+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day4.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=4",
+    "sha256": "be9df7ee847777df5651ca8cf214b43d41f40e227b1921c9f9325923baadad5b",
+    "retrieved_at": "2026-09-26T22:18:43.150017+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day5.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=5",
+    "sha256": "6218cb759ff021cb16b99ea50f7c6156761714332d63e303fc93a407a0e2de97",
+    "retrieved_at": "2026-09-26T22:18:43.155084+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day6.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=6",
+    "sha256": "7052595b2ed6b868000dd50b637cb42e2ed0bf710fd692e6aeaae3065fdf3e21",
+    "retrieved_at": "2026-09-26T22:18:43.318128+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  },
+  {
+    "file": "raw/route5_B_day0.html",
+    "url": "https://kudikina.ru/msk/tram/5/B?d=0",
+    "sha256": "458043abbbfd4e55c980aec6508f77e0a7246aa3448b490f31b04e193e2b8513",
+    "retrieved_at": "2026-09-26T22:18:43.316475+00:00",
+    "source": "Kudikina aggregator; claims public Mosgortrans data",
+    "effective_date": null,
+    "historical_2025_verified": false
+  }
+]

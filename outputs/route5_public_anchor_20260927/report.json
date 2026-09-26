@@ -1,0 +1,26 @@
+{
+  "public_score": null,
+  "active_model_changed": false,
+  "source_url": "https://transport.mos.ru/mostrans/all_news/127782",
+  "source_publication_date": "2025-12-23",
+  "official_reported_first_week_passenger_trips": 40000,
+  "official_reported_first_week_vehicle_trips": 1500,
+  "assumed_anchor_dates": [
+    "2025-12-16",
+    "2025-12-22"
+  ],
+  "projected_route5_december_total": 89597,
+  "base_public_score": 0.89402,
+  "base_sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+  "submission_sha256": "9285807bdf6f6b5a18077aef77e2fd5b54b3ee7d46d9ab7360c4fbad6389eab1",
+  "user_authorization": "User explicitly reports organizers permit leakage and retrospective data.",
+  "method": "Only route 5 changes. Current route-5 stop opportunities multiplied by donor demand per opportunity from existing best route 7/50 forecasts; first-week sum anchored to 40000.",
+  "limitations": [
+    "Official aggregate is rounded, and passenger trips may not equal successful validations in competition.",
+    "First-week boundary interpreted as Dec 16-22; publication does not specify exact timestamps.",
+    "Opening-day operating hours unknown; full current weekday profile used for that day.",
+    "Current minute schedule has no confirmed December 2025 effective date.",
+    "No route-5 target history for validation. This is an unvalidated cold-start scenario, not a trained fleet improvement.",
+    "Later December extrapolates the first-week scale; holiday demand and uptake may differ."
+  ]
+}

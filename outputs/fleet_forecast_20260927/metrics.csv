@@ -1,0 +1,31 @@
+origin,model,score,target
+2025-07-01,direct_l1,0.8441638369136351,
+2025-07-01,fleet_l1_x_occupancy,0.8401169775072544,
+2025-07-01,fleet_poisson_x_occupancy,0.840874990091416,
+2025-07-01,fleet_profile_x_occupancy,0.8128245563198249,
+2025-07-01,factorized_profiles_28_84,0.7676512390052509,
+2025-07-01,predicted_observed_vehicles_l1,0.9082791653765517,transaction-observed vehicles
+2025-07-01,predicted_observed_vehicles_poisson,0.905485913518918,transaction-observed vehicles
+2025-07-01,observed_vehicles_profile,0.9076029161036594,transaction-observed vehicles
+2025-07-01,confirmed_v8_up3,0.7911453775168158,
+2025-07-01,oracle_fleet_DIAGNOSTIC_ONLY,0.8502874497372397,diagnostic on known-fleet subset; not eligible
+2025-08-01,direct_l1,0.8497877099106791,
+2025-08-01,fleet_l1_x_occupancy,0.8794325653093024,
+2025-08-01,fleet_poisson_x_occupancy,0.8814068757952641,
+2025-08-01,fleet_profile_x_occupancy,0.8828195538168272,
+2025-08-01,factorized_profiles_28_84,0.860989811978368,
+2025-08-01,predicted_observed_vehicles_l1,0.9154256022350198,transaction-observed vehicles
+2025-08-01,predicted_observed_vehicles_poisson,0.9145789464860535,transaction-observed vehicles
+2025-08-01,observed_vehicles_profile,0.9222005135083854,transaction-observed vehicles
+2025-08-01,confirmed_v8_up3,0.8842099760064677,
+2025-08-01,oracle_fleet_DIAGNOSTIC_ONLY,0.8944463670970196,diagnostic on known-fleet subset; not eligible
+2025-09-01,direct_l1,0.8249494432584125,
+2025-09-01,fleet_l1_x_occupancy,0.8605733153704961,
+2025-09-01,fleet_poisson_x_occupancy,0.8605072993562027,
+2025-09-01,fleet_profile_x_occupancy,0.8613960850308218,
+2025-09-01,factorized_profiles_28_84,0.8540025266414212,
+2025-09-01,predicted_observed_vehicles_l1,0.9212354955423095,transaction-observed vehicles
+2025-09-01,predicted_observed_vehicles_poisson,0.9215863033697713,transaction-observed vehicles
+2025-09-01,observed_vehicles_profile,0.9259321947446203,transaction-observed vehicles
+2025-09-01,confirmed_v8_up3,0.8988577426239452,
+2025-09-01,oracle_fleet_DIAGNOSTIC_ONLY,0.8742899586273024,diagnostic on known-fleet subset; not eligible

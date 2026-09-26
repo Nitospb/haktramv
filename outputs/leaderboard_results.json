@@ -280,5 +280,32 @@
     "decision": "Rejected as replacement; public score 0.89026 is below confirmed v8 +3% 0.89402",
     "submitted_at": "2026-09-27 01:04 +03:00",
     "file_mapping": "Assumed latest delivered external transport submission; competition did not provide a file hash"
+  },
+  {
+    "submission": "outputs/fleet_forecast_20260927/submission_fleet.csv",
+    "sha256": "7b18e62ccde1922638db2a3e226438edc11b61512bcbe2256f6127a18cb418c5",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "model": "forecast fleet times occupancy",
+    "decision": "Development Sep-Oct 0.86051; not promoted.",
+    "source": "Fleet and schedule study; user permits retrospective external inputs"
+  },
+  {
+    "submission": "outputs/fleet_feature_20260927/submission_fleet_feature.csv",
+    "sha256": "c11d654643102eaecafc74806d810dbbaab3c8294fafd1e2adfb60dbc9322eff",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "model": "raw LightGBM with separately predicted observed fleet",
+    "decision": "Development Sep-Oct 0.89455 versus confirmed v8+3 0.89886; not promoted.",
+    "source": "Fleet and schedule study; user permits retrospective external inputs"
+  },
+  {
+    "submission": "outputs/route5_public_anchor_20260927/submission_best_plus_route5.csv",
+    "sha256": "9285807bdf6f6b5a18077aef77e2fd5b54b3ee7d46d9ab7360c4fbad6389eab1",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "model": "confirmed v8+3 with route5 first-week public aggregate anchor",
+    "decision": "Experimental route5-only correction using user-authorized retrospective public data; no route5 local validation.",
+    "source": "Fleet and schedule study; user permits retrospective external inputs"
   }
 ]

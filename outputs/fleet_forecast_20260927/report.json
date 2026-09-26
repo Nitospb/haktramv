@@ -1,0 +1,193 @@
+{
+  "selected": "fleet_poisson_x_occupancy",
+  "ranking": {
+    "fleet_poisson_x_occupancy": 0.8609297217476276,
+    "fleet_l1_x_occupancy": 0.8600409527290176,
+    "fleet_profile_x_occupancy": 0.8523467317224913,
+    "factorized_profiles_28_84": 0.8275478592083467
+  },
+  "metrics": [
+    {
+      "origin": "2025-07-01",
+      "model": "direct_l1",
+      "score": 0.8441638369136351
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "fleet_l1_x_occupancy",
+      "score": 0.8401169775072544
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "fleet_poisson_x_occupancy",
+      "score": 0.840874990091416
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "fleet_profile_x_occupancy",
+      "score": 0.8128245563198249
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "factorized_profiles_28_84",
+      "score": 0.7676512390052509
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "predicted_observed_vehicles_l1",
+      "score": 0.9082791653765517,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "predicted_observed_vehicles_poisson",
+      "score": 0.905485913518918,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "observed_vehicles_profile",
+      "score": 0.9076029161036594,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.7911453775168158
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "oracle_fleet_DIAGNOSTIC_ONLY",
+      "score": 0.8502874497372397,
+      "target": "diagnostic on known-fleet subset; not eligible"
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "direct_l1",
+      "score": 0.8497877099106791
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "fleet_l1_x_occupancy",
+      "score": 0.8794325653093024
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "fleet_poisson_x_occupancy",
+      "score": 0.8814068757952641
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "fleet_profile_x_occupancy",
+      "score": 0.8828195538168272
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "factorized_profiles_28_84",
+      "score": 0.860989811978368
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "predicted_observed_vehicles_l1",
+      "score": 0.9154256022350198,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "predicted_observed_vehicles_poisson",
+      "score": 0.9145789464860535,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "observed_vehicles_profile",
+      "score": 0.9222005135083854,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.8842099760064677
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "oracle_fleet_DIAGNOSTIC_ONLY",
+      "score": 0.8944463670970196,
+      "target": "diagnostic on known-fleet subset; not eligible"
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "direct_l1",
+      "score": 0.8249494432584125
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "fleet_l1_x_occupancy",
+      "score": 0.8605733153704961
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "fleet_poisson_x_occupancy",
+      "score": 0.8605072993562027
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "fleet_profile_x_occupancy",
+      "score": 0.8613960850308218
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "factorized_profiles_28_84",
+      "score": 0.8540025266414212
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "predicted_observed_vehicles_l1",
+      "score": 0.9212354955423095,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "predicted_observed_vehicles_poisson",
+      "score": 0.9215863033697713,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "observed_vehicles_profile",
+      "score": 0.9259321947446203,
+      "target": "transaction-observed vehicles"
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "confirmed_v8_up3",
+      "score": 0.8988577426239452
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "oracle_fleet_DIAGNOSTIC_ONLY",
+      "score": 0.8742899586273024,
+      "target": "diagnostic on known-fleet subset; not eligible"
+    }
+  ],
+  "data_audit": {
+    "known_rows": 72960,
+    "unknown_fleet_rows": 71,
+    "positive_boardings_unknown_fleet": 68
+  },
+  "public_score": null,
+  "active_model_changed": false,
+  "confirmed_public_best": 0.89402,
+  "candidate_sha256": "7b18e62ccde1922638db2a3e226438edc11b61512bcbe2256f6127a18cb418c5",
+  "definition": "Number of distinct vehicles with at least one recorded transaction in hour, not true dispatched/concurrent fleet.",
+  "causal_checks": "Perturbing all hidden passenger and observed-fleet labels leaves features exactly unchanged at all four origins.",
+  "selection": "Mean of three previously explored overlapping 61-day development windows. No public selection.",
+  "caveats": [
+    "No hidden vehicle observations used in eligible forecasts.",
+    "Route 5 has no training fleet/passenger history; remains zero in this experiment, separate cold-start problem.",
+    "Current route-5 timetable not used as historical 2025 feature.",
+    "Weather/service covariates are existing retrospective inputs.",
+    "Archived May GTFS is incomplete before service start dates and has no holiday exception table.",
+    "Occupancy uses observed training fleet as a target denominator, not a future feature; errors compound at inference."
+  ]
+}
