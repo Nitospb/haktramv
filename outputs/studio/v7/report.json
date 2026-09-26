@@ -1,0 +1,94 @@
+{
+  "global_weights": {
+    "service_experts": 0.7095020706434798,
+    "cancel_only": 6.123169806392681e-18,
+    "enriched": 0.2904979293565202,
+    "fare_cohorts": 1.5222001146486832e-18
+  },
+  "route_weights": {
+    "1": {
+      "service_experts": 0.7201611867371759,
+      "cancel_only": 0.010659115134408105,
+      "enriched": 0.26699995050899406,
+      "fare_cohorts": 0.0021797476194220103
+    },
+    "5": {
+      "service_experts": 0.8547510353217399,
+      "cancel_only": 3.0615849031963407e-18,
+      "enriched": 0.1452489646782601,
+      "fare_cohorts": 7.611000573243416e-19
+    },
+    "7": {
+      "service_experts": 0.7123593552969718,
+      "cancel_only": 3.0615849031963407e-18,
+      "enriched": 0.28764064470302814,
+      "fare_cohorts": 8.448131810835511e-18
+    },
+    "11": {
+      "service_experts": 0.6776291028154547,
+      "cancel_only": 3.0615849031963407e-18,
+      "enriched": 0.32237089718454526,
+      "fare_cohorts": 7.611000573243416e-19
+    },
+    "12": {
+      "service_experts": 0.6492607606305818,
+      "cancel_only": 3.2449683721937867e-18,
+      "enriched": 0.3210517531311843,
+      "fare_cohorts": 0.029687486238233897
+    },
+    "17": {
+      "service_experts": 0.6965675961059429,
+      "cancel_only": 0.030187516748875303,
+      "enriched": 0.2732448871451818,
+      "fare_cohorts": 7.611000573243416e-19
+    },
+    "25": {
+      "service_experts": 0.6835387345964452,
+      "cancel_only": 1.0742059486617201e-17,
+      "enriched": 0.3164612654035548,
+      "fare_cohorts": 7.611000573243416e-19
+    },
+    "26": {
+      "service_experts": 0.7222493914812282,
+      "cancel_only": 0.012747321139940863,
+      "enriched": 0.26500328737883083,
+      "fare_cohorts": 1.2966567035440904e-18
+    },
+    "28": {
+      "service_experts": 0.7084359209556342,
+      "cancel_only": 3.0615849031963407e-18,
+      "enriched": 0.289212886108823,
+      "fare_cohorts": 0.0023511929355427928
+    },
+    "50": {
+      "service_experts": 0.5937311577222374,
+      "cancel_only": 0.1908147293865705,
+      "enriched": 0.21545411289119212,
+      "fare_cohorts": 7.611000573243416e-19
+    }
+  },
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "expert": 0.8511275414978197,
+      "ensemble": 0.8541349900712905
+    },
+    {
+      "fold": "2025-08-01",
+      "expert": 0.8981671298435894,
+      "ensemble": 0.8998043381620295
+    },
+    {
+      "fold": "2025-09-01",
+      "expert": 0.9082129404100506,
+      "ensemble": 0.906946622786459
+    },
+    {
+      "fold": "2025-10-01",
+      "expert": 0.91327562468561,
+      "ensemble": 0.9130529494274104
+    }
+  ],
+  "selection": "Weights chosen on Jul-Aug and Aug-Sep; all periods were previously explored. Development diagnostics only. Retrospective supplied weather/events.",
+  "public_score": null
+}

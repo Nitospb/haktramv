@@ -1,0 +1,1238 @@
+{
+  "target_stop_count": 314,
+  "zones": [
+    {
+      "zone": "zone_1",
+      "latitude": 55.7758,
+      "longitude": 37.65031,
+      "representative_stop_id": "stop-143",
+      "stop_count": 93
+    },
+    {
+      "zone": "zone_2",
+      "latitude": 55.62858,
+      "longitude": 37.59865,
+      "representative_stop_id": "stop-560",
+      "stop_count": 24
+    },
+    {
+      "zone": "zone_3",
+      "latitude": 55.81018,
+      "longitude": 37.4694,
+      "representative_stop_id": "stop-115",
+      "stop_count": 21
+    },
+    {
+      "zone": "zone_4",
+      "latitude": 55.84297,
+      "longitude": 37.66525,
+      "representative_stop_id": "stop-194",
+      "stop_count": 43
+    },
+    {
+      "zone": "zone_5",
+      "latitude": 55.6937,
+      "longitude": 37.60675,
+      "representative_stop_id": "stop-393",
+      "stop_count": 48
+    },
+    {
+      "zone": "zone_6",
+      "latitude": 55.79143,
+      "longitude": 37.71598,
+      "representative_stop_id": "stop-366",
+      "stop_count": 85
+    },
+    {
+      "zone": "center",
+      "latitude": 55.7558,
+      "longitude": 37.6173,
+      "representative_stop_id": null,
+      "stop_count": 0
+    }
+  ],
+  "weather_cell_mapping": {
+    "zone_1": "zone_1",
+    "zone_2": "zone_2",
+    "zone_3": "zone_3",
+    "zone_4": "zone_1",
+    "zone_5": "zone_5",
+    "zone_6": "zone_1"
+  },
+  "distinct_route_weather_cells": 4,
+  "hourly_rows": 168000,
+  "min_timestamp": "2022-01-01 00:00:00+03:00",
+  "max_timestamp": "2025-10-31 23:00:00+03:00",
+  "missing_pct": {
+    "temperature_2m": 0.0,
+    "apparent_temperature": 0.0,
+    "relative_humidity_2m": 0.0,
+    "precipitation": 0.0,
+    "rain": 0.0,
+    "snowfall": 0.0,
+    "snow_depth": 0.0,
+    "cloud_cover": 0.0,
+    "wind_speed_10m": 0.0,
+    "wind_gusts_10m": 0.0,
+    "surface_pressure": 0.0
+  },
+  "grid_cells": [
+    {
+      "zone": "zone_1",
+      "year": 2022,
+      "requested_latitude": 55.7758,
+      "requested_longitude": 37.65031,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "9796d3d6d88d2c38ab8f1a3b85bb959576bb808eb356a2444212613b8e7a2f17",
+      "fetched_at": "2026-09-25T13:28:30.143862+00:00"
+    },
+    {
+      "zone": "zone_1",
+      "year": 2023,
+      "requested_latitude": 55.7758,
+      "requested_longitude": 37.65031,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "dc11c99694d6d688e5df73be63cf6f9f6677e90e50243ec46e6c1e0d511a3a3d",
+      "fetched_at": "2026-09-25T13:28:30.961108+00:00"
+    },
+    {
+      "zone": "zone_1",
+      "year": 2024,
+      "requested_latitude": 55.7758,
+      "requested_longitude": 37.65031,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "8f7efc3e6e5af39ae3733319d26ed0dfe22ec161e976d7a5e49e5ee7e545c0a3",
+      "fetched_at": "2026-09-25T13:28:32.178781+00:00"
+    },
+    {
+      "zone": "zone_1",
+      "year": 2025,
+      "requested_latitude": 55.7758,
+      "requested_longitude": 37.65031,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "5a5289537968e59847a09f4d89df95caac1a0a040df72ffe8619a639c2f39c3f",
+      "fetched_at": "2026-09-25T13:28:33.380867+00:00"
+    },
+    {
+      "zone": "zone_2",
+      "year": 2022,
+      "requested_latitude": 55.62858,
+      "requested_longitude": 37.59865,
+      "grid_latitude": 55.600006,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "b9cfb06ad71fad2854cc3693ea9c1f8e3849b98d98081d2d04d83474fbb07842",
+      "fetched_at": "2026-09-25T13:28:34.478793+00:00"
+    },
+    {
+      "zone": "zone_2",
+      "year": 2023,
+      "requested_latitude": 55.62858,
+      "requested_longitude": 37.59865,
+      "grid_latitude": 55.600006,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "b16036f0baf32616548154b56f807f21ca5f64933b25cdc1bb87c9a488b04940",
+      "fetched_at": "2026-09-25T13:28:35.681663+00:00"
+    },
+    {
+      "zone": "zone_2",
+      "year": 2024,
+      "requested_latitude": 55.62858,
+      "requested_longitude": 37.59865,
+      "grid_latitude": 55.600006,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "6fc3867aac62bd28f53cc8666ae74250b416a4f37909eaa7e7079aae48885988",
+      "fetched_at": "2026-09-25T13:28:36.909726+00:00"
+    },
+    {
+      "zone": "zone_2",
+      "year": 2025,
+      "requested_latitude": 55.62858,
+      "requested_longitude": 37.59865,
+      "grid_latitude": 55.600006,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "440dd48191f9c921eb42e3717406cb4cd2a25e73d16d0d50fe2c146699d547d5",
+      "fetched_at": "2026-09-25T13:28:38.067701+00:00"
+    },
+    {
+      "zone": "zone_3",
+      "year": 2022,
+      "requested_latitude": 55.81018,
+      "requested_longitude": 37.4694,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.5,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "d44f4e4e86767db8d1359b4f7a918e5b8389e4d61dc097159c778b3c416053ea",
+      "fetched_at": "2026-09-25T13:28:39.267171+00:00"
+    },
+    {
+      "zone": "zone_3",
+      "year": 2023,
+      "requested_latitude": 55.81018,
+      "requested_longitude": 37.4694,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.5,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "67d5578f9d8f70f316e068461402490cc9f114bfbc5045872569e6b28ae21379",
+      "fetched_at": "2026-09-25T13:28:40.498826+00:00"
+    },
+    {
+      "zone": "zone_3",
+      "year": 2024,
+      "requested_latitude": 55.81018,
+      "requested_longitude": 37.4694,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.5,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "aac4b7a77d7f94bb009118f397f689491ad5274dba1273f0d9b3130fb251cd9c",
+      "fetched_at": "2026-09-25T13:28:41.674973+00:00"
+    },
+    {
+      "zone": "zone_3",
+      "year": 2025,
+      "requested_latitude": 55.81018,
+      "requested_longitude": 37.4694,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.5,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "d057fc7cf5474959baf63d8e9d38cd382862641da0098c6a5c1d74974d8afdc4",
+      "fetched_at": "2026-09-25T13:28:42.868186+00:00"
+    },
+    {
+      "zone": "zone_4",
+      "year": 2022,
+      "requested_latitude": 55.84297,
+      "requested_longitude": 37.66525,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "825890569e112131e6347fe395827be6ddd63c9a448385916f3ad1d66d3082ed",
+      "fetched_at": "2026-09-25T13:28:45.362219+00:00"
+    },
+    {
+      "zone": "zone_4",
+      "year": 2023,
+      "requested_latitude": 55.84297,
+      "requested_longitude": 37.66525,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "3eca4c8dd6aa088415d5f04a39a82b6be1655689ace425f81858ab0d0f53d7e8",
+      "fetched_at": "2026-09-25T13:28:45.504735+00:00"
+    },
+    {
+      "zone": "zone_4",
+      "year": 2024,
+      "requested_latitude": 55.84297,
+      "requested_longitude": 37.66525,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "9f2359762022eba39c3470611a3c8776a3f0cf0154bf39fecf9c9649a14fdd53",
+      "fetched_at": "2026-09-25T13:28:46.714146+00:00"
+    },
+    {
+      "zone": "zone_4",
+      "year": 2025,
+      "requested_latitude": 55.84297,
+      "requested_longitude": 37.66525,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "19be443712f4f01753dcfd6210ee774c29a9e8787646b36c3277e20aae8d2b58",
+      "fetched_at": "2026-09-25T13:28:47.945890+00:00"
+    },
+    {
+      "zone": "zone_5",
+      "year": 2022,
+      "requested_latitude": 55.6937,
+      "requested_longitude": 37.60675,
+      "grid_latitude": 55.699997,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "6e495c89c6bbfed7fcedab84fb4896374c800d4b08b2672310ecf127d4f2a371",
+      "fetched_at": "2026-09-25T13:28:49.132987+00:00"
+    },
+    {
+      "zone": "zone_5",
+      "year": 2023,
+      "requested_latitude": 55.6937,
+      "requested_longitude": 37.60675,
+      "grid_latitude": 55.699997,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "620c4203c83375b2b3e25179417d2af4ef022948a97e84c91a19401b0d1b1359",
+      "fetched_at": "2026-09-25T13:28:50.336289+00:00"
+    },
+    {
+      "zone": "zone_5",
+      "year": 2024,
+      "requested_latitude": 55.6937,
+      "requested_longitude": 37.60675,
+      "grid_latitude": 55.699997,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "544df8f774e1b95eaa5b06fd615ef20521f5e10491359ead2f1179fb415ae8cf",
+      "fetched_at": "2026-09-25T13:28:51.537318+00:00"
+    },
+    {
+      "zone": "zone_5",
+      "year": 2025,
+      "requested_latitude": 55.6937,
+      "requested_longitude": 37.60675,
+      "grid_latitude": 55.699997,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "cca5487ae64e6112b0e77f02677171518278b19c11293fc4bdd5e15b2a27fe26",
+      "fetched_at": "2026-09-25T13:28:52.730713+00:00"
+    },
+    {
+      "zone": "zone_6",
+      "year": 2022,
+      "requested_latitude": 55.79143,
+      "requested_longitude": 37.71598,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "2ae439aca9a7b84c18771202bc59330c17c4a1f561c00adfbc87f5932efce516",
+      "fetched_at": "2026-09-25T13:28:53.933182+00:00"
+    },
+    {
+      "zone": "zone_6",
+      "year": 2023,
+      "requested_latitude": 55.79143,
+      "requested_longitude": 37.71598,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "2daac01e480aa2d17c49443a57355c3be251d66ab735d5dec6086d0fd9883a05",
+      "fetched_at": "2026-09-25T13:28:55.160933+00:00"
+    },
+    {
+      "zone": "zone_6",
+      "year": 2024,
+      "requested_latitude": 55.79143,
+      "requested_longitude": 37.71598,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "cb085572c45f3b120a007c452f69e6ed65ef2e4ba616657526750ffb0f4dd41f",
+      "fetched_at": "2026-09-25T13:29:02.489650+00:00"
+    },
+    {
+      "zone": "zone_6",
+      "year": 2025,
+      "requested_latitude": 55.79143,
+      "requested_longitude": 37.71598,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.699997,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "2d5682b51ebfed66c104e1808b3fcec7619e5b222430b05820e3c583f02b44f4",
+      "fetched_at": "2026-09-25T13:29:03.680835+00:00"
+    },
+    {
+      "zone": "center",
+      "year": 2022,
+      "requested_latitude": 55.7558,
+      "requested_longitude": 37.6173,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "9ed7ba15dd8f011fc8b46d90142d706a0e55c0daf6865af00fea8ad636da0c5c",
+      "fetched_at": "2026-09-25T13:29:04.866798+00:00"
+    },
+    {
+      "zone": "center",
+      "year": 2023,
+      "requested_latitude": 55.7558,
+      "requested_longitude": 37.6173,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "fb688105ed53794e1cb558c12d2f52dd526236335ee2e6339fb7da484008cd0c",
+      "fetched_at": "2026-09-25T13:29:06.090480+00:00"
+    },
+    {
+      "zone": "center",
+      "year": 2024,
+      "requested_latitude": 55.7558,
+      "requested_longitude": 37.6173,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "20db81bcf4cc7d87969bf92a84961a56d3fd6540ff191f3435f7df71d5c09a2c",
+      "fetched_at": "2026-09-25T13:29:07.323164+00:00"
+    },
+    {
+      "zone": "center",
+      "year": 2025,
+      "requested_latitude": 55.7558,
+      "requested_longitude": 37.6173,
+      "grid_latitude": 55.800003,
+      "grid_longitude": 37.600006,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "cloud_cover": "%",
+        "wind_speed_10m": "m/s",
+        "wind_gusts_10m": "m/s",
+        "surface_pressure": "hPa"
+      },
+      "source_sha256": "7de0eb2b8b17d16663f0b1e6b5705520ca68d3611589d0e36736997cc130b2cc",
+      "fetched_at": "2026-09-25T13:29:08.479149+00:00"
+    }
+  ],
+  "network_requests": 0,
+  "sources": [
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7758,
+        "longitude": 37.65031,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:30.143862+00:00",
+      "sha256": "9796d3d6d88d2c38ab8f1a3b85bb959576bb808eb356a2444212613b8e7a2f17",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625385
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7758,
+        "longitude": 37.65031,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:30.961108+00:00",
+      "sha256": "dc11c99694d6d688e5df73be63cf6f9f6677e90e50243ec46e6c1e0d511a3a3d",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626487
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7758,
+        "longitude": 37.65031,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:32.178781+00:00",
+      "sha256": "8f7efc3e6e5af39ae3733319d26ed0dfe22ec161e976d7a5e49e5ee7e545c0a3",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 627960
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7758,
+        "longitude": 37.65031,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:33.380867+00:00",
+      "sha256": "5a5289537968e59847a09f4d89df95caac1a0a040df72ffe8619a639c2f39c3f",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 518833
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.62858,
+        "longitude": 37.59865,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:34.478793+00:00",
+      "sha256": "b9cfb06ad71fad2854cc3693ea9c1f8e3849b98d98081d2d04d83474fbb07842",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 624271
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.62858,
+        "longitude": 37.59865,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:35.681663+00:00",
+      "sha256": "b16036f0baf32616548154b56f807f21ca5f64933b25cdc1bb87c9a488b04940",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625599
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.62858,
+        "longitude": 37.59865,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:36.909726+00:00",
+      "sha256": "6fc3867aac62bd28f53cc8666ae74250b416a4f37909eaa7e7079aae48885988",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 627182
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.62858,
+        "longitude": 37.59865,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:38.067701+00:00",
+      "sha256": "440dd48191f9c921eb42e3717406cb4cd2a25e73d16d0d50fe2c146699d547d5",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 518239
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.81018,
+        "longitude": 37.4694,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:39.267171+00:00",
+      "sha256": "d44f4e4e86767db8d1359b4f7a918e5b8389e4d61dc097159c778b3c416053ea",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625194
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.81018,
+        "longitude": 37.4694,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:40.498826+00:00",
+      "sha256": "67d5578f9d8f70f316e068461402490cc9f114bfbc5045872569e6b28ae21379",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626353
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.81018,
+        "longitude": 37.4694,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:41.674973+00:00",
+      "sha256": "aac4b7a77d7f94bb009118f397f689491ad5274dba1273f0d9b3130fb251cd9c",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 627860
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.81018,
+        "longitude": 37.4694,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:42.868186+00:00",
+      "sha256": "d057fc7cf5474959baf63d8e9d38cd382862641da0098c6a5c1d74974d8afdc4",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 518747
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.84297,
+        "longitude": 37.66525,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:45.362219+00:00",
+      "sha256": "825890569e112131e6347fe395827be6ddd63c9a448385916f3ad1d66d3082ed",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625762
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.84297,
+        "longitude": 37.66525,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:45.504735+00:00",
+      "sha256": "3eca4c8dd6aa088415d5f04a39a82b6be1655689ace425f81858ab0d0f53d7e8",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626788
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.84297,
+        "longitude": 37.66525,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:46.714146+00:00",
+      "sha256": "9f2359762022eba39c3470611a3c8776a3f0cf0154bf39fecf9c9649a14fdd53",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 628217
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.84297,
+        "longitude": 37.66525,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:47.945890+00:00",
+      "sha256": "19be443712f4f01753dcfd6210ee774c29a9e8787646b36c3277e20aae8d2b58",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 519130
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.6937,
+        "longitude": 37.60675,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:49.132987+00:00",
+      "sha256": "6e495c89c6bbfed7fcedab84fb4896374c800d4b08b2672310ecf127d4f2a371",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625503
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.6937,
+        "longitude": 37.60675,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:50.336289+00:00",
+      "sha256": "620c4203c83375b2b3e25179417d2af4ef022948a97e84c91a19401b0d1b1359",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626603
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.6937,
+        "longitude": 37.60675,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:51.537318+00:00",
+      "sha256": "544df8f774e1b95eaa5b06fd615ef20521f5e10491359ead2f1179fb415ae8cf",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 628117
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.6937,
+        "longitude": 37.60675,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:52.730713+00:00",
+      "sha256": "cca5487ae64e6112b0e77f02677171518278b19c11293fc4bdd5e15b2a27fe26",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 518855
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.79143,
+        "longitude": 37.71598,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:53.933182+00:00",
+      "sha256": "2ae439aca9a7b84c18771202bc59330c17c4a1f561c00adfbc87f5932efce516",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 625713
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.79143,
+        "longitude": 37.71598,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:28:55.160933+00:00",
+      "sha256": "2daac01e480aa2d17c49443a57355c3be251d66ab735d5dec6086d0fd9883a05",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626756
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.79143,
+        "longitude": 37.71598,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:02.489650+00:00",
+      "sha256": "cb085572c45f3b120a007c452f69e6ed65ef2e4ba616657526750ffb0f4dd41f",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 628180
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.79143,
+        "longitude": 37.71598,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:03.680835+00:00",
+      "sha256": "2d5682b51ebfed66c104e1808b3fcec7619e5b222430b05820e3c583f02b44f4",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 519102
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:04.866798+00:00",
+      "sha256": "9ed7ba15dd8f011fc8b46d90142d706a0e55c0daf6865af00fea8ad636da0c5c",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 626273
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:06.090480+00:00",
+      "sha256": "fb688105ed53794e1cb558c12d2f52dd526236335ee2e6339fb7da484008cd0c",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 627215
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:07.323164+00:00",
+      "sha256": "20db81bcf4cc7d87969bf92a84961a56d3fd6540ff191f3435f7df71d5c09a2c",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 628700
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "models": "era5_seamless",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms"
+      },
+      "fetched_at": "2026-09-25T13:29:08.479149+00:00",
+      "sha256": "7de0eb2b8b17d16663f0b1e6b5705520ca68d3611589d0e36736997cc130b2cc",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 519574
+    }
+  ],
+  "limitations": [
+    "ERA5 reanalysis, not vintage forecasts; retrospective revisions possible.",
+    "Spatial weather resolution varies by variable; distinct coordinates do not imply independent stations.",
+    "No weather observations after 2025-10-31 collected; no validation-period observations used at inference.",
+    "School/calendar CSV not redownloaded. Route weights are unique-stop shares, not passenger weights."
+  ]
+}

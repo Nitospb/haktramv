@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "source": "03_weather_and_calendar/weather_calendar_extended.csv",
+      "rows": 365,
+      "added_columns": 40
+    },
+    {
+      "source": "04_education/education_calendar_2025.csv",
+      "rows": 365,
+      "added_columns": 15
+    },
+    {
+      "source": "02_repairs_and_service/route_hour_features_full_calendar.csv",
+      "rows": 87600,
+      "added_columns": 13
+    },
+    {
+      "source": "01_connectivity_and_uav/route_hour_disruption_features_2025.csv",
+      "rows": 87600,
+      "added_columns": 11
+    },
+    {
+      "source": "06_schedules/gtfs_hourly_features.csv",
+      "rows": 66368,
+      "added_columns": 13
+    },
+    {
+      "source": "05_stops_and_nearby_objects/route_transfer_features.csv",
+      "rows": 10,
+      "added_columns": 13
+    }
+  ],
+  "evaluation": "Historical weather and retrospective events supplied by user; not an as-of-Oct31 operational forecast. No contemporaneous payment-derived variables used.",
+  "rows": 87600
+}

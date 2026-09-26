@@ -1,0 +1,21 @@
+{
+  "evaluation_type": "TUNING scores: all three folds used for model selection; no remaining independent holdout",
+  "weights": {
+    "profile_14_median": 0.021741282532397536,
+    "profile_14_mean": 0.02174138865698761,
+    "profile_365_median": 0.45573245469633344,
+    "cat_6_MAE_60": 0.3683087731656713,
+    "cat_8_MAE_60": 0.06210764686185991,
+    "cat_10_MAE_90": 0.056450129546180054,
+    "cat_8_RMSE_90": 0.01391832454057014
+  },
+  "fold_scores": {
+    "2025-05-01": 0.8702473760851908,
+    "2025-07-01": 0.7996576264119373,
+    "2025-09-01": 0.8648382168789271
+  },
+  "target_score": 0.95,
+  "hidden_competition_score": null,
+  "initial_independent_holdout_score": 0.7358155231375078,
+  "target_reached_on_all_tuning_folds": false
+}

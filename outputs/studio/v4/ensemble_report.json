@@ -1,0 +1,33 @@
+{
+  "weights": {
+    "v2": 0.3355676015570957,
+    "cat_full_6_1_MAE": 0.3591179097444387,
+    "cat_full_8_1_MAE": 0.14274429343710057,
+    "cat_full_8_1_RMSE": 0.13037452179517076,
+    "base_1_112_0.5": 0.03219567346619423
+  },
+  "evaluation": "Tuned on Jul-Aug, Aug-Sep, Sep-Oct with respective weights .2/.3/.5. October is one-month diagnostic; previously explored. Retrospective supplied weather and events.",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "v2": 0.8092690993256633,
+      "ensemble": 0.8445727856516627
+    },
+    {
+      "fold": "2025-08-01",
+      "v2": 0.8748860457876902,
+      "ensemble": 0.8923063772044103
+    },
+    {
+      "fold": "2025-09-01",
+      "v2": 0.8942202555001644,
+      "ensemble": 0.8952869584866788
+    },
+    {
+      "fold": "2025-10-01",
+      "v2": 0.8945968701371285,
+      "ensemble": 0.908546274131956
+    }
+  ],
+  "public_score": null
+}

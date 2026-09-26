@@ -1,0 +1,8 @@
+# Preserve the exact bytes and hashes of datasets and forecast artifacts.
+data/** -text
+outputs/** -text
+data/feature_bundle.zip filter=lfs diff=lfs merge=lfs -text
+data/features/03_weather_and_calendar/original/calendar_weather_features_daily_by_district.csv filter=lfs diff=lfs merge=lfs -text
+data/features/06_schedules/gtfs_hourly_features_poi.csv filter=lfs diff=lfs merge=lfs -text
+data/features/06_schedules/export/moscow_tram_full_schedule_by_stop.csv filter=lfs diff=lfs merge=lfs -text
+outputs/studio/v4/training_matrix.csv filter=lfs diff=lfs merge=lfs -text

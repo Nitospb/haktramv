@@ -1,0 +1,40 @@
+{
+  "selected": {
+    "mode": "month",
+    "blend": 0.75,
+    "cancel": true
+  },
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "v2": 0.8092690993256633,
+      "unanchored": 0.8511275414978197,
+      "anchored": 0.8125770128036091
+    },
+    {
+      "fold": "2025-08-01",
+      "v2": 0.8748860457876902,
+      "unanchored": 0.8981671298435894,
+      "anchored": 0.888255512005749
+    },
+    {
+      "fold": "2025-09-01",
+      "v2": 0.8942202555001644,
+      "unanchored": 0.9082129404100506,
+      "anchored": 0.9057135812643662
+    },
+    {
+      "fold": "2025-10-01",
+      "v2": 0.8945968701371285,
+      "unanchored": 0.91327562468561,
+      "anchored": 0.9121638690046334
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep tuning. Idea motivated by failed public submission; all periods previously explored. No independent hidden-score guarantee.",
+  "known_public_scores": {
+    "baseline": 0.88882,
+    "unanchored_experts": 0.872
+  },
+  "new_public_score": 0.89214,
+  "decision": "active public-best; v10 rejected at 0.89160"
+}

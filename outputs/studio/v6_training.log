@@ -1,0 +1,50 @@
+Origin samples 2025-07-01 (78480, 225)
+{'fold': '2025-07-01', 'model': 'control_6', 'score': 0.8506516847578961}
+{'fold': '2025-07-01', 'model': 'weather_poi_6', 'score': 0.8463241266355024}
+{'fold': '2025-07-01', 'model': 'all_6', 'score': 0.8523598206117003}
+{'fold': '2025-07-01', 'model': 'all_8', 'score': 0.8492251274133461}
+Origin samples 2025-08-01 (102480, 225)
+{'fold': '2025-08-01', 'model': 'control_6', 'score': 0.8878791208488892}
+{'fold': '2025-08-01', 'model': 'weather_poi_6', 'score': 0.8881440388958627}
+{'fold': '2025-08-01', 'model': 'all_6', 'score': 0.8889298510955097}
+{'fold': '2025-08-01', 'model': 'all_8', 'score': 0.888176484864286}
+Origin samples 2025-09-01 (121920, 225)
+{'fold': '2025-09-01', 'model': 'control_6', 'score': 0.8921273735345169}
+{'fold': '2025-09-01', 'model': 'weather_poi_6', 'score': 0.8883863444162918}
+{'fold': '2025-09-01', 'model': 'all_6', 'score': 0.8855831825789373}
+{'fold': '2025-09-01', 'model': 'all_8', 'score': 0.8825612912484533}
+Origin samples 2025-10-01 (145200, 225)
+{'fold': '2025-10-01', 'model': 'control_6', 'score': 0.9034174536344781}
+{'fold': '2025-10-01', 'model': 'weather_poi_6', 'score': 0.8980576760783257}
+{'fold': '2025-10-01', 'model': 'all_6', 'score': 0.8988507002564191}
+{'fold': '2025-10-01', 'model': 'all_8', 'score': 0.9004274189346149}
+{
+  "selected": "all_6",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "all_6",
+      "score": 0.8523598206117003
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "all_6",
+      "score": 0.8889298510955097
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "all_6",
+      "score": 0.8855831825789373
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "all_6",
+      "score": 0.8988507002564191
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep; retrospective supplied events/weather; previous exploration means no new independent two-month holdout.",
+  "target_95_reached": false,
+  "health_embargo_days": 7,
+  "future_target_invariance_test": "passed"
+}
+DONE V6

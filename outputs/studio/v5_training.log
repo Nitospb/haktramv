@@ -1,0 +1,81 @@
+2025-07-01 cat_6_full 0.8464165283667326
+2025-07-01 cat_8_full 0.8448094598841867
+2025-07-01 cat_6_weather 0.8469010409004046
+      fold           model    score
+2025-07-01   cat_6_weather 0.846901
+2025-07-01      cat_6_full 0.846417
+2025-07-01      cat_8_full 0.844809
+2025-07-01              v4 0.844573
+2025-07-01 v4_cancel_prior 0.844573
+2025-07-01   profile_1_112 0.839628
+2025-07-01   profile_1_365 0.836382
+2025-07-01 profile_0.5_112 0.821770
+2025-07-01 profile_0.5_365 0.811040
+2025-08-01 cat_6_full 0.8928295856709306
+2025-08-01 cat_8_full 0.8917743883025108
+2025-08-01 cat_6_weather 0.892746351624641
+      fold           model    score
+2025-08-01 v4_cancel_prior 0.898734
+2025-08-01      cat_6_full 0.892830
+2025-08-01   cat_6_weather 0.892746
+2025-08-01              v4 0.892306
+2025-08-01      cat_8_full 0.891774
+2025-08-01   profile_1_112 0.882691
+2025-08-01   profile_1_365 0.882165
+2025-08-01 profile_0.5_112 0.879892
+2025-08-01 profile_0.5_365 0.874145
+2025-09-01 cat_6_full 0.8980058230373188
+2025-09-01 cat_8_full 0.8981624558753996
+2025-09-01 cat_6_weather 0.8996581518249263
+      fold           model    score
+2025-09-01 v4_cancel_prior 0.906631
+2025-09-01 profile_0.5_365 0.902885
+2025-09-01   cat_6_weather 0.899658
+2025-09-01      cat_8_full 0.898162
+2025-09-01      cat_6_full 0.898006
+2025-09-01              v4 0.895287
+2025-09-01   profile_1_365 0.886383
+2025-09-01 profile_0.5_112 0.879076
+2025-09-01   profile_1_112 0.867525
+2025-10-01 cat_6_full 0.8985142416237301
+2025-10-01 cat_8_full 0.9021458685921806
+2025-10-01 cat_6_weather 0.8997215457371324
+      fold           model    score
+2025-10-01 v4_cancel_prior 0.912345
+2025-10-01              v4 0.908546
+2025-10-01 profile_0.5_365 0.905280
+2025-10-01      cat_8_full 0.902146
+2025-10-01   cat_6_weather 0.899722
+2025-10-01      cat_6_full 0.898514
+2025-10-01   profile_1_365 0.884217
+2025-10-01 profile_0.5_112 0.876286
+2025-10-01   profile_1_112 0.871019
+{
+  "selected": "v4_cancel_prior",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "v4_cancel_prior",
+      "score": 0.8445727856516627
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "v4_cancel_prior",
+      "score": 0.8987341802025627
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "v4_cancel_prior",
+      "score": 0.906630508325504
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "v4_cancel_prior",
+      "score": 0.9123452959539224
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep; retrospective provided service/weather. Other periods already examined; not a new independent test.",
+  "novel_cancellation_residual_prior": 0.025,
+  "target_95_reached": false
+}
+DONE V5

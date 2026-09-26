@@ -1,0 +1,16 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=55.64148%2C55.71177%2C55.71177%2C55.78207%2C55.78207%2C55.78207%2C55.85237%2C55.85237%2C55.85237&longitude=37.60649%2C37.50000%2C37.68293%2C37.39308%2C37.57637%2C37.75967%2C37.46939%2C37.65306%2C37.83673&start_date=2025-11-01&end_date=2025-12-31&hourly=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m%2Cwind_gusts_10m%2Csurface_pressure&timezone=Europe%2FMoscow&models=ecmwf_ifs&elevation=nan%2Cnan%2Cnan%2Cnan%2Cnan%2Cnan%2Cnan%2Cnan%2Cnan",
+  "documentation": "https://open-meteo.com/en/docs/historical-weather-api",
+  "type": "retrospective reanalysis, not an as-of forecast",
+  "cells": [
+    "55.64148,37.60649",
+    "55.71177,37.50000",
+    "55.71177,37.68293",
+    "55.78207,37.39308",
+    "55.78207,37.57637",
+    "55.78207,37.75967",
+    "55.85237,37.46939",
+    "55.85237,37.65306",
+    "55.85237,37.83673"
+  ]
+}

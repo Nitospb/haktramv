@@ -1,0 +1,27 @@
+{
+  "source_snapshot": "Mobility Database mdb-3226, downloaded 2026-06-30",
+  "source_file_date": "2025-05-27",
+  "routes_count": 35,
+  "trips_count": 14222,
+  "stop_time_rows": 416035,
+  "unique_stops": 841,
+  "compact_rows": 2017,
+  "files": {
+    "moscow_tram_full_schedule_by_stop.csv": {
+      "bytes": 97630601,
+      "sha256": "ba2f1945d4d389409b37b38f26bdb3b2dd3a06e75f185f6732a7111837292d82"
+    },
+    "moscow_tram_route_stop_travel_times.csv": {
+      "bytes": 349022,
+      "sha256": "7f4850fcf75912f0c4c21ea0fc96d23c1c05e0210882e8a477943b00121051e4"
+    },
+    "moscow_tram_routes.csv": {
+      "bytes": 3120,
+      "sha256": "7f95691b73a37451c8fd4a7509efe45c7ad840f2c2c36ffde7a2ec6c3f61426c"
+    },
+    "moscow_tram_gtfs_filtered.zip": {
+      "bytes": 2554180,
+      "sha256": "d9ef4c6bd66c6720cbea38bbfd57f35b680c6487cd9a54002b1982b742a3cd96"
+    }
+  }
+}

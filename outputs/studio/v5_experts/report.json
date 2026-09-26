@@ -1,0 +1,32 @@
+{
+  "expert": "profile_0.5_365",
+  "weight": 1.0,
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "expert": "profile_0.5_365",
+      "weight": 1.0,
+      "score": 0.8511275414978197
+    },
+    {
+      "fold": "2025-08-01",
+      "expert": "profile_0.5_365",
+      "weight": 1.0,
+      "score": 0.8981671298435894
+    },
+    {
+      "fold": "2025-09-01",
+      "expert": "profile_0.5_365",
+      "weight": 1.0,
+      "score": 0.9082129404100506
+    },
+    {
+      "fold": "2025-10-01",
+      "expert": "profile_0.5_365",
+      "weight": 1.0,
+      "score": 0.91327562468561
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep; regime routing conceived after inspecting autumn residuals, so scores are development diagnostics. Retrospective supplied events.",
+  "actual_competition_score": null
+}

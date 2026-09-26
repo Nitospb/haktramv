@@ -1,0 +1,21 @@
+2025-05-01 cat_6_MAE_90 0.8519830116084038
+2025-05-01 cat_8_MAE_90 0.840049112199569
+2025-05-01 cat_8_RMSE_90 0.8205489269866413
+2025-05-01 cat_8_MAE_365 0.8361178969054912
+2025-07-01 cat_6_MAE_90 0.8042917353761614
+Traceback (most recent call last):
+  File "train_model.py", line 107, in <module>
+    if __name__=='__main__': main()
+  File "train_model.py", line 75, in main
+    p=boosted(tr,va,depth,loss,hl)
+  File "train_model.py", line 55, in boosted
+    model.fit(tr[FEATURES], tr.boardings, sample_weight=weights, cat_features=['route'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/catboost/core.py", line 5873, in fit
+    return self._fit(X, y, cat_features, text_features, embedding_features, None, graph, sample_weight, None, None, None, None, baseline,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/catboost/core.py", line 2410, in _fit
+    self._train(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/catboost/core.py", line 1790, in _train
+    self._object._train(train_pool, test_pool, params, allow_clear_pool, init_model._object if init_model else None)
+  File "_catboost.pyx", line 5023, in _catboost._CatBoost._train
+  File "_catboost.pyx", line 5072, in _catboost._CatBoost._train
+KeyboardInterrupt

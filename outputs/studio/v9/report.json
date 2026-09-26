@@ -1,0 +1,62 @@
+{
+  "changes": [
+    {
+      "route": 50,
+      "workday": 0,
+      "weight": 0.875,
+      "unshrunk_weight": 1.0,
+      "earlier_route_gains": [
+        0.002228913828545287,
+        0.0021882188658420842
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "incumbent": 0.8125770128036091,
+      "refined": 0.8127059956341374
+    },
+    {
+      "fold": "2025-08-01",
+      "incumbent": 0.888255512005749,
+      "refined": 0.8883593011696665
+    },
+    {
+      "fold": "2025-09-01",
+      "incumbent": 0.9057135812643662,
+      "refined": 0.9056897318391715
+    },
+    {
+      "fold": "2025-10-01",
+      "incumbent": 0.9121638690046334,
+      "refined": 0.9121633122318797
+    }
+  ],
+  "weights": {
+    "1_0": 0.75,
+    "1_1": 0.75,
+    "5_0": 0.75,
+    "5_1": 0.75,
+    "7_0": 0.75,
+    "7_1": 0.75,
+    "11_0": 0.75,
+    "11_1": 0.75,
+    "12_0": 0.75,
+    "12_1": 0.75,
+    "17_0": 0.75,
+    "17_1": 0.75,
+    "25_0": 0.75,
+    "25_1": 0.75,
+    "26_0": 0.75,
+    "26_1": 0.75,
+    "28_0": 0.75,
+    "28_1": 0.75,
+    "50_0": 0.875,
+    "50_1": 0.75
+  },
+  "selection": "Jul-Aug and Aug-Sep require improvement in both; weights shrunk by half. All periods previously explored. Route-month totals equal v8.",
+  "known_public_incumbent": 0.89214,
+  "new_public_score": null,
+  "no_autumn_degradation": false
+}

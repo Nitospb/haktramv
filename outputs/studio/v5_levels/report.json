@@ -1,0 +1,31 @@
+{
+  "config": [
+    1,
+    56,
+    1,
+    false
+  ],
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "1_56_1_False",
+      "score": 0.8377850042279869
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "1_56_1_False",
+      "score": 0.8857668251981843
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "1_56_1_False",
+      "score": 0.8795442114835179
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "1_56_1_False",
+      "score": 0.8913811418606794
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep tuning. All periods previously inspected; retrospective exogenous data."
+}

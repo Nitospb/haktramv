@@ -1,0 +1,13 @@
+{
+  "period": "2025-09-01 through 2025-10-31",
+  "required_metric": "max(0, 1 - sum(abs(y-p))/sum(y))",
+  "old_ensemble": {
+    "wape_score": 0.8648382168789271,
+    "r2": 0.9589067695295719
+  },
+  "annual_median": {
+    "wape_score": 0.8831603575245437,
+    "r2": 0.9692110479675893
+  },
+  "note": "R2 is a different metric and does not establish achievement of the requested WAPE-score."
+}

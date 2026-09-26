@@ -1,0 +1,10 @@
+{
+  "active_model": "v8/monthly_reconciliation",
+  "submission": "submission_best.csv",
+  "source": "studio/v8/submission.csv",
+  "user_reported_score": 0.89214,
+  "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+  "previous_best_score": 0.88882,
+  "next_step": "Publish project to GitHub; no replacement candidate selected",
+  "latest_experiment": "v10_spring rejected after public score 0.89160"
+}

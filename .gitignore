@@ -1,0 +1,37 @@
+# Raw transaction records: never publish.
+/dataset/
+/data/raw/
+/data/transactions/
+/data/dataset/
+train.csv
+test.csv
+train.csv.*
+test.csv.*
+transactions.csv
+transactions.csv.*
+transactions.parquet
+
+# Credentials and local machine state.
+.env
+.env.*
+!.env.example
+.ssh/
+mac-studio
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+._*
+
+# Runtime environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+catboost_info/
+.ipynb_checkpoints/
+.publish-check/

@@ -1,0 +1,99 @@
+{
+  "source_url": "https://github.com/ArtNikVal/Analyseofmoscowtaransportproject",
+  "commit": "f4811cd53e482a6330b6c58f948e40282ff5ddac",
+  "sha256": "f3dfc35777d418ed326e2ac28cc1711f6daf04c4ab0f40bd15839fc821a43844",
+  "same_bytes_as_supplied_bundle": true,
+  "dimensions": "Transport modes, not individual routes. Monthly totals, not hourly data.",
+  "old_index_reproduced": "Median across 2022–2024 of tram average daily passengers / annual mean of monthly daily averages.",
+  "new_prior_years": [
+    2023,
+    2024
+  ],
+  "comparison": [
+    {
+      "year": 2023,
+      "month": 1,
+      "monthly_passengers": 11521891,
+      "daily_passengers": 371673.9032258064,
+      "daily_vs_spring": 0.7617070440288289
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "monthly_passengers": 12402640,
+      "daily_passengers": 442951.4285714286,
+      "daily_vs_spring": 0.9077829257775641
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "monthly_passengers": 15106341,
+      "daily_passengers": 487301.32258064515,
+      "daily_vs_spring": 0.9986734251523038
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "monthly_passengers": 14658525,
+      "daily_passengers": 488617.5,
+      "daily_vs_spring": 1.001370794009286
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "monthly_passengers": 15833268,
+      "daily_passengers": 527775.6,
+      "daily_vs_spring": 1.0816212510414123
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "monthly_passengers": 15953940,
+      "daily_passengers": 514643.22580645164,
+      "daily_vs_spring": 1.0547078147166378
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "monthly_passengers": 13925842,
+      "daily_passengers": 449220.70967741933,
+      "daily_vs_spring": 0.7896349981085786
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "monthly_passengers": 15699092,
+      "daily_passengers": 541348.0,
+      "daily_vs_spring": 0.9515752897123612
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "monthly_passengers": 17321179,
+      "daily_passengers": 558747.7096774194,
+      "daily_vs_spring": 0.9821602993128424
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "monthly_passengers": 17381517,
+      "daily_passengers": 579383.9,
+      "daily_vs_spring": 1.0184343573767294
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "monthly_passengers": 17379414,
+      "daily_passengers": 579313.8,
+      "daily_vs_spring": 1.018311136402774
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "monthly_passengers": 19289332,
+      "daily_passengers": 622236.5161290322,
+      "daily_vs_spring": 1.093760193267721
+    }
+  ],
+  "interpretation_limit": "Two recent years support a spring-like level, but do not identify Nov–Dec 2025 route/hour values. Workday/calendar correction is implemented separately in the forecasting experiment."
+}

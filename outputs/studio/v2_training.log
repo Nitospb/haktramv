@@ -1,0 +1,72 @@
+Training origin dataset 2025-07-01 (129840, 32)
+2025-07-01 direct_raw_6 0.8394614329629778
+2025-07-01 direct_ratio_6 0.8376373972559418
+2025-07-01 direct_ratio_8 0.8371780308281903
+      fold        end           model    score
+2025-07-01 2025-08-31    direct_raw_6 0.839461
+2025-07-01 2025-08-31  direct_ratio_6 0.837637
+2025-07-01 2025-08-31  direct_ratio_8 0.837178
+2025-07-01 2025-08-31   adaptive_14_1 0.824964
+2025-07-01 2025-08-31 adaptive_14_0.5 0.817050
+Training origin dataset 2025-08-01 (161280, 32)
+2025-08-01 direct_raw_6 0.773375873834896
+2025-08-01 direct_ratio_6 0.7584785463090347
+2025-08-01 direct_ratio_8 0.7512239780793505
+      fold        end           model    score
+2025-08-01 2025-09-30 adaptive_56_0.5 0.879135
+2025-08-01 2025-09-30   adaptive_56_1 0.878829
+2025-08-01 2025-09-30   adaptive_14_0 0.877425
+2025-08-01 2025-09-30   adaptive_28_0 0.877425
+2025-08-01 2025-09-30   adaptive_56_0 0.877425
+Training origin dataset 2025-09-01 (196560, 32)
+2025-09-01 direct_raw_6 0.8438795884527701
+2025-09-01 direct_ratio_6 0.8262333540265417
+2025-09-01 direct_ratio_8 0.8206419129399121
+      fold        end           model    score
+2025-09-01 2025-10-31 adaptive_28_0.5 0.894220
+2025-09-01 2025-10-31   adaptive_28_1 0.893949
+2025-09-01 2025-10-31   adaptive_14_0 0.890446
+2025-09-01 2025-10-31   adaptive_28_0 0.890446
+2025-09-01 2025-10-31   adaptive_56_0 0.890446
+Training origin dataset 2025-10-01 (227760, 32)
+2025-10-01 direct_raw_6 0.9054048371264797
+2025-10-01 direct_ratio_6 0.902669326172619
+2025-10-01 direct_ratio_8 0.9025631211201488
+      fold        end          model    score
+2025-10-01 2025-10-31   direct_raw_6 0.905405
+2025-10-01 2025-10-31 direct_ratio_6 0.902669
+2025-10-01 2025-10-31 direct_ratio_8 0.902563
+2025-10-01 2025-10-31  adaptive_14_0 0.896659
+2025-10-01 2025-10-31  adaptive_28_0 0.896659
+{
+  "selected": "adaptive_28_0.5",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "end": "2025-08-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8092690993256633
+    },
+    {
+      "fold": "2025-08-01",
+      "end": "2025-09-30",
+      "model": "adaptive_28_0.5",
+      "score": 0.8748860457876902
+    },
+    {
+      "fold": "2025-09-01",
+      "end": "2025-10-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8942202555001644
+    },
+    {
+      "fold": "2025-10-01",
+      "end": "2025-10-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8945968701371285
+    }
+  ],
+  "evaluation": "Temporal tuning folds, partly overlapping. October is a one-month diagnostic, not a two-month score.",
+  "target_achieved": false
+}
+DONE

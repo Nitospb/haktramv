@@ -1,0 +1,38 @@
+{
+  "method": "seasonal analog with route/day/hour shape correction",
+  "window": 28,
+  "strength": 0.25,
+  "grouping": "band",
+  "scores": [
+    {
+      "window": 28,
+      "strength": 0.25,
+      "grouping": "band",
+      "fold": "2025-07-01",
+      "score": 0.808213652217828
+    },
+    {
+      "window": 28,
+      "strength": 0.25,
+      "grouping": "band",
+      "fold": "2025-08-01",
+      "score": 0.8805251375903719
+    },
+    {
+      "window": 28,
+      "strength": 0.25,
+      "grouping": "band",
+      "fold": "2025-09-01",
+      "score": 0.8930734035549636
+    },
+    {
+      "window": 28,
+      "strength": 0.25,
+      "grouping": "band",
+      "fold": "2025-10-01",
+      "score": 0.9009338240876339
+    }
+  ],
+  "evaluation": "Selected on Aug-Sep and Sep-Oct. Tuning scores, no independent holdout. Oct is one-month diagnostic only.",
+  "target_achieved": false
+}

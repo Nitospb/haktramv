@@ -1,0 +1,34 @@
+{
+  "source": "outputs/studio/v10_spring/submission.csv",
+  "submission": "outputs/submission_spring_2023_2024.csv",
+  "sha256": "f59f1a4c20bd919f6380bc8cd54a31b34613d614865edf9073ebb7147bb727c3",
+  "rows": 14640,
+  "public_score": 0.8916,
+  "status": "rejected after public evaluation; incumbent 0.89214 restored",
+  "selection_report": "studio/v10_spring/report.json",
+  "selection": "Development windows overlap and were used for tuning. No independent validation claim.",
+  "latest_experiment": "v10_spring",
+  "latest_experiment_promoted": false,
+  "new_external_prior_years": [
+    2023,
+    2024
+  ],
+  "development_scores": [
+    {
+      "fold": "2025-08-01",
+      "incumbent": 0.888255512005749,
+      "candidate": 0.8909490372720335
+    },
+    {
+      "fold": "2025-09-01",
+      "incumbent": 0.9057135812643662,
+      "candidate": 0.9078086488704804
+    },
+    {
+      "fold": "2025-10-01",
+      "incumbent": 0.9121638690046334,
+      "candidate": 0.9141729732929466
+    }
+  ],
+  "reason": "Public score 0.89160 is below incumbent 0.89214"
+}

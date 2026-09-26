@@ -1,0 +1,4 @@
+# Training runtime captured on Mac Studio.
+-r requirements-studio.txt
+# Parquet support for optional data preparation, tested locally.
+pyarrow==17.0.0

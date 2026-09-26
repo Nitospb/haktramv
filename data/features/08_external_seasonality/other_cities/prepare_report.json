@@ -1,0 +1,17 @@
+{
+  "hourly_rows": 70536,
+  "sources": {
+    "malaysia_komuter": {
+      "start": "2023-09-10",
+      "end": "2026-09-25",
+      "rides": 31753671
+    },
+    "mta_roosevelt_tram": {
+      "start": "2020-01-01",
+      "end": "2024-12-31",
+      "rides": 10674858
+    }
+  },
+  "daily_start": "2019-01-01",
+  "daily_end": "2026-08-31"
+}

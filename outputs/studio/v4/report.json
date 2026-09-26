@@ -1,0 +1,33 @@
+{
+  "selected": "cat_full_6_1_MAE",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8434705721938904
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8912507395237677
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8889977842291467
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.907780689174635
+    }
+  ],
+  "selection_folds": [
+    "Jul-Aug",
+    "Aug-Sep"
+  ],
+  "caveat": "Supplied retrospective exogenous data; not operational as-of forecast. Sep-Oct previously explored, October only one month.",
+  "target_achieved": false,
+  "known_best_real_score": 0.88882,
+  "new_real_score": null
+}

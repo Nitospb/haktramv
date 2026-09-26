@@ -1,0 +1,8 @@
+zone,latitude,longitude,representative_stop_id,stop_count
+zone_1,55.7758,37.65031,stop-143,93
+zone_2,55.62858,37.59865,stop-560,24
+zone_3,55.81018,37.4694,stop-115,21
+zone_4,55.84297,37.66525,stop-194,43
+zone_5,55.6937,37.60675,stop-393,48
+zone_6,55.79143,37.71598,stop-366,85
+center,55.7558,37.6173,,0

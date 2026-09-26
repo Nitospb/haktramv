@@ -1,0 +1,9 @@
+{
+  "vehicle_days_with_50_transactions": 44398,
+  "median_observed_devices": 6.0,
+  "median_expected_devices": 6.0,
+  "vehicle_days_with_silent_expected_and_active_peers": 12678,
+  "vehicle_days_with_high_failure_device": 28,
+  "median_silent_share": 0.0,
+  "interpretation": "Silence can mean replacement, passenger redistribution or missing logs; not a proven breakdown."
+}

@@ -1,0 +1,29 @@
+{
+  "selected": "all_6",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "all_6",
+      "score": 0.8523598206117003
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "all_6",
+      "score": 0.8889298510955097
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "all_6",
+      "score": 0.8855831825789373
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "all_6",
+      "score": 0.8988507002564191
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep; retrospective supplied events/weather; previous exploration means no new independent two-month holdout.",
+  "target_95_reached": false,
+  "health_embargo_days": 7,
+  "future_target_invariance_test": "passed"
+}

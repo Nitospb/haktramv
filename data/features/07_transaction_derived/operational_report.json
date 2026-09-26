@@ -1,0 +1,30 @@
+{
+  "raw_rows": 62443497,
+  "missing_time": 0,
+  "arrived_after_24h": 2802776,
+  "excluded_november": 615,
+  "validation_result_counts_all_raw_routes": {
+    "1": 59667753,
+    "90": 1404641,
+    "31": 405138,
+    "33": 441721,
+    "10": 381795,
+    "70": 32391,
+    "40": 32958,
+    "50": 17771,
+    "61": 28358,
+    "32": 6922,
+    "23": 11546,
+    "60": 7016,
+    "20": 2894,
+    "80": 2471,
+    "30": 98,
+    "41": 24
+  },
+  "validator_ids": 3080,
+  "validator_daily_rows": 301291,
+  "output_rows": 57594,
+  "watermark": "event_hour +1 hour (event-time assumption only)",
+  "late_policy": "input_date_time ignored per dataset README; no arrival-time guarantee is possible",
+  "warning": "Observed vehicles != actual fleet; long intervalidation intervals != proven delay; high failures != confirmed broken validator"
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "file": "01_connectivity_and_uav/events_2025.csv",
+    "bytes": 263841,
+    "sha256": "405068b5231e52a1705b9e6530217e8f3e092372efe31e7871f1f358a4b4034a",
+    "source_file": "external_features/moscow_disruptions_2025/events_2025.csv"
+  },
+  {
+    "file": "01_connectivity_and_uav/events_2025_clean.csv",
+    "bytes": 519291,
+    "sha256": "5d24e0b1eb519f1a96944acbd17e968c8ed8f076b658e7f27e948665e867f097",
+    "source_file": "external_features/moscow_disruptions_2025/events_2025_clean.csv"
+  },
+  {
+    "file": "01_connectivity_and_uav/known_connectivity_periods_2025.csv",
+    "bytes": 787,
+    "sha256": "9bab38b91a01c285b13af8e5e8f0f9a37c29f50efac7eeb6d8809102c3543e32",
+    "source_file": "external_features/moscow_disruptions_2025/known_connectivity_periods_2025.csv"
+  },
+  {
+    "file": "01_connectivity_and_uav/route_hour_disruption_features_2025.csv",
+    "bytes": 4405332,
+    "sha256": "f90b645d9e92ad52d0be298d31f133e8255ac1088a4be7c1f95bc0cad0fa15ed",
+    "source_file": "external_features/moscow_disruptions_2025/route_hour_disruption_features_2025.csv"
+  },
+  {
+    "file": "01_connectivity_and_uav/source_notes.md",
+    "bytes": 3345,
+    "sha256": "4a9b6db0afe2f439d3c22ee5f0e4ab02eb64d6cb44bdcb40de64f9cddfe722e3",
+    "source_file": "external_features/moscow_disruptions_2025/README.md"
+  },
+  {
+    "file": "01_connectivity_and_uav/telegram_posts_2025.csv",
+    "bytes": 3316376,
+    "sha256": "3a7cec33be9f3349b8dfe590e80b517c6a3ec44a485432b16fd693e35caa2f94",
+    "source_file": "external_features/moscow_disruptions_2025/telegram_posts_2025.csv"
+  },
+  {
+    "file": "02_repairs_and_service/README.md",
+    "bytes": 6374,
+    "sha256": "53262807fc5c6853752d1b10aa8687a818c24923c867a10bc3d1e951c50ae011",
+    "source_file": "external_features/tram_service_2025/README.md"
+  },
+  {
+    "file": "02_repairs_and_service/coverage.json",
+    "bytes": 188,
+    "sha256": "c63d52c5e189b164dcb45eb31d03bf7e698deecdcec269ea6eae41c61233a1a9",
+    "source_file": "external_features/tram_service_2025/coverage.json"
+  },
+  {
+    "file": "02_repairs_and_service/events.json",
+    "bytes": 25923,
+    "sha256": "470013f4444b39f4445a9ac9460caa38cd11b4f39b0a4af767d64a4f0f43c6a2",
+    "source_file": "external_features/tram_service_2025/events.json"
+  },
+  {
+    "file": "02_repairs_and_service/events_reviewed.csv",
+    "bytes": 9860,
+    "sha256": "7dcb410617dc4980f726c66f103952f76a52617dc622c484f1ff91bd8eec0bcf",
+    "source_file": "external_features/tram_service_2025/events_reviewed.csv"
+  },
+  {
+    "file": "02_repairs_and_service/incidents.json",
+    "bytes": 14479,
+    "sha256": "53fc477433dedfacb7d6aaf3d186f8b0ae460a01eb0fbd890b577679fd43d70f",
+    "source_file": "external_features/tram_service_2025/incidents.json"
+  },
+  {
+    "file": "02_repairs_and_service/nov_dec_features_asof_oct31.csv",
+    "bytes": 1058718,
+    "sha256": "48397a45ea860b805712b09070baab81d969b6df8d896c4cf59822742d3af49a",
+    "source_file": "experiments/service_calendar/output_v2/nov_dec_features_asof_oct31.csv"
+  },
+  {
+    "file": "02_repairs_and_service/nov_dec_features_hindsight.csv",
+    "bytes": 1058482,
+    "sha256": "0a92e84adff8f2750ebd5b6752804ee92f7422e962d2791cf4a3dae0cb6089dd",
+    "source_file": "experiments/service_calendar/output_v2/nov_dec_features_hindsight.csv"
+  },
+  {
+    "file": "02_repairs_and_service/route_hour_features_full_calendar.csv",
+    "bytes": 5986956,
+    "sha256": "a8aa82044a28637775663222ae178311bcdde78e1bed72dd67f8f2be2daba82b",
+    "source_file": "external_features/tram_service_2025/route_hour_features_full_calendar.csv"
+  },
+  {
+    "file": "02_repairs_and_service/tram_posts_2025.json",
+    "bytes": 205357,
+    "sha256": "da9b67351bc8f6421af1b13852e1765cc4be5c7f57611992241057c162087c01",
+    "source_file": "external_features/tram_service_2025/tram_posts_2025.json"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/calendar_weather_features_daily_by_district.parquet",
+    "bytes": 505345,
+    "sha256": "b5241358b166719b07574b7d3ff8efe0c15889aa8294fb95292ad1bfcbf5a67d",
+    "source_file": "experiments/zonal_weather/district_weather_2025/calendar_weather_features_daily_by_district.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/data_quality_report.json",
+    "bytes": 20608,
+    "sha256": "e965f14228df4f96f7b012cad4dbe4000f80d9750098548fea5aa3dac959d234",
+    "source_file": "experiments/zonal_weather/district_weather_2025/data_quality_report.json"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/district_weather_cells.csv",
+    "bytes": 30143,
+    "sha256": "d65a155d6822fabe0e5f5d12de3c8e1073dfbda276408ae381c90a640963460a",
+    "source_file": "experiments/zonal_weather/district_weather_2025/district_weather_cells.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/route_weather_cell_weights.csv",
+    "bytes": 905,
+    "sha256": "ffc3ba1195a6dc65bff3175f65902e737d9dd48bde85959c9b0e542a99c107f7",
+    "source_file": "experiments/zonal_weather/district_weather_2025/route_weather_cell_weights.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/stop_route_weather_cells.csv",
+    "bytes": 43145,
+    "sha256": "fb88393d0e3fbe1ffde153f708daecf286781adae80b1dc975055664c2cee4dc",
+    "source_file": "experiments/zonal_weather/district_weather_2025/stop_route_weather_cells.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/stop_weather_coverage.json",
+    "bytes": 3892,
+    "sha256": "88c4ed0902b5cd34cfc02ef78df539a2f6d1ecf09f74c191969bf6665851249f",
+    "source_file": "experiments/zonal_weather/district_weather_2025/stop_weather_coverage.json"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/weather_daily_by_district.csv",
+    "bytes": 11756555,
+    "sha256": "441846b5404fc377e68bdd258f8c8e302e7a41a118759f95400e020ca1775bc4",
+    "source_file": "experiments/zonal_weather/district_weather_2025/weather_daily_by_district.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/weather_daily_by_district.parquet",
+    "bytes": 439259,
+    "sha256": "92ca61151746fb7727f9fef4534e323dc2ba51590938293b2a287e526d0be7b1",
+    "source_file": "experiments/zonal_weather/district_weather_2025/weather_daily_by_district.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/weather_hourly_by_district.parquet",
+    "bytes": 8264634,
+    "sha256": "c720c707f15a9971d98bf46a769bda3d7bbfeb635629c40dbc78312841f27989",
+    "source_file": "experiments/zonal_weather/district_weather_2025/weather_hourly_by_district.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/districts/weather_hourly_target_route_cells.parquet",
+    "bytes": 700559,
+    "sha256": "113167d66fa4e067bdb4e7bd0773f92b0e1017ee599e74c325de5d26671406d3",
+    "source_file": "experiments/zonal_weather/district_weather_2025/weather_hourly_target_route_cells.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/notes/DISTRICT_WEATHER.md",
+    "bytes": 7087,
+    "sha256": "6a13ffe48cdfa81f3d03a6aee7ebba69014a7542b7ff94dab6aa0e3cc4c3f8e1",
+    "source_file": "experiments/zonal_weather/DISTRICT_WEATHER.md"
+  },
+  {
+    "file": "03_weather_and_calendar/notes/README.md",
+    "bytes": 11193,
+    "sha256": "a1ba8274d1f9c101a60ffcb86d319884196b41014a99154c27bd5b11e0447738",
+    "source_file": "experiments/zonal_weather/README.md"
+  },
+  {
+    "file": "03_weather_and_calendar/original/calendar_weather_features_daily_by_district.csv",
+    "bytes": 338366459,
+    "sha256": "17a7cd36a9dea6338454c2c8df2e10e9a7ec9b0e28bdf70beeb25b41a4346d39",
+    "source_file": "user_provided/calendar_weather_features_daily_by_district.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/weather_calendar_extended.csv",
+    "bytes": 1171043,
+    "sha256": "5f0865e91d69939c57370cad339571f8dce490241881f39a079ce0bd0fe5b7e9",
+    "source_file": "baseline/weather_calendar_extended.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/weather_daily.csv",
+    "bytes": 798954,
+    "sha256": "9ccc6319456b637fda3a90b3c67f34b6872cdcfc742a25e0f3156d39d755a95c",
+    "source_file": "baseline/weather_daily.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/climatology_2022_2023.parquet",
+    "bytes": 1094783,
+    "sha256": "71f0544b1b4a723439569afff7433630f83eb01bab34ed8b77bce55f255febf9",
+    "source_file": "experiments/zonal_weather/data/climatology_2022_2023.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/data_quality_report.json",
+    "bytes": 43600,
+    "sha256": "1fccc6f9df6e9a8c2d7f06dae48058ab0b22266dffbddda5280fd90a50f91238",
+    "source_file": "experiments/zonal_weather/data/data_quality_report.json"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/route_zone_weights.csv",
+    "bytes": 238,
+    "sha256": "2ebd5a8a1011e62922af5bb46b2888826ea9cb1f72799c3e5779dfbf115a173c",
+    "source_file": "experiments/zonal_weather/data/route_zone_weights.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/stop_zone_routes.csv",
+    "bytes": 32829,
+    "sha256": "50b4abe51cda2877624a91f5b63f0028d6c8c1f7d68b0c0c51ee877ce3115558",
+    "source_file": "experiments/zonal_weather/data/stop_zone_routes.csv"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/weather_zones_daily.parquet",
+    "bytes": 195852,
+    "sha256": "e3190e6e8f723cc71c3f4520fa1ae7093ba8021bcef27919ebc0e22925385d7e",
+    "source_file": "experiments/zonal_weather/data/weather_zones_daily.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/weather_zones_hourly.parquet",
+    "bytes": 1980969,
+    "sha256": "379592fe1c4d3503d3917441a80155f7259200685a1159a9aa14b08d67441b4a",
+    "source_file": "experiments/zonal_weather/data/weather_zones_hourly.parquet"
+  },
+  {
+    "file": "03_weather_and_calendar/zones/zones.csv",
+    "bytes": 303,
+    "sha256": "2906353805dd0ae65b25f4bc21d0dfc0c9e917655a510ddba51ae1e2187d934b",
+    "source_file": "experiments/zonal_weather/data/zones.csv"
+  },
+  {
+    "file": "04_education/education_calendar_2025.csv",
+    "bytes": 171475,
+    "sha256": "8c89302122b0cf79d52c0325500d018ac16200b6033cbad269a439eda1bbaa94",
+    "source_file": "experiments/education_calendar/output/education_calendar_2025.csv"
+  },
+  {
+    "file": "04_education/source_notes.md",
+    "bytes": 3627,
+    "sha256": "e8414a24a757e551b1f80b7061c447bcc5375cfe31c92a7f70aee78568b09c88",
+    "source_file": "experiments/education_calendar/README.md"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/points.json",
+    "bytes": 749402,
+    "sha256": "401401c38ed776bee16a5c2c66314637c7d6c666f83ca49d6e96b7a261f8c8ba",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/points.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/route_transfer_features.csv",
+    "bytes": 1559,
+    "sha256": "3897aa72a2f280befa3d115fca8310c58bbcac08afdff13b8846e6b548f01285",
+    "source_file": "experiments/zonal_weather/data/route_transfer_features.csv"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/routes.geojson",
+    "bytes": 2098817,
+    "sha256": "e95d3a481916ad51bf961f08129a5f3f8017fbdcaf33543c2865108af099bc20",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/routes.geojson"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/routes_info.json",
+    "bytes": 3816,
+    "sha256": "06b32e7313e05ffbc8d5611f841f295c3db95643b2873ba74a442a11474b9d84",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/routes_info.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_malls_v2.json",
+    "bytes": 32122,
+    "sha256": "cb68e90024f6e6797d8c01418ffc12fffc1a0781dc1b26915bbf5a1cea6a9030",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_malls_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_metro_v2.json",
+    "bytes": 13861,
+    "sha256": "72a850f6d27054ff58625a66a39b36675ae3d829ee25c2112e4df18b231caf95",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_metro_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_routes_info_v2.json",
+    "bytes": 3777,
+    "sha256": "98658e22201e45c750da44b38cfb2e7959f4ce163493f015d4fcdd52481edba3",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_routes_info_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_schools_v2.json",
+    "bytes": 101172,
+    "sha256": "9623521f642c91f329693a32ea90e08e36dec3dd2dc7853ac2ff48954a9c9e60",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_schools_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_stops_v3.json",
+    "bytes": 64640,
+    "sha256": "46fb861175f18b4e9376813f000440d84eff76c4e1005698eaa4976de85f4503",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_stops_v3.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_tracks_v3.json",
+    "bytes": 556789,
+    "sha256": "71ee51489fef1e1759e926a7dc497f597e427da0dd817157386acaca9ba21aa6",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_tracks_v3.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_unis_v2.json",
+    "bytes": 21143,
+    "sha256": "fa8ee9c451d8ae9ee4d93829c213c6435242977efba5e090b6fea1f5616c6d77",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_unis_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_data/data_venues_v2.json",
+    "bytes": 93458,
+    "sha256": "f6acff754c72e58d2dc3a6f6bef64891e98721228ae68a111cde4c109d8bbf14",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/raw/data_venues_v2.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/source_notes.md",
+    "bytes": 1732,
+    "sha256": "2f1104b435460de4c05e365e18164584673a9e3b9e2eb30339bc875ebf1df2ff",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/README.md"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/stop_transfer_flags.csv",
+    "bytes": 52968,
+    "sha256": "06dcede33b3d606823d9d77904a78db8a542bd20d53692e417e8e22d30180c52",
+    "source_file": "experiments/zonal_weather/data/stop_transfer_flags.csv"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/stops.json",
+    "bytes": 132931,
+    "sha256": "82e13c6254e91c4b105fefc4ef0c34563c8add8ca033539071bd913b348b30d5",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/stops.json"
+  },
+  {
+    "file": "05_stops_and_nearby_objects/stops_with_nearby_points.json",
+    "bytes": 1727035,
+    "sha256": "50f50063896daafe5eaea2a2f3dbfcdfc80c7a0fd169fd4bbfc97df7bd043550",
+    "source_file": "tmp/tram_nearby/tram-stops-routes-nearby/stops_with_nearby_points.json"
+  },
+  {
+    "file": "06_schedules/export/metadata.json",
+    "bytes": 870,
+    "sha256": "c4f2f48370c13df93a7f1956878d5b89c6e28df7ec3b2351edb4d847cba76ac7",
+    "source_file": "outputs/moscow_tram_schedule_2025/metadata.json"
+  },
+  {
+    "file": "06_schedules/export/moscow_tram_full_schedule_by_stop.csv",
+    "bytes": 97630601,
+    "sha256": "ba2f1945d4d389409b37b38f26bdb3b2dd3a06e75f185f6732a7111837292d82",
+    "source_file": "outputs/moscow_tram_schedule_2025/moscow_tram_full_schedule_by_stop.csv"
+  },
+  {
+    "file": "06_schedules/export/moscow_tram_gtfs_filtered.zip",
+    "bytes": 2554180,
+    "sha256": "d9ef4c6bd66c6720cbea38bbfd57f35b680c6487cd9a54002b1982b742a3cd96",
+    "source_file": "outputs/moscow_tram_schedule_2025/moscow_tram_gtfs_filtered.zip"
+  },
+  {
+    "file": "06_schedules/export/moscow_tram_route_stop_travel_times.csv",
+    "bytes": 349022,
+    "sha256": "7f4850fcf75912f0c4c21ea0fc96d23c1c05e0210882e8a477943b00121051e4",
+    "source_file": "outputs/moscow_tram_schedule_2025/moscow_tram_route_stop_travel_times.csv"
+  },
+  {
+    "file": "06_schedules/export/moscow_tram_routes.csv",
+    "bytes": 3120,
+    "sha256": "7f95691b73a37451c8fd4a7509efe45c7ad840f2c2c36ffde7a2ec6c3f61426c",
+    "source_file": "outputs/moscow_tram_schedule_2025/moscow_tram_routes.csv"
+  },
+  {
+    "file": "06_schedules/export/source_notes.md",
+    "bytes": 2287,
+    "sha256": "599d6903de31082014b58f5368ad716dcc134aaf0297187870a2eb094d84f38f",
+    "source_file": "outputs/moscow_tram_schedule_2025/README.md"
+  },
+  {
+    "file": "06_schedules/gtfs_hourly_features.csv",
+    "bytes": 9080040,
+    "sha256": "63296d73bc51ff5b16459621a74fbbc37466e7e1575bbd92ec99329ed20f4867",
+    "source_file": "baseline/gtfs_hourly_features.csv"
+  },
+  {
+    "file": "06_schedules/gtfs_hourly_features_poi.csv",
+    "bytes": 83808877,
+    "sha256": "05b9f559ac04ae6775dba4364115188013b85347663adcdc8a225f533fe6ab73",
+    "source_file": "baseline/gtfs_hourly_features_poi.csv"
+  },
+  {
+    "file": "07_transaction_derived/offline_accumulation/offline_hourly.parquet",
+    "bytes": 2637794,
+    "sha256": "716e171e810ac13d2bc20f47af4b703aae6cbe6d6958a47b7dc3e288070ada85",
+    "source_file": "experiments/offline_accumulation/data/offline_hourly.parquet"
+  },
+  {
+    "file": "07_transaction_derived/offline_accumulation/offline_report.json",
+    "bytes": 322,
+    "sha256": "dff8772bad8d74166b195961ac7e4445894ad2afa97dfbd2d2fbcf125d3fb66d",
+    "source_file": "experiments/offline_accumulation/data/offline_report.json"
+  },
+  {
+    "file": "07_transaction_derived/offline_accumulation/source_notes.md",
+    "bytes": 903,
+    "sha256": "c241d65b390f6d1fd97c630a7c13019b00ee4d8f09ddde786ce05379c1940925",
+    "source_file": "experiments/offline_accumulation/README.md"
+  },
+  {
+    "file": "07_transaction_derived/operational_asof_hourly.parquet",
+    "bytes": 1264306,
+    "sha256": "174ac7f9bd32225678b08444bf4ccfea609b7c7e4c00cbac68ae0848e056bcc7",
+    "source_file": "experiments/zonal_weather/data/operational_asof_hourly.parquet"
+  },
+  {
+    "file": "07_transaction_derived/operational_features.csv",
+    "bytes": 5133882,
+    "sha256": "8ceb049548b2336a88c6dc18c93c078d30b2908e13f3ce78132be106b17cd311",
+    "source_file": "baseline/operational_features.csv"
+  },
+  {
+    "file": "07_transaction_derived/operational_features_v2.csv",
+    "bytes": 5896036,
+    "sha256": "729b94924a2156a4dae093d362afb459c6b69a5526c0b2fcd7a3021c187274bf",
+    "source_file": "baseline/operational_features_v2.csv"
+  },
+  {
+    "file": "07_transaction_derived/operational_report.json",
+    "bytes": 821,
+    "sha256": "ad835c8e5500f9c423aeb436af2bd83fb7f6801c046849e5414591cdf8a973fb",
+    "source_file": "experiments/zonal_weather/data/operational_report.json"
+  },
+  {
+    "file": "07_transaction_derived/ticket_groups/ticket_month_route.csv",
+    "bytes": 235238,
+    "sha256": "c423469cd2581e5b14e10c86ec964a5205e908076eaf1bd2e7f7188697c2f175",
+    "source_file": "experiments/audit/full_review/ticket_month_route.csv"
+  },
+  {
+    "file": "07_transaction_derived/ticket_groups/ticket_totals.csv",
+    "bytes": 3663,
+    "sha256": "50e1a2c416c98a0677196813d58230067c73bf2dfd3d99d4f8b3936a5c073403",
+    "source_file": "experiments/audit/full_review/ticket_totals.csv"
+  },
+  {
+    "file": "07_transaction_derived/validator_daily_asof.parquet",
+    "bytes": 2103808,
+    "sha256": "04757c561b0465a33410751b30a4b9e4ff129f0bdc043b08a60ec3d2eaf5a7e8",
+    "source_file": "experiments/zonal_weather/data/validator_daily_asof.parquet"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/aggregate_report.json",
+    "bytes": 213,
+    "sha256": "a25b68858fdb8adaa76729b7866911826fccd28d49bb0e28591dc62b7554af45",
+    "source_file": "experiments/validator_peers/data/aggregate_report.json"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/peer_report.json",
+    "bytes": 375,
+    "sha256": "d21a946af28bda4fa66b73fab97f3a4500def7cbd54cbdd73a9c36ccc6ba6cee",
+    "source_file": "experiments/validator_peers/data/peer_report.json"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/route_peer_daily.parquet",
+    "bytes": 224116,
+    "sha256": "cca6b9b615c5921e4855f384d2405470ac030340e22f4d41d0e10d0d0cef47f0",
+    "source_file": "experiments/validator_peers/data/route_peer_daily.parquet"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/source_notes.md",
+    "bytes": 3350,
+    "sha256": "df27fb6c1a0947e20949892cb325eb8d623af842f6ce447dba0ef22c6712c7b7",
+    "source_file": "experiments/validator_peers/README.md"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/vehicle_device_hour.parquet",
+    "bytes": 12800889,
+    "sha256": "27f16352e01e3543bffa53a4352eba120054beb85540de3bf1bd34d27bb475cb",
+    "source_file": "experiments/validator_peers/data/vehicle_device_hour.parquet"
+  },
+  {
+    "file": "07_transaction_derived/validator_peers/vehicle_peer_daily.parquet",
+    "bytes": 1062091,
+    "sha256": "ac5a460da79b63a147ef2e89184ded1317013e81d1dc6995a1642a9bb944d72f",
+    "source_file": "experiments/validator_peers/data/vehicle_peer_daily.parquet"
+  },
+  {
+    "file": "08_external_seasonality/moscow_monthly_passengers.csv",
+    "bytes": 37431,
+    "sha256": "f3dfc35777d418ed326e2ac28cc1711f6daf04c4ab0f40bd15839fc821a43844",
+    "source_file": "experiments/multihorizon/passengersdata_source.csv"
+  },
+  {
+    "file": "08_external_seasonality/moscow_seasonality_index.json",
+    "bytes": 615,
+    "sha256": "054f213577cff3b430d3dd77b195988ab09c24039e5e88bdc0fd255a1e582ff2",
+    "source_file": "experiments/multihorizon/output/source.json"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/external_daily_index.csv",
+    "bytes": 83594,
+    "sha256": "dbf34b4e0ecba7680d489f204ab39f2b3213ac6945a3e106bb251306c1d17549",
+    "source_file": "experiments/external_transit_transfer/data/external_daily_index.csv"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/external_hourly.parquet",
+    "bytes": 158425,
+    "sha256": "073f74f1279913d9eeb2b80dd5c28170784ea794af2c8bff11b3a96148705c00",
+    "source_file": "experiments/external_transit_transfer/data/external_hourly.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/prepare_report.json",
+    "bytes": 333,
+    "sha256": "55c459a2ad7bc69f2b6433164c71dd811d576351026e049c3d13ec8acf21a9b2",
+    "source_file": "experiments/external_transit_transfer/data/prepare_report.json"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/seoul_bus_route_hour_2023_2024.parquet",
+    "bytes": 1749206,
+    "sha256": "7cb49ddc7e258ff95120d42bfb6d083a051ac051ba5c293557682aa03e091c0e",
+    "source_file": "experiments/external_transit_transfer/data/seoul_bus_route_hour_2023_2024.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/seoul_prepare_report.json",
+    "bytes": 6850,
+    "sha256": "b3774459c4b66dcb45af906b20708a69d32373c04539160617bf260efcdddffd",
+    "source_file": "experiments/external_transit_transfer/data/seoul_prepare_report.json"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/komuter_2023.parquet",
+    "bytes": 1312754,
+    "sha256": "4b68344e24cf2b04a84df4b9af88899156ecbb2ac59e709f1aaf073ac0d2a954",
+    "source_file": "external_features/transit_transfer/raw/komuter_2023.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/komuter_2024.parquet",
+    "bytes": 5255688,
+    "sha256": "a5dea6f99c82a7850936863e7ddf4cd4cf90ae1fcb2ab76c9b575ded16468444",
+    "source_file": "external_features/transit_transfer/raw/komuter_2024.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/komuter_2025.parquet",
+    "bytes": 2671881,
+    "sha256": "ccd80449035a4051f483bde944b12023cefdf47c31790f534df59affd2990abe",
+    "source_file": "external_features/transit_transfer/raw/komuter_2025.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/komuter_2026.parquet",
+    "bytes": 1857906,
+    "sha256": "82625461aac6b57c7283ca89fc9f6def395edfeb25221d1c35d197041a9d9c4e",
+    "source_file": "external_features/transit_transfer/raw/komuter_2026.parquet"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/moscow_metro_station_snapshots.csv",
+    "bytes": 3322,
+    "sha256": "939b6df54fc23d7bd73ef4b1c937acbf508855195d9683449ff5679104072fa8",
+    "source_file": "external_features/transit_transfer/raw/moscow_metro_station_snapshots.csv"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/mta_roosevelt_tram_hourly_2020_2024.csv",
+    "bytes": 1326248,
+    "sha256": "3ad2d564a51d38776f4399a40952185a07fa60dfa0cb6c33232924145abbf94d",
+    "source_file": "external_features/transit_transfer/raw/mta_roosevelt_tram_hourly_2020_2024.csv"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_data/ridership_headline.csv",
+    "bytes": 205330,
+    "sha256": "379e9b3f9bacaa0cadb9952fd654f7cdd1c68f235b189e0cf2855853adefb8bc",
+    "source_file": "external_features/transit_transfer/raw/ridership_headline.csv"
+  },
+  {
+    "file": "08_external_seasonality/other_cities/source_notes.md",
+    "bytes": 2577,
+    "sha256": "165bec924da4c0d6cb15cf5a0bcb507d87eabf854b798550a46922fa0380ee11",
+    "source_file": "experiments/external_transit_transfer/README.md"
+  },
+  {
+    "file": "README.md",
+    "bytes": 8113,
+    "sha256": "5e47de78bd8536c57377477de7cf8615262e0f54f62ae2ac66c6da49536ffa66",
+    "source_file": "outputs/feature_bundle/README.md"
+  }
+]

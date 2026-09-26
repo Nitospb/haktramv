@@ -1,0 +1,28 @@
+{
+  "selected": "v4_cancel_prior",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "v4_cancel_prior",
+      "score": 0.8445727856516627
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "v4_cancel_prior",
+      "score": 0.8987341802025627
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "v4_cancel_prior",
+      "score": 0.906630508325504
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "v4_cancel_prior",
+      "score": 0.9123452959539224
+    }
+  ],
+  "selection": "Jul-Aug and Aug-Sep; retrospective provided service/weather. Other periods already examined; not a new independent test.",
+  "novel_cancellation_residual_prior": 0.025,
+  "target_95_reached": false
+}

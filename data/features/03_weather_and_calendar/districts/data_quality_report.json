@@ -1,0 +1,406 @@
+{
+  "districts": 119,
+  "distinct_weather_cells": 19,
+  "start_date": "2025-01-01",
+  "end_date": "2025-10-31",
+  "hourly_rows": 868224,
+  "daily_rows": 36176,
+  "combined_rows": 36176,
+  "hourly_duplicates": 0,
+  "daily_duplicates": 0,
+  "hourly_missing_pct": {
+    "temperature_2m": 0.0,
+    "apparent_temperature": 0.0,
+    "relative_humidity_2m": 0.0,
+    "precipitation": 0.0,
+    "rain": 0.0,
+    "snowfall": 0.0,
+    "snow_depth": 0.0,
+    "weather_code": 0.0,
+    "cloud_cover": 0.0,
+    "wind_speed_10m": 0.0,
+    "wind_gusts_10m": 0.0,
+    "surface_pressure": 0.0
+  },
+  "daily_missing_pct": {
+    "district_id": 0.0,
+    "date": 0.0,
+    "temp_mean": 0.0,
+    "temp_min": 0.0,
+    "temp_max": 0.0,
+    "apparent_temp_mean": 0.0,
+    "humidity_mean": 0.0,
+    "wind_speed_mean": 0.0,
+    "wind_speed_max": 0.0,
+    "wind_gusts_max": 0.0,
+    "cloud_cover_mean": 0.0,
+    "surface_pressure_mean": 0.0,
+    "snow_depth_mean": 0.0,
+    "dominant_weather_code": 0.0,
+    "precipitation_sum": 0.0,
+    "rain_sum": 0.0,
+    "snowfall_sum": 0.0,
+    "temp_range": 0.0,
+    "temp_change_24h": 0.3289473684210526,
+    "is_rain": 0.0,
+    "is_snow": 0.0,
+    "is_precipitation": 0.0,
+    "is_heavy_rain": 0.0,
+    "is_heavy_snow": 0.0,
+    "is_hot": 0.0,
+    "is_freezing": 0.0,
+    "district_name": 0.0,
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "weather_cell": 0.0,
+    "snow_depth_source": 0.0
+  },
+  "days_with_spatial_differences": {
+    "temp_mean": 304,
+    "precipitation_sum": 224,
+    "wind_speed_mean": 304
+  },
+  "units": {
+    "time": "iso8601",
+    "temperature_2m": "°C",
+    "apparent_temperature": "°C",
+    "relative_humidity_2m": "%",
+    "precipitation": "mm",
+    "rain": "mm",
+    "snowfall": "cm",
+    "snow_depth": "m",
+    "weather_code": "wmo code",
+    "cloud_cover": "%",
+    "wind_speed_10m": "m/s",
+    "wind_gusts_10m": "m/s",
+    "surface_pressure": "hPa"
+  },
+  "source": "https://open-meteo.com/en/docs/historical-weather-api",
+  "licence": "CC BY 4.0; free endpoint non-commercial use only",
+  "availability_type": "observed",
+  "network_requests": 0,
+  "snow_depth_source": {
+    "path": "/Users/nikitatolochko/Documents/ChatGPT/Ха4 Трамваи ML/experiments/zonal_weather/data/weather_zones_hourly.parquet",
+    "sha256": "379592fe1c4d3503d3917441a80155f7259200685a1159a9aa14b08d67441b4a",
+    "model": "era5_seamless",
+    "zone": "center",
+    "spatial_scope": "city_shared",
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.6875120675,55.81284748769231,55.88084908378379,55.869378829702974,55.76489737967332,55.8674572424,55.80830066141732",
+        "longitude": "37.58419256083334,37.65098912076923,37.589598966216215,37.66510235115511,37.66324997749546,37.5528571236,37.588577133858266",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:00.394530+00:00",
+      "sha256": "57414c1880a7a6cdb02bed87d7866fe3c5efec3ed0f4bf57b329d0ae3e283f5a",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751168
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.82757972512315,55.69102535137615,55.84917523900415,55.71645731185185,55.88594017918781,55.71001005283688,55.773473771115974",
+        "longitude": "37.5007435,37.55206291559633,37.50333989460581,37.630147548518515,37.52934467766497,37.60505926985816,37.6489343107221",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:00.927924+00:00",
+      "sha256": "09a797d5d441eddf45fc21a74802e9d166c5442cc73d3cb56ed97a3eae897dda",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3750864
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.67760756592179,55.878132956097566,55.7771950596838,55.70281719291882,55.944822355431754,55.67441468967392,55.73443889722222",
+        "longitude": "37.53952806424581,37.682376292682925,37.6272719958498,37.38056767443869,37.38352623983287,37.61147718043478,37.72083349490741",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:03.018104+00:00",
+      "sha256": "0bed7c4edac04148a0c056f2837c95527f44dde630f92cc57e7c68d953eb6977",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3750252
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.648305434218294,55.65813981181818,55.83690540454545,55.76219724911112,55.75114428306709,55.799762579393935,55.781721368",
+        "longitude": "37.36022381946903,37.519698825,37.61478465588235,37.58142215955555,37.594817481789136,37.5521708230303,37.565462878666665",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:04.939459+00:00",
+      "sha256": "9ea5b0a327cd08065c1bc4754de33f1a7ed6e940f59856efe3914b9e81a52d7c",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751089
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.8897160039548,55.599734524756336,55.58727750347826,55.81251315756458,55.6271980914692,55.72992082923077,55.87362500854272",
+        "longitude": "37.611187291525425,37.690321650877195,37.64268288608695,37.70355000627306,37.75731287535545,37.81144208923077,37.560133442211054",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:07.343140+00:00",
+      "sha256": "5e680cf6a0a788da3658f905d8aae9bac4056eeed142bbe5114a2cf90052cd1b",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751976
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.79486483373494,55.85882458471338,55.69393665259938,55.82085867692308,55.738949741414146,55.73267092944984,55.87600308414634",
+        "longitude": "37.816054506024095,37.85712926751592,37.81221894862386,37.7874826852071,37.53330339292929,37.62935325987055,37.519910635365854",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:50:08.927903+00:00",
+      "sha256": "7349095020f0ecb34a4e01d188c2587df20c6910e2215f0c45cdade562b3f6f1",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751798
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.65787439204546,55.623866477184464,55.769121764482755,55.787413450495045,55.645933521969695,55.64147918178294,55.82908955095786",
+        "longitude": "37.592502142045454,37.741343090776695,37.82232007068965,37.77643295247525,37.81845643939394,37.52282342441861,37.52374927969348",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:51:07.854019+00:00",
+      "sha256": "7e07386b4c3da31b7733a7c624225246a3cda45fd8cb49dbfb2cc8494f42d16b",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751790
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.7201704907489,55.678054439719624,55.76462264351852,55.69948833493976,55.74809438109219,55.89185786684782,55.86726837044534",
+        "longitude": "37.903435495594714,37.59954303691589,37.414593339814814,37.776756574698794,37.11528794139753,37.379065212137675,37.46785505668016",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:51:37.625234+00:00",
+      "sha256": "2dda8d0f00dd72126d36432a4c6c1ed4aae2fdfa2267c95b4d5578d0c9df7ba2",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751073
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.75511585207548,55.902236091304346,55.66992219634832,55.83568734878049,55.79094951465201,55.659736530102045,55.843179946718145",
+        "longitude": "37.70459869924528,37.56931559565217,37.77115096685393,37.59070084243903,37.60879975787546,37.74151300612245,37.72526503629344",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:52:06.897933+00:00",
+      "sha256": "18e937d99e426e90decea068f073ee20a9f7870357bb14734d8da480d97d4761",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3752128
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.85481476010309,55.64069657703927,55.66457697232143,55.669159436619715,55.69459958669528,55.74990356011236,55.74132202891566",
+        "longitude": "37.360177677113406,37.66123199577039,37.64204218571428,37.672090412676056,37.94449860643777,37.80570139213483,37.8638153566265",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:52:36.979365+00:00",
+      "sha256": "ffe59d7749687d2c4dd61cf2ffcdeb4fa46b142ef6405e3b68882ee941675247",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751805
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.61732439654256,55.603976627640456,55.86445836596491,55.70691565612648,55.75169434832536,55.69202926372549,55.826024178037386",
+        "longitude": "37.69907883164893,37.71982540494382,37.61596110421053,37.454757431225296,37.77630240909091,37.70239627598039,37.44874741588785",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:53:07.258240+00:00",
+      "sha256": "6c40bc0f02ed82f245b8c8421ed9b0bfa689f9bcc420dacbedbfa65b720801b6",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751382
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.795238362974686,55.678713563607594,55.69574824960318,55.83370677267081,55.85581511011235,55.578015689208634,55.80605916573426",
+        "longitude": "37.71763040379747,37.49401306297468,37.501652463492064,37.64974505714286,37.6432092511236,37.55385166834533,37.803005442657344",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:53:37.112997+00:00",
+      "sha256": "c45fbd5d5b86541fa36481baeb446b485de0e38f60acb32c1fedcddfd4533b38",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3750944
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.88594835462963,55.85537298757396,55.94221179432624,55.80221650245902,55.77973613951613,55.80377213891403,55.647418261038965",
+        "longitude": "37.655448308796295,37.42227229112426,37.554864842553194,37.509539845901635,37.72106051814516,37.68637067963801,37.396484789177485",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:54:08.129529+00:00",
+      "sha256": "6945dd7cd65dfd83f5ffdacf1be814fff791f9c2185aed7b09206379de874065",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751393
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.79635819798995,55.7069148859375,55.63258374398148,55.7481213219697,55.718317994626865,55.742334375,55.865279731632654",
+        "longitude": "37.39238503015075,37.74382091666667,37.493679899537035,37.47121649242424,37.47254285253731,37.59003099423077,37.4892935627551",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:54:37.136563+00:00",
+      "sha256": "4209a0ac06548435be9acd392485f2c04092c8bf355ca39d5e8c034a6c6a9982",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3750447
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.77731356688742,55.63420093857143,55.66916629906542,55.63104837697368,55.61466340714286,55.58999065989584,55.79715117451923",
+        "longitude": "37.4747821102649,37.643444445238096,37.55603807850467,37.59436533355263,37.593783421428576,37.59602930104167,37.47704700576923",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:55:07.026695+00:00",
+      "sha256": "6e08c404f9c3fa98785de49ac52cd0e4b37e6ba82612d2fc23deafa9f9c29a4e",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3749840
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.52937710906488,55.873932323591546,55.844504062882095,55.73044424156627,55.61647582216749,55.716576925095055,55.79927741194968",
+        "longitude": "37.50472818396947,37.630788253169015,37.42064586724891,37.61297173825301,37.55372617857143,37.76858767452472,37.5629866836478",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:55:37.430825+00:00",
+      "sha256": "cc705ee09165c473067e4873bc3dde5650176a2cd1d887a4a37ec32054ade357",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3750983
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": "55.74377613301887,55.76985521515152,55.82877742761905,55.66624442378641,55.7818039308,55.71838898662791,55.858480544776114",
+        "longitude": "37.66114145251573,37.60683765656566,37.556559115714286,37.47900735776699,37.529261565599995,37.67944293139535,37.70108297164179",
+        "start_date": "2025-01-01",
+        "end_date": "2025-10-31",
+        "models": "ecmwf_ifs",
+        "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+        "timezone": "Europe/Moscow",
+        "wind_speed_unit": "ms",
+        "elevation": "nan,nan,nan,nan,nan,nan,nan"
+      },
+      "fetched_at": "2026-09-25T13:56:07.353735+00:00",
+      "sha256": "3013312f4bf199ba9278e29b49161fedaa970e017bda4cec528484f72a4eeceb",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 3751514
+    }
+  ],
+  "limitations": [
+    "Modelled archive, not 119 independent station observations.",
+    "IFS grid about 9 km; same-cell districts deliberately share data. Elevation downscaling disabled.",
+    "Snow depth incomplete in IFS: replaced throughout by existing ERA5-seamless center series; shared across districts.",
+    "Retrospective archive cannot stand in for a forecast issued at historical origin.",
+    "Hourly rain/precipitation/snowfall refer to preceding hour. Daily sums group by hour label.",
+    "Weather codes are categorical: daily mode, ties resolved by smallest code."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "grouped_rows": 3994491.0,
+  "transactions": 62442883.0,
+  "successful": 59667192.0,
+  "vehicles": 490.0,
+  "devices": 3080.0,
+  "missing_vehicle_transactions": 431450.0,
+  "missing_device_transactions": NaN
+}

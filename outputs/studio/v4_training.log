@@ -1,0 +1,94 @@
+/Users/khan/tram-forecast-20260926/feature_models.py:33: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['external_season']=d.month.map({int(k):v for k,v in s.items()})
+/Users/khan/tram-forecast-20260926/feature_models.py:34: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['routehour']=d.route*24+d.hour
+2025-07-01 cat_calendar_6_1_MAE 0.834602711327245
+2025-07-01 cat_weather_6_1_MAE 0.8384164117265054
+2025-07-01 cat_full_6_1_MAE 0.8434705721938904
+2025-07-01 cat_full_8_1_MAE 0.8447016743813915
+2025-07-01 cat_full_8_0_MAE 0.807581625499475
+2025-07-01 cat_full_8_0.5_MAE 0.8336230253980574
+2025-07-01 cat_full_8_1_RMSE 0.8470617410292391
+2025-07-01 cat_weather_8_1_MAE 0.8387977574618775
+      fold             model    score
+2025-07-01 cat_full_8_1_RMSE 0.847062
+2025-07-01  cat_full_8_1_MAE 0.844702
+2025-07-01  cat_full_6_1_MAE 0.843471
+2025-07-01     base_1_56_0.5 0.843024
+2025-07-01       base_1_56_0 0.841827
+2025-08-01 cat_calendar_6_1_MAE 0.8644819759700908
+2025-08-01 cat_weather_6_1_MAE 0.8708336273058236
+2025-08-01 cat_full_6_1_MAE 0.8912507395237677
+2025-08-01 cat_full_8_1_MAE 0.8885859461743226
+2025-08-01 cat_full_8_0_MAE 0.8844671003329297
+2025-08-01 cat_full_8_0.5_MAE 0.8866557417253184
+2025-08-01 cat_full_8_1_RMSE 0.8858880277422276
+2025-08-01 cat_weather_8_1_MAE 0.8714881646280237
+      fold              model    score
+2025-08-01   cat_full_6_1_MAE 0.891251
+2025-08-01   cat_full_8_1_MAE 0.888586
+2025-08-01 cat_full_8_0.5_MAE 0.886656
+2025-08-01  cat_full_8_1_RMSE 0.885888
+2025-08-01   cat_full_8_0_MAE 0.884467
+2025-09-01 cat_calendar_6_1_MAE 0.8739699822852723
+2025-09-01 cat_weather_6_1_MAE 0.8796577660089328
+2025-09-01 cat_full_6_1_MAE 0.8889977842291467
+2025-09-01 cat_full_8_1_MAE 0.8873694296953655
+2025-09-01 cat_full_8_0_MAE 0.8826183806964398
+2025-09-01 cat_full_8_0.5_MAE 0.8856762319923484
+2025-09-01 cat_full_8_1_RMSE 0.8871810955245608
+2025-09-01 cat_weather_8_1_MAE 0.8806759782880764
+      fold             model    score
+2025-09-01                v2 0.894220
+2025-09-01  cat_full_6_1_MAE 0.888998
+2025-09-01    base_0.5_365_0 0.887924
+2025-09-01  cat_full_8_1_MAE 0.887369
+2025-09-01 cat_full_8_1_RMSE 0.887181
+2025-10-01 cat_calendar_6_1_MAE 0.848762935165472
+2025-10-01 cat_weather_6_1_MAE 0.8767056452503219
+2025-10-01 cat_full_6_1_MAE 0.907780689174635
+2025-10-01 cat_full_8_1_MAE 0.9066368835891997
+2025-10-01 cat_full_8_0_MAE 0.9048050627062991
+2025-10-01 cat_full_8_0.5_MAE 0.9065143629114822
+2025-10-01 cat_full_8_1_RMSE 0.902399477744511
+2025-10-01 cat_weather_8_1_MAE 0.8717206687682928
+      fold              model    score
+2025-10-01   cat_full_6_1_MAE 0.907781
+2025-10-01   cat_full_8_1_MAE 0.906637
+2025-10-01 cat_full_8_0.5_MAE 0.906514
+2025-10-01   cat_full_8_0_MAE 0.904805
+2025-10-01  cat_full_8_1_RMSE 0.902399
+{
+  "selected": "cat_full_6_1_MAE",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8434705721938904
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8912507395237677
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.8889977842291467
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "cat_full_6_1_MAE",
+      "score": 0.907780689174635
+    }
+  ],
+  "selection_folds": [
+    "Jul-Aug",
+    "Aug-Sep"
+  ],
+  "caveat": "Supplied retrospective exogenous data; not operational as-of forecast. Sep-Oct previously explored, October only one month.",
+  "target_achieved": false,
+  "known_best_real_score": 0.88882,
+  "new_real_score": null
+}
+DONE V4

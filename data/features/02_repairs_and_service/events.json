@@ -1,0 +1,1320 @@
+[
+  {
+    "id": "20453_00",
+    "source_post": 20453,
+    "source": "https://t.me/DtOperativno/20453",
+    "published_at": "2025-03-14 10:12:23",
+    "routes": [
+      50
+    ],
+    "start": "2025-03-15",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-04-05",
+      "published_at": "2025-04-04 16:21:51",
+      "source": "https://t.me/DtOperativno/20663"
+    }
+  },
+  {
+    "id": "20574_01",
+    "source_post": 20574,
+    "source": "https://t.me/DtOperativno/20574",
+    "published_at": "2025-03-26 10:18:31",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-03-29",
+    "end": "2025-03-30",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        22,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "20574_02",
+    "source_post": 20574,
+    "source": "https://t.me/DtOperativno/20574",
+    "published_at": "2025-03-26 10:18:31",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-03-30",
+    "end": "2025-03-31",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        12
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "20659_03",
+    "source_post": 20659,
+    "source": "https://t.me/DtOperativno/20659",
+    "published_at": "2025-04-04 11:34:27",
+    "routes": [
+      17
+    ],
+    "start": "2025-04-05",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-04-19",
+      "published_at": "2025-04-17 14:38:25",
+      "source": "https://t.me/DtOperativno/20824"
+    }
+  },
+  {
+    "id": "20884_04",
+    "source_post": 20884,
+    "source": "https://t.me/DtOperativno/20884",
+    "published_at": "2025-04-22 15:28:41",
+    "routes": [
+      17
+    ],
+    "start": "2025-04-26",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "cancelled",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-05-01",
+      "published_at": "2025-04-30 16:01:57",
+      "source": "https://t.me/DtOperativno/21012"
+    }
+  },
+  {
+    "id": "20899_05",
+    "source_post": 20899,
+    "source": "https://t.me/DtOperativno/20899",
+    "published_at": "2025-04-23 13:17:50",
+    "routes": [
+      12
+    ],
+    "start": "2025-04-29",
+    "end": "2025-05-10",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        16,
+        19
+      ],
+      [
+        23,
+        24
+      ]
+    ],
+    "notes": "Late endpoint unspecified; only explicitly timed same-day window.",
+    "source_edited": false,
+    "dates": [
+      "2025-04-29",
+      "2025-05-03"
+    ]
+  },
+  {
+    "id": "20899_06",
+    "source_post": 20899,
+    "source": "https://t.me/DtOperativno/20899",
+    "published_at": "2025-04-23 13:17:50",
+    "routes": [
+      12
+    ],
+    "start": "2025-05-07",
+    "end": "2025-05-10",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        5,
+        8
+      ]
+    ],
+    "notes": "Second window from 09:30 has unknown endpoint and is retained separately as uncertain.",
+    "source_edited": false,
+    "dates": [
+      "2025-05-07",
+      "2025-05-09"
+    ]
+  },
+  {
+    "id": "20899_07",
+    "source_post": 20899,
+    "source": "https://t.me/DtOperativno/20899",
+    "published_at": "2025-04-23 13:17:50",
+    "routes": [
+      12
+    ],
+    "start": "2025-05-07",
+    "end": "2025-05-10",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        9.5,
+        24
+      ]
+    ],
+    "notes": "Until end of closures: same-day upper bound, not exact restoration time.",
+    "source_edited": false,
+    "dates": [
+      "2025-05-07",
+      "2025-05-09"
+    ]
+  },
+  {
+    "id": "20984_08",
+    "source_post": 20984,
+    "source": "https://t.me/DtOperativno/20984",
+    "published_at": "2025-04-28 16:47:10",
+    "routes": [
+      12
+    ],
+    "start": "2025-04-28",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        23.833333333333332,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-04-30",
+      "published_at": "2025-04-30 15:51:36",
+      "source": "https://t.me/DtOperativno/21010"
+    }
+  },
+  {
+    "id": "20984_09",
+    "source_post": 20984,
+    "source": "https://t.me/DtOperativno/20984",
+    "published_at": "2025-04-28 16:47:10",
+    "routes": [
+      12
+    ],
+    "start": "2025-04-29",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "After-midnight continuation; 04:00 is operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-05-01",
+      "published_at": "2025-04-30 15:51:36",
+      "source": "https://t.me/DtOperativno/21010"
+    }
+  },
+  {
+    "id": "21415_10",
+    "source_post": 21415,
+    "source": "https://t.me/DtOperativno/21415",
+    "published_at": "2025-06-02 16:34:45",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-06-05",
+    "end": "2025-06-06",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        22,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21415_11",
+    "source_post": 21415,
+    "source": "https://t.me/DtOperativno/21415",
+    "published_at": "2025-06-02 16:34:45",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-06-06",
+    "end": "2025-06-07",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        11.5
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21417_12",
+    "source_post": 21417,
+    "source": "https://t.me/DtOperativno/21417",
+    "published_at": "2025-06-02 16:39:58",
+    "routes": [
+      12
+    ],
+    "start": "2025-06-07",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-06-21",
+      "published_at": "2025-06-20 11:02:06",
+      "source": "https://t.me/DtOperativno/21612"
+    }
+  },
+  {
+    "id": "21418_13",
+    "source_post": 21418,
+    "source": "https://t.me/DtOperativno/21418",
+    "published_at": "2025-06-02 16:44:58",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-06-08",
+    "end": "2025-06-09",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        13.5
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21664_14",
+    "source_post": 21664,
+    "source": "https://t.me/DtOperativno/21664",
+    "published_at": "2025-06-26 15:27:43",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-06-27",
+    "end": "2025-06-28",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        11.5,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21664_15",
+    "source_post": 21664,
+    "source": "https://t.me/DtOperativno/21664",
+    "published_at": "2025-06-26 15:27:43",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-06-28",
+    "end": "2025-06-29",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        7
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21687_16",
+    "source_post": 21687,
+    "source": "https://t.me/DtOperativno/21687",
+    "published_at": "2025-06-27 15:44:17",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-06-29",
+    "end": "2025-07-03",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        1,
+        4
+      ]
+    ],
+    "notes": "Last-service window; 04:00 operational-night proxy.",
+    "source_edited": false
+  },
+  {
+    "id": "21696_17",
+    "source_post": 21696,
+    "source": "https://t.me/DtOperativno/21696",
+    "published_at": "2025-06-28 10:45:19",
+    "routes": [
+      7
+    ],
+    "start": "2025-06-28",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "Superseded by full-week July diversion.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-07-10",
+      "published_at": "2025-07-02 09:50:12",
+      "source": "https://t.me/DtOperativno/21735"
+    }
+  },
+  {
+    "id": "21735_18",
+    "source_post": 21735,
+    "source": "https://t.me/DtOperativno/21735",
+    "published_at": "2025-07-02 09:50:12",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-07-10",
+    "end": "2025-08-07",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "Original planned duration up to 28 days; actual restoration Aug11. Route50 merged with13, not cancelled.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-08-11",
+      "published_at": "2025-08-11 11:31:59",
+      "source": "https://t.me/DtOperativno/22313"
+    }
+  },
+  {
+    "id": "21773_19",
+    "source_post": 21773,
+    "source": "https://t.me/DtOperativno/21773",
+    "published_at": "2025-07-04 17:05:51",
+    "routes": [
+      25
+    ],
+    "start": "2025-07-05",
+    "end": "2025-07-06",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        21,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21773_20",
+    "source_post": 21773,
+    "source": "https://t.me/DtOperativno/21773",
+    "published_at": "2025-07-04 17:05:51",
+    "routes": [
+      25
+    ],
+    "start": "2025-07-06",
+    "end": "2025-07-07",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        0.5
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "21942_21",
+    "source_post": 21942,
+    "source": "https://t.me/DtOperativno/21942",
+    "published_at": "2025-07-18 17:41:39",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-07-18",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        23.5,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-07-23",
+      "published_at": "2025-07-23 11:40:37",
+      "source": "https://t.me/DtOperativno/22029"
+    }
+  },
+  {
+    "id": "21942_22",
+    "source_post": 21942,
+    "source": "https://t.me/DtOperativno/21942",
+    "published_at": "2025-07-18 17:41:39",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-07-19",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-07-24",
+      "published_at": "2025-07-23 11:40:37",
+      "source": "https://t.me/DtOperativno/22029"
+    }
+  },
+  {
+    "id": "22269_23",
+    "source_post": 22269,
+    "source": "https://t.me/DtOperativno/22269",
+    "published_at": "2025-08-07 20:03:46",
+    "routes": [
+      7
+    ],
+    "start": "2025-08-08",
+    "end": "2025-08-09",
+    "weekdays": null,
+    "kind": "reduced_frequency",
+    "hours": [
+      [
+        0.6666666666666666,
+        4
+      ]
+    ],
+    "notes": "One direction finishes after00:40; not an all-day cancellation. 04:00 proxy.",
+    "source_edited": false
+  },
+  {
+    "id": "22364_24",
+    "source_post": 22364,
+    "source": "https://t.me/DtOperativno/22364",
+    "published_at": "2025-08-15 13:57:43",
+    "routes": [
+      7
+    ],
+    "start": "2025-08-16",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "Superseded by September weekend restriction.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-06",
+      "published_at": "2025-09-05 17:32:58",
+      "source": "https://t.me/DtOperativno/22624"
+    }
+  },
+  {
+    "id": "22371_25",
+    "source_post": 22371,
+    "source": "https://t.me/DtOperativno/22371",
+    "published_at": "2025-08-15 20:13:31",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-08-15",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        23,
+        24
+      ]
+    ],
+    "notes": "Superseded by September late-service restriction.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-12",
+      "published_at": "2025-09-12 18:25:01",
+      "source": "https://t.me/DtOperativno/22723"
+    }
+  },
+  {
+    "id": "22371_26",
+    "source_post": 22371,
+    "source": "https://t.me/DtOperativno/22371",
+    "published_at": "2025-08-15 20:13:31",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-08-16",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-13",
+      "published_at": "2025-09-12 18:25:01",
+      "source": "https://t.me/DtOperativno/22723"
+    }
+  },
+  {
+    "id": "22624_27",
+    "source_post": 22624,
+    "source": "https://t.me/DtOperativno/22624",
+    "published_at": "2025-09-05 17:32:58",
+    "routes": [
+      50
+    ],
+    "start": "2025-09-06",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "cancelled",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": true,
+    "restored": {
+      "effective": "2025-11-15",
+      "published_at": "2025-11-15 12:14:48",
+      "source": "https://t.me/DtOperativno/23565"
+    }
+  },
+  {
+    "id": "22624_28",
+    "source_post": 22624,
+    "source": "https://t.me/DtOperativno/22624",
+    "published_at": "2025-09-05 17:32:58",
+    "routes": [
+      7
+    ],
+    "start": "2025-09-06",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": true,
+    "restored": {
+      "effective": "2025-11-15",
+      "published_at": "2025-11-15 12:14:48",
+      "source": "https://t.me/DtOperativno/23565"
+    }
+  },
+  {
+    "id": "22673_29",
+    "source_post": 22673,
+    "source": "https://t.me/DtOperativno/22673",
+    "published_at": "2025-09-10 15:00:16",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-09-10",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "22704_30",
+    "source_post": 22704,
+    "source": "https://t.me/DtOperativno/22704",
+    "published_at": "2025-09-12 12:32:08",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-09-13",
+    "end": "2025-09-14",
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        11.5,
+        24
+      ]
+    ],
+    "notes": "Festival endpoint unspecified: same-day upper bound, not exact duration.",
+    "source_edited": false
+  },
+  {
+    "id": "22723_31",
+    "source_post": 22723,
+    "source": "https://t.me/DtOperativno/22723",
+    "published_at": "2025-09-12 18:25:01",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-09-12",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        23,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-10-01",
+      "published_at": "2025-10-01 18:29:04",
+      "source": "https://t.me/DtOperativno/22966"
+    }
+  },
+  {
+    "id": "22723_32",
+    "source_post": 22723,
+    "source": "https://t.me/DtOperativno/22723",
+    "published_at": "2025-09-12 18:25:01",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-09-13",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-10-02",
+      "published_at": "2025-10-01 18:29:04",
+      "source": "https://t.me/DtOperativno/22966"
+    }
+  },
+  {
+    "id": "22757_33",
+    "source_post": 22757,
+    "source": "https://t.me/DtOperativno/22757",
+    "published_at": "2025-09-15 19:30:10",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-09-16",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0.3333333333333333,
+        4
+      ]
+    ],
+    "notes": "Restored announcement Sep19 afternoon; next early-morning service Sep20. 04:00 proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-20",
+      "published_at": "2025-09-19 17:25:17",
+      "source": "https://t.me/DtOperativno/22809"
+    }
+  },
+  {
+    "id": "22810_34",
+    "source_post": 22810,
+    "source": "https://t.me/DtOperativno/22810",
+    "published_at": "2025-09-19 17:35:11",
+    "routes": [
+      7
+    ],
+    "start": "2025-09-20",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-10-04",
+      "published_at": "2025-10-04 10:05:01",
+      "source": "https://t.me/DtOperativno/23007"
+    }
+  },
+  {
+    "id": "22851_35",
+    "source_post": 22851,
+    "source": "https://t.me/DtOperativno/22851",
+    "published_at": "2025-09-23 18:35:36",
+    "routes": [
+      11,
+      17,
+      25
+    ],
+    "start": "2025-09-24",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0.3333333333333333,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-26",
+      "published_at": "2025-09-25 12:34:11",
+      "source": "https://t.me/DtOperativno/22892"
+    }
+  },
+  {
+    "id": "22873_36",
+    "source_post": 22873,
+    "source": "https://t.me/DtOperativno/22873",
+    "published_at": "2025-09-24 16:52:49",
+    "routes": [
+      28
+    ],
+    "start": "2025-09-24",
+    "end": null,
+    "weekdays": null,
+    "kind": "reduced_frequency",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "Emergency repair, not known beforehand; day-level approximation.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-09-25",
+      "published_at": "2025-09-25 13:16:18",
+      "source": "https://t.me/DtOperativno/22896"
+    }
+  },
+  {
+    "id": "23072_37",
+    "source_post": 23072,
+    "source": "https://t.me/DtOperativno/23072",
+    "published_at": "2025-10-10 08:35:21",
+    "routes": [
+      11,
+      12,
+      25,
+      50
+    ],
+    "start": "2025-10-11",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "23293_38",
+    "source_post": 23293,
+    "source": "https://t.me/DtOperativno/23293",
+    "published_at": "2025-10-28 17:04:44",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-10-28",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        22,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-11-25",
+      "published_at": "2025-11-25 11:50:56",
+      "source": "https://t.me/DtOperativno/23760"
+    }
+  },
+  {
+    "id": "23293_39",
+    "source_post": 23293,
+    "source": "https://t.me/DtOperativno/23293",
+    "published_at": "2025-10-28 17:04:44",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-10-29",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-11-26",
+      "published_at": "2025-11-25 11:50:56",
+      "source": "https://t.me/DtOperativno/23760"
+    }
+  },
+  {
+    "id": "23413_40",
+    "source_post": 23413,
+    "source": "https://t.me/DtOperativno/23413",
+    "published_at": "2025-11-05 15:31:32",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-11-05",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        23.333333333333332,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-11-25",
+      "published_at": "2025-11-25 11:50:56",
+      "source": "https://t.me/DtOperativno/23760"
+    }
+  },
+  {
+    "id": "23413_41",
+    "source_post": 23413,
+    "source": "https://t.me/DtOperativno/23413",
+    "published_at": "2025-11-05 15:31:32",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-11-06",
+    "end": null,
+    "weekdays": null,
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "04:00 operational-night proxy.",
+    "source_edited": false,
+    "restored": {
+      "effective": "2025-11-26",
+      "published_at": "2025-11-25 11:50:56",
+      "source": "https://t.me/DtOperativno/23760"
+    }
+  },
+  {
+    "id": "24106_42",
+    "source_post": 24106,
+    "source": "https://t.me/DtOperativno/24106",
+    "published_at": "2025-12-12 21:32:20",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-12-13",
+    "end": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        23,
+        24
+      ]
+    ],
+    "notes": "Corrected announcement supersedes daily wording of post24097.",
+    "source_edited": true
+  },
+  {
+    "id": "24106_43",
+    "source_post": 24106,
+    "source": "https://t.me/DtOperativno/24106",
+    "published_at": "2025-12-12 21:32:20",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-12-14",
+    "end": null,
+    "weekdays": [
+      6,
+      0
+    ],
+    "kind": "rerouted",
+    "hours": [
+      [
+        0,
+        4
+      ]
+    ],
+    "notes": "Continuation of Saturday/Sunday service night, 04:00 proxy.",
+    "source_edited": true
+  },
+  {
+    "id": "24135_44",
+    "source_post": 24135,
+    "source": "https://t.me/DtOperativno/24135",
+    "published_at": "2025-12-16 21:17:14",
+    "routes": [
+      5
+    ],
+    "start": "2025-12-16",
+    "end": null,
+    "weekdays": null,
+    "kind": "new_route",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "Cold start: no comparable route5 training; not an automatic uplift estimate.",
+    "source_edited": false
+  },
+  {
+    "id": "24136_45",
+    "source_post": 24136,
+    "source": "https://t.me/DtOperativno/24136",
+    "published_at": "2025-12-16 21:17:27",
+    "routes": [
+      5,
+      50
+    ],
+    "start": "2025-12-16",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "24235_46",
+    "source_post": 24235,
+    "source": "https://t.me/DtOperativno/24235",
+    "published_at": "2025-12-19 17:55:19",
+    "routes": [
+      12
+    ],
+    "start": "2025-12-20",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "24238_47",
+    "source_post": 24238,
+    "source": "https://t.me/DtOperativno/24238",
+    "published_at": "2025-12-19 18:00:50",
+    "routes": [
+      11,
+      12
+    ],
+    "start": "2025-12-20",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "24240_48",
+    "source_post": 24240,
+    "source": "https://t.me/DtOperativno/24240",
+    "published_at": "2025-12-19 18:10:23",
+    "routes": [
+      7,
+      50
+    ],
+    "start": "2025-12-20",
+    "end": null,
+    "weekdays": null,
+    "kind": "stop_change",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  },
+  {
+    "id": "20295_49",
+    "source_post": 20295,
+    "source": "https://t.me/DtOperativno/20295",
+    "published_at": "2025-02-27 11:35:03",
+    "routes": [
+      26
+    ],
+    "start": "2025-03-01",
+    "end": "2025-03-24",
+    "weekdays": null,
+    "kind": "network_disruption",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": true,
+    "dates": [
+      "2025-03-01",
+      "2025-03-02",
+      "2025-03-15",
+      "2025-03-16",
+      "2025-03-22",
+      "2025-03-23"
+    ]
+  },
+  {
+    "id": "21318_50",
+    "source_post": 21318,
+    "source": "https://t.me/DtOperativno/21318",
+    "published_at": "2025-05-28 09:55:03",
+    "routes": [
+      26
+    ],
+    "start": "2025-05-31",
+    "end": "2025-06-09",
+    "weekdays": null,
+    "kind": "network_disruption",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false,
+    "dates": [
+      "2025-05-31",
+      "2025-06-01",
+      "2025-06-07",
+      "2025-06-08"
+    ]
+  },
+  {
+    "id": "22900_51",
+    "source_post": 22900,
+    "source": "https://t.me/DtOperativno/22900",
+    "published_at": "2025-09-25 15:15:29",
+    "routes": [
+      26
+    ],
+    "start": "2025-09-27",
+    "end": "2025-09-29",
+    "weekdays": null,
+    "kind": "network_disruption",
+    "hours": [
+      [
+        0,
+        24
+      ]
+    ],
+    "notes": "",
+    "source_edited": false
+  }
+]

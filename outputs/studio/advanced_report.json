@@ -1,0 +1,23 @@
+{
+  "weights": {
+    "profile_14_median": 0.10210714932660835,
+    "profile_14_mean": 0.10210713921777992,
+    "profile_56_median": 0.5093233184838483,
+    "ridge_1_1": 0.020269675577823387,
+    "ridge_1_50": 0.1831167301318895,
+    "cat_6_MAE_60": 0.08307598726205065
+  },
+  "selection_periods": [
+    "2025-05-01/2025-06-30",
+    "2025-07-01/2025-08-31"
+  ],
+  "untouched_holdout": "2025-09-01/2025-10-31",
+  "holdout_score": 0.7358155231375078,
+  "target_score": 0.95,
+  "target_achieved_on_holdout": false,
+  "hidden_test_score": null,
+  "optimizer_success": true,
+  "score_2025-05-01": 0.875137279239873,
+  "score_2025-07-01": 0.8461115088691633,
+  "score_2025-09-01": 0.7358155231375078
+}

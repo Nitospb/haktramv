@@ -1,0 +1,31 @@
+{
+  "selected": "adaptive_28_0.5",
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "end": "2025-08-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8092690993256633
+    },
+    {
+      "fold": "2025-08-01",
+      "end": "2025-09-30",
+      "model": "adaptive_28_0.5",
+      "score": 0.8748860457876902
+    },
+    {
+      "fold": "2025-09-01",
+      "end": "2025-10-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8942202555001644
+    },
+    {
+      "fold": "2025-10-01",
+      "end": "2025-10-31",
+      "model": "adaptive_28_0.5",
+      "score": 0.8945968701371285
+    }
+  ],
+  "evaluation": "Temporal tuning folds, partly overlapping. October is a one-month diagnostic, not a two-month score.",
+  "target_achieved": false
+}

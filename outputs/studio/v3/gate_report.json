@@ -1,0 +1,40 @@
+{
+  "method": "season gated recent profile",
+  "model": "w_56_0_1",
+  "weight": 0.75,
+  "scores": [
+    {
+      "model": "w_56_0_1",
+      "weight": 0.75,
+      "fold": "2025-05-01",
+      "score": 0.8644538630304205
+    },
+    {
+      "model": "w_56_0_1",
+      "weight": 0.75,
+      "fold": "2025-07-01",
+      "score": 0.8141668224239074
+    },
+    {
+      "model": "w_56_0_1",
+      "weight": 0.75,
+      "fold": "2025-08-01",
+      "score": 0.8756884941378933
+    },
+    {
+      "model": "w_56_0_1",
+      "weight": 0.75,
+      "fold": "2025-09-01",
+      "score": 0.8942202555001644
+    },
+    {
+      "model": "w_56_0_1",
+      "weight": 0.75,
+      "fold": "2025-10-01",
+      "score": 0.9069820332446252
+    }
+  ],
+  "evaluation": "May-Jun, Jul-Aug, Aug-Sep, Sep-Oct tuning; Oct one-month diagnostic. No new independent two-month test.",
+  "real_score": null,
+  "previous_real_score_user_reported": 0.88882
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 62442883,
+  "missing_event_time": 0,
+  "missing_input_time": 0,
+  "negative_delay": 103,
+  "delay_over_7d": 1151385,
+  "valid_delay": 61291395,
+  "valid_delay_over_24h": 1651396,
+  "hourly_rows": 57594,
+  "policy": "features use only 0 <= input-event <= 7 days; future target-hour observations are forbidden"
+}

@@ -1,0 +1,70 @@
+{
+  "selected": {
+    "model": "spring_season_half",
+    "strength": 0.5,
+    "levels": "bounded"
+  },
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "model": "spring_season_half",
+      "strength": 0.5,
+      "levels": "bounded",
+      "score": 0.8125770128036091,
+      "incumbent": 0.8125770128036091
+    },
+    {
+      "fold": "2025-08-01",
+      "model": "spring_season_half",
+      "strength": 0.5,
+      "levels": "bounded",
+      "score": 0.8909490372720335,
+      "incumbent": 0.888255512005749
+    },
+    {
+      "fold": "2025-09-01",
+      "model": "spring_season_half",
+      "strength": 0.5,
+      "levels": "bounded",
+      "score": 0.9078086488704804,
+      "incumbent": 0.9057135812643662
+    },
+    {
+      "fold": "2025-10-01",
+      "model": "spring_season_half",
+      "strength": 0.5,
+      "levels": "bounded",
+      "score": 0.9141729732929466,
+      "incumbent": 0.9121638690046334
+    }
+  ],
+  "selection": "Post-hoc development selection: among blends <=50% with analog route-month volume bounded to +/-5%, maximize the minimum score gain on Aug–Sep, Sep–Oct, October. These windows overlap and were inspected. No independent validation claim.",
+  "initial_aug_sep_selection_rejected": {
+    "model": "spring_season_full",
+    "strength": 1.0,
+    "levels": "free"
+  },
+  "final_route_month_volume_change_bound": 0.025,
+  "prior": "2023–2024 tram totals only. 2020–2022 excluded. Calendar exposure fitted from past route labels only.",
+  "actual_incumbent_public_score": 0.89214,
+  "candidate_public_score": 0.8916,
+  "exogenous_caveat": "Retrospective service calendar supplied by user.",
+  "source_url": "https://github.com/ArtNikVal/Analyseofmoscowtaransportproject",
+  "source_sha256": "f3dfc35777d418ed326e2ac28cc1711f6daf04c4ab0f40bd15839fc821a43844",
+  "nov_dec_target_available": false,
+  "all_autumn_diagnostics_improve": true,
+  "future_target_perturbation_test": "passed: arbitrary Nov–Dec target values have no effect",
+  "forecast_monthly_totals": {
+    "11": {
+      "incumbent": 6022852,
+      "candidate": 6137385
+    },
+    "12": {
+      "incumbent": 6503932,
+      "candidate": 6659099
+    }
+  },
+  "mean_absolute_change": 21.789207650273223,
+  "target_95_achieved": false,
+  "decision": "rejected; retain v8 public score 0.89214"
+}

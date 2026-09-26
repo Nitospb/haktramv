@@ -1,0 +1,23 @@
+{
+  "scores": [
+    {
+      "fold": "2025-07-01",
+      "score": 0.8461880170488162
+    },
+    {
+      "fold": "2025-08-01",
+      "score": 0.8814717166834681
+    },
+    {
+      "fold": "2025-09-01",
+      "score": 0.8743018283128222
+    },
+    {
+      "fold": "2025-10-01",
+      "score": 0.9027008633367973
+    }
+  ],
+  "method": "Origin-aware model plus lagged fare shares and education interactions",
+  "selection": "Fixed ablation after examining previous folds; retrospective supplied weather/events; not an independent test.",
+  "future_ticket_months_used": false
+}

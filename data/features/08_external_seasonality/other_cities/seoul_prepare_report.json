@@ -1,0 +1,226 @@
+{
+  "source": "https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do",
+  "rows": 368280,
+  "months": 24,
+  "routes": 699,
+  "boardings": 3280150401,
+  "alightings": 3211970003,
+  "files": [
+    {
+      "seq": "67",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(01월).csv",
+      "year_month": 202301,
+      "download_bytes": 14894876,
+      "routes": 627,
+      "boardings": 122030845,
+      "alightings": 119441038
+    },
+    {
+      "seq": "68",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(02월).csv",
+      "year_month": 202302,
+      "download_bytes": 15119815,
+      "routes": 629,
+      "boardings": 121742015,
+      "alightings": 119180637
+    },
+    {
+      "seq": "69",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(03월).csv",
+      "year_month": 202303,
+      "download_bytes": 15114809,
+      "routes": 630,
+      "boardings": 141768920,
+      "alightings": 138717772
+    },
+    {
+      "seq": "70",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(04월).csv",
+      "year_month": 202304,
+      "download_bytes": 15171596,
+      "routes": 629,
+      "boardings": 135450580,
+      "alightings": 132454374
+    },
+    {
+      "seq": "71",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(05월).csv",
+      "year_month": 202305,
+      "download_bytes": 15283273,
+      "routes": 630,
+      "boardings": 139223681,
+      "alightings": 136137351
+    },
+    {
+      "seq": "72",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(06월).csv",
+      "year_month": 202306,
+      "download_bytes": 15352443,
+      "routes": 631,
+      "boardings": 137555713,
+      "alightings": 134492067
+    },
+    {
+      "seq": "73",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(07월).csv",
+      "year_month": 202307,
+      "download_bytes": 15403192,
+      "routes": 630,
+      "boardings": 137927322,
+      "alightings": 134782478
+    },
+    {
+      "seq": "74",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(08월).csv",
+      "year_month": 202308,
+      "download_bytes": 15178125,
+      "routes": 629,
+      "boardings": 135512192,
+      "alightings": 132525720
+    },
+    {
+      "seq": "75",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(09월).csv",
+      "year_month": 202309,
+      "download_bytes": 15137400,
+      "routes": 630,
+      "boardings": 133083857,
+      "alightings": 130134921
+    },
+    {
+      "seq": "76",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(10월).csv",
+      "year_month": 202310,
+      "download_bytes": 15428506,
+      "routes": 630,
+      "boardings": 135068686,
+      "alightings": 132141064
+    },
+    {
+      "seq": "77",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(11월).csv",
+      "year_month": 202311,
+      "download_bytes": 15135272,
+      "routes": 636,
+      "boardings": 136874774,
+      "alightings": 133934990
+    },
+    {
+      "seq": "78",
+      "name": "2023년_버스노선별_정류장별_시간대별_승하차_인원_정보(12월).csv",
+      "year_month": 202312,
+      "download_bytes": 15183067,
+      "routes": 634,
+      "boardings": 135378057,
+      "alightings": 132445464
+    },
+    {
+      "seq": "79",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(01월).csv",
+      "year_month": 202401,
+      "download_bytes": 15248807,
+      "routes": 634,
+      "boardings": 129244288,
+      "alightings": 126653056
+    },
+    {
+      "seq": "80",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(02월).csv",
+      "year_month": 202402,
+      "download_bytes": 15377474,
+      "routes": 636,
+      "boardings": 119853070,
+      "alightings": 117450841
+    },
+    {
+      "seq": "81",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(03월).csv",
+      "year_month": 202403,
+      "download_bytes": 15427216,
+      "routes": 640,
+      "boardings": 138139444,
+      "alightings": 135366599
+    },
+    {
+      "seq": "82",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(04월).csv",
+      "year_month": 202404,
+      "download_bytes": 15289506,
+      "routes": 639,
+      "boardings": 140446175,
+      "alightings": 137672526
+    },
+    {
+      "seq": "83",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(05월).csv",
+      "year_month": 202405,
+      "download_bytes": 15647322,
+      "routes": 643,
+      "boardings": 143578525,
+      "alightings": 140724728
+    },
+    {
+      "seq": "84",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(06월).csv",
+      "year_month": 202406,
+      "download_bytes": 15392901,
+      "routes": 655,
+      "boardings": 137487964,
+      "alightings": 134793795
+    },
+    {
+      "seq": "85",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(07월).csv",
+      "year_month": 202407,
+      "download_bytes": 15477233,
+      "routes": 654,
+      "boardings": 145739977,
+      "alightings": 142796741
+    },
+    {
+      "seq": "88",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(08월).csv",
+      "year_month": 202408,
+      "download_bytes": 10652677,
+      "routes": 657,
+      "boardings": 142136068,
+      "alightings": 139370281
+    },
+    {
+      "seq": "89",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(09월).csv",
+      "year_month": 202409,
+      "download_bytes": 10468803,
+      "routes": 654,
+      "boardings": 137157962,
+      "alightings": 134452936
+    },
+    {
+      "seq": "90",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(10월).csv",
+      "year_month": 202410,
+      "download_bytes": 15636561,
+      "routes": 656,
+      "boardings": 146254229,
+      "alightings": 143376169
+    },
+    {
+      "seq": "91",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(11월).csv",
+      "year_month": 202411,
+      "download_bytes": 10520901,
+      "routes": 656,
+      "boardings": 144587903,
+      "alightings": 141766113
+    },
+    {
+      "seq": "92",
+      "name": "2024년_버스노선별_정류장별_시간대별_승하차_인원_정보(12월).csv",
+      "year_month": 202412,
+      "download_bytes": 15376072,
+      "routes": 656,
+      "boardings": 143908154,
+      "alightings": 141158342
+    }
+  ]
+}

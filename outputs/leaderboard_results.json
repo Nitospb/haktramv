@@ -1,0 +1,54 @@
+[
+  {
+    "submission": "outputs/studio/v2/submission.csv",
+    "sha256": "cebef2aa3bb4e0720135b4c1d822423d8d8b0618760f66e9e438a167d095fc83",
+    "score": 0.88882,
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 13:49 +03:00",
+    "status": "Успешно",
+    "file_mapping": "assumed latest provided v2 submission; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/studio/v3/submission_season_gate.csv",
+    "sha256": "c07b9c06091013dde7c5ecf07b13a439af4698ca899a70e43a2ba345ce67e613",
+    "score": 0.88429,
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 13:55 +03:00",
+    "status": "Успешно",
+    "file_mapping": "assumed latest provided season-gate candidate; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/studio/v4/submission_ensemble.csv",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "user explicitly confirmed not uploaded; local improvement considered too small"
+  },
+  {
+    "submission": "outputs/submission_next.csv",
+    "sha256": "505d0a49177279366ccbc6a6263ff5b2f933e8abb6c6a7a48002f97d5cbe51db",
+    "score": 0.872,
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 14:34 +03:00",
+    "status": "Успешно",
+    "file_mapping": "assumed latest provided candidate; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/studio/v8/submission.csv",
+    "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+    "score": 0.89214,
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 14:39 +03:00",
+    "status": "Успешно",
+    "file_mapping": "assumed latest provided v8 candidate; user did not supply file hash"
+  },
+  {
+    "submission": "outputs/submission_spring_2023_2024.csv",
+    "sha256": "f59f1a4c20bd919f6380bc8cd54a31b34613d614865edf9073ebb7147bb727c3",
+    "score": 0.8916,
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 14:58 +03:00",
+    "status": "Успешно",
+    "decision": "rejected; restore v8 public-best 0.89214",
+    "file_mapping": "assumed latest provided v10_spring candidate; user did not supply file hash"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "rows": 14640,
+  "submission_template_keys_match": true,
+  "finite_nonnegative_integer_predictions": true,
+  "future_target_perturbation_test": "passed: arbitrary Nov–Dec target values have no effect",
+  "max_abs_route_month_volume_change": 0.025004778156996643,
+  "development_score_recomputation": [
+    {
+      "fold": "2025-08-01",
+      "incumbent": 0.888255512005749,
+      "candidate": 0.8909490372720335
+    },
+    {
+      "fold": "2025-09-01",
+      "incumbent": 0.9057135812643662,
+      "candidate": 0.9078086488704804
+    },
+    {
+      "fold": "2025-10-01",
+      "incumbent": 0.9121638690046334,
+      "candidate": 0.9141729732929466
+    }
+  ],
+  "incumbent_sha256_unchanged": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+  "candidate_sha256": "f59f1a4c20bd919f6380bc8cd54a31b34613d614865edf9073ebb7147bb727c3"
+}

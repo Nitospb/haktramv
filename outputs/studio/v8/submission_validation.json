@@ -1,0 +1,9 @@
+{
+  "source": "outputs/studio/v8/submission.csv",
+  "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+  "rows": 14640,
+  "public_score": null,
+  "status": "experimental candidate, not replacing public-best",
+  "selection_report": "studio/v8/report.json",
+  "supersedes_rejected_candidate_score": 0.872
+}
