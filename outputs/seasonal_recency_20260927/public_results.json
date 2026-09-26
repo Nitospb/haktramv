@@ -1,0 +1,26 @@
+{
+  "submitted_at": "2026-09-27 00:34 +03:00",
+  "source": "User-reported competition results; user clarified reversed order relative to first offered mapping",
+  "reported_scores": [
+    0.88665,
+    0.88033
+  ],
+  "status": "successful; mapping clarified by user",
+  "note": "0.88665 appears twice in the pasted text; treated as a repeated report, not a third submission.",
+  "decision": "Neither reported result beats confirmed best 0.89402; do not promote either candidate.",
+  "confirmed_best_score": 0.89402,
+  "gap_below_best": [
+    0.00737,
+    0.01369
+  ],
+  "results": [
+    {
+      "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_profile.csv",
+      "score": 0.88033
+    },
+    {
+      "submission": "outputs/seasonal_recency_20260927/submission_autumn_profile.csv",
+      "score": 0.88665
+    }
+  ]
+}

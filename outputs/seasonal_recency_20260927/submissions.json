@@ -17,8 +17,10 @@
     "rows": 14640,
     "prediction_total": 12312644,
     "sha256": "c89d2862b08d44059a31f1c5324ae2de5963faa4315d120c44f70f8f9b9e2f2a",
-    "public_score": null,
-    "future_label_perturbation_max_diff": 0.0
+    "public_score": 0.88665,
+    "future_label_perturbation_max_diff": 0.0,
+    "submitted_at": "2026-09-27 00:34 +03:00",
+    "public_score_source": "User-reported competition results; user clarified reversed order relative to first offered mapping"
   },
   {
     "submission": "outputs/seasonal_recency_20260927/submission_autumn_cat.csv",
@@ -60,8 +62,10 @@
     "rows": 14640,
     "prediction_total": 12467995,
     "sha256": "2559ce039858dde90904827fc7be1a92edf456a4f084bef615b3071be9535fca",
-    "public_score": null,
-    "future_label_perturbation_max_diff": 0.0
+    "public_score": 0.88033,
+    "future_label_perturbation_max_diff": 0.0,
+    "submitted_at": "2026-09-27 00:34 +03:00",
+    "public_score_source": "User-reported competition results; user clarified reversed order relative to first offered mapping"
   },
   {
     "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_cat.csv",

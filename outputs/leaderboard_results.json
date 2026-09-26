@@ -202,15 +202,16 @@
   {
     "submission": "outputs/seasonal_recency_20260927/submission_autumn_profile.csv",
     "sha256": "c89d2862b08d44059a31f1c5324ae2de5963faa4315d120c44f70f8f9b9e2f2a",
-    "score": null,
-    "status": "candidate_created; upload_not_confirmed",
+    "score": 0.88665,
+    "status": "Успешно",
     "model": "profile_autumn_h14_eligible_mean_s3",
-    "source": "Strict autumn and spring-autumn recency study trained on Studio",
-    "decision": "Not promoted; confirmed public best remains v8 +3% 0.89402",
+    "source": "User-reported competition results; user clarified reversed order relative to first offered mapping",
+    "decision": "Rejected as replacement; confirmed public best remains v8 +3% 0.89402",
     "training_months": [
       9,
       10
-    ]
+    ],
+    "submitted_at": "2026-09-27 00:34 +03:00"
   },
   {
     "submission": "outputs/seasonal_recency_20260927/submission_autumn_cat.csv",
@@ -228,18 +229,19 @@
   {
     "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_profile.csv",
     "sha256": "2559ce039858dde90904827fc7be1a92edf456a4f084bef615b3071be9535fca",
-    "score": null,
-    "status": "candidate_created; upload_not_confirmed",
+    "score": 0.88033,
+    "status": "Успешно",
     "model": "profile_spring_autumn_h56_calendar_median_s3",
-    "source": "Strict autumn and spring-autumn recency study trained on Studio",
-    "decision": "Not promoted; confirmed public best remains v8 +3% 0.89402",
+    "source": "User-reported competition results; user clarified reversed order relative to first offered mapping",
+    "decision": "Rejected as replacement; confirmed public best remains v8 +3% 0.89402",
     "training_months": [
       3,
       4,
       5,
       9,
       10
-    ]
+    ],
+    "submitted_at": "2026-09-27 00:34 +03:00"
   },
   {
     "submission": "outputs/seasonal_recency_20260927/submission_spring_autumn_cat.csv",
