@@ -1,0 +1,22 @@
+{
+  "submission": "outputs/submission_weekly_logratio_v17.csv",
+  "sha256": "4139aa8e96ee3a0fccc64c772a8088a1b688fc9e2c5a65d716a6488f0567f375",
+  "rows": 14640,
+  "prediction_total": 12386183,
+  "model": "recursive_logratio",
+  "model_sha256": "2c1307a2f89f24ad99e87b7ff105a072d06447bc88d4f2aa2ce8938265a122bd",
+  "forecast_days": 61,
+  "step_days": 7,
+  "training_last_date": "2025-10-31",
+  "training_rows": 66240,
+  "iterations": 500,
+  "future_label_perturbation_max_diff": 0.0,
+  "checkpoint_replayed": true,
+  "template_keys_and_order_verified": true,
+  "v8_is_component": false,
+  "public_score": null,
+  "user_requested": true,
+  "promotion_to_public_best": false,
+  "development_september_october_score": 0.8630101892505414,
+  "decision": "Experimental submission requested by user; keep v8 public best 0.89214."
+}

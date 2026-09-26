@@ -257,8 +257,11 @@ def main():
         for name, p in outputs.items():
             rows[name] = p.reshape(-1)
         rows.to_csv(DEST / (date + '_predictions.csv.gz'), index=False)
-        pd.DataFrame(metrics).to_csv(DEST / 'metrics.csv', index=False)
-        (DEST / 'audit_summary.json').write_text(json.dumps(audits, indent=2) + '\n')
+        # A final-only fit must not replace the historical validation reports.
+        if metrics:
+            pd.DataFrame(metrics).to_csv(DEST / 'metrics.csv', index=False)
+        audit_name = 'final_audit_summary.json' if not metrics else 'audit_summary.json'
+        (DEST / audit_name).write_text(json.dumps(audits, indent=2) + '\n')
     if metrics:
         m = pd.DataFrame(metrics)
         table = m[m.part == 'all'].pivot(index='model', columns='origin', values='score')

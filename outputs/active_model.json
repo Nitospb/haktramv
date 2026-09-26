@@ -5,17 +5,16 @@
   "user_reported_score": 0.89214,
   "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
   "previous_best_score": 0.88882,
-  "next_step": "Retain v8 public best. The weekly target comparison is complete; no v17 submission selected because later development windows remain below v8.",
+  "next_step": "User-requested pure recursive log-ratio submission created and verified; await its public score. Retain v8 public best.",
   "latest_experiment": "v17: 20 controlled weekly-target CatBoost fits; log-ratio improves the absolute recursive control on four windows but does not consistently improve v8",
   "candidate": {
-    "submission": "submission_dual_recursive_v16.csv",
-    "model": "independent daily dense_stable_c5 and weekly_stable networks",
-    "daily_weight": 0.7000000000000001,
-    "sha256": "5d4e8b0147784be361671d90ed717bcdeb4d0d8427e2e605f6aabd0f15826fe6",
+    "submission": "submission_weekly_logratio_v17.csv",
+    "model": "v17 recursive_logratio",
+    "sha256": "4139aa8e96ee3a0fccc64c772a8088a1b688fc9e2c5a65d716a6488f0567f375",
     "public_score": null,
     "user_requested": true,
     "experimental_only": true,
-    "validation_decision": "unresolved September-October regression; do not replace public-best v8"
+    "validation_decision": "User requested despite weaker validation than v8; not promoted"
   },
   "reported_result_needing_confirmation": {
     "score": 0.8916,

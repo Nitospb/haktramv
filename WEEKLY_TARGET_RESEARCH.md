@@ -3,8 +3,17 @@
 Проверен именно прогноз изменения относительно значения того же часа и дня
 неделю назад. `Log-ratio` улучшил одинаковый CatBoost с абсолютной целью на
 всех четырёх проверенных окнах, однако устойчиво превзойти v8 не удалось.
-Цель 0,95 не достигнута, новый submission по этому эксперименту не выбран.
+Цель 0,95 не достигнута, автоматическая замена лучшего submission не выбрана.
 Основной файл остаётся `outputs/submission_best.csv`, публичный score 0,89214.
+
+По последующей просьбе пользователя создан отдельный экспериментальный
+[submission_weekly_logratio_v17.csv](outputs/submission_weekly_logratio_v17.csv).
+Это один CatBoost `recursive_logratio`, обученный на 66 240 примерах до
+31 октября включительно: 500 деревьев с теми же настройками, что при проверках.
+Прогноз идёт недельными шагами по собственным значениям до конца декабря,
+без смешивания с v8. В файле 14 640 строк в порядке исходного шаблона;
+результат сайта пока неизвестен. Метаданные и SHA-256 сохранены в
+[submission_report.json](outputs/studio/v17_weekly_targets/submission_report.json).
 
 Последние сообщённые пользователем результаты сайта: отдельная дневная сеть
 v15 — 0,87084, недельная v16 — 0,88501; обе загрузки от 26.09.2026, 23:06 +03:00.
@@ -107,6 +116,16 @@ log-ratio улучшил абсолютную цель на 0,001028 / 0,017882 
 OPENBLAS_NUM_THREADS=2 .venv/bin/python weekly_target_ablation.py --iterations 500 --threads 8
 OPENBLAS_NUM_THREADS=2 .venv/bin/python verify_weekly_targets.py
 ```
+
+Создание запрошенного финального файла:
+
+```bash
+OPENBLAS_NUM_THREADS=2 .venv/bin/python weekly_target_ablation.py --origins 304 --models recursive_logratio --iterations 500 --threads 8
+OPENBLAS_NUM_THREADS=2 .venv/bin/python make_weekly_target_submission.py
+```
+
+Готовую модель можно выгрузить повторно второй командой без переобучения.
+Финальное обучение сохраняет отдельный audit и не заменяет исторические метрики.
 
 Код: [weekly_target_ablation.py](weekly_target_ablation.py),
 [verify_weekly_targets.py](verify_weekly_targets.py).
