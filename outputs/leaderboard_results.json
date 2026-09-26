@@ -258,5 +258,14 @@
       9,
       10
     ]
+  },
+  {
+    "submission": "outputs/gradient_recency_20260927/submission_lightgbm.csv",
+    "sha256": "4068c428e609443916d98f07edb49f5b99c9638c4b53928a5c7dc43f8aefdc9b",
+    "score": null,
+    "status": "candidate_created; upload_not_confirmed",
+    "model": "lean_poisson_soft_h365",
+    "source": "Standalone LightGBM study trained and verified on Studio",
+    "decision": "Not promoted; autumn backtests trail v8 +3%; confirmed public best remains 0.89402"
   }
 ]

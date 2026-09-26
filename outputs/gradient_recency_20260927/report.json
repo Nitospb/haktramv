@@ -1,0 +1,356 @@
+{
+  "selected": "lean_poisson_soft_h365",
+  "ranking": {
+    "lean_poisson_soft_h365": 0.8572324098391393,
+    "lean_l1_soft_h365": 0.8468761076895319,
+    "lean_l1_h112": 0.8459121235921517,
+    "lean_l1_soft_h112": 0.8437083835478335,
+    "raw_poisson_soft": 0.8421776880272304,
+    "residual_l1_all": 0.8364586946245309,
+    "residual_l1_soft": 0.8360726119657201,
+    "residual_l1_small": 0.8360652791633888,
+    "raw_l1_all": 0.8339451681983127,
+    "raw_l1_soft": 0.83167971683144
+  },
+  "metrics": [
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "raw_l1_all",
+      "score": 0.8300890170030863,
+      "prediction_total": 11550494.272618543
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "raw_l1_soft",
+      "score": 0.823825505898276,
+      "prediction_total": 11659199.011035878
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "raw_poisson_soft",
+      "score": 0.8468038567249625,
+      "prediction_total": 11190654.26138276
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "residual_l1_all",
+      "score": 0.8381009970430782,
+      "prediction_total": 11042935.090748468
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "residual_l1_soft",
+      "score": 0.8349061901875163,
+      "prediction_total": 11204803.571920354
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "residual_l1_small",
+      "score": 0.8347414797669421,
+      "prediction_total": 11211581.84181311
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "v8_scale_1.0",
+      "score": 0.8125934583787979,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "v8_scale_1.03",
+      "score": 0.7911550144710204,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "raw_l1_all",
+      "score": 0.837801319393539,
+      "prediction_total": 11154614.31694498
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "raw_l1_soft",
+      "score": 0.839533927764604,
+      "prediction_total": 11170010.593413116
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "raw_poisson_soft",
+      "score": 0.8375515193294982,
+      "prediction_total": 11038712.000128971
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "residual_l1_all",
+      "score": 0.8348163922059836,
+      "prediction_total": 11251498.455490325
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "residual_l1_soft",
+      "score": 0.8372390337439239,
+      "prediction_total": 11314215.100796402
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "residual_l1_small",
+      "score": 0.8373890785598355,
+      "prediction_total": 11290194.168111973
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "v8_scale_1.0",
+      "score": 0.9057263874555146,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "v8_scale_1.03",
+      "score": 0.8988592322964768,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "raw_l1_all",
+      "score": 0.9004311736981033,
+      "prediction_total": 6277708.340112896
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "raw_l1_soft",
+      "score": 0.9009460269310348,
+      "prediction_total": 6289020.353517005
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "raw_poisson_soft",
+      "score": 0.898920072738359,
+      "prediction_total": 6238446.803477793
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "residual_l1_all",
+      "score": 0.9094287858377684,
+      "prediction_total": 6595668.805790305
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "residual_l1_soft",
+      "score": 0.9086467298902696,
+      "prediction_total": 6600660.767263503
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "residual_l1_small",
+      "score": 0.908318766760996,
+      "prediction_total": 6614434.811701279
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "v8_scale_1.0",
+      "score": 0.9121769780076155,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "v8_scale_1.03",
+      "score": 0.9125903408116532,
+      "prediction_total": NaN
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "lean_l1_h112",
+      "score": 0.7965996628014815,
+      "prediction_total": 12105907.483690225
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "lean_l1_soft_h112",
+      "score": 0.7914026061820726,
+      "prediction_total": 12216443.970551368
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "lean_l1_soft_h365",
+      "score": 0.7964260320789508,
+      "prediction_total": 12106208.256350186
+    },
+    {
+      "origin": "2025-07-01",
+      "horizon": 61,
+      "model": "lean_poisson_soft_h365",
+      "score": 0.8200419243027879,
+      "prediction_total": 11746411.951666377
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "lean_l1_h112",
+      "score": 0.8952245843828219,
+      "prediction_total": 12940174.483411323
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "lean_l1_soft_h112",
+      "score": 0.8960141609135944,
+      "prediction_total": 12996519.999305628
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "lean_l1_soft_h365",
+      "score": 0.897326183300113,
+      "prediction_total": 13004549.521787588
+    },
+    {
+      "origin": "2025-09-01",
+      "horizon": 61,
+      "model": "lean_poisson_soft_h365",
+      "score": 0.8944228953754907,
+      "prediction_total": 12998787.221384998
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "lean_l1_h112",
+      "score": 0.9045102739249297,
+      "prediction_total": 6370486.889249323
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "lean_l1_soft_h112",
+      "score": 0.9052173739606004,
+      "prediction_total": 6415722.392181236
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "lean_l1_soft_h365",
+      "score": 0.9048783694587491,
+      "prediction_total": 6426517.031979285
+    },
+    {
+      "origin": "2025-10-01",
+      "horizon": 31,
+      "model": "lean_poisson_soft_h365",
+      "score": 0.8980435738650159,
+      "prediction_total": 6308667.06416984
+    }
+  ],
+  "configs": {
+    "lean_l1_h112": {
+      "mode": "raw",
+      "objective": "regression_l1",
+      "soft": false,
+      "leaves": 31,
+      "lean": true,
+      "half": 112
+    },
+    "lean_l1_soft_h112": {
+      "mode": "raw",
+      "objective": "regression_l1",
+      "soft": true,
+      "leaves": 31,
+      "lean": true,
+      "half": 112
+    },
+    "lean_l1_soft_h365": {
+      "mode": "raw",
+      "objective": "regression_l1",
+      "soft": true,
+      "leaves": 31,
+      "lean": true,
+      "half": 365
+    },
+    "lean_poisson_soft_h365": {
+      "mode": "raw",
+      "objective": "poisson",
+      "soft": true,
+      "leaves": 31,
+      "lean": true,
+      "half": 365
+    },
+    "raw_l1_all": {
+      "mode": "raw",
+      "objective": "regression_l1",
+      "soft": false,
+      "leaves": 31
+    },
+    "raw_l1_soft": {
+      "mode": "raw",
+      "objective": "regression_l1",
+      "soft": true,
+      "leaves": 31
+    },
+    "raw_poisson_soft": {
+      "mode": "raw",
+      "objective": "poisson",
+      "soft": true,
+      "leaves": 31
+    },
+    "residual_l1_all": {
+      "mode": "residual",
+      "objective": "regression_l1",
+      "soft": false,
+      "leaves": 31
+    },
+    "residual_l1_soft": {
+      "mode": "residual",
+      "objective": "regression_l1",
+      "soft": true,
+      "leaves": 31
+    },
+    "residual_l1_small": {
+      "mode": "residual",
+      "objective": "regression_l1",
+      "soft": true,
+      "leaves": 15
+    }
+  },
+  "selection": "Mean score of July-August and September-October, full 61-day fixed-origin blocks; October is a shorter diagnostic only.",
+  "caveats": [
+    "Previously explored development windows, not independent holdout.",
+    "Supplied retrospective weather and service covariates.",
+    "Public score unknown; current confirmed best .89402 unchanged."
+  ],
+  "causal_future_label_perturbation_passed": true,
+  "lightgbm_version": "4.6.0",
+  "submission": {
+    "file": "outputs/gradient_recency_20260927/submission_lightgbm.csv",
+    "sha256": "4068c428e609443916d98f07edb49f5b99c9638c4b53928a5c7dc43f8aefdc9b",
+    "rows": 14640,
+    "prediction_total": 12362565,
+    "public_score": null,
+    "standalone": true
+  },
+  "source_sha256": "69bcfd5265d0c76ee9773e03967567211ddae28803360a041a9f5c209c950838"
+}

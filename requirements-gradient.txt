@@ -1,0 +1,2 @@
+-r requirements-studio.txt
+lightgbm==4.6.0
