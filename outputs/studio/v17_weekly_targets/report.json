@@ -1,0 +1,1418 @@
+{
+  "ranking_july_august": {
+    "direct_logratio": 0.8087654085982886,
+    "recursive_logratio": 0.7942098613936823,
+    "recursive_absolute": 0.7847545308218498,
+    "recursive_relative": 0.7791395765595182,
+    "recursive_delta": 0.7704556869371326
+  },
+  "scores": [
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "all",
+      "score": 0.8147496796421326
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "first_7",
+      "score": 0.8858097975265976
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_8_28",
+      "score": 0.7772563538746162
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_29_61",
+      "score": 0.8216994690441508
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "last_7",
+      "score": 0.8763509256937352
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "all",
+      "score": 0.8154110392444174
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "first_7",
+      "score": 0.8928930229268979
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_8_28",
+      "score": 0.7768726948605549
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_29_61",
+      "score": 0.821549943197565
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "last_7",
+      "score": 0.8807637967204692
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "all",
+      "score": 0.8181075204428615
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "first_7",
+      "score": 0.8839888359451206
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_8_28",
+      "score": 0.77730717807611
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_29_61",
+      "score": 0.8282594374281276
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "last_7",
+      "score": 0.8749151370956397
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "all",
+      "score": 0.8284184266753545
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "first_7",
+      "score": 0.9024304958387398
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_8_28",
+      "score": 0.8165418518376991
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_29_61",
+      "score": 0.8189702462001643
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "last_7",
+      "score": 0.7874081334691444
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "all",
+      "score": 0.8012505778276148
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "first_7",
+      "score": 0.903462627865403
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_8_28",
+      "score": 0.8123631721570789
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_29_61",
+      "score": 0.7713069575121094
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "last_7",
+      "score": 0.7175052046266168
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "all",
+      "score": 0.8006710549250974
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "first_7",
+      "score": 0.8707224996515255
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_8_28",
+      "score": 0.7652425215506096
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_29_61",
+      "score": 0.8065810916346797
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "last_7",
+      "score": 0.7866866309764019
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "all",
+      "score": 0.8294468349469821
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "first_7",
+      "score": 0.9110441671142373
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_8_28",
+      "score": 0.8156670640543325
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_29_61",
+      "score": 0.8194515884691224
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "last_7",
+      "score": 0.7840991470571801
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "all",
+      "score": 0.8448818670620939
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "first_7",
+      "score": 0.9107325692094328
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_8_28",
+      "score": 0.8074373457331606
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_29_61",
+      "score": 0.8529800288872826
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "last_7",
+      "score": 0.8969647071005582
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v8",
+      "part": "all",
+      "score": 0.8125931526633471
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v8",
+      "part": "first_7",
+      "score": 0.8893315191719904
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_8_28",
+      "score": 0.7695281823559743
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_29_61",
+      "score": 0.8216798844231347
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v8",
+      "part": "last_7",
+      "score": 0.8839936886782395
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "all",
+      "score": 0.8527981697289655
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "first_7",
+      "score": 0.8993775822743267
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_8_28",
+      "score": 0.8220173864101541
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_29_61",
+      "score": 0.8611634483924362
+    },
+    {
+      "origin": "2025-07-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "last_7",
+      "score": 0.8781958580338995
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "all",
+      "score": 0.7806403238494106
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "first_7",
+      "score": 0.8918537935853755
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_8_28",
+      "score": 0.8191847964202079
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_29_61",
+      "score": 0.7398642113187792
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "last_7",
+      "score": 0.7301738025420941
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "all",
+      "score": 0.7749766946528662
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "first_7",
+      "score": 0.8796171431866238
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_8_28",
+      "score": 0.8179747358571272
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_29_61",
+      "score": 0.7328921837147366
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "last_7",
+      "score": 0.7238593329603504
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "all",
+      "score": 0.8023566045839507
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "first_7",
+      "score": 0.8961713458077919
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_8_28",
+      "score": 0.8482677408444983
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_29_61",
+      "score": 0.760559704243694
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "last_7",
+      "score": 0.7499683714235108
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "all",
+      "score": 0.7410906349683449
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "first_7",
+      "score": 0.8904675264408218
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_8_28",
+      "score": 0.7977788338458995
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_29_61",
+      "score": 0.6836059885054074
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "last_7",
+      "score": 0.6687958836650574
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "all",
+      "score": 0.7396607960466504
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "first_7",
+      "score": 0.894823704720166
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_8_28",
+      "score": 0.7965560288842034
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_29_61",
+      "score": 0.6810480476299495
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "last_7",
+      "score": 0.6610250190384404
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "all",
+      "score": 0.7576080981939388
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "first_7",
+      "score": 0.9000423201531415
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_8_28",
+      "score": 0.8045474256494498
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_29_61",
+      "score": 0.7067248523146665
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "last_7",
+      "score": 0.6748054786290953
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "all",
+      "score": 0.7589728878403826
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "first_7",
+      "score": 0.8910851377844398
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_8_28",
+      "score": 0.8053817479720199
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_29_61",
+      "score": 0.710191123850593
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "last_7",
+      "score": 0.7046296021755944
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "all",
+      "score": 0.7726489501344833
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "first_7",
+      "score": 0.88191745712671
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_8_28",
+      "score": 0.8004364259708796
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_29_61",
+      "score": 0.7381554728992318
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "last_7",
+      "score": 0.7319620712789731
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v8",
+      "part": "all",
+      "score": 0.888255512005749
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v8",
+      "part": "first_7",
+      "score": 0.893049156398207
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_8_28",
+      "score": 0.8900578624704318
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_29_61",
+      "score": 0.8864200705847922
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v8",
+      "part": "last_7",
+      "score": 0.8920773070213527
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "all",
+      "score": 0.8479834514117719
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "first_7",
+      "score": 0.845893991666296
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_8_28",
+      "score": 0.8150007259710623
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_29_61",
+      "score": 0.8665682804029895
+    },
+    {
+      "origin": "2025-08-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "last_7",
+      "score": 0.8744932242374317
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "all",
+      "score": 0.823186925442125
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "first_7",
+      "score": 0.8458355286498503
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_8_28",
+      "score": 0.8319634986828695
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "days_29_61",
+      "score": 0.8133919195003713
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_7",
+      "part": "last_7",
+      "score": 0.8177613487307247
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "all",
+      "score": 0.8030752486126249
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "first_7",
+      "score": 0.8097505203517302
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_8_28",
+      "score": 0.819563224621825
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "days_29_61",
+      "score": 0.7918510890078687
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "repeat_14",
+      "part": "last_7",
+      "score": 0.7867798722046937
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "all",
+      "score": 0.7902763350386425
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "first_7",
+      "score": 0.8148431256793138
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_8_28",
+      "score": 0.8039734733943382
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "days_29_61",
+      "score": 0.7771464559160166
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "mean_4weeks",
+      "part": "last_7",
+      "score": 0.784357521232953
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "all",
+      "score": 0.8499328527463009
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "first_7",
+      "score": 0.8677101486229926
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_8_28",
+      "score": 0.8561257618574993
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "days_29_61",
+      "score": 0.8426619905441928
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_absolute",
+      "part": "last_7",
+      "score": 0.8412809540038106
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "all",
+      "score": 0.842388154332846
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "first_7",
+      "score": 0.8675563112853518
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_8_28",
+      "score": 0.8507154050316506
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "days_29_61",
+      "score": 0.8323585468999298
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_delta",
+      "part": "last_7",
+      "score": 0.8133774441039487
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "all",
+      "score": 0.8090957415542906
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "first_7",
+      "score": 0.8654800153112092
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_8_28",
+      "score": 0.802997134077817
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "days_29_61",
+      "score": 0.8014726820274897
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_relative",
+      "part": "last_7",
+      "score": 0.7916084782217003
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "all",
+      "score": 0.8630101892505414
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "first_7",
+      "score": 0.8777839902968008
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_8_28",
+      "score": 0.8673120594823219
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "days_29_61",
+      "score": 0.8574743796383162
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "recursive_logratio",
+      "part": "last_7",
+      "score": 0.853762153082978
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "all",
+      "score": 0.8498947109492252
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "first_7",
+      "score": 0.8669740058719715
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_8_28",
+      "score": 0.8585293944086121
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "days_29_61",
+      "score": 0.8412990442244163
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "direct_logratio",
+      "part": "last_7",
+      "score": 0.8447379174001192
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v8",
+      "part": "all",
+      "score": 0.9057135812643662
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v8",
+      "part": "first_7",
+      "score": 0.9039973777281326
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_8_28",
+      "score": 0.8976069660766017
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v8",
+      "part": "days_29_61",
+      "score": 0.9109188749400245
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v8",
+      "part": "last_7",
+      "score": 0.9131355528986352
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "all",
+      "score": 0.9023771973316528
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "first_7",
+      "score": 0.8922787281952712
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_8_28",
+      "score": 0.8996129555223924
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "days_29_61",
+      "score": 0.9060554307284893
+    },
+    {
+      "origin": "2025-09-01",
+      "days": 61,
+      "model": "v13_anchored",
+      "part": "last_7",
+      "score": 0.9084557904015891
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_7",
+      "part": "all",
+      "score": 0.8860866863121212
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_7",
+      "part": "first_7",
+      "score": 0.8878482177863389
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_7",
+      "part": "days_8_28",
+      "score": 0.8881315057650444
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_7",
+      "part": "days_29_61",
+      "score": 0.8697735649604008
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_7",
+      "part": "last_7",
+      "score": 0.878052355832692
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_14",
+      "part": "all",
+      "score": 0.8852284779273193
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_14",
+      "part": "first_7",
+      "score": 0.8830226889180574
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_14",
+      "part": "days_8_28",
+      "score": 0.8861669428921428
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_14",
+      "part": "days_29_61",
+      "score": 0.8839392490673277
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "repeat_14",
+      "part": "last_7",
+      "score": 0.8850388495794896
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "mean_4weeks",
+      "part": "all",
+      "score": 0.9020980621896846
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "mean_4weeks",
+      "part": "first_7",
+      "score": 0.9043023711709255
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "mean_4weeks",
+      "part": "days_8_28",
+      "score": 0.9019717122824598
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "mean_4weeks",
+      "part": "days_29_61",
+      "score": 0.8983499305315076
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "mean_4weeks",
+      "part": "last_7",
+      "score": 0.895798112180797
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_absolute",
+      "part": "all",
+      "score": 0.896991625253658
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_absolute",
+      "part": "first_7",
+      "score": 0.9025650852634355
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_absolute",
+      "part": "days_8_28",
+      "score": 0.8973048254225631
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_absolute",
+      "part": "days_29_61",
+      "score": 0.8835880404321775
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_absolute",
+      "part": "last_7",
+      "score": 0.8856298888745768
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_delta",
+      "part": "all",
+      "score": 0.9002736190653401
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_delta",
+      "part": "first_7",
+      "score": 0.9036748196775999
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_delta",
+      "part": "days_8_28",
+      "score": 0.9004189488551615
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_delta",
+      "part": "days_29_61",
+      "score": 0.8923783504902681
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_delta",
+      "part": "last_7",
+      "score": 0.8917995379041518
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_relative",
+      "part": "all",
+      "score": 0.8996867655636724
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_relative",
+      "part": "first_7",
+      "score": 0.9032877753082544
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_relative",
+      "part": "days_8_28",
+      "score": 0.8992936767267514
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_relative",
+      "part": "days_29_61",
+      "score": 0.8947223682522218
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_relative",
+      "part": "last_7",
+      "score": 0.8920775963725067
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_logratio",
+      "part": "all",
+      "score": 0.8997606391607175
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_logratio",
+      "part": "first_7",
+      "score": 0.903525538617376
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_logratio",
+      "part": "days_8_28",
+      "score": 0.8996271191569305
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_logratio",
+      "part": "days_29_61",
+      "score": 0.8928482472594338
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "recursive_logratio",
+      "part": "last_7",
+      "score": 0.8919020112121762
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "direct_logratio",
+      "part": "all",
+      "score": 0.9000986158709205
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "direct_logratio",
+      "part": "first_7",
+      "score": 0.902403052497554
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "direct_logratio",
+      "part": "days_8_28",
+      "score": 0.9008080916790422
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "direct_logratio",
+      "part": "days_29_61",
+      "score": 0.890957045574225
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "direct_logratio",
+      "part": "last_7",
+      "score": 0.8911581597732775
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v8",
+      "part": "all",
+      "score": 0.9121638690046335
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v8",
+      "part": "first_7",
+      "score": 0.9138162732189797
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v8",
+      "part": "days_8_28",
+      "score": 0.9112913369830039
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v8",
+      "part": "days_29_61",
+      "score": 0.9141817097537518
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v8",
+      "part": "last_7",
+      "score": 0.9124615630258951
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v13_anchored",
+      "part": "all",
+      "score": 0.9127262411054176
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v13_anchored",
+      "part": "first_7",
+      "score": 0.9156660885301838
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v13_anchored",
+      "part": "days_8_28",
+      "score": 0.9118915502339617
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v13_anchored",
+      "part": "days_29_61",
+      "score": 0.9118620822697616
+    },
+    {
+      "origin": "2025-10-01",
+      "days": 31,
+      "model": "v13_anchored",
+      "part": "last_7",
+      "score": 0.9123511759484254
+    }
+  ],
+  "code_sha256": "10b95ef4dc45d2645be2afac05ff4b3a91b32eae558ba860c2dab26541d6bfee",
+  "v8_public_best": 0.89214,
+  "v15_user_reported": 0.87084,
+  "v16_user_reported": 0.88501,
+  "future_labels_used": false,
+  "v8_is_model_input": false,
+  "caveat": "Previously explored overlapping development windows; October is 31 days. Retrospective supplied exogenous features. No independent holdout or known new public score."
+}

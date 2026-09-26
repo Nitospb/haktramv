@@ -1,0 +1,30 @@
+{
+  "target_inverse_with_zero_anchors": "passed",
+  "analytic_nine_block_rollout_max_diff": 6.366462912410498e-12,
+  "recursive_block_days": [
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5
+  ],
+  "second_week_receives_own_first_week": true,
+  "zero_change_equals_repeat_last_week": true,
+  "training_future_label_perturbation": {
+    "recursive": {
+      "rows": 36720,
+      "latest_training_day": 180,
+      "future_perturbation_changes": 0
+    },
+    "direct": {
+      "rows": 270000,
+      "latest_training_day": 180,
+      "future_perturbation_changes": 0
+    }
+  },
+  "trained_models_with_hidden_label_and_reload_checks": 20
+}

@@ -5,8 +5,8 @@
   "user_reported_score": 0.89214,
   "sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
   "previous_best_score": 0.88882,
-  "next_step": "Retain v8 public best. New recursive files are experimental; no stable validation gain and no confirmed new public score.",
-  "latest_experiment": "v16: separate recursive daily and whole-week networks; 269 training origins and bounded volume drift",
+  "next_step": "Retain v8 public best. The weekly target comparison is complete; no v17 submission selected because later development windows remain below v8.",
+  "latest_experiment": "v17: 20 controlled weekly-target CatBoost fits; log-ratio improves the absolute recursive control on four windows but does not consistently improve v8",
   "candidate": {
     "submission": "submission_dual_recursive_v16.csv",
     "model": "independent daily dense_stable_c5 and weekly_stable networks",
@@ -25,5 +25,18 @@
       "submission_spring_2023_2024.csv",
       "submission_consistency_c5.csv"
     ]
-  }
+  },
+  "latest_reported_components": [
+    {
+      "submission": "outputs/submission_daily_recursive_v15.csv",
+      "score": 0.87084,
+      "submitted_at": "2026-09-26 23:06 +03:00"
+    },
+    {
+      "submission": "outputs/submission_weekly_recursive_v16.csv",
+      "score": 0.88501,
+      "submitted_at": "2026-09-26 23:06 +03:00"
+    }
+  ],
+  "latest_experiment_report": "studio/v17_weekly_targets/report.json"
 }
