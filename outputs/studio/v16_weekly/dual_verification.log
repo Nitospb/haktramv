@@ -1,0 +1,81 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+{
+  "model_audits": [
+    {
+      "family": "v15_cascade",
+      "models_checked": 24,
+      "training_boundaries_ok": true,
+      "future_target_perturbations_zero": true,
+      "long_chain_and_cross_route_gradients_nonzero": true
+    },
+    {
+      "family": "v16_weekly",
+      "models_checked": 12,
+      "training_boundaries_ok": true,
+      "future_target_perturbations_zero": true,
+      "long_chain_and_cross_route_gradients_nonzero": true
+    }
+  ],
+  "checkpoint_replays": [
+    {
+      "family": "v15_cascade",
+      "origin": 243,
+      "forward_steps_verified": true,
+      "checkpoint_max_abs_difference": {
+        "1": 0.0,
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    },
+    {
+      "family": "v15_cascade",
+      "origin": 304,
+      "forward_steps_verified": true,
+      "checkpoint_max_abs_difference": {
+        "1": 0.0,
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    },
+    {
+      "family": "v16_weekly",
+      "origin": 243,
+      "forward_steps_verified": true,
+      "checkpoint_max_abs_difference": {
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    },
+    {
+      "family": "v16_weekly",
+      "origin": 304,
+      "forward_steps_verified": true,
+      "checkpoint_max_abs_difference": {
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    }
+  ],
+  "submissions": {
+    "submission_dual_recursive_v16.csv": {
+      "rows": 14640,
+      "reproduced_from_checkpoints": true,
+      "sha256": "5d4e8b0147784be361671d90ed717bcdeb4d0d8427e2e605f6aabd0f15826fe6"
+    },
+    "submission_daily_recursive_v15.csv": {
+      "rows": 14640,
+      "reproduced_from_checkpoints": true,
+      "sha256": "99e5e620ba5387a847f52e3a3c8f7feac6eecaa295873d390f98bba02a002759"
+    },
+    "submission_weekly_recursive_v16.csv": {
+      "rows": 14640,
+      "reproduced_from_checkpoints": true,
+      "sha256": "50e96ded1ededb003285c6c597d1ab459455f100097ccc521093d64b47577195"
+    }
+  },
+  "frozen_daily_weight": 0.7000000000000001,
+  "different_model_classes": true,
+  "independently_trained_components": true,
+  "v8_or_v13_forecasts_used_as_components": false
+}

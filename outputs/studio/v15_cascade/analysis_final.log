@@ -1,0 +1,22 @@
+origin            2025-07-01  2025-08-01  2025-09-01  2025-10-01
+model
+cascade_selected    0.842466    0.863114    0.833148    0.897025
+cascade_step1       0.842466    0.863114    0.833148    0.897025
+cascade_step7       0.842469    0.863057    0.833062    0.897022
+long_only_step1     0.841144    0.852183    0.710630    0.894009
+long_only_step7     0.841179    0.851278    0.709615    0.894022
+v13                 0.852798    0.847983    0.902377    0.912726
+v8                  0.812593    0.888256    0.905714    0.912164
+SUBMISSION {
+  "path": "outputs/submission_cascade_v15.csv",
+  "sha256": "99e5e620ba5387a847f52e3a3c8f7feac6eecaa295873d390f98bba02a002759",
+  "rows": 14640,
+  "prediction_total": 12012997,
+  "model": "dense_stable_c5",
+  "path_used": "step1",
+  "seed": 20260926,
+  "public_score": null,
+  "single_checkpoint": true,
+  "no_blending": true,
+  "v8_best_replaced": false
+}

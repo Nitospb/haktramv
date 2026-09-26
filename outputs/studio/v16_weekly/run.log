@@ -1,0 +1,27 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+WEEKLY 181 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 1 0.119605 0.8 seconds
+WEEKLY 181 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 20 0.098095 2.4 seconds
+WEEKLY 181 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 40 0.089433 4.0 seconds
+WEEKLY 181 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 60 0.079639 5.7 seconds
+WEEKLY 181 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 80 0.075416 7.3 seconds
+SCORES 2025-07-01 weekly_joint {'7': 0.846896}
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.122848 0.2 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.103591 2.0 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.096237 3.9 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.087567 5.8 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.083671 7.7 seconds
+SCORES 2025-07-01 weekly_regularized {'7': 0.850198}
+WEEKLY 212 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 1 0.147261 0.2 seconds
+WEEKLY 212 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 20 0.10616 2.8 seconds
+WEEKLY 212 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 40 0.088472 5.5 seconds
+WEEKLY 212 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 60 0.084837 8.2 seconds
+WEEKLY 212 {'bound': 0.5, 'learning_rate': 0.001, 'weight_decay': 0.03} 80 0.07815 10.9 seconds
+SCORES 2025-08-01 weekly_joint {'7': 0.82538}
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.159291 0.2 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.119456 2.7 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.100625 5.3 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.096694 8.0 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.090104 10.7 seconds
+SCORES 2025-08-01 weekly_regularized {'7': 0.846741}
+DONE CASCADE

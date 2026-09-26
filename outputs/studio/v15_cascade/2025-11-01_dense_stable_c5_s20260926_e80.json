@@ -1,0 +1,41 @@
+{
+  "forecast_origin_day": 304,
+  "max_training_label_day": 303,
+  "long_training_origins": 209,
+  "short_training_origins": {
+    "1": 269,
+    "7": 263
+  },
+  "short_latest_origin": {
+    "1": 303,
+    "7": 297
+  },
+  "available_origins": 269,
+  "distinct_origins_used": 269,
+  "training_horizon_min": 1,
+  "training_horizon_max": 61,
+  "future_training_targets_zeroed_before_batching": true,
+  "loss_mask_excludes_unavailable_targets": true,
+  "optimizer_updates": 880,
+  "seed": 20260926,
+  "epochs": 80,
+  "config": {
+    "consistency": 5.0
+  },
+  "seconds": 102.34306404227391,
+  "dense_code_sha256": "f7106b2245c346574cf587e08e7e0ef945ad56b4832e629ae36a8ecfecb51778",
+  "volume_bound_log": 0.15,
+  "architecture": "dense recursive cascade with bounded daily route volume",
+  "stable_code_sha256": "2c08284bafb8fd9be213654fab49ebf0bf65699655e84474c9405fa7499421f3",
+  "future_label_perturbation_max_difference": 0.0,
+  "last_day_gradient_to_first_step_1": 1.0277137334924191e-05,
+  "last_day_gradient_to_first_step_7": 0.00143090367782861,
+  "cross_route_gradient_l1": 0.005388432648032904,
+  "name": "dense_stable_c5",
+  "origin": "2025-11-01",
+  "horizon_days": 61,
+  "no_direct_61_day_output": true,
+  "no_external_forecast_inputs": true,
+  "maximum_output_days_per_call": 7,
+  "code_sha256": "e6b3cc137404e172db2e6dbaf7f9bbff8feadf58219f20493170d7ce4f2afa4c"
+}

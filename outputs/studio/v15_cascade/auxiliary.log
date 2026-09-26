@@ -1,0 +1,27 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+FIT 181 {'short_weight': 0.1, 'consistency': 1.0} 1 0.063941 0.8 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 1.0} 20 0.057099 12.2 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 1.0} 40 0.052997 24.4 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 1.0} 60 0.051272 36.5 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 1.0} 80 0.05018 48.7 seconds
+SCORES 2025-07-01 short_aux_c1 {'1': 0.819533, '7': 0.819572}
+FIT 181 {'short_weight': 0.1, 'consistency': 5.0} 1 0.027695 0.7 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 5.0} 20 0.025559 11.6 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 5.0} 40 0.023729 23.1 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 5.0} 60 0.023173 34.7 seconds
+FIT 181 {'short_weight': 0.1, 'consistency': 5.0} 80 0.022525 46.2 seconds
+SCORES 2025-07-01 short_aux_c5 {'1': 0.82971, '7': 0.829452}
+FIT 212 {'short_weight': 0.1, 'consistency': 1.0} 1 0.071968 1.0 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 1.0} 20 0.057179 16.4 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 1.0} 40 0.054061 32.5 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 1.0} 60 0.051619 48.6 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 1.0} 80 0.048205 64.7 seconds
+SCORES 2025-08-01 short_aux_c1 {'1': 0.857991, '7': 0.859053}
+FIT 212 {'short_weight': 0.1, 'consistency': 5.0} 1 0.031384 1.0 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 5.0} 20 0.025573 16.3 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 5.0} 40 0.024918 32.4 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 5.0} 60 0.023337 48.7 seconds
+FIT 212 {'short_weight': 0.1, 'consistency': 5.0} 80 0.021498 65.5 seconds
+SCORES 2025-08-01 short_aux_c5 {'1': 0.839837, '7': 0.839807}
+DONE CASCADE

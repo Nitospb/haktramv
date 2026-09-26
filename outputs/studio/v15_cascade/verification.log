@@ -1,0 +1,57 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+{
+  "models_checked": 24,
+  "training_labels_end_before_origin": true,
+  "short_examples_include_latest_available_labels": true,
+  "profile_checks": [
+    {
+      "origin": 35,
+      "future_target_perturbation_max_difference": 0
+    },
+    {
+      "origin": 181,
+      "future_target_perturbation_max_difference": 0
+    },
+    {
+      "origin": 243,
+      "future_target_perturbation_max_difference": 0
+    },
+    {
+      "origin": 303,
+      "future_target_perturbation_max_difference": 0
+    },
+    {
+      "origin": 304,
+      "future_target_perturbation_max_difference": 0
+    }
+  ],
+  "all_model_future_target_perturbations_zero": true,
+  "all_final_to_initial_step_gradients_nonzero": true,
+  "all_cross_route_gradients_nonzero": true,
+  "checkpoint_replays": [
+    {
+      "origin": 243,
+      "forward_call_lengths_verified": true,
+      "checkpoint_replay_max_abs_difference": {
+        "1": 0.0,
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    },
+    {
+      "origin": 304,
+      "forward_call_lengths_verified": true,
+      "checkpoint_replay_max_abs_difference": {
+        "1": 0.0,
+        "7": 0.0
+      },
+      "target_perturbation_max_difference": 0
+    }
+  ],
+  "dense_loss_independent_of_masked_targets": true,
+  "dense_loss_gradient_zero_at_unavailable_targets": true,
+  "submission_reproduced_from_one_checkpoint_one_path": true,
+  "submission_sha256": "99e5e620ba5387a847f52e3a3c8f7feac6eecaa295873d390f98bba02a002759",
+  "rows": 14640
+}

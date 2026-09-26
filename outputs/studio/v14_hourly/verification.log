@@ -1,0 +1,27 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+/Users/khan/tram-forecast-20260926/verify_hourly.py:43: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  'value_max_diff': float((actual-expected).abs().max()),
+{
+  "audits": [
+    {
+      "family": "v14_hourly",
+      "models_checked": 45,
+      "training_boundary_ok": true,
+      "future_label_perturbation_zero": true,
+      "final_hour_gradient_reaches_first_innovation": true
+    },
+    {
+      "family": "v14_shape",
+      "models_checked": 36,
+      "training_boundary_ok": true,
+      "future_label_perturbation_zero": true,
+      "final_hour_gradient_reaches_first_innovation": true
+    }
+  ],
+  "replayed_models": 9,
+  "scan_value_max_error": 5.7220458984375e-06,
+  "scan_gradient_max_error": 1.5366822481155396e-08,
+  "submission": null
+}

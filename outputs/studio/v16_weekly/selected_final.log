@@ -1,0 +1,21 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.145878 0.2 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.107688 2.7 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.094187 5.3 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.089346 7.9 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.085091 10.5 seconds
+SCORES 2025-09-01 weekly_regularized {'7': 0.793179}
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.121954 0.3 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.094732 3.3 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.090319 6.6 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.087098 10.0 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.077503 13.3 seconds
+SCORES 2025-10-01 weekly_regularized {'7': 0.904142}
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.111544 0.3 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.095648 3.6 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.081168 7.3 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.080364 10.8 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.077927 14.4 seconds
+FUTURE weekly_regularized complete
+DONE CASCADE

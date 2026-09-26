@@ -1,0 +1,30 @@
+origin                 2025-07-01  2025-08-01  2025-09-01  2025-10-01
+model
+daily_network            0.842466    0.863114    0.833148    0.897025
+daily_weekly_ensemble    0.845772    0.866642    0.843948    0.901828
+v13                      0.852798    0.847983    0.902377    0.912726
+v8                       0.812593    0.888256    0.905714    0.912164
+weekly_network           0.846212    0.841167    0.858856    0.902881
+SUBMISSIONS {
+  "submission_dual_recursive_v16.csv": {
+    "path": "outputs/submission_dual_recursive_v16.csv",
+    "sha256": "5d4e8b0147784be361671d90ed717bcdeb4d0d8427e2e605f6aabd0f15826fe6",
+    "rows": 14640,
+    "prediction_total": 12123859,
+    "public_score": null
+  },
+  "submission_daily_recursive_v15.csv": {
+    "path": "outputs/submission_daily_recursive_v15.csv",
+    "sha256": "99e5e620ba5387a847f52e3a3c8f7feac6eecaa295873d390f98bba02a002759",
+    "rows": 14640,
+    "prediction_total": 12012997,
+    "public_score": null
+  },
+  "submission_weekly_recursive_v16.csv": {
+    "path": "outputs/submission_weekly_recursive_v16.csv",
+    "sha256": "50e96ded1ededb003285c6c597d1ab459455f100097ccc521093d64b47577195",
+    "rows": 14640,
+    "prediction_total": 12382593,
+    "public_score": null
+  }
+}

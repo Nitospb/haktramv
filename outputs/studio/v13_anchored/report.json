@@ -373,7 +373,7 @@
       ]
     }
   ],
-  "public_score": null,
+  "public_score": 0.89209,
   "caveat": "Previously explored, overlapping development windows; October has only 31 days. v8 guide inherits its historical tuning. Future labels are not supplied in a rollout.",
   "submission": {
     "path": "outputs/submission_consistency_v13.csv",
@@ -388,7 +388,8 @@
       20260927,
       20260928
     ],
-    "public_score": null,
+    "public_score": 0.89209,
     "active_model_replaced": false
-  }
+  },
+  "public_score_source": "User report dated 2026-09-26 19:46 +03:00, associated with latest provided file; upload hash not available"
 }

@@ -1,0 +1,21 @@
+SELECTED NETWORKS {
+  "v14_hourly": {
+    "config": "h24",
+    "path": "v8_primary",
+    "selection_mean": 0.826046633750303
+  },
+  "v14_shape": {
+    "config": "mixed",
+    "path": "v8_primary",
+    "selection_mean": 0.8462237587097805
+  }
+}
+SELECTED COMBINATION {"anchor": "v8", "family": "v14_hourly", "hourly_weight": 0.25, "mean": 0.861296075602249}
+origin        2025-07-01  2025-08-01  2025-09-01  2025-10-01
+model
+selected        0.831222    0.885269    0.906096    0.913633
+v13             0.852798    0.847983    0.902377    0.912726
+v14_hourly      0.846595    0.835913    0.901394    0.907520
+v14_shape       0.814374    0.879310    0.907239    0.908452
+v8              0.812593    0.888256    0.905714    0.912164
+v8_v13_equal    0.841584    0.878269    0.904857    0.913064

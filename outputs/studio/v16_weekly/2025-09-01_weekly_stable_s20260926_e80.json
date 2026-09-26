@@ -1,0 +1,40 @@
+{
+  "forecast_origin_day": 243,
+  "max_training_label_day": 242,
+  "long_training_origins": 148,
+  "short_training_origins": {
+    "1": 208,
+    "7": 202
+  },
+  "short_latest_origin": {
+    "1": 242,
+    "7": 236
+  },
+  "available_origins": 208,
+  "distinct_origins_used": 208,
+  "future_training_targets_zeroed_before_batching": true,
+  "loss_mask_excludes_unavailable_targets": true,
+  "seed": 20260926,
+  "epochs": 80,
+  "config": {
+    "bound": 0.35,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.1
+  },
+  "seconds": 12.389727250207216,
+  "weekly_code_sha256": "e548c944b2b477bbc9e7a8afee1b8cae903bdbf56aa819aaa73c31e8b6e61f58",
+  "architecture": "whole-week joint 168-hour head, independently trained from daily cascade",
+  "volume_bound_log": 0.15,
+  "volume_bound_period": "predicted week or final partial week",
+  "stable_weekly_code_sha256": "ecc33a0805094b8dabf3786847e43c7c9a14cfd8503105af2532353000f7d9a4",
+  "future_label_perturbation_max_difference": 0.0,
+  "last_day_gradient_to_first_step_7": 123.71176147460938,
+  "cross_route_gradient_l1": 178.65762329101562,
+  "name": "weekly_stable",
+  "origin": "2025-09-01",
+  "horizon_days": 61,
+  "no_direct_61_day_output": true,
+  "no_external_forecast_inputs": true,
+  "maximum_output_days_per_call": 7,
+  "code_sha256": "e6b3cc137404e172db2e6dbaf7f9bbff8feadf58219f20493170d7ce4f2afa4c"
+}

@@ -1,0 +1,25 @@
+{
+  "networks": {
+    "v14_hourly": {
+      "config": "h24",
+      "path": "v8_primary",
+      "selection_mean": 0.826046633750303
+    },
+    "v14_shape": {
+      "config": "mixed",
+      "path": "v8_primary",
+      "selection_mean": 0.8462237587097805
+    }
+  },
+  "combination": {
+    "anchor": "v8",
+    "family": "v14_hourly",
+    "hourly_weight": 0.25,
+    "mean": 0.861296075602249
+  },
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "seed": 20260926
+}

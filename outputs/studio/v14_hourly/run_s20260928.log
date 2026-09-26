@@ -1,0 +1,36 @@
+/Users/khan/tram-forecast-20260926/hourly_consistency.py:220: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  return {'serial_vs_parallel_max_difference': float((parallel-sequential).abs().max().cpu()),
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+FIT 181 [1] 1 0.032452 1.2 seconds
+FIT 181 [1] 60 0.025671 4.2 seconds
+SCORES 2025-07-01 h1 {'profile_primary': 0.833022, 'v8_primary': 0.840938, 'v13_primary': 0.809164, 'previous_v13': 0.852798}
+FIT 181 [24] 1 0.032453 0.1 seconds
+FIT 181 [24] 60 0.025622 2.6 seconds
+SCORES 2025-07-01 h24 {'profile_primary': 0.833196, 'v8_primary': 0.840997, 'v13_primary': 0.812385, 'previous_v13': 0.852798}
+FIT 212 [1] 1 0.035529 0.1 seconds
+FIT 212 [1] 60 0.025561 3.8 seconds
+SCORES 2025-08-01 h1 {'profile_primary': 0.840669, 'v8_primary': 0.841087, 'v13_primary': 0.776295, 'previous_v13': 0.847983}
+FIT 212 [24] 1 0.035528 0.1 seconds
+FIT 212 [24] 60 0.025644 3.5 seconds
+SCORES 2025-08-01 h24 {'profile_primary': 0.841616, 'v8_primary': 0.841778, 'v13_primary': 0.77812, 'previous_v13': 0.847983}
+FIT 243 [1] 1 0.038937 0.2 seconds
+FIT 243 [1] 60 0.027357 4.3 seconds
+SCORES 2025-09-01 h1 {'profile_primary': 0.887337, 'v8_primary': 0.878225, 'v13_primary': 0.879012, 'previous_v13': 0.902377}
+FIT 243 [24] 1 0.038937 0.1 seconds
+FIT 243 [24] 60 0.027376 4.5 seconds
+SCORES 2025-09-01 h24 {'profile_primary': 0.886664, 'v8_primary': 0.877461, 'v13_primary': 0.878305, 'previous_v13': 0.902377}
+FIT 273 [1] 1 0.037548 0.1 seconds
+FIT 273 [1] 60 0.025891 5.5 seconds
+SCORES 2025-10-01 h1 {'profile_primary': 0.903234, 'v8_primary': 0.902937, 'v13_primary': 0.894486, 'previous_v13': 0.912726}
+FIT 273 [24] 1 0.037546 0.1 seconds
+FIT 273 [24] 60 0.02588 5.2 seconds
+SCORES 2025-10-01 h24 {'profile_primary': 0.903276, 'v8_primary': 0.903093, 'v13_primary': 0.894772, 'previous_v13': 0.912726}
+FIT 304 [1] 1 0.035398 0.1 seconds
+FIT 304 [1] 60 0.024722 6.4 seconds
+FUTURE h1 complete
+FIT 304 [24] 1 0.035399 0.1 seconds
+FIT 304 [24] 60 0.02474 6.1 seconds
+FUTURE h24 complete
+DONE HOURLY

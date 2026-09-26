@@ -1,0 +1,87 @@
+{
+  "model": "dense_c5",
+  "path": "step1",
+  "seed": 20260926,
+  "epochs": 80,
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "selection_mean": 0.849538394204203,
+  "ranking": [
+    {
+      "model": "dense_c5",
+      "path": "step1",
+      "mean": 0.849538394204203
+    },
+    {
+      "model": "dense_c5",
+      "path": "step7",
+      "mean": 0.849490472827221
+    },
+    {
+      "model": "long_only",
+      "path": "step1",
+      "mean": 0.8466634654905285
+    },
+    {
+      "model": "long_only",
+      "path": "step7",
+      "mean": 0.846228811201952
+    },
+    {
+      "model": "dense_c1",
+      "path": "step1",
+      "mean": 0.8461872844394959
+    },
+    {
+      "model": "dense_c1",
+      "path": "step7",
+      "mean": 0.8459566010723916
+    },
+    {
+      "model": "short_aux_c1",
+      "path": "step7",
+      "mean": 0.8393124641514695
+    },
+    {
+      "model": "short_aux_c1",
+      "path": "step1",
+      "mean": 0.8387622511187602
+    },
+    {
+      "model": "short_aux_c5",
+      "path": "step1",
+      "mean": 0.8347734265567776
+    },
+    {
+      "model": "short_aux_c5",
+      "path": "step7",
+      "mean": 0.8346293327327792
+    },
+    {
+      "model": "short_long_c5",
+      "path": "step7",
+      "mean": 0.7954392911654522
+    },
+    {
+      "model": "short_long_c1",
+      "path": "step7",
+      "mean": 0.7938203891519309
+    },
+    {
+      "model": "short_long_c5",
+      "path": "step1",
+      "mean": 0.7929885097576193
+    },
+    {
+      "model": "short_long_c1",
+      "path": "step1",
+      "mean": 0.7918774914437465
+    }
+  ],
+  "single_checkpoint": true,
+  "single_recursive_path": true,
+  "external_forecast_blend": false,
+  "direct_61_day_prediction": false
+}

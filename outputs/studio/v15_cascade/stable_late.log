@@ -1,0 +1,21 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+DENSE 243 {'consistency': 5.0} 1 0.024549 1.1 seconds
+DENSE 243 {'consistency': 5.0} 20 0.020537 19.0 seconds
+DENSE 243 {'consistency': 5.0} 40 0.018729 37.8 seconds
+DENSE 243 {'consistency': 5.0} 60 0.019076 56.5 seconds
+DENSE 243 {'consistency': 5.0} 80 0.017855 75.5 seconds
+SCORES 2025-09-01 dense_stable_c5 {'1': 0.833148, '7': 0.833062}
+DENSE 273 {'consistency': 5.0} 1 0.020536 1.3 seconds
+DENSE 273 {'consistency': 5.0} 20 0.017083 23.3 seconds
+DENSE 273 {'consistency': 5.0} 40 0.017977 46.5 seconds
+DENSE 273 {'consistency': 5.0} 60 0.018002 69.9 seconds
+DENSE 273 {'consistency': 5.0} 80 0.015983 93.3 seconds
+SCORES 2025-10-01 dense_stable_c5 {'1': 0.897025, '7': 0.897022}
+DENSE 304 {'consistency': 5.0} 1 0.018695 1.4 seconds
+DENSE 304 {'consistency': 5.0} 20 0.017447 25.6 seconds
+DENSE 304 {'consistency': 5.0} 40 0.016012 51.2 seconds
+DENSE 304 {'consistency': 5.0} 60 0.016457 76.8 seconds
+DENSE 304 {'consistency': 5.0} 80 0.015861 102.3 seconds
+FUTURE dense_stable_c5 complete
+DONE CASCADE

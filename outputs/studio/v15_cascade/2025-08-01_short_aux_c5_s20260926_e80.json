@@ -1,0 +1,32 @@
+{
+  "forecast_origin_day": 212,
+  "max_training_label_day": 211,
+  "long_training_origins": 25,
+  "short_training_origins": {
+    "1": 177,
+    "7": 171
+  },
+  "short_latest_origin": {
+    "1": 211,
+    "7": 205
+  },
+  "seed": 20260926,
+  "epochs": 80,
+  "config": {
+    "short_weight": 0.1,
+    "consistency": 5.0
+  },
+  "seconds": 65.47336541675031,
+  "auxiliary_code_sha256": "e8564020e924f72ab7112476eb109887a64c826edd550e9bd8ecce8ec32d1773",
+  "future_label_perturbation_max_difference": 0.0,
+  "last_day_gradient_to_first_step_1": 0.1432073414325714,
+  "last_day_gradient_to_first_step_7": 10.010295867919922,
+  "cross_route_gradient_l1": 0.20006737112998962,
+  "name": "short_aux_c5",
+  "origin": "2025-08-01",
+  "horizon_days": 61,
+  "no_direct_61_day_output": true,
+  "no_external_forecast_inputs": true,
+  "maximum_output_days_per_call": 7,
+  "code_sha256": "e6b3cc137404e172db2e6dbaf7f9bbff8feadf58219f20493170d7ce4f2afa4c"
+}

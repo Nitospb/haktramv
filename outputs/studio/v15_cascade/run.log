@@ -1,0 +1,39 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+FIT 181 {'short_weight': 0.0, 'consistency': 1.0} 1 0.060003 1.6 seconds
+FIT 181 {'short_weight': 0.0, 'consistency': 1.0} 20 0.053111 12.3 seconds
+FIT 181 {'short_weight': 0.0, 'consistency': 1.0} 40 0.049824 23.6 seconds
+FIT 181 {'short_weight': 0.0, 'consistency': 1.0} 60 0.047711 34.9 seconds
+FIT 181 {'short_weight': 0.0, 'consistency': 1.0} 80 0.046562 46.4 seconds
+SCORES 2025-07-01 long_only {'1': 0.841144, '7': 0.841179}
+FIT 181 {'short_weight': 1.0, 'consistency': 1.0} 1 0.081643 1.0 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 1.0} 20 0.075658 12.4 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 1.0} 40 0.068598 24.5 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 1.0} 60 0.067707 36.5 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 1.0} 80 0.065502 48.6 seconds
+SCORES 2025-07-01 short_long_c1 {'1': 0.798748, '7': 0.798118}
+FIT 181 {'short_weight': 1.0, 'consistency': 5.0} 1 0.061757 0.7 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 5.0} 20 0.058794 11.7 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 5.0} 40 0.052804 23.3 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 5.0} 60 0.052759 34.9 seconds
+FIT 181 {'short_weight': 1.0, 'consistency': 5.0} 80 0.050567 46.4 seconds
+SCORES 2025-07-01 short_long_c5 {'1': 0.797112, '7': 0.797037}
+FIT 212 {'short_weight': 0.0, 'consistency': 1.0} 1 0.067225 0.9 seconds
+FIT 212 {'short_weight': 0.0, 'consistency': 1.0} 20 0.053499 15.5 seconds
+FIT 212 {'short_weight': 0.0, 'consistency': 1.0} 40 0.048978 30.8 seconds
+FIT 212 {'short_weight': 0.0, 'consistency': 1.0} 60 0.047854 46.2 seconds
+FIT 212 {'short_weight': 0.0, 'consistency': 1.0} 80 0.045976 61.5 seconds
+SCORES 2025-08-01 long_only {'1': 0.852183, '7': 0.851278}
+FIT 212 {'short_weight': 1.0, 'consistency': 1.0} 1 0.09323 1.0 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 1.0} 20 0.0736 16.6 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 1.0} 40 0.06921 33.1 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 1.0} 60 0.067531 49.6 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 1.0} 80 0.062518 66.1 seconds
+SCORES 2025-08-01 short_long_c1 {'1': 0.785007, '7': 0.789523}
+FIT 212 {'short_weight': 1.0, 'consistency': 5.0} 1 0.070995 1.0 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 5.0} 20 0.056282 16.5 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 5.0} 40 0.053321 32.7 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 5.0} 60 0.053019 48.9 seconds
+FIT 212 {'short_weight': 1.0, 'consistency': 5.0} 80 0.04877 65.1 seconds
+SCORES 2025-08-01 short_long_c5 {'1': 0.788865, '7': 0.793842}
+DONE CASCADE

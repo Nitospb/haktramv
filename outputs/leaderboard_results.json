@@ -5,7 +5,7 @@
     "score": 0.88882,
     "source": "user-reported competition result",
     "submitted_at": "2026-09-26 13:49 +03:00",
-    "status": "Успешно",
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "file_mapping": "assumed latest provided v2 submission; user did not supply file hash"
   },
   {
@@ -14,7 +14,7 @@
     "score": 0.88429,
     "source": "user-reported competition result",
     "submitted_at": "2026-09-26 13:55 +03:00",
-    "status": "Успешно",
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "file_mapping": "assumed latest provided season-gate candidate; user did not supply file hash"
   },
   {
@@ -29,7 +29,7 @@
     "score": 0.872,
     "source": "user-reported competition result",
     "submitted_at": "2026-09-26 14:34 +03:00",
-    "status": "Успешно",
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "file_mapping": "assumed latest provided candidate; user did not supply file hash"
   },
   {
@@ -38,7 +38,7 @@
     "score": 0.89214,
     "source": "user-reported competition result",
     "submitted_at": "2026-09-26 14:39 +03:00",
-    "status": "Успешно",
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "file_mapping": "assumed latest provided v8 candidate; user did not supply file hash"
   },
   {
@@ -47,7 +47,7 @@
     "score": 0.8916,
     "source": "user-reported competition result",
     "submitted_at": "2026-09-26 14:58 +03:00",
-    "status": "Успешно",
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "decision": "rejected; restore v8 public-best 0.89214",
     "file_mapping": "assumed latest provided v10_spring candidate; user did not supply file hash"
   },
@@ -63,9 +63,36 @@
   {
     "submission": "outputs/submission_consistency_v13.csv",
     "sha256": "9aa0aa12de1006d21b415aec311ce4511987653661c5d00878327edd0cfba4f7",
-    "score": null,
-    "status": "candidate_created; upload_not_confirmed",
+    "score": 0.89209,
+    "status": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e",
     "model": "v13 multi_c5, three seeds, origin-safe profile and v8 forecast guide",
-    "source": "User requested further development of the consistency approach"
+    "source": "user-reported competition result",
+    "submitted_at": "2026-09-26 19:46 +03:00",
+    "file_mapping": "assumed latest provided submission_consistency_v13.csv; user did not supply file hash",
+    "decision": "does not replace v8 public-best 0.89214"
+  },
+  {
+    "submission": "outputs/submission_dual_recursive_v16.csv",
+    "sha256": "5d4e8b0147784be361671d90ed717bcdeb4d0d8427e2e605f6aabd0f15826fe6",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "source": "User requested separately trained daily and whole-week recursive forecasts and an ensemble",
+    "decision": "not promoted: substantial September-October validation regression; v8 remains public best"
+  },
+  {
+    "submission": "outputs/submission_daily_recursive_v15.csv",
+    "sha256": "99e5e620ba5387a847f52e3a3c8f7feac6eecaa295873d390f98bba02a002759",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "source": "User requested separately trained daily and whole-week recursive forecasts and an ensemble",
+    "decision": "not promoted: substantial September-October validation regression; v8 remains public best"
+  },
+  {
+    "submission": "outputs/submission_weekly_recursive_v16.csv",
+    "sha256": "50e96ded1ededb003285c6c597d1ab459455f100097ccc521093d64b47577195",
+    "score": null,
+    "status": "experimental_candidate_created; upload_not_confirmed",
+    "source": "User requested separately trained daily and whole-week recursive forecasts and an ensemble",
+    "decision": "not promoted: substantial September-October validation regression; v8 remains public best"
   }
 ]

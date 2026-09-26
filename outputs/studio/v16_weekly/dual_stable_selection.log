@@ -1,0 +1,71 @@
+DUAL SELECTION {
+  "daily_model": "dense_stable_c5",
+  "weekly_model": "weekly_stable",
+  "daily_path": "step1",
+  "weekly_path": "step7",
+  "daily_weight": 0.7000000000000001,
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "seed": 20260926,
+  "epochs": 80,
+  "component_rankings": {
+    "v15_cascade": {
+      "dense_stable_c5": 0.8527898634447295
+    },
+    "v16_weekly": {
+      "weekly_stable": 0.84368945980325
+    }
+  },
+  "weight_ranking": [
+    {
+      "daily_weight": 0.7000000000000001,
+      "mean_score": 0.8562068571437431
+    },
+    {
+      "daily_weight": 0.6000000000000001,
+      "mean_score": 0.8561218909677178
+    },
+    {
+      "daily_weight": 0.8,
+      "mean_score": 0.8556399255729332
+    },
+    {
+      "daily_weight": 0.5,
+      "mean_score": 0.8553958573660743
+    },
+    {
+      "daily_weight": 0.9,
+      "mean_score": 0.8544779068188737
+    },
+    {
+      "daily_weight": 0.4,
+      "mean_score": 0.854044363410023
+    },
+    {
+      "daily_weight": 1.0,
+      "mean_score": 0.8527898633598998
+    },
+    {
+      "daily_weight": 0.30000000000000004,
+      "mean_score": 0.8520983358163324
+    },
+    {
+      "daily_weight": 0.2,
+      "mean_score": 0.8496987036491712
+    },
+    {
+      "daily_weight": 0.1,
+      "mean_score": 0.8468823190462889
+    },
+    {
+      "daily_weight": 0.0,
+      "mean_score": 0.8436894598490965
+    }
+  ],
+  "v8_is_component": false,
+  "v13_is_component": false,
+  "volume_bounded_architectures": true,
+  "architecture_development_note": "Volume bounds introduced after observing September drift; no late period is an independent holdout."
+}

@@ -1,0 +1,33 @@
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.12285 0.3 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.103683 2.1 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.096816 4.0 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.088203 5.8 seconds
+WEEKLY 181 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.084593 7.7 seconds
+SCORES 2025-07-01 weekly_stable {'7': 0.846212}
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.160081 0.2 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.128977 2.8 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.110257 5.4 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.105512 8.1 seconds
+WEEKLY 212 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.09977 10.7 seconds
+SCORES 2025-08-01 weekly_stable {'7': 0.841167}
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.146245 0.3 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.111911 3.2 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.098484 6.3 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.099342 9.3 seconds
+WEEKLY 243 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.091817 12.4 seconds
+SCORES 2025-09-01 weekly_stable {'7': 0.858856}
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.122052 0.3 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.09522 3.8 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.097067 7.4 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.096763 11.2 seconds
+WEEKLY 273 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.081517 15.0 seconds
+SCORES 2025-10-01 weekly_stable {'7': 0.902881}
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 1 0.111621 0.3 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 20 0.097187 4.3 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 40 0.085069 8.4 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 60 0.085598 12.6 seconds
+WEEKLY 304 {'bound': 0.35, 'learning_rate': 0.0005, 'weight_decay': 0.1} 80 0.082421 16.8 seconds
+FUTURE weekly_stable complete
+DONE CASCADE

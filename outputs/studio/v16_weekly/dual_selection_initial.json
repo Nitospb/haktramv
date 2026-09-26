@@ -1,0 +1,75 @@
+{
+  "daily_model": "dense_c5",
+  "weekly_model": "weekly_regularized",
+  "daily_path": "step1",
+  "weekly_path": "step7",
+  "daily_weight": 0.5,
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "seed": 20260926,
+  "epochs": 80,
+  "component_rankings": {
+    "v15_cascade": {
+      "dense_c5": 0.849538394204203,
+      "dense_c1": 0.8461872844394959,
+      "short_aux_c1": 0.8387622511187602,
+      "short_aux_c5": 0.8347734265567776,
+      "short_long_c5": 0.7929885097576193,
+      "short_long_c1": 0.7918774914437465
+    },
+    "v16_weekly": {
+      "weekly_regularized": 0.8484691279514748,
+      "weekly_joint": 0.836138024721399
+    }
+  },
+  "weight_ranking": [
+    {
+      "daily_weight": 0.5,
+      "mean_score": 0.8557736902175817
+    },
+    {
+      "daily_weight": 0.6000000000000001,
+      "mean_score": 0.8555387440855926
+    },
+    {
+      "daily_weight": 0.4,
+      "mean_score": 0.85547356531765
+    },
+    {
+      "daily_weight": 0.7000000000000001,
+      "mean_score": 0.8547887062243916
+    },
+    {
+      "daily_weight": 0.30000000000000004,
+      "mean_score": 0.8545536334154838
+    },
+    {
+      "daily_weight": 0.8,
+      "mean_score": 0.8535397278148246
+    },
+    {
+      "daily_weight": 0.2,
+      "mean_score": 0.8531151489096486
+    },
+    {
+      "daily_weight": 0.9,
+      "mean_score": 0.8518047487125888
+    },
+    {
+      "daily_weight": 0.1,
+      "mean_score": 0.8510818426935489
+    },
+    {
+      "daily_weight": 1.0,
+      "mean_score": 0.8495383940262033
+    },
+    {
+      "daily_weight": 0.0,
+      "mean_score": 0.8484691280017992
+    }
+  ],
+  "v8_is_component": false,
+  "v13_is_component": false
+}

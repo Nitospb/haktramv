@@ -1,0 +1,27 @@
+{
+  "seed": 20260928,
+  "epochs": 60,
+  "steps_hours": [
+    1
+  ],
+  "training_origins": 37,
+  "forecast_origin_day": 273,
+  "max_training_label_hour": 6551,
+  "seconds": 6.343641416169703,
+  "projection": "preserve each route and 168-hour guide total; final partial week separately",
+  "projection_uses_hidden_actuals": false,
+  "shape_code_sha256": "364c027faded318866b1256f13c2c09ffee57b657e7c4ffcee76bd6b8ec04269",
+  "future_target_perturbation_max_difference": 0.0,
+  "last_hour_gradient_to_first_innovation": 0.00017157485126517713,
+  "origin": "2025-10-01",
+  "config": "h1",
+  "horizon_hours": 744,
+  "scan_check": {
+    "serial_vs_parallel_max_difference": 7.152557373046875e-07,
+    "serial_vs_parallel_gradient_max_difference": 4.76837158203125e-07
+  },
+  "current_public_best": 0.89214,
+  "v13_user_reported_score": 0.89209,
+  "new_public_score": null,
+  "code_sha256": "55ba67ed6d67accb3af809803e63d0d6eda986f92acfc0d9086bb6cb416cc96c"
+}

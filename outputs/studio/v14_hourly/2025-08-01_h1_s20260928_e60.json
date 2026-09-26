@@ -1,0 +1,24 @@
+{
+  "seed": 20260928,
+  "epochs": 60,
+  "steps_hours": [
+    1
+  ],
+  "training_origins": 25,
+  "forecast_origin_day": 212,
+  "max_training_label_hour": 5087,
+  "seconds": 3.828181541059166,
+  "future_target_perturbation_max_difference": 0.0,
+  "last_hour_gradient_to_first_innovation": 2.023734850808978e-06,
+  "origin": "2025-08-01",
+  "config": "h1",
+  "horizon_hours": 1464,
+  "scan_check": {
+    "serial_vs_parallel_max_difference": 7.152557373046875e-07,
+    "serial_vs_parallel_gradient_max_difference": 4.76837158203125e-07
+  },
+  "current_public_best": 0.89214,
+  "v13_user_reported_score": 0.89209,
+  "new_public_score": null,
+  "code_sha256": "55ba67ed6d67accb3af809803e63d0d6eda986f92acfc0d9086bb6cb416cc96c"
+}

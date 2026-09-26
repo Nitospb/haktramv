@@ -1,0 +1,78 @@
+/Users/khan/tram-forecast-20260926/hourly_consistency.py:220: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  return {'serial_vs_parallel_max_difference': float((parallel-sequential).abs().max().cpu()),
+/Users/khan/tram-forecast-20260926/unrolled_weekly.py:42: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['season_2324']=d.month.map(index)
+FIT 181 [1] 1 0.032251 0.6 seconds
+FIT 181 [1] 60 0.025543 2.7 seconds
+SCORES 2025-07-01 h1 {'profile_primary': 0.820554, 'v8_primary': 0.82828, 'v13_primary': 0.774325, 'previous_v13': 0.852798}
+FIT 181 [3] 1 0.032251 0.1 seconds
+FIT 181 [3] 60 0.025523 2.0 seconds
+SCORES 2025-07-01 h3 {'profile_primary': 0.82254, 'v8_primary': 0.830201, 'v13_primary': 0.777171, 'previous_v13': 0.852798}
+FIT 181 [6] 1 0.032251 0.1 seconds
+FIT 181 [6] 60 0.025462 2.5 seconds
+SCORES 2025-07-01 h6 {'profile_primary': 0.821324, 'v8_primary': 0.829016, 'v13_primary': 0.775316, 'previous_v13': 0.852798}
+FIT 181 [12] 1 0.032252 0.1 seconds
+FIT 181 [12] 60 0.025492 2.8 seconds
+SCORES 2025-07-01 h12 {'profile_primary': 0.820718, 'v8_primary': 0.828428, 'v13_primary': 0.774519, 'previous_v13': 0.852798}
+FIT 181 [24] 1 0.032252 0.1 seconds
+FIT 181 [24] 60 0.025485 2.3 seconds
+SCORES 2025-07-01 h24 {'profile_primary': 0.820664, 'v8_primary': 0.828359, 'v13_primary': 0.774378, 'previous_v13': 0.852798}
+FIT 181 [1, 3, 6, 12, 24] 1 0.032251 0.1 seconds
+FIT 181 [1, 3, 6, 12, 24] 60 0.025513 2.0 seconds
+SCORES 2025-07-01 mixed {'profile_primary': 0.820675, 'v8_primary': 0.828407, 'v13_primary': 0.774579, 'previous_v13': 0.852798}
+FIT 212 [1] 1 0.035633 0.1 seconds
+FIT 212 [1] 60 0.025871 3.9 seconds
+SCORES 2025-08-01 h1 {'profile_primary': 0.818338, 'v8_primary': 0.821489, 'v13_primary': 0.750101, 'previous_v13': 0.847983}
+FIT 212 [3] 1 0.035633 0.1 seconds
+FIT 212 [3] 60 0.025977 4.1 seconds
+SCORES 2025-08-01 h3 {'profile_primary': 0.817855, 'v8_primary': 0.820968, 'v13_primary': 0.749598, 'previous_v13': 0.847983}
+FIT 212 [6] 1 0.035633 0.1 seconds
+FIT 212 [6] 60 0.025885 3.9 seconds
+SCORES 2025-08-01 h6 {'profile_primary': 0.819245, 'v8_primary': 0.822301, 'v13_primary': 0.750962, 'previous_v13': 0.847983}
+FIT 212 [12] 1 0.035633 0.1 seconds
+FIT 212 [12] 60 0.025872 4.2 seconds
+SCORES 2025-08-01 h12 {'profile_primary': 0.819916, 'v8_primary': 0.822831, 'v13_primary': 0.751668, 'previous_v13': 0.847983}
+FIT 212 [24] 1 0.035633 0.1 seconds
+FIT 212 [24] 60 0.025901 3.1 seconds
+SCORES 2025-08-01 h24 {'profile_primary': 0.820839, 'v8_primary': 0.823735, 'v13_primary': 0.752662, 'previous_v13': 0.847983}
+FIT 212 [1, 3, 6, 12, 24] 1 0.035633 0.1 seconds
+FIT 212 [1, 3, 6, 12, 24] 60 0.025882 3.6 seconds
+SCORES 2025-08-01 mixed {'profile_primary': 0.819325, 'v8_primary': 0.822309, 'v13_primary': 0.750883, 'previous_v13': 0.847983}
+FIT 243 [1] 1 0.039202 0.2 seconds
+FIT 243 [1] 60 0.027914 3.7 seconds
+SCORES 2025-09-01 h1 {'profile_primary': 0.902275, 'v8_primary': 0.894954, 'v13_primary': 0.891325, 'previous_v13': 0.902377}
+FIT 243 [3] 1 0.039203 0.1 seconds
+FIT 243 [3] 60 0.02789 3.4 seconds
+SCORES 2025-09-01 h3 {'profile_primary': 0.901717, 'v8_primary': 0.894439, 'v13_primary': 0.891029, 'previous_v13': 0.902377}
+FIT 243 [6] 1 0.039204 0.1 seconds
+FIT 243 [6] 60 0.027907 5.4 seconds
+SCORES 2025-09-01 h6 {'profile_primary': 0.901835, 'v8_primary': 0.8945, 'v13_primary': 0.891049, 'previous_v13': 0.902377}
+FIT 243 [12] 1 0.039204 0.1 seconds
+FIT 243 [12] 60 0.027928 5.4 seconds
+SCORES 2025-09-01 h12 {'profile_primary': 0.902331, 'v8_primary': 0.895031, 'v13_primary': 0.891432, 'previous_v13': 0.902377}
+FIT 243 [24] 1 0.039204 0.1 seconds
+FIT 243 [24] 60 0.0279 6.0 seconds
+SCORES 2025-09-01 h24 {'profile_primary': 0.903366, 'v8_primary': 0.896224, 'v13_primary': 0.89235, 'previous_v13': 0.902377}
+FIT 243 [1, 3, 6, 12, 24] 1 0.039203 0.1 seconds
+FIT 243 [1, 3, 6, 12, 24] 60 0.02792 6.0 seconds
+SCORES 2025-09-01 mixed {'profile_primary': 0.902075, 'v8_primary': 0.894788, 'v13_primary': 0.891131, 'previous_v13': 0.902377}
+FIT 273 [1] 1 0.037368 0.1 seconds
+FIT 273 [1] 60 0.026946 4.4 seconds
+SCORES 2025-10-01 h1 {'profile_primary': 0.905752, 'v8_primary': 0.907032, 'v13_primary': 0.901293, 'previous_v13': 0.912726}
+FIT 273 [3] 1 0.03737 0.1 seconds
+FIT 273 [3] 60 0.026951 5.2 seconds
+SCORES 2025-10-01 h3 {'profile_primary': 0.905673, 'v8_primary': 0.907058, 'v13_primary': 0.901419, 'previous_v13': 0.912726}
+FIT 273 [6] 1 0.03737 0.1 seconds
+FIT 273 [6] 60 0.026891 7.1 seconds
+SCORES 2025-10-01 h6 {'profile_primary': 0.905732, 'v8_primary': 0.907137, 'v13_primary': 0.901458, 'previous_v13': 0.912726}
+FIT 273 [12] 1 0.03737 0.1 seconds
+FIT 273 [12] 60 0.026921 6.9 seconds
+SCORES 2025-10-01 h12 {'profile_primary': 0.905863, 'v8_primary': 0.907051, 'v13_primary': 0.901301, 'previous_v13': 0.912726}
+FIT 273 [24] 1 0.037368 0.1 seconds
+FIT 273 [24] 60 0.026931 7.1 seconds
+SCORES 2025-10-01 h24 {'profile_primary': 0.905795, 'v8_primary': 0.906975, 'v13_primary': 0.901305, 'previous_v13': 0.912726}
+FIT 273 [1, 3, 6, 12, 24] 1 0.03737 0.1 seconds
+FIT 273 [1, 3, 6, 12, 24] 60 0.026957 7.0 seconds
+SCORES 2025-10-01 mixed {'profile_primary': 0.905903, 'v8_primary': 0.907079, 'v13_primary': 0.90125, 'previous_v13': 0.912726}
+DONE HOURLY
