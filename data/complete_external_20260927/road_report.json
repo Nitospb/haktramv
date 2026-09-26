@@ -1,0 +1,100 @@
+{
+  "source": "https://dtp-stat.ru/media/opendata/moskva.geojson.zip",
+  "documentation": "https://dtp-stat.ru/opendata/",
+  "retrieved_date": "2026-09-27",
+  "archive_sha256": "430fb00b76bfc0bea4240c4ddb1c4cbc1f1089884591fa3afe2135bf093bbaef",
+  "events_2025": 8354,
+  "events_by_month": {
+    "2025-01": 528,
+    "2025-02": 542,
+    "2025-03": 637,
+    "2025-04": 655,
+    "2025-05": 679,
+    "2025-06": 691,
+    "2025-07": 783,
+    "2025-08": 764,
+    "2025-09": 897,
+    "2025-10": 752,
+    "2025-11": 724,
+    "2025-12": 702
+  },
+  "matched_events_by_route_radius": {
+    "1": {
+      "300": 57,
+      "700": 105,
+      "1500": 266
+    },
+    "5": {
+      "300": 49,
+      "700": 122,
+      "1500": 242
+    },
+    "7": {
+      "300": 101,
+      "700": 189,
+      "1500": 434
+    },
+    "11": {
+      "300": 108,
+      "700": 208,
+      "1500": 413
+    },
+    "12": {
+      "300": 112,
+      "700": 216,
+      "1500": 435
+    },
+    "17": {
+      "300": 123,
+      "700": 204,
+      "1500": 397
+    },
+    "25": {
+      "300": 49,
+      "700": 89,
+      "1500": 232
+    },
+    "26": {
+      "300": 65,
+      "700": 187,
+      "1500": 409
+    },
+    "28": {
+      "300": 48,
+      "700": 91,
+      "1500": 205
+    },
+    "50": {
+      "300": 78,
+      "700": 175,
+      "1500": 405
+    }
+  },
+  "rows": 87600,
+  "interpretation": "Reported crashes near stops, NOT traffic speed/intensity. Zero means no matching record, not proof of clear roads.",
+  "caveats": [
+    "Offset-free Moscow source timestamps interpreted as Moscow local time.",
+    "Primarily police-reported crashes with injuries; minor crashes may be absent.",
+    "Coordinates corrected by dtp-stat; no measured duration or demonstrated tram delay.",
+    "Past 3h window is a feature hypothesis, not an observed road closure.",
+    "Stop geometries are supplied snapshots, not historically versioned."
+  ],
+  "search_results": [
+    {
+      "url": "https://gucodd.mos.ru/",
+      "status": "Current city congestion; no usable district-hour 2025 export found."
+    },
+    {
+      "url": "https://www.tomtom.com/downloads/traffic-index/",
+      "status": "Moscow absent from listed free city CSV downloads."
+    },
+    {
+      "url": "https://www.yandex.ru/support/maps/ru/concept/stoppers",
+      "status": "Current traffic display, no open 2025 street-hour export located."
+    },
+    {
+      "url": "https://sourceforge.net/projects/ymarchive/files/",
+      "status": "Archive latest 2015; not 2025 observations."
+    }
+  ]
+}

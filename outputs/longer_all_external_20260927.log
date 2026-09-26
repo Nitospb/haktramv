@@ -1,0 +1,17 @@
+EXTENDED 181 all_direct 3200
+EXTENDED 181 fleet 3200
+EXTENDED 181 all_fleet 3200
+CURVE [{'origin': '2025-07-01', 'model': 'direct', 'trees': 800, 'validation_score': 0.810282762408358, 'train_score_observed_inputs': 0.92728277865524}, {'origin': '2025-07-01', 'model': 'fleet', 'trees': 800, 'validation_score': 0.8109205020248469, 'train_score_observed_inputs': 0.9323256550680491}, {'origin': '2025-07-01', 'model': 'direct', 'trees': 1600, 'validation_score': 0.8106095685318299, 'train_score_observed_inputs': 0.9317196434571827}, {'origin': '2025-07-01', 'model': 'fleet', 'trees': 1600, 'validation_score': 0.8127845913038582, 'train_score_observed_inputs': 0.9368624258600025}, {'origin': '2025-07-01', 'model': 'direct', 'trees': 3200, 'validation_score': 0.8112638421383759, 'train_score_observed_inputs': 0.9364121305543628}, {'origin': '2025-07-01', 'model': 'fleet', 'trees': 3200, 'validation_score': 0.8125242045804444, 'train_score_observed_inputs': 0.9411112485800833}]
+EXTENDED 212 all_direct 3200
+EXTENDED 212 fleet 3200
+EXTENDED 212 all_fleet 3200
+CURVE [{'origin': '2025-08-01', 'model': 'direct', 'trees': 800, 'validation_score': 0.8689980712485111, 'train_score_observed_inputs': 0.9261549443337679}, {'origin': '2025-08-01', 'model': 'fleet', 'trees': 800, 'validation_score': 0.8809068614380706, 'train_score_observed_inputs': 0.9311615423811266}, {'origin': '2025-08-01', 'model': 'direct', 'trees': 1600, 'validation_score': 0.8696128558762073, 'train_score_observed_inputs': 0.9306768506730806}, {'origin': '2025-08-01', 'model': 'fleet', 'trees': 1600, 'validation_score': 0.8816687963897725, 'train_score_observed_inputs': 0.9352172899079947}, {'origin': '2025-08-01', 'model': 'direct', 'trees': 3200, 'validation_score': 0.8701271837880491, 'train_score_observed_inputs': 0.9349728047184224}, {'origin': '2025-08-01', 'model': 'fleet', 'trees': 3200, 'validation_score': 0.8820664339201222, 'train_score_observed_inputs': 0.9390057406785906}]
+EXTENDED 243 all_direct 3200
+EXTENDED 243 fleet 3200
+EXTENDED 243 all_fleet 3200
+CURVE [{'origin': '2025-09-01', 'model': 'direct', 'trees': 800, 'validation_score': 0.8624920919949624, 'train_score_observed_inputs': 0.9245496627822679}, {'origin': '2025-09-01', 'model': 'fleet', 'trees': 800, 'validation_score': 0.8654297262271982, 'train_score_observed_inputs': 0.9304654391073915}, {'origin': '2025-09-01', 'model': 'direct', 'trees': 1600, 'validation_score': 0.8631669920555765, 'train_score_observed_inputs': 0.9293878396464983}, {'origin': '2025-09-01', 'model': 'fleet', 'trees': 1600, 'validation_score': 0.8667062971829274, 'train_score_observed_inputs': 0.9341858346191361}, {'origin': '2025-09-01', 'model': 'direct', 'trees': 3200, 'validation_score': 0.8638293475053983, 'train_score_observed_inputs': 0.9337078939340457}, {'origin': '2025-09-01', 'model': 'fleet', 'trees': 3200, 'validation_score': 0.8679166169129109, 'train_score_observed_inputs': 0.9386914503742234}]
+SELECTED {'direct': 3200, 'fleet': 3200}
+EXTENDED 304 all_direct 3200
+EXTENDED 304 fleet 3200
+EXTENDED 304 all_fleet 3200
+DONE

@@ -1,0 +1,11 @@
+{
+  "file": "submission_direct_1600_autumn.csv",
+  "trees": 1600,
+  "autumn_validation_score": 0.8999364223444294,
+  "selection": "Highest Sep-Oct score among 800/1600/3200. Separate exploratory selection; the mean-of-three-windows winner remains 3200.",
+  "public_score": null,
+  "sha256": "1321ca06c74db294310b4f85c5557759242595a93f66b44d745dae8615bb69fe",
+  "rows": 14640,
+  "forecast_volume": 12223889,
+  "checkpoint_replay": true
+}

@@ -1,0 +1,216 @@
+{
+  "source": "https://open-meteo.com/en/docs/historical-weather-api",
+  "attribution": "Open-Meteo / ECMWF IFS / ERA5",
+  "retrospective_use_authorized_by_user": true,
+  "request": {
+    "start_date": "2025-11-01",
+    "end_date": "2025-12-31",
+    "timezone": "Europe/Moscow",
+    "elevation": "nan,nan,nan,nan,nan,nan,nan,nan,nan",
+    "latitude": "55.64148,55.71177,55.71177,55.78207,55.78207,55.78207,55.85237,55.85237,55.85237",
+    "longitude": "37.60649,37.50000,37.68293,37.39308,37.57637,37.75967,37.46939,37.65306,37.83673",
+    "hourly": "temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,rain,snowfall,snow_depth,weather_code,cloud_cover,wind_speed_10m,wind_gusts_10m,surface_pressure",
+    "models": "ecmwf_ifs"
+  },
+  "snow_request": {
+    "start_date": "2025-11-01",
+    "end_date": "2025-12-31",
+    "timezone": "Europe/Moscow",
+    "elevation": "nan",
+    "latitude": 55.7558,
+    "longitude": 37.6173,
+    "hourly": "snow_depth",
+    "models": "era5_seamless"
+  },
+  "locations": [
+    {
+      "weather_cell": "55.64148,37.60649",
+      "latitude": 55.641476,
+      "longitude": 37.60649,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.71177,37.50000",
+      "latitude": 55.711773,
+      "longitude": 37.5,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.71177,37.68293",
+      "latitude": 55.711773,
+      "longitude": 37.682926,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.78207,37.39308",
+      "latitude": 55.782074,
+      "longitude": 37.393078,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.78207,37.57637",
+      "latitude": 55.782074,
+      "longitude": 37.576374,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.78207,37.75967",
+      "latitude": 55.782074,
+      "longitude": 37.759674,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.85237,37.46939",
+      "latitude": 55.85237,
+      "longitude": 37.469387,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.85237,37.65306",
+      "latitude": 55.85237,
+      "longitude": 37.65306,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    },
+    {
+      "weather_cell": "55.85237,37.83673",
+      "latitude": 55.85237,
+      "longitude": 37.836735,
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "apparent_temperature": "°C",
+        "relative_humidity_2m": "%",
+        "precipitation": "mm",
+        "rain": "mm",
+        "snowfall": "cm",
+        "snow_depth": "m",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "wind_speed_10m": "km/h",
+        "wind_gusts_10m": "km/h",
+        "surface_pressure": "hPa"
+      }
+    }
+  ],
+  "rows": 87600,
+  "missing": 0,
+  "note": "9 km model cells weighted by stop count, not measured district weather. Snow depth is common city-centre series.",
+  "hashes": {
+    "ifs_nov_dec_raw.json": "41dff0698e6731aa311dad198b201d0cd3c52cdcf40104fe92ac458b557b6286",
+    "route_hour_weather_2025.parquet": "7f6ab460d1a0b8f1614fee1f4fc58a4dc3b2ed4b6df1abd6af7f31dfa5643f12",
+    "weather_cells_full_2025.parquet": "d63a7ad7b55dc3b24ef98eeabc3e6d380c1c73996871cce953402f5ddf462b59",
+    "era5_snow_nov_dec_raw.json": "5ff8b9a3a1ed33661230dee83b45699ceb428039d17df6baff40c18d5300f139"
+  }
+}

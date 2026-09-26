@@ -1,0 +1,8 @@
+{
+  "model_replays": 20,
+  "recomputed_scores": 30,
+  "target_exclusion_check": "passed",
+  "full_year_weather_complete": true,
+  "submission_format": "passed",
+  "future_event_features_present": true
+}

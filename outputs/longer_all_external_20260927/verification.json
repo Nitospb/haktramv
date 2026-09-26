@@ -1,0 +1,6 @@
+{
+  "replayed_predictions": 20,
+  "recomputed_validation_scores": 18,
+  "first_800_match_previous": true,
+  "submission_format": "passed"
+}

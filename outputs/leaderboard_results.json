@@ -307,5 +307,95 @@
     "model": "confirmed v8+3 with route5 first-week public aggregate anchor",
     "decision": "Experimental route5-only correction using user-authorized retrospective public data; no route5 local validation.",
     "source": "Fleet and schedule study; user permits retrospective external inputs"
+  },
+  {
+    "submission": "outputs/all_external_20260927/submission_all_direct.csv",
+    "sha256": "6a5aacf7490863097acd9b8b3bb273404c69eba2fad7001de9ac8893f2387979",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/all_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/all_external_20260927/submission_all_fleet.csv",
+    "sha256": "fe49084adda094916f585f5d7bf5152cf3dd5bb78b0c162fd05c77706227592f",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/all_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/all_moscow_external_20260927/submission_all_direct.csv",
+    "sha256": "b856b7c33a98c4ca8566e28403fca7721bc4665ab100bb8f04d985b79af654ff",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/all_moscow_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/all_moscow_external_20260927/submission_all_fleet.csv",
+    "sha256": "1bea306d2a906a15b3e9917a83a6ee976f2a06081427b90db4c2df56b36c5a45",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/all_moscow_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_all_external_20260927/submission_longer_direct.csv",
+    "sha256": "2db9d21119453a97d6f467e47c148a74a6d794e2fd42ae1e29804ca9c93e4cad",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_all_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_all_external_20260927/submission_longer_fleet.csv",
+    "sha256": "ab3e9d34871630163488ad006314094875f18efcb468f0253d94c084fb5b37cd",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_all_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_moscow_external_20260927/submission_direct_1600_autumn.csv",
+    "sha256": "1321ca06c74db294310b4f85c5557759242595a93f66b44d745dae8615bb69fe",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_moscow_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_moscow_external_20260927/submission_longer_direct.csv",
+    "sha256": "087a8e06d787138d939438ad99a13990b2bb880faf098964e956bb8a041bbe78",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_moscow_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_moscow_external_20260927/submission_longer_fleet.csv",
+    "sha256": "1bea306d2a906a15b3e9917a83a6ee976f2a06081427b90db4c2df56b36c5a45",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_moscow_external_20260927/report.json",
+    "active_model_changed": false
+  },
+  {
+    "submission": "outputs/longer_moscow_external_20260927/submission_moscow_with_route5.csv",
+    "sha256": "0f2a4ab5bed60e04ce6a1d78c4205eea7b495abebaddb4ebc0a67ff704e10599",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "report": "outputs/longer_moscow_external_20260927/report.json",
+    "active_model_changed": false
   }
 ]

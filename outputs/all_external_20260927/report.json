@@ -1,0 +1,242 @@
+{
+  "host": "MacStudio-khan.local",
+  "features": 268,
+  "metrics": [
+    {
+      "origin": "2025-07-01",
+      "model": "all_direct",
+      "rows": 14640,
+      "score": 0.810282762408358
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "without_road",
+      "rows": 14640,
+      "score": 0.810733148297514
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "without_uav_connectivity",
+      "rows": 14640,
+      "score": 0.8138833930430828
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "all_fleet",
+      "rows": 14640,
+      "score": 0.8109205020248469
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "rows": 14640,
+      "score": 0.8284282023764162
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "previous_direct_baseline",
+      "rows": 14640,
+      "score": 0.7891576139921772
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "previous_forecast_fleet_input",
+      "rows": 14640,
+      "score": 0.7975643448567056
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "confirmed_v8_up3",
+      "rows": 14640,
+      "score": 0.7911453775168158
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "all_direct_known_subset",
+      "rows": 14640,
+      "score": 0.810282762408358
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "all_fleet_known_subset",
+      "rows": 14640,
+      "score": 0.8109205020248469
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "all_direct",
+      "rows": 14640,
+      "score": 0.8689980712485111
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "without_road",
+      "rows": 14640,
+      "score": 0.8683774390100746
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "without_uav_connectivity",
+      "rows": 14640,
+      "score": 0.8689424753075908
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "all_fleet",
+      "rows": 14640,
+      "score": 0.8809068614380706
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "rows": 14634,
+      "score": 0.8859210046172616
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "previous_direct_baseline",
+      "rows": 14640,
+      "score": 0.8914423358813497
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "previous_forecast_fleet_input",
+      "rows": 14640,
+      "score": 0.8880947969268798
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "confirmed_v8_up3",
+      "rows": 14640,
+      "score": 0.8842099760064677
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "all_direct_known_subset",
+      "rows": 14634,
+      "score": 0.8690011404600435
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "all_fleet_known_subset",
+      "rows": 14634,
+      "score": 0.8809095088114437
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "all_direct",
+      "rows": 14640,
+      "score": 0.8624920919949624
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "without_road",
+      "rows": 14640,
+      "score": 0.8630000703282242
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "without_uav_connectivity",
+      "rows": 14640,
+      "score": 0.8626669325078771
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "all_fleet",
+      "rows": 14640,
+      "score": 0.8654297262271982
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "known_fleet_DIAGNOSTIC",
+      "rows": 14622,
+      "score": 0.8660276622448807
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "previous_direct_baseline",
+      "rows": 14640,
+      "score": 0.8948934888060126
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "previous_forecast_fleet_input",
+      "rows": 14640,
+      "score": 0.8945534514497298
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "confirmed_v8_up3",
+      "rows": 14640,
+      "score": 0.8988577426239452
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "all_direct_known_subset",
+      "rows": 14622,
+      "score": 0.8625023756462855
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "all_fleet_known_subset",
+      "rows": 14622,
+      "score": 0.8654390821569049
+    }
+  ],
+  "submissions": {
+    "all_direct": {
+      "file": "submission_all_direct.csv",
+      "sha256": "6a5aacf7490863097acd9b8b3bb273404c69eba2fad7001de9ac8893f2387979",
+      "total": 12325359,
+      "public_score": null
+    },
+    "all_fleet": {
+      "file": "submission_all_fleet.csv",
+      "sha256": "fe49084adda094916f585f5d7bf5152cf3dd5bb78b0c162fd05c77706227592f",
+      "total": 12242264,
+      "public_score": null
+    }
+  },
+  "fit_audit": [
+    {
+      "origin": 181,
+      "train_max_date": "2025-06-30",
+      "forecast_min_date": "2025-07-01",
+      "rows": 39031,
+      "feature_count": 268
+    },
+    {
+      "origin": 212,
+      "train_max_date": "2025-07-31",
+      "forecast_min_date": "2025-08-01",
+      "rows": 45727,
+      "feature_count": 268
+    },
+    {
+      "origin": 243,
+      "train_max_date": "2025-08-31",
+      "forecast_min_date": "2025-09-01",
+      "rows": 52423,
+      "feature_count": 268
+    },
+    {
+      "origin": 304,
+      "train_max_date": "2025-10-31",
+      "forecast_min_date": "2025-11-01",
+      "rows": 65209,
+      "feature_count": 268
+    }
+  ],
+  "weather_uav_connectivity_and_service": "Actual retrospective external values supplied on both train and prediction dates.",
+  "road": "Police-reported crash proximity, not actual traffic flow. Independent ablation included.",
+  "target": "Hourly boardings, 61-day fixed-origin horizon.",
+  "fleet": "Observed train fleet; predicted future fleet. True future fleet unavailable. Known-fleet diagnostic is historical only.",
+  "caveats": [
+    "Overlapping previously explored validation periods, not independent leaderboard.",
+    "Fleet model sees actual train vehicle counts while inference uses predictions.",
+    "Route 5 has no positive train labels; zero here. Separate public route-5 aggregate probe already available.",
+    "Source zero report counts do not prove no event; missing numeric fields use -1."
+  ],
+  "active_model_changed": false,
+  "confirmed_public_best": 0.89402
+}
