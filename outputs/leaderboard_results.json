@@ -273,10 +273,12 @@
   {
     "submission": "outputs/foreign_season_transfer_20260927/submission_external_transport.csv",
     "sha256": "53f4227f7c01577494ff4243e2b1c868eb20fe6143b8b75933eb17725adcdd70",
-    "score": null,
-    "status": "experimental_candidate_created; upload_not_confirmed",
+    "score": 0.89026,
+    "status": "Успешно",
     "model": "trolley_recent_monthly_p0.5",
-    "source": "Kazakhstan and Moscow external seasonal transfer evaluated on Studio",
-    "decision": "Experimental only: improves mean development score mainly on summer, loses September-October. Confirmed public best .89402 retained."
+    "source": "User-reported competition result",
+    "decision": "Rejected as replacement; public score 0.89026 is below confirmed v8 +3% 0.89402",
+    "submitted_at": "2026-09-27 01:04 +03:00",
+    "file_mapping": "Assumed latest delivered external transport submission; competition did not provide a file hash"
   }
 ]

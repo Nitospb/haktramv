@@ -346,8 +346,10 @@
       "model": "trolley_recent_monthly_p0.5",
       "sha256": "53f4227f7c01577494ff4243e2b1c868eb20fe6143b8b75933eb17725adcdd70",
       "prediction_total": 12666853,
-      "public_score": null,
-      "experimental": true
+      "public_score": 0.89026,
+      "experimental": true,
+      "submitted_at": "2026-09-27 01:04 +03:00",
+      "file_mapping": "Assumed latest delivered external transport submission; competition did not provide a file hash"
     }
   ],
   "baseline_audits": [
@@ -388,5 +390,5 @@
     "data/external_moscow_modes/priors.json": "ad0f9d631931ccd5ec3dda6ec63427d2088fd1d7f62ca4fb0cf18a25152907f3",
     "foreign_season_transfer.py": "0356a151e7f68a8c070f750967888235efcdadd2249126b01820e284216c5f30"
   },
-  "decision": "Experimental only: improves mean development score mainly on summer, loses September-October. Confirmed public best .89402 retained."
+  "decision": "Rejected as replacement; public score 0.89026 is below confirmed v8 +3% 0.89402"
 }
