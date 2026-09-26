@@ -1,0 +1,31 @@
+{
+  "profile_tests": [
+    {
+      "origin_day": 35,
+      "profile_future_target_perturbation_max_diff": 0.0
+    },
+    {
+      "origin_day": 151,
+      "profile_future_target_perturbation_max_diff": 0.0
+    },
+    {
+      "origin_day": 243,
+      "profile_future_target_perturbation_max_diff": 0.0
+    },
+    {
+      "origin_day": 304,
+      "profile_future_target_perturbation_max_diff": 0.0
+    }
+  ],
+  "checkpoint_reproduction_max_abs_diff": {
+    "direct": 0.0,
+    "step1": 0.0,
+    "step3": 0.0,
+    "step7": 0.0,
+    "all_paths_mean": 0.0,
+    "weekly_direct_mean": 0.0
+  },
+  "trained_models_checked": 31,
+  "training_labels_end_before_forecast_origin": true,
+  "all_saved_target_perturbation_checks_zero": true
+}

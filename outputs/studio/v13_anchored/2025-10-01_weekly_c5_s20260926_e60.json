@@ -1,0 +1,26 @@
+{
+  "training_origins": 37,
+  "max_training_label_day": 272,
+  "forecast_origin_day": 273,
+  "seconds": 10.246450750157237,
+  "seed": 20260926,
+  "epochs": 60,
+  "config": {
+    "gate": 0.35,
+    "consistency": 5,
+    "steps": [
+      7
+    ]
+  },
+  "target_perturbation_max_difference": 0.0,
+  "name": "weekly_c5",
+  "origin": "2025-10-01",
+  "horizon": 31,
+  "code_sha256": "23f7c75cfb037d376a0be12a363058b8cf11f304f54203640e297f43bdc626b5",
+  "future_guides": [
+    "profile fitted on pre-origin history only",
+    "saved incumbent v8 forecast"
+  ],
+  "current_public_incumbent_score": 0.89214,
+  "new_public_score": null
+}

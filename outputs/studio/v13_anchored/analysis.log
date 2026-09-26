@@ -1,0 +1,96 @@
+SELECTED {
+  "model": "multi_c5",
+  "path": "v8_weekly_direct_mean",
+  "calibration": "raw",
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "selection_seed": 20260926,
+  "ranking": [
+    {
+      "model": "multi_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8497546156119749
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8497434639190334
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8482975964730448
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8482274863053875
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8480813820858768
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_step7",
+      "calibration": "month_blend50",
+      "mean": 0.8480644230847403
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8480223685927413
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_step7",
+      "calibration": "month_blend50",
+      "mean": 0.8478706182508713
+    },
+    {
+      "model": "multi_c5",
+      "path": "profile_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8475034963706036
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "raw",
+      "mean": 0.8474987498640032
+    }
+  ],
+  "public_score": null
+}
+origin                       2025-07-01  2025-08-01  2025-09-01  2025-10-01
+model                                                                      
+incumbent_v8                   0.812593    0.888256    0.905714    0.912164
+new_consistency_raw            0.852798    0.847983    0.902377    0.912726
+new_consistency_seed_mean      0.852798    0.847983    0.902377    0.912726
+new_consistency_single_seed    0.851467    0.848042    0.901061    0.912867
+previous_consistency_c5        0.832289    0.791044    0.839425    0.887844
+SUBMISSION {
+  "path": "outputs/submission_consistency_v13.csv",
+  "sha256": "9aa0aa12de1006d21b415aec311ce4511987653661c5d00878327edd0cfba4f7",
+  "rows": 14640,
+  "prediction_total": 12965973,
+  "model": "multi_c5",
+  "forecast_path": "v8_weekly_direct_mean",
+  "calibration": "raw",
+  "seeds": [
+    20260926,
+    20260927,
+    20260928
+  ],
+  "public_score": null,
+  "active_model_replaced": false
+}

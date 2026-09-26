@@ -1,0 +1,73 @@
+{
+  "model": "multi_c5",
+  "path": "v8_weekly_direct_mean",
+  "calibration": "raw",
+  "selection_origins": [
+    "2025-07-01",
+    "2025-08-01"
+  ],
+  "selection_seed": 20260926,
+  "ranking": [
+    {
+      "model": "multi_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8497546156119749
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8497434639190334
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8482975964730448
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8482274863053875
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_weekly_direct_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8480813820858768
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_step7",
+      "calibration": "month_blend50",
+      "mean": 0.8480644230847403
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "month_blend50",
+      "mean": 0.8480223685927413
+    },
+    {
+      "model": "weekly_c5",
+      "path": "v8_step7",
+      "calibration": "month_blend50",
+      "mean": 0.8478706182508713
+    },
+    {
+      "model": "multi_c5",
+      "path": "profile_weekly_direct_mean",
+      "calibration": "raw",
+      "mean": 0.8475034963706036
+    },
+    {
+      "model": "multi_c5",
+      "path": "v8_all_paths_mean",
+      "calibration": "raw",
+      "mean": 0.8474987498640032
+    }
+  ],
+  "public_score": null
+}

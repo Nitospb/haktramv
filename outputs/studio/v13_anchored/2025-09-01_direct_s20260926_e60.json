@@ -1,0 +1,24 @@
+{
+  "training_origins": 31,
+  "max_training_label_day": 242,
+  "forecast_origin_day": 243,
+  "seconds": 1.860287583898753,
+  "seed": 20260926,
+  "epochs": 60,
+  "config": {
+    "gate": 0,
+    "consistency": 0,
+    "steps": []
+  },
+  "target_perturbation_max_difference": 0.0,
+  "name": "direct",
+  "origin": "2025-09-01",
+  "horizon": 61,
+  "code_sha256": "23f7c75cfb037d376a0be12a363058b8cf11f304f54203640e297f43bdc626b5",
+  "future_guides": [
+    "profile fitted on pre-origin history only",
+    "saved incumbent v8 forecast"
+  ],
+  "current_public_incumbent_score": 0.89214,
+  "new_public_score": null
+}

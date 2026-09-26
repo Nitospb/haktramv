@@ -59,5 +59,13 @@
     "source": "User explicitly requested the strong-consistency model despite weaker development accuracy",
     "model": "consistent7_c5_tail2",
     "forecast_path": "recursive7"
+  },
+  {
+    "submission": "outputs/submission_consistency_v13.csv",
+    "sha256": "9aa0aa12de1006d21b415aec311ce4511987653661c5d00878327edd0cfba4f7",
+    "score": null,
+    "status": "candidate_created; upload_not_confirmed",
+    "model": "v13 multi_c5, three seeds, origin-safe profile and v8 forecast guide",
+    "source": "User requested further development of the consistency approach"
   }
 ]

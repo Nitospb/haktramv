@@ -5,10 +5,13 @@
 Последний весенний эксперимент получил **0,89160** и отклонён; выполнен
 откат к v8. Цель 0,95 пока не достигнута.
 
-По просьбе пользователя также подготовлен экспериментальный
-[submission_consistency_c5.csv](outputs/submission_consistency_c5.csv) из модели
-с сильным согласованием прямого и рекурсивного путей. Результат сайта для
-него пока неизвестен; описание — в [отчёте v11](WEEKLY_RECURSION_RESEARCH.md).
+Текущий экспериментальный кандидат —
+[submission_consistency_v13.csv](outputs/submission_consistency_v13.csv):
+согласованные поправки к историческому профилю, среднее трёх обучений.
+Результат сайта пока неизвестен; описание — в
+[отчёте v13](ANCHORED_CONSISTENCY_RESEARCH.md). Предыдущий
+[submission_consistency_c5.csv](outputs/submission_consistency_c5.csv)
+сохранён отдельно.
 
 Задача: прогноз числа посадок по маршруту и часу на ноябрь–декабрь 2025 года
 по истории января–октября. Метрика — `max(0, 1 - Σ|y - prediction| / Σy)`.
@@ -124,5 +127,8 @@ python reconcile_forecasts.py
 - [MULTISTREAM_RESEARCH.md](MULTISTREAM_RESEARCH.md) — короткие перекрывающиеся
   траектории полного движка v8 и их согласование, v12. Устойчивого прироста
   на исторических проверках не получено.
+- [ANCHORED_CONSISTENCY_RESEARCH.md](ANCHORED_CONSISTENCY_RESEARCH.md) — v13:
+  обучение поправок к историческому профилю и смешанных шагов 1/3/7 дней;
+  новый экспериментальный submission.
 - [docs/EXPERIMENT_HISTORY.md](docs/EXPERIMENT_HISTORY.md) — хронология разработки;
   рекомендации внутри старых разделов относятся к соответствующим этапам.

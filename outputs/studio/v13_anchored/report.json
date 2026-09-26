@@ -1,0 +1,394 @@
+{
+  "selection": {
+    "model": "multi_c5",
+    "path": "v8_weekly_direct_mean",
+    "calibration": "raw",
+    "selection_origins": [
+      "2025-07-01",
+      "2025-08-01"
+    ],
+    "selection_seed": 20260926,
+    "ranking": [
+      {
+        "model": "multi_c5",
+        "path": "v8_weekly_direct_mean",
+        "calibration": "raw",
+        "mean": 0.8497546156119749
+      },
+      {
+        "model": "weekly_c5",
+        "path": "v8_weekly_direct_mean",
+        "calibration": "raw",
+        "mean": 0.8497434639190334
+      },
+      {
+        "model": "multi_c5",
+        "path": "v8_weekly_direct_mean",
+        "calibration": "month_blend50",
+        "mean": 0.8482975964730448
+      },
+      {
+        "model": "multi_c5",
+        "path": "v8_all_paths_mean",
+        "calibration": "month_blend50",
+        "mean": 0.8482274863053875
+      },
+      {
+        "model": "weekly_c5",
+        "path": "v8_weekly_direct_mean",
+        "calibration": "month_blend50",
+        "mean": 0.8480813820858768
+      },
+      {
+        "model": "multi_c5",
+        "path": "v8_step7",
+        "calibration": "month_blend50",
+        "mean": 0.8480644230847403
+      },
+      {
+        "model": "weekly_c5",
+        "path": "v8_all_paths_mean",
+        "calibration": "month_blend50",
+        "mean": 0.8480223685927413
+      },
+      {
+        "model": "weekly_c5",
+        "path": "v8_step7",
+        "calibration": "month_blend50",
+        "mean": 0.8478706182508713
+      },
+      {
+        "model": "multi_c5",
+        "path": "profile_weekly_direct_mean",
+        "calibration": "raw",
+        "mean": 0.8475034963706036
+      },
+      {
+        "model": "multi_c5",
+        "path": "v8_all_paths_mean",
+        "calibration": "raw",
+        "mean": 0.8474987498640032
+      }
+    ],
+    "public_score": null
+  },
+  "ensemble_seeds": [
+    20260926,
+    20260927,
+    20260928
+  ],
+  "scores": [
+    {
+      "origin": "2025-07-01",
+      "model": "incumbent_v8",
+      "part": "all",
+      "score": 0.8125931526633471
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "incumbent_v8",
+      "part": "last_7_days",
+      "score": 0.8839936886782395
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "previous_consistency_c5",
+      "part": "all",
+      "score": 0.8322889080855489
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "previous_consistency_c5",
+      "part": "last_7_days",
+      "score": 0.8624892630423007
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_raw",
+      "part": "all",
+      "score": 0.8527981697289655
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_raw",
+      "part": "last_7_days",
+      "score": 0.8781958580338995
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_single_seed",
+      "part": "all",
+      "score": 0.8514673892510211
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_single_seed",
+      "part": "last_7_days",
+      "score": 0.8789403055735272
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_seed_mean",
+      "part": "all",
+      "score": 0.8527981697289655
+    },
+    {
+      "origin": "2025-07-01",
+      "model": "new_consistency_seed_mean",
+      "part": "last_7_days",
+      "score": 0.8781958580338995
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "incumbent_v8",
+      "part": "all",
+      "score": 0.888255512005749
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "incumbent_v8",
+      "part": "last_7_days",
+      "score": 0.8920773070213527
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "previous_consistency_c5",
+      "part": "all",
+      "score": 0.7910437840818465
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "previous_consistency_c5",
+      "part": "last_7_days",
+      "score": 0.7550031997937816
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_raw",
+      "part": "all",
+      "score": 0.8479834514117719
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_raw",
+      "part": "last_7_days",
+      "score": 0.8744932242374317
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_single_seed",
+      "part": "all",
+      "score": 0.8480418419729288
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_single_seed",
+      "part": "last_7_days",
+      "score": 0.8778568234706564
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_seed_mean",
+      "part": "all",
+      "score": 0.8479834514117719
+    },
+    {
+      "origin": "2025-08-01",
+      "model": "new_consistency_seed_mean",
+      "part": "last_7_days",
+      "score": 0.8744932242374317
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "incumbent_v8",
+      "part": "all",
+      "score": 0.9057135812643662
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "incumbent_v8",
+      "part": "last_7_days",
+      "score": 0.9131355528986352
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "previous_consistency_c5",
+      "part": "all",
+      "score": 0.839424582298838
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "previous_consistency_c5",
+      "part": "last_7_days",
+      "score": 0.8371756205594035
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_raw",
+      "part": "all",
+      "score": 0.9023771973316528
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_raw",
+      "part": "last_7_days",
+      "score": 0.9084557904015891
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_single_seed",
+      "part": "all",
+      "score": 0.9010610446461091
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_single_seed",
+      "part": "last_7_days",
+      "score": 0.9067878362624507
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_seed_mean",
+      "part": "all",
+      "score": 0.9023771973316528
+    },
+    {
+      "origin": "2025-09-01",
+      "model": "new_consistency_seed_mean",
+      "part": "last_7_days",
+      "score": 0.9084557904015891
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "incumbent_v8",
+      "part": "all",
+      "score": 0.9121638690046335
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "incumbent_v8",
+      "part": "last_7_days",
+      "score": 0.9124615630258951
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "previous_consistency_c5",
+      "part": "all",
+      "score": 0.8878440493061914
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "previous_consistency_c5",
+      "part": "last_7_days",
+      "score": 0.8802566524846421
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_raw",
+      "part": "all",
+      "score": 0.9127262411054176
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_raw",
+      "part": "last_7_days",
+      "score": 0.9123511759484254
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_single_seed",
+      "part": "all",
+      "score": 0.9128668560201496
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_single_seed",
+      "part": "last_7_days",
+      "score": 0.9121753852800125
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_seed_mean",
+      "part": "all",
+      "score": 0.9127262411054176
+    },
+    {
+      "origin": "2025-10-01",
+      "model": "new_consistency_seed_mean",
+      "part": "last_7_days",
+      "score": 0.9123511759484254
+    }
+  ],
+  "seed_variability": [
+    {
+      "origin": "2025-07-01",
+      "seeds": [
+        20260926,
+        20260927,
+        20260928
+      ],
+      "individual_scores": [
+        0.8514673892510211,
+        0.85152564070177,
+        0.85282335221965
+      ]
+    },
+    {
+      "origin": "2025-08-01",
+      "seeds": [
+        20260926,
+        20260927,
+        20260928
+      ],
+      "individual_scores": [
+        0.8480418419729288,
+        0.8447371571803148,
+        0.8494739627487035
+      ]
+    },
+    {
+      "origin": "2025-09-01",
+      "seeds": [
+        20260926,
+        20260927,
+        20260928
+      ],
+      "individual_scores": [
+        0.9010610446461091,
+        0.9031263446743321,
+        0.9016231049268975
+      ]
+    },
+    {
+      "origin": "2025-10-01",
+      "seeds": [
+        20260926,
+        20260927,
+        20260928
+      ],
+      "individual_scores": [
+        0.9128668560201496,
+        0.912750826608839,
+        0.9121318563678966
+      ]
+    }
+  ],
+  "public_score": null,
+  "caveat": "Previously explored, overlapping development windows; October has only 31 days. v8 guide inherits its historical tuning. Future labels are not supplied in a rollout.",
+  "submission": {
+    "path": "outputs/submission_consistency_v13.csv",
+    "sha256": "9aa0aa12de1006d21b415aec311ce4511987653661c5d00878327edd0cfba4f7",
+    "rows": 14640,
+    "prediction_total": 12965973,
+    "model": "multi_c5",
+    "forecast_path": "v8_weekly_direct_mean",
+    "calibration": "raw",
+    "seeds": [
+      20260926,
+      20260927,
+      20260928
+    ],
+    "public_score": null,
+    "active_model_replaced": false
+  }
+}
