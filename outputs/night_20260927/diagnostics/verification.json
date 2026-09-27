@@ -1,7 +1,8 @@
 {
-  "forecasts_checked": 105,
+  "forecasts_checked": 124,
   "metric": "1 - sum(abs(target-round(prediction)))/sum(target), clipped at 0",
   "rows_per_forecast": 14640,
   "targets_verified": true,
-  "warning": "Snapshots may omit checkpoints from jobs that are still running. Development windows overlap."
+  "warning": "Four overlapping, previously explored development windows; checkpoint forecasts are not independent validation periods.",
+  "all_five_studies_complete": true
 }

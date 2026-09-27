@@ -1,0 +1,22 @@
+{
+  "source_url": "https://transport.mos.ru/mostrans/all_news/127782",
+  "public_score": null,
+  "base": "outputs/longer_moscow_external_20260927/submission_direct_1600_autumn.csv",
+  "base_sha256": "1321ca06c74db294310b4f85c5557759242595a93f66b44d745dae8615bb69fe",
+  "submission": "submission_moscow_with_route5.csv",
+  "submission_sha256": "0f2a4ab5bed60e04ce6a1d78c4205eea7b495abebaddb4ebc0a67ff704e10599",
+  "route5_total": 86847,
+  "first_week_sum": 40000,
+  "assumed_first_week": [
+    "2025-12-16",
+    "2025-12-22"
+  ],
+  "other_nine_routes_identical": true,
+  "method": "Current route-5 timetable weighted by new standalone route 7/50 predictions per scheduled stop event. Rounded official first-week total sets scale.",
+  "limitations": [
+    "Official passenger-trip aggregate may differ from competition validations.",
+    "First-week dates inferred from launch date; exact boundaries not specified by source.",
+    "Current minute timetable is not verified for Dec 2025; launch-day hours unknown.",
+    "Remaining December extrapolates first-week scale. No positive route-5 labels for validation."
+  ]
+}

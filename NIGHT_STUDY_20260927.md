@@ -228,3 +228,28 @@ if validated), and an explicitly untested route-5 aggregate scenario applied to
 the direct candidate. Preserve public best. Finish report and disable heartbeat
 once deliverables are complete, by 09:00 at latest; there is no requirement to
 keep an unproductive training process alive until morning.
+
+## Completed, fourth heartbeat, approximately 04:35 Moscow
+
+The final calendar Transformer completed and selected 500 updates. It improved
+July but scored 0.883527 on Sep–Oct, below the uncorrected calendar baseline
+0.898480. No further training is justified by this series. All five study
+directories are complete and the process check found no remaining night jobs.
+
+Final Russian report: `outputs/night_20260927/REPORT_RU.md`. Three deliverables
+are in `outputs/night_20260927/deliverables/`: direct1600, calendar baseline, and
+the separate direct1600 route-5 scenario. The compact 1600-tree inference model
+is included. `night_package.py` replayed nine forecasts, verified the exact
+14640-cell submission grid and scenario isolation. `night_infer_deliverables.py`
+then independently regenerated all three CSVs byte-for-byte on Studio, without
+training. Updated diagnostics verify 124 saved validation predictions across
+four overlapping cutoffs. No public score improvement is established.
+
+All chosen artifacts, reports and logs have been downloaded with hash checks.
+The public-best local file still has the recorded f2bb611... hash. Studio's
+top-level best file was an older different copy; it was also left untouched.
+Packaging checked an explicit reference copied from the authoritative local best
+instead of overwriting Studio's existing file.
+
+After the final report is committed/published, disable heartbeat `studio`.
+This is the end of the overnight study; do not restart any completed jobs.

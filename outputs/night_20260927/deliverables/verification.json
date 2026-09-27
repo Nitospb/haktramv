@@ -1,0 +1,79 @@
+{
+  "submissions": [
+    {
+      "file": "submission_01_direct.csv",
+      "sha256": "1321ca06c74db294310b4f85c5557759242595a93f66b44d745dae8615bb69fe",
+      "source": "outputs/longer_moscow_external_20260927/submission_direct_1600_autumn.csv",
+      "rows": 14640,
+      "total": 12223889,
+      "public_score": null
+    },
+    {
+      "file": "submission_02_calendar.csv",
+      "sha256": "c67fef81ed26973ec4cc6ef6a48d93f849f64e1b3b02f7ee9edde5d04d5bcc69",
+      "source": "outputs/night_20260927/calendar_analog/submission_baseline_term.csv",
+      "rows": 14640,
+      "total": 12338534,
+      "public_score": null
+    },
+    {
+      "file": "submission_03_direct_route5.csv",
+      "sha256": "0f2a4ab5bed60e04ce6a1d78c4205eea7b495abebaddb4ebc0a67ff704e10599",
+      "source": "outputs/longer_moscow_external_20260927/submission_moscow_with_route5.csv",
+      "rows": 14640,
+      "total": 12310736,
+      "public_score": null
+    }
+  ],
+  "replayed_forecasts": 9,
+  "validation_scores": [
+    {
+      "model": "direct_1600",
+      "origin": 181,
+      "score": 0.7895343055256501
+    },
+    {
+      "model": "direct_1600",
+      "origin": 212,
+      "score": 0.8958242909924713
+    },
+    {
+      "model": "direct_1600",
+      "origin": 243,
+      "score": 0.8999364223444294
+    },
+    {
+      "model": "calendar_analog",
+      "origin": 151,
+      "score": 0.7862787536203566
+    },
+    {
+      "model": "calendar_analog",
+      "origin": 181,
+      "score": 0.790268320204243
+    },
+    {
+      "model": "calendar_analog",
+      "origin": 212,
+      "score": 0.8845686003726237
+    },
+    {
+      "model": "calendar_analog",
+      "origin": 243,
+      "score": 0.8984797578200163
+    }
+  ],
+  "target_perturbation_check": true,
+  "grid_check": true,
+  "compact_model_replay_exact": true,
+  "compact_model_sha256": "42fe00279f5b19696c491b2c09a4539b6060a4e4cd4742082e85c5416dde9e56",
+  "route5_first_week_sum": 40000,
+  "route5_other_nine_routes_identical": true,
+  "public_best_sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+  "public_best_score": 0.89402,
+  "public_best_changed": false,
+  "studio_existing_best_sha256": "b8f8238db449a7401f9d63543c60288b018ed9a1e991ba04745825f82d056524",
+  "studio_existing_best_changed": false,
+  "candidate_selection": "Direct1600 is the previously explored autumn-selected checkpoint; calendar analog is an alternative standalone method; route5 is an unvalidated public-aggregate scenario.",
+  "limitation": "These overlapping development windows were repeatedly inspected; local scores do not establish a leaderboard improvement. No hidden Moscow target inputs."
+}
