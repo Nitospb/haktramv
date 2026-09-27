@@ -251,5 +251,6 @@ top-level best file was an older different copy; it was also left untouched.
 Packaging checked an explicit reference copied from the authoritative local best
 instead of overwriting Studio's existing file.
 
-After the final report is committed/published, disable heartbeat `studio`.
-This is the end of the overnight study; do not restart any completed jobs.
+Final report and deliverables published in commit `9ffe901`. Heartbeat `studio`
+was then disabled through the app tool (status PAUSED). This is the end of the
+overnight study; do not restart any completed jobs.
