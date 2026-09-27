@@ -400,5 +400,31 @@
     "source": "Studio complete-external / longer-training experiment; local validation only",
     "report": "outputs/longer_moscow_external_20260927/report.json",
     "active_model_changed": false
+  },
+  {
+    "submission": "outputs/level_probe_20260927/submission_direct_plus4.csv",
+    "sha256": "b643e298f17931a17fbff61fd889054245420e16830fd67bdbb77168c5bcb080",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "User-requested level hypothesis after direct candidate public score 0.88232",
+    "base_submission": "outputs/night_20260927/deliverables/submission_01_direct.csv",
+    "forecast_total": 12712766,
+    "volume_change_vs_direct": 0.039993573240071134,
+    "report": "outputs/level_probe_20260927/report.json",
+    "active_model_changed": false,
+    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic"
+  },
+  {
+    "submission": "outputs/level_probe_20260927/submission_direct_best_volume.csv",
+    "sha256": "cd071afd31655659a3d36f95106ebc35be96383ebc28693d5b0aa6ad3a3fd85a",
+    "score": null,
+    "status": "not_uploaded",
+    "source": "User-requested level hypothesis after direct candidate public score 0.88232",
+    "base_submission": "outputs/night_20260927/deliverables/submission_01_direct.csv",
+    "forecast_total": 12902502,
+    "volume_change_vs_direct": 0.05551531104380936,
+    "report": "outputs/level_probe_20260927/report.json",
+    "active_model_changed": false,
+    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic"
   }
 ]
