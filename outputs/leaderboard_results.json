@@ -365,11 +365,14 @@
   {
     "submission": "outputs/longer_moscow_external_20260927/submission_direct_1600_autumn.csv",
     "sha256": "1321ca06c74db294310b4f85c5557759242595a93f66b44d745dae8615bb69fe",
-    "score": null,
-    "status": "not_uploaded",
-    "source": "Studio complete-external / longer-training experiment; local validation only",
+    "score": 0.88232,
+    "status": "success",
+    "source": "User-reported competition result; explicit submitted filename",
     "report": "outputs/longer_moscow_external_20260927/report.json",
-    "active_model_changed": false
+    "active_model_changed": false,
+    "submitted_at": "2026-09-27 11:00 +03:00",
+    "submitted_file": "outputs/night_20260927/deliverables/submission_01_direct.csv",
+    "decision": "Rejected: below confirmed public best 0.89402; do not promote"
   },
   {
     "submission": "outputs/longer_moscow_external_20260927/submission_longer_direct.csv",

@@ -6,7 +6,10 @@
       "source": "outputs/longer_moscow_external_20260927/submission_direct_1600_autumn.csv",
       "rows": 14640,
       "total": 12223889,
-      "public_score": null
+      "public_score": 0.88232,
+      "public_score_source": "user report",
+      "submitted_at": "2026-09-27 11:00 +03:00",
+      "decision": "rejected"
     },
     {
       "file": "submission_02_calendar.csv",
