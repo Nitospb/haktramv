@@ -149,3 +149,43 @@ low throughput and its local SSH process was terminated; the incomplete file
 CSV directly over SSH succeeded. Prefer small report bundles first, then only
 the selected model/candidate artifacts. Model/optimizer checkpoints remain intact
 on Studio.
+
+## Second heartbeat, approximately 03:32 Moscow
+
+All three original studies finished successfully; no training processes remained
+before launching the follow-up. Large Transformer selected step 500 and scored
+0.836139 on Sep–Oct, below both the small network and the direct models. Reports,
+status, metrics and detailed error slices are now downloaded. The diagnostics
+recomputed **77 forecasts**, checking 14640 unique keys and every target against
+the source hourly matrix. Larger/longer neural training did not improve the
+relevant 61-day validation. Keep this result in the morning report.
+
+One motivated additional study is running on Studio:
+
+```sh
+caffeinate -i .venv/bin/python -u night_calendar_analog_study.py --hours 1.5
+```
+
+Output `outputs/night_20260927/calendar_analog/`, log
+`outputs/night_20260927/calendar_analog.log`. Python PID at launch **70710**,
+own OS lock and 07:30 hard deadline. It passed a 12-tree smoke run and a
+future-target perturbation check. Do not launch a duplicate. It compares
+absolute and normalized-residual CatBoost models with causal calendar-matched
+profiles: 112-day age decay, soft matching summer/school/public-holiday regimes,
+weekday type, plus a second profile with soft temperature matching. The latter
+uses permitted historical future weather, never future targets. Profiles retain
+two pooled pseudo-observations. Selection on June/July/August chooses 500/1500/
+3000 trees separately for the two families, followed by September control and
+October-inclusive final refit. No mixing with the public-best submission.
+
+`night_diagnostics.py` now also includes calendar_analog outputs. Rerun when
+complete, compare controls/bias and selection stability before choosing morning
+candidates. Direct prior model's Sep–Oct failures concentrate on route 7
+(+8.79% volume bias), route 25 (-9.09%), and weekends (about -5%). Do not tune
+post-hoc route multipliers on this inspected control and present them as unseen
+validation gains.
+
+Small report download succeeded using `ssh -C ... tar -czf -` with only JSON,
+metrics and diagnostics. Archive `/tmp/haktramv-night-reports.tar.gz` was fully
+validated and extracted. Models/optimizer checkpoints are still only on Studio;
+the previous direct LightGBM candidate and its model are already local.

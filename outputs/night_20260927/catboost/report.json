@@ -1,0 +1,239 @@
+{
+  "selection": [
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8102903464240395,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.814653975954565,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8172278943537715,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.7912078287592601,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.7948334020989853,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.7980348549737596,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8919785705140251,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8938293829522597,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8937374794580853,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7981309833203849,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8041356374815134,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8036614826160395,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8111323260574644,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8131578815593763,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8130301446761922,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.885560861365281,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 1000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8840277400180194,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8836424086535563,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 6000,
+      "split": "selection"
+    }
+  ],
+  "selected": [
+    {
+      "model": "deep_absolute",
+      "trees": 6000
+    },
+    {
+      "model": "deep_profile_residual",
+      "trees": 3000
+    }
+  ],
+  "results": [
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.893445605509154,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "deep_absolute",
+      "trees": 6000,
+      "split": "control"
+    },
+    {
+      "file": "outputs/night_20260927/catboost/submission_deep_absolute_n6000.csv",
+      "sha256": "126c19dcdfa24b10c8ae96f7ed9c8f679dd1710c994f0b83ac053ac581a37dd2",
+      "public_score": null,
+      "total": 12068699,
+      "model": "deep_absolute",
+      "trees": 6000,
+      "split": "submission"
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8486030909450568,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "deep_profile_residual",
+      "trees": 3000,
+      "split": "control"
+    },
+    {
+      "file": "outputs/night_20260927/catboost/submission_deep_profile_residual_n3000.csv",
+      "sha256": "a03ddb6c749f47870a7722c4d00d4964bf95e0a0fd3ced2adffbf6abf713e3b2",
+      "public_score": null,
+      "total": 12296092,
+      "model": "deep_profile_residual",
+      "trees": 3000,
+      "split": "submission"
+    }
+  ],
+  "retrospective_external_inputs": true,
+  "causal_profile_check": true,
+  "public_score": null,
+  "active_model_changed": false,
+  "limitation": "Previously explored windows. Selection only on June/July/August origins; September control does not select hyperparameters in this run."
+}

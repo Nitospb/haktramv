@@ -1,0 +1,171 @@
+{
+  "results": [
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8185300414689387,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7980433221380607,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7910369952994085,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7887880891713993,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7897597508926435,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 12000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.826168809015125,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8171060094251301,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8163832378597761,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8138929355173443,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8160473616617586,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 12000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8231168446013155,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.830094964325647,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.835039861067751,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8365115388633519,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8399941838092576,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 12000,
+      "split": "selection"
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8361387656620446,
+      "train_max_day": 242,
+      "horizon": 61,
+      "step": 500,
+      "split": "control"
+    },
+    {
+      "file": "outputs/night_20260927/sequence_large/submission_sequence_step500.csv",
+      "sha256": "f19d0cf7d5eb6fc0ad13b72109e29d14ac4c3d5bf610d66218b0f6c6ddcd9c22",
+      "public_score": null,
+      "total": 12612675,
+      "step": 500,
+      "origin": 304,
+      "split": "submission"
+    }
+  ],
+  "selected_step": 500,
+  "device": "mps",
+  "parameters": 20366616,
+  "architecture": "6-layer 384-wide Transformer encoder over 56 historical daily 24-hour profiles plus global cross-route history; 4-layer decoder over 61 future calendar/weather/schedule tokens, bounded residual to causal weekday profile. Cancelled service targets excluded from loss, as in boosting.",
+  "loss": "Absolute hourly error plus 0.15 daily-total and 0.05 weekly-total errors; unseen training-tail targets masked.",
+  "checkpoint_replay": true,
+  "public_score": null,
+  "active_model_changed": false,
+  "limitations": [
+    "Limited 2025 target history; large network may overfit.",
+    "Previously explored development cutoffs.",
+    "Retrospective external features allowed; no hidden Moscow target inputs.",
+    "Route 5 zero in standalone model."
+  ]
+}

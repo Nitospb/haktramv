@@ -45,7 +45,7 @@ def main():
             frame, p = data.prediction(origin, base)
             frame['prediction'] = p
             evaluate(frame, 'prediction', 'weekday_profile_'+str(half), origin)
-    for family in ['catboost', 'sequence', 'sequence_large']:
+    for family in ['catboost', 'sequence', 'sequence_large', 'calendar_analog']:
         for path in sorted((OUT/family).glob('*.csv')):
             match = re.search(r'_(151|181|212|243)\.csv$', path.name)
             if not match:

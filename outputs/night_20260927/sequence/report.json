@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8308294252956604,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8015070790737615,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7999434991297278,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7975037634560143,
+      "train_max_day": 150,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8268227047018983,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.827723854399983,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8259725741731327,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8228772222745536,
+      "train_max_day": 180,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8272415921176302,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8271626930115203,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8349162757422517,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.83652934352889,
+      "train_max_day": 211,
+      "horizon": 61,
+      "step": 6000,
+      "split": "selection"
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8384306660537579,
+      "train_max_day": 242,
+      "horizon": 61,
+      "step": 500,
+      "split": "control"
+    },
+    {
+      "file": "outputs/night_20260927/sequence/submission_sequence_step500.csv",
+      "sha256": "57205b989065ba135b3c5754bd9264a50cd12f24387049d593daedf8a83029c9",
+      "public_score": null,
+      "total": 12024580,
+      "step": 500,
+      "origin": 304,
+      "split": "submission"
+    }
+  ],
+  "selected_step": 500,
+  "device": "mps",
+  "parameters": 3686616,
+  "architecture": "4-layer 192-wide Transformer encoder over 56 historical daily 24-hour profiles plus global cross-route history; 3-layer decoder over 61 future calendar/weather/schedule tokens, bounded residual to causal weekday profile.",
+  "loss": "Absolute hourly error plus 0.15 daily-total and 0.05 weekly-total errors; unseen training-tail targets masked.",
+  "checkpoint_replay": true,
+  "public_score": null,
+  "active_model_changed": false,
+  "limitations": [
+    "Limited 2025 target history; large network may overfit.",
+    "Previously explored development cutoffs.",
+    "Retrospective external features allowed; no hidden Moscow target inputs.",
+    "Route 5 zero in standalone model."
+  ]
+}
