@@ -117,3 +117,35 @@ training trajectory.
 7. By 09:00 Moscow time, write the Russian morning report with artifact links
    even if no model approaches 0.95. State actual outcomes. Disable the heartbeat
    after completion (automation id `studio`). No new training after deadline.
+
+## First heartbeat, approximately 03:05 Moscow
+
+Both original drivers were alive and advancing; no duplicate training launched.
+The medium sequence study is complete and chose step 500; Sep–Oct score is
+0.838431. CatBoost produced Sep–Oct 0.893446 (absolute, 6000 trees) and 0.848603
+(profile residual, 3000 trees). The larger network was still training origin 181
+at the initial inspection; inspect its live status before further work.
+
+`night_diagnostics.py` is now available locally and on Studio. Run it again after
+remaining jobs finish. It recomputes every saved forecast's WAPE, checks all
+14640 keys and target equality against the matrix, and writes `diagnostics/`
+scores, route/weekday/hour/forecast-week error slices, and verification JSON.
+The first snapshot's scores are downloaded locally; detailed slices are still
+on Studio. No models or active-best file were changed.
+
+Important diagnosis: on Sep–Oct, plain weekday profiles with half-life 14/28/56/
+112 days have volume biases -15.84%/-14.44%/-10.83%/-7.94%. The medium network
+retains -11.75% bias, and boosted profile residual -9.76%. Their summer-anchored
+level is a concrete failure mode. The direct external-feature model has +0.71%
+bias and score 0.899936. More steps already worsened June validation for both
+networks. Consider a calendar-conditioned historical profile (school term versus
+vacation, with partial pooling) as one further motivated experiment after the
+current studies complete; do not simply extend an overfitting network blindly.
+
+Operational note: Studio's login shell is fish, so Python heredocs need an
+explicit `bash` wrapper. A bulk SSH tar snapshot of all predictions stalled at
+low throughput and its local SSH process was terminated; the incomplete file
+`/tmp/haktramv-night-snapshot.tar.gz` was NOT extracted. Reading the small scores
+CSV directly over SSH succeeded. Prefer small report bundles first, then only
+the selected model/candidate artifacts. Model/optimizer checkpoints remain intact
+on Studio.
