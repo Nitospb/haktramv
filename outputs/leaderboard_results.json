@@ -404,15 +404,17 @@
   {
     "submission": "outputs/level_probe_20260927/submission_direct_plus4.csv",
     "sha256": "b643e298f17931a17fbff61fd889054245420e16830fd67bdbb77168c5bcb080",
-    "score": null,
-    "status": "not_uploaded",
-    "source": "User-requested level hypothesis after direct candidate public score 0.88232",
+    "score": 0.88811,
+    "status": "success",
+    "source": "User-reported competition result with explicit filename confirmation",
     "base_submission": "outputs/night_20260927/deliverables/submission_01_direct.csv",
     "forecast_total": 12712766,
     "volume_change_vs_direct": 0.039993573240071134,
     "report": "outputs/level_probe_20260927/report.json",
     "active_model_changed": false,
-    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic"
+    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic",
+    "submitted_at": "2026-09-27 11:10 +03:00",
+    "decision": "Improves unscaled direct 0.88232; remains below public best 0.89402"
   },
   {
     "submission": "outputs/level_probe_20260927/submission_direct_best_volume.csv",

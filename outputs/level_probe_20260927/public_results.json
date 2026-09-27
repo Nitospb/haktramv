@@ -1,0 +1,13 @@
+[
+  {
+    "submitted_at": "2026-09-27 11:10 +03:00",
+    "score": 0.88811,
+    "status": "success",
+    "source": "user-reported competition result",
+    "submission": "outputs/level_probe_20260927/submission_direct_plus4.csv",
+    "file_mapping": "User explicitly confirmed plus4 file",
+    "change_vs_unscaled_direct": 0.005789999999999962,
+    "change_vs_public_best": -0.005910000000000082,
+    "sha256": "b643e298f17931a17fbff61fd889054245420e16830fd67bdbb77168c5bcb080"
+  }
+]

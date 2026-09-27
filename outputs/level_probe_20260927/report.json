@@ -11,11 +11,13 @@
     {
       "file": "submission_direct_plus4.csv",
       "sha256": "b643e298f17931a17fbff61fd889054245420e16830fd67bdbb77168c5bcb080",
-      "public_score": null,
+      "public_score": 0.88811,
       "rows": 14640,
       "total": 12712766,
       "volume_change_vs_direct": 0.039993573240071134,
-      "volume_change_vs_public_best": -0.014705364897443896
+      "volume_change_vs_public_best": -0.014705364897443896,
+      "submitted_at": "2026-09-27 11:10 +03:00",
+      "public_score_source": "User confirmed filename"
     },
     {
       "file": "submission_direct_best_volume.csv",
