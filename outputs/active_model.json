@@ -5,8 +5,8 @@
   "user_reported_score": 0.89402,
   "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
   "previous_best_score": 0.89239,
-  "next_step": "Keep confirmed +3% winner 0.89402. +8% score is unknown. Successful-attempt quota was reported as zero; reset is unconfirmed.",
-  "latest_experiment": "Public scaling probes: +3% improves v8 to 0.89402; +6% and +10% regress.",
+  "next_step": "Final selection confirmed by user; no further experiments.",
+  "latest_experiment": "Direct +4% scored 0.88811; equal-volume scored 0.88741. Both rejected; public best 0.89402 preserved.",
   "candidate": {
     "submission": "outputs/reset_probes_20260926/submission_02_level_up3.csv",
     "sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
@@ -65,5 +65,7 @@
       "user_reported_score": 0.89239,
       "sha256": "0468260090b5897c1ca154ff10d8fab37064e4b291c4a2a8c0c3bcbe15d66ae9"
     }
-  ]
+  ],
+  "experiments_stopped": true,
+  "final_selection_confirmed_at": "2026-09-27 11:19 +03:00"
 }

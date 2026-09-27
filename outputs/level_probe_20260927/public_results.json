@@ -9,5 +9,16 @@
     "change_vs_unscaled_direct": 0.005789999999999962,
     "change_vs_public_best": -0.005910000000000082,
     "sha256": "b643e298f17931a17fbff61fd889054245420e16830fd67bdbb77168c5bcb080"
+  },
+  {
+    "submission": "outputs/level_probe_20260927/submission_direct_best_volume.csv",
+    "sha256": "cd071afd31655659a3d36f95106ebc35be96383ebc28693d5b0aa6ad3a3fd85a",
+    "score": 0.88741,
+    "status": "success",
+    "source": "User-reported score in direct response to equal-volume submission recommendation",
+    "submitted_at": "2026-09-27 11:19 +03:00",
+    "file_mapping": "Contextual: immediately preceding recommended equal-volume file",
+    "decision": "Rejected; user finalized public best 0.89402 and stopped experiments",
+    "active_model_changed": false
   }
 ]

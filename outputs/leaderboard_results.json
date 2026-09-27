@@ -419,14 +419,17 @@
   {
     "submission": "outputs/level_probe_20260927/submission_direct_best_volume.csv",
     "sha256": "cd071afd31655659a3d36f95106ebc35be96383ebc28693d5b0aa6ad3a3fd85a",
-    "score": null,
-    "status": "not_uploaded",
-    "source": "User-requested level hypothesis after direct candidate public score 0.88232",
+    "score": 0.88741,
+    "status": "success",
+    "source": "User-reported score in direct response to equal-volume submission recommendation",
     "base_submission": "outputs/night_20260927/deliverables/submission_01_direct.csv",
     "forecast_total": 12902502,
     "volume_change_vs_direct": 0.05551531104380936,
     "report": "outputs/level_probe_20260927/report.json",
     "active_model_changed": false,
-    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic"
+    "local_evidence": "Fixed +4% worsens all three historical windows; exploratory public-level diagnostic",
+    "submitted_at": "2026-09-27 11:19 +03:00",
+    "file_mapping": "Contextual: immediately preceding recommended equal-volume file",
+    "decision": "Rejected; user finalized public best 0.89402 and stopped experiments"
   }
 ]

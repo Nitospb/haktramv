@@ -22,15 +22,18 @@
     {
       "file": "submission_direct_best_volume.csv",
       "sha256": "cd071afd31655659a3d36f95106ebc35be96383ebc28693d5b0aa6ad3a3fd85a",
-      "public_score": null,
+      "public_score": 0.88741,
       "rows": 14640,
       "total": 12902502,
       "volume_change_vs_direct": 0.05551531104380936,
-      "volume_change_vs_public_best": 0.0
+      "volume_change_vs_public_best": 0.0,
+      "submitted_at": "2026-09-27 11:19 +03:00",
+      "public_score_source": "User-reported score in direct response to equal-volume submission recommendation"
     }
   ],
   "interpretation": "Plus4 is relative to rejected direct candidate. Best-volume probe uses only the total of the preserved best forecast, not its hourly shape. No hidden targets used.",
   "limitation": "Plus4 worsens all three historical windows. These are public-level diagnostic probes, not locally supported improvements. Actual Nov-Dec volume is unknown.",
   "rounding": "Base forecasts rounded before scaling, matching inference from the submitted CSV. Equal-volume uses integer largest-remainder allocation.",
-  "best_changed": false
+  "best_changed": false,
+  "final_decision": "User chose preserved public best 0.89402; experiments stopped"
 }
