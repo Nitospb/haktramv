@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Трамваи Москвы · Прогноз посадок</title><link rel="stylesheet" href="/static/vendor/leaflet.css">
+<style>
+:root{font-family:system-ui,sans-serif;color:#172a37;background:#eef2f4}body{margin:0}main{max-width:1200px;margin:auto;padding:28px}h1{margin:8px 0;font-size:32px}p{line-height:1.5}.muted{color:#526772}.badge{color:#087060;font-weight:700}.panel{background:white;border:1px solid #dce4e8;border-radius:14px;padding:20px;margin-top:18px}.controls{display:flex;gap:16px;flex-wrap:wrap;align-items:end}label{display:grid;gap:6px;font-size:14px;min-width:0;max-width:100%}select{max-width:100%;min-width:0}input,select,button,.download{padding:10px;border:1px solid #bccdd5;border-radius:7px;font:inherit}button,.download{background:#087b69;color:white;cursor:pointer;text-decoration:none;border:0}input[type=number]{width:85px}#total{font-size:38px;font-weight:700;margin:5px 0}#map{height:420px;border-radius:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.error{color:#ae2530}#chart{width:100%;height:220px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:7px;border-bottom:1px solid #e4ebef;text-align:left}#table-wrap{max-height:280px;overflow:auto}a{color:#087b69}.download{display:inline-block}footer{margin-top:20px}.note{font-size:13px;color:#526772}@media(max-width:800px){.grid{grid-template-columns:1fr}main{padding:14px}h1{font-size:25px}}
+</style></head><body><main>
+<span class="badge">МОСКВА · ТРАМВАЙНЫЕ МАРШРУТЫ</span><h1>Прогноз посадок</h1>
+<p class="muted">Сохранённое решение со скором 0,89402. Проверенный период: 1 ноября — 31 декабря 2025. Это прогноз числа посадок, а не заполненности салонов.</p>
+<section class="panel"><form id="controls" class="controls">
+<label>Маршрут<select id="route" name="routes"><option value="">Все маршруты</option></select></label>
+<label>С<input id="start" type="date" value="2025-11-01" min="2025-11-01" max="2025-12-31" required></label>
+<label>По<input id="end" type="date" value="2025-11-01" min="2025-11-01" max="2025-12-31" required></label>
+<label>Разбиение<select id="aggregation"><option value="hour">По часам</option><option value="day">По дням</option><option value="month">По месяцам</option></select></label>
+<button type="submit">Показать</button><button type="button" id="month">Ноябрь</button>
+</form><p class="note">Для новых дат и отдельных остановок модель ещё не проверена. Маршрут №5 в сохранённом решении имеет нулевой прогноз.</p>
+<div class="controls"><label>Погода ×<input id="weather" type="number" min="0" max="3" step="0.01" value="1"></label><label>Событие ×<input id="event" type="number" min="0" max="3" step="0.01" value="1"></label><label>Сезон ×<input id="season" type="number" min="0" max="3" step="0.01" value="1"></label><button type="button" id="reset">Сбросить коэффициенты</button></div>
+<p class="note">Коэффициенты — ручной сценарий диспетчера, а не измеренный эффект погоды или события. Изменения не заменяют базовый прогноз.</p><p id="error" class="error" role="alert"></p></section>
+<div class="grid"><section class="panel"><div class="muted">Посадки за выбранный период</div><div id="total">—</div><p id="comparison" class="note"></p><svg id="chart" viewBox="0 0 540 220" role="img" aria-label="Динамика посадок"></svg><p id="chart-range" class="note"></p><a id="download" class="download">Скачать CSV</a></section>
+<section class="panel"><h2>Маршруты и остановки</h2><div id="map"></div><p id="map-note" class="note">Карта показывает справочную геометрию. Посадки на отдельных остановках не оцениваются. Подложка OpenStreetMap требует интернета.</p></section></div>
+<section class="panel"><h2>Прогноз</h2><div id="table-wrap"><table><thead><tr><th>Маршрут</th><th>Период</th><th>Посадки</th></tr></thead><tbody id="rows"></tbody></table></div><p class="note">На экране первые 100 строк; CSV содержит весь выбранный диапазон.</p></section>
+<footer class="note"><a href="/docs">REST API / Swagger</a> · <a href="/v1/model">Область применимости</a> · <a href="/v1/sources">Источники и ограничения</a>. Фактические данные автомобильных пробок в модель не входят.</footer>
+</main><script src="/static/vendor/leaflet.js"></script><script src="/static/app.js"></script></body></html>

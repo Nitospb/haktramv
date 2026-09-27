@@ -1,0 +1,49 @@
+{
+  "model_id": "v8/level_scale_1.03",
+  "public_score": 0.89402,
+  "public_score_source": "User-reported competition result",
+  "start": "2025-11-01",
+  "end": "2025-12-31",
+  "timezone": "Europe/Moscow",
+  "routes": [
+    1,
+    5,
+    7,
+    11,
+    12,
+    17,
+    25,
+    26,
+    28,
+    50
+  ],
+  "rows": 14640,
+  "target": "hourly_boardings",
+  "mode": "frozen_competition_forecast",
+  "trained_through": "2025-10-31",
+  "inference": "Reconstruct v8 from saved base/expert predictions, monthly reconciliation, cancellations, then rounded +3%. No training or external network at request time.",
+  "limitations": [
+    "No validated forecasts outside Nov-Dec 2025.",
+    "No stop-level or segment-level target model.",
+    "Route 5 has no positive training target; preserved best predicts zero.",
+    "Retrospective external data; this is not an as-of live forecasting service.",
+    "Target is boardings, not onboard occupancy or vehicle capacity."
+  ],
+  "upstream_code": [
+    "research_v2.py",
+    "feature_models.py",
+    "service_models.py",
+    "event_experts.py",
+    "reconcile_forecasts.py"
+  ],
+  "files": {
+    "base.csv": "cebef2aa3bb4e0720135b4c1d822423d8d8b0618760f66e9e438a167d095fc83",
+    "cancellations.csv": "0249722454252d99958f25bcde6d4d861e1588a962b6ed4d118315719468b4d4",
+    "expected.csv": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+    "expert.csv": "505d0a49177279366ccbc6a6263ff5b2f933e8abb6c6a7a48002f97d5cbe51db",
+    "route_names.json": "dd7a132c87b590c5b964beb43d8b8ba3de30812ba6e32f2a3f9faf4923c97971",
+    "routes.geojson": "575c44db0c2f6e949296e965f9264b11871f2441731f618293069334b305785f",
+    "sources.json": "80085ce1cbf7b56b543ebe6af706961b8f2a5a6fc29552a7a3a119a2a9218184",
+    "stops.json": "e59df3fbb27300d18189d7b21bc79d3aa9b292ca8efbc900030a7baad216e861"
+  }
+}

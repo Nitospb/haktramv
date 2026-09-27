@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-09-27T14:15:34.901579+00:00",
+  "host": "macOS-26.1-x86_64-i386-64bit",
+  "transport": "Host loopback \u2192 Docker Desktop published port; client and server on same machine",
+  "method": "Closed-loop persistent HTTP/1.1, latency includes body read; not a production capacity guarantee",
+  "image": "sha256:d92b4f3749eebd00256e7158da131d211e4c39f4fb789a803e53df8e7dd2b06a",
+  "limits": {
+    "NanoCpus": 2000000000,
+    "Memory": 2147483648,
+    "MemorySwap": 2147483648
+  },
+  "baseline_csv_sha256": "f2bb6115595f45a28790e6002defbcf4cc0ec6d9422c0c485c6017a0d63f9425",
+  "cases": [
+    {
+      "name": "month_uncached_scenarios",
+      "path": "/v1/forecast?start=2025-11-01&end=2025-11-30&aggregation=day",
+      "cache": "unique scenario per request",
+      "clients": 16,
+      "target_rps": 500,
+      "elapsed_seconds": 30.039,
+      "requests": 12828,
+      "errors": 0,
+      "rps": 427.04,
+      "p50_ms": 34.2,
+      "p95_ms": 61.176,
+      "p99_ms": 77.029,
+      "cpu_percent_of_two_vcpu": 56.82,
+      "memory_before_mib": 142.66,
+      "memory_after_mib": 145.29,
+      "peak_memory_mib": 150.34,
+      "swap_bytes": 0,
+      "response_bytes": 203771328
+    }
+  ]
+}
