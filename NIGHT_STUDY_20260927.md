@@ -189,3 +189,42 @@ Small report download succeeded using `ssh -C ... tar -czf -` with only JSON,
 metrics and diagnostics. Archive `/tmp/haktramv-night-reports.tar.gz` was fully
 validated and extracted. Models/optimizer checkpoints are still only on Studio;
 the previous direct LightGBM candidate and its model are already local.
+
+## Third heartbeat, approximately 04:05 Moscow
+
+Calendar analog study completed normally. Its standalone term-matched baseline
+scored **0.898480** on Sep–Oct (weather analog 0.898292), versus unconditioned
+profile112 0.871264 and profile56 0.849782. Thus the calendar improvement at the
+same 112-day half-life is 0.02722, not the full 0.04870 difference to profile56.
+On July/August starts, baseline_term scored 0.790268/0.884569. The learned
+corrections worsened autumn: absolute 0.878280, residual 0.885622. The new baseline
+does not beat the prior direct LightGBM 0.899936 and has no public score yet.
+Reports, candidate `calendar_analog/submission_baseline_term.csv`, all four driver
+logs, and updated diagnostics (105 independently recomputed forecasts) are local.
+Bundle `/tmp/haktramv-night-analog.tar.gz` validated before extraction.
+
+One final focused neural check is now running, after checking that all earlier
+training processes had exited:
+
+```sh
+caffeinate -i .venv/bin/python -u night_sequence_calendar.py --hours 1
+```
+
+Own output/lock `outputs/night_20260927/sequence_calendar/`, separate driver log
+`outputs/night_20260927/sequence_calendar.log`, hard deadline 07:30. This reuses
+the 3.69M medium Transformer but corrects its baseline to the calendar analog;
+masked cancelled slots, LR 5e-5, checkpoints **0/50/150/500/1500**. Zero-step is a
+real eligible choice, so there is no forced learned correction if it hurts.
+The 8-update smoke run passed saved-model replay and initial-baseline equality;
+causal profile perturbation check passed. Selection/control/final origins stay
+151/181/212/243/304. This is not a single-factor ablation (baseline, masking and
+optimization changed). `night_diagnostics.py` includes this new family.
+
+Next: inspect this final focused run; do not start more broad searches merely
+to occupy the night. Recompute diagnostics, verify/replay selected candidate
+predictions, and prepare 1–3 deliverables. Defensible current choices are the
+existing direct1600 candidate, calendar baseline (or new neural correction only
+if validated), and an explicitly untested route-5 aggregate scenario applied to
+the direct candidate. Preserve public best. Finish report and disable heartbeat
+once deliverables are complete, by 09:00 at latest; there is no requirement to
+keep an unproductive training process alive until morning.

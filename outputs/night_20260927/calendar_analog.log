@@ -1,0 +1,76 @@
+0:	learn: 746.1681265	total: 83.5ms	remaining: 4m 10s
+500:	learn: 76.4018301	total: 10.3s	remaining: 51.2s
+1000:	learn: 64.6586591	total: 20.6s	remaining: 41.2s
+1500:	learn: 58.1861393	total: 31s	remaining: 31s
+2000:	learn: 53.8649310	total: 41.4s	remaining: 20.7s
+2500:	learn: 50.4358539	total: 51.7s	remaining: 10.3s
+2999:	learn: 47.6146351	total: 1m 2s	remaining: 0us
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.8036227146633989, 'train_max_day': 150, 'horizon': 61, 'model': 'absolute', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.7978091637041109, 'train_max_day': 150, 'horizon': 61, 'model': 'absolute', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.7965873802743002, 'train_max_day': 150, 'horizon': 61, 'model': 'absolute', 'trees': 3000, 'split': 'selection'}
+0:	learn: 0.1188040	total: 20.1ms	remaining: 1m
+500:	learn: 0.0751033	total: 10.4s	remaining: 52.1s
+1000:	learn: 0.0626763	total: 21s	remaining: 41.9s
+1500:	learn: 0.0568043	total: 31.5s	remaining: 31.4s
+2000:	learn: 0.0529666	total: 42s	remaining: 21s
+2500:	learn: 0.0500478	total: 52.2s	remaining: 10.4s
+2999:	learn: 0.0479241	total: 1m 2s	remaining: 0us
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.7967701825733401, 'train_max_day': 150, 'horizon': 61, 'model': 'residual', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.8004657262564762, 'train_max_day': 150, 'horizon': 61, 'model': 'residual', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 151, 'date': '2025-06-01', 'score': 0.8017752620873231, 'train_max_day': 150, 'horizon': 61, 'model': 'residual', 'trees': 3000, 'split': 'selection'}
+0:	learn: 717.8648043	total: 31.8ms	remaining: 1m 35s
+500:	learn: 74.0547498	total: 14.2s	remaining: 1m 11s
+1000:	learn: 64.2917841	total: 28.3s	remaining: 56.5s
+1500:	learn: 58.4535642	total: 42.5s	remaining: 42.4s
+2000:	learn: 54.4485864	total: 56.6s	remaining: 28.3s
+2500:	learn: 51.2759343	total: 1m 10s	remaining: 14.1s
+2999:	learn: 48.7176431	total: 1m 24s	remaining: 0us
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.8174473654598523, 'train_max_day': 180, 'horizon': 61, 'model': 'absolute', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.8115471874879834, 'train_max_day': 180, 'horizon': 61, 'model': 'absolute', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.8120353653544127, 'train_max_day': 180, 'horizon': 61, 'model': 'absolute', 'trees': 3000, 'split': 'selection'}
+0:	learn: 0.1223289	total: 30.1ms	remaining: 1m 30s
+500:	learn: 0.0755262	total: 14s	remaining: 1m 9s
+1000:	learn: 0.0632732	total: 28.2s	remaining: 56.4s
+1500:	learn: 0.0575148	total: 42.5s	remaining: 42.4s
+2000:	learn: 0.0536988	total: 56.7s	remaining: 28.3s
+2500:	learn: 0.0509289	total: 1m 10s	remaining: 14.1s
+2999:	learn: 0.0485944	total: 1m 25s	remaining: 0us
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.8312414371646494, 'train_max_day': 180, 'horizon': 61, 'model': 'residual', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.8291345344316564, 'train_max_day': 180, 'horizon': 61, 'model': 'residual', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 181, 'date': '2025-07-01', 'score': 0.82833334451346, 'train_max_day': 180, 'horizon': 61, 'model': 'residual', 'trees': 3000, 'split': 'selection'}
+0:	learn: 688.6304469	total: 40.8ms	remaining: 2m 2s
+500:	learn: 75.8952648	total: 17.7s	remaining: 1m 28s
+1000:	learn: 65.0197986	total: 35.2s	remaining: 1m 10s
+1500:	learn: 59.5498832	total: 52.7s	remaining: 52.6s
+2000:	learn: 55.7831439	total: 1m 10s	remaining: 35.1s
+2500:	learn: 52.7693440	total: 1m 27s	remaining: 17.5s
+2999:	learn: 50.3051874	total: 1m 44s	remaining: 0us
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8800278869937879, 'train_max_day': 211, 'horizon': 61, 'model': 'absolute', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8871734054852858, 'train_max_day': 211, 'horizon': 61, 'model': 'absolute', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8884886815130231, 'train_max_day': 211, 'horizon': 61, 'model': 'absolute', 'trees': 3000, 'split': 'selection'}
+0:	learn: 0.1408440	total: 34.3ms	remaining: 1m 42s
+500:	learn: 0.0760631	total: 17.1s	remaining: 1m 25s
+1000:	learn: 0.0637866	total: 34.3s	remaining: 1m 8s
+1500:	learn: 0.0580340	total: 51.5s	remaining: 51.4s
+2000:	learn: 0.0542657	total: 1m 8s	remaining: 34.3s
+2500:	learn: 0.0514397	total: 1m 25s	remaining: 17.1s
+2999:	learn: 0.0492630	total: 1m 43s	remaining: 0us
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8880358844306142, 'train_max_day': 211, 'horizon': 61, 'model': 'residual', 'trees': 500, 'split': 'selection'}
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8895704022222317, 'train_max_day': 211, 'horizon': 61, 'model': 'residual', 'trees': 1500, 'split': 'selection'}
+EVAL {'origin': 212, 'date': '2025-08-01', 'score': 0.8889217538189044, 'train_max_day': 211, 'horizon': 61, 'model': 'residual', 'trees': 3000, 'split': 'selection'}
+0:	learn: 669.2245292	total: 47.3ms	remaining: 23.6s
+499:	learn: 73.6765722	total: 20.1s	remaining: 0us
+EVAL {'origin': 243, 'date': '2025-09-01', 'score': 0.8782799550997018, 'train_max_day': 242, 'horizon': 61, 'model': 'absolute', 'trees': 500}
+0:	learn: 0.1394283	total: 41.9ms	remaining: 1m 2s
+500:	learn: 0.0755890	total: 19.4s	remaining: 38.7s
+1000:	learn: 0.0638167	total: 38.9s	remaining: 19.4s
+1499:	learn: 0.0581462	total: 58.2s	remaining: 0us
+EVAL {'origin': 243, 'date': '2025-09-01', 'score': 0.8856220021810374, 'train_max_day': 242, 'horizon': 61, 'model': 'residual', 'trees': 1500}
+0:	learn: 711.6434448	total: 53.9ms	remaining: 26.9s
+499:	learn: 77.5191420	total: 26.9s	remaining: 0us
+EVAL {'file': 'outputs/night_20260927/calendar_analog/submission_absolute_n500.csv', 'sha256': 'f2bdf167ed5f4ee74cffc1f784c97b752ba3b817cd5d9555906013212b263da2', 'public_score': None, 'total': 12775749, 'model': 'absolute', 'trees': 500}
+0:	learn: 0.1266416	total: 48.4ms	remaining: 1m 12s
+500:	learn: 0.0771303	total: 26s	remaining: 51.7s
+1000:	learn: 0.0663466	total: 52.1s	remaining: 26s
+1499:	learn: 0.0609564	total: 1m 17s	remaining: 0us
+EVAL {'file': 'outputs/night_20260927/calendar_analog/submission_residual_n1500.csv', 'sha256': '3de9417eddd1b53ec6082a71f03362d72f7342f56ce328fbd7775681fe2fb342', 'public_score': None, 'total': 12517286, 'model': 'residual', 'trees': 1500}

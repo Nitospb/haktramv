@@ -1,0 +1,324 @@
+{
+  "selection": [
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7862787536203566,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "baseline_term",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7865854309304227,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "baseline_weather",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8036227146633989,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7978091637041109,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7965873802743002,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.7967701825733401,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8004657262564762,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 151,
+      "date": "2025-06-01",
+      "score": 0.8017752620873231,
+      "train_max_day": 150,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.790268320204243,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "baseline_term",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.7896311474674131,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "baseline_weather",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8174473654598523,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8115471874879834,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8120353653544127,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8312414371646494,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.8291345344316564,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 181,
+      "date": "2025-07-01",
+      "score": 0.82833334451346,
+      "train_max_day": 180,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8845686003726237,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "baseline_term",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8847243039183094,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "baseline_weather",
+      "trees": 0,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8800278869937879,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8871734054852858,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8884886815130231,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 3000,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8880358844306142,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8895704022222317,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 1500,
+      "split": "selection"
+    },
+    {
+      "origin": 212,
+      "date": "2025-08-01",
+      "score": 0.8889217538189044,
+      "train_max_day": 211,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 3000,
+      "split": "selection"
+    }
+  ],
+  "selected": {
+    "absolute": 500,
+    "residual": 1500
+  },
+  "results": [
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8984797578200163,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "baseline_term",
+      "trees": 0
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8982915102543176,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "baseline_weather",
+      "trees": 0
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8782799550997018,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 500
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8856220021810374,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 1500
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_baseline_term.csv",
+      "sha256": "c67fef81ed26973ec4cc6ef6a48d93f849f64e1b3b02f7ee9edde5d04d5bcc69",
+      "public_score": null,
+      "total": 12338534,
+      "model": "baseline_term",
+      "trees": 0
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_baseline_weather.csv",
+      "sha256": "a8a877af59d423544465eda6c5696831e765a51eed495d1eca194773d01777d0",
+      "public_score": null,
+      "total": 12337427,
+      "model": "baseline_weather",
+      "trees": 0
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_absolute_n500.csv",
+      "sha256": "f2bdf167ed5f4ee74cffc1f784c97b752ba3b817cd5d9555906013212b263da2",
+      "public_score": null,
+      "total": 12775749,
+      "model": "absolute",
+      "trees": 500
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_residual_n1500.csv",
+      "sha256": "3de9417eddd1b53ec6082a71f03362d72f7342f56ce328fbd7775681fe2fb342",
+      "public_score": null,
+      "total": 12517286,
+      "model": "residual",
+      "trees": 1500
+    }
+  ],
+  "rationale": "Earlier 56-day recency profiles underestimated Sep-Oct volume by 10.8%; soft calendar matching reduces summer anchoring.",
+  "causal_check": true,
+  "saved_model_replay": true,
+  "public_score": null,
+  "active_best_changed": false,
+  "limitation": "Already explored overlapping development windows; no promise of leaderboard improvement. Route 5 zero."
+}

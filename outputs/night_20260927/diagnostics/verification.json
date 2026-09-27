@@ -1,5 +1,5 @@
 {
-  "forecasts_checked": 77,
+  "forecasts_checked": 105,
   "metric": "1 - sum(abs(target-round(prediction)))/sum(target), clipped at 0",
   "rows_per_forecast": 14640,
   "targets_verified": true,

@@ -1,0 +1,74 @@
+{
+  "phase": "complete",
+  "updated_unix": 1790469732.333471,
+  "results": [
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8984797578200163,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "baseline_term",
+      "trees": 0
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8982915102543176,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "baseline_weather",
+      "trees": 0
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8782799550997018,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "absolute",
+      "trees": 500
+    },
+    {
+      "origin": 243,
+      "date": "2025-09-01",
+      "score": 0.8856220021810374,
+      "train_max_day": 242,
+      "horizon": 61,
+      "model": "residual",
+      "trees": 1500
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_baseline_term.csv",
+      "sha256": "c67fef81ed26973ec4cc6ef6a48d93f849f64e1b3b02f7ee9edde5d04d5bcc69",
+      "public_score": null,
+      "total": 12338534,
+      "model": "baseline_term",
+      "trees": 0
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_baseline_weather.csv",
+      "sha256": "a8a877af59d423544465eda6c5696831e765a51eed495d1eca194773d01777d0",
+      "public_score": null,
+      "total": 12337427,
+      "model": "baseline_weather",
+      "trees": 0
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_absolute_n500.csv",
+      "sha256": "f2bdf167ed5f4ee74cffc1f784c97b752ba3b817cd5d9555906013212b263da2",
+      "public_score": null,
+      "total": 12775749,
+      "model": "absolute",
+      "trees": 500
+    },
+    {
+      "file": "outputs/night_20260927/calendar_analog/submission_residual_n1500.csv",
+      "sha256": "3de9417eddd1b53ec6082a71f03362d72f7342f56ce328fbd7775681fe2fb342",
+      "public_score": null,
+      "total": 12517286,
+      "model": "residual",
+      "trees": 1500
+    }
+  ]
+}
